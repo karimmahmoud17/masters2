@@ -1,0 +1,20 @@
+{
+    "app_id" : "com.winixeg.masters",
+    "appname": "Masters Language School",
+    "desktopappname": "Masters Language School",
+    "versioncode" : 3520,
+    "versionname" : "3.5.2",
+    "cache_expiration_time" : 300000,
+    "default_lang" : "en",
+    "languages": {"ar": "عربي", "de": "Deutsch", "en": "English", "fr" : "Français"},
+    "wsservice" : "moodle_mobile_app",
+    "wsextservice" : "local_mobile",
+    "demo_sites": "",
+    "gcmpn": "739671882455",
+    "customurlscheme": "moodlemobile",
+    "siteurl": "https://lms.mastersls.com",
+    "multisitesdisplay": "",
+    "skipssoconfirmation": false,
+    "forcedefaultlanguage": false,
+    "privacypolicy": "https://moodle.org/mod/page/view.php?id=8148"
+}

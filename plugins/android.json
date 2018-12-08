@@ -1,0 +1,91 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "com-darryncampbell-cordova-plugin-intent": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-android-support-gradle-release": {
+      "ANDROID_SUPPORT_VERSION": "27.1.0",
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-clipboard": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-plugin-badge": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-plugin-customurlscheme": {
+      "URL_SCHEME": "moodlemobile",
+      "ANDROID_SCHEME": " ",
+      "ANDROID_HOST": " ",
+      "ANDROID_PATHPREFIX": "/",
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-plugin-file-opener2": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-plugin-globalization": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-plugin-local-notifications-mm": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-plugin-zip": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "cordova-sqlite-evcore-extbuild-free": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "nl.kingsquare.cordova.background-audio": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    },
+    "phonegap-plugin-push": {
+      "SENDER_ID": "694767596569",
+      "PACKAGE_NAME": "com.winixeg.masters"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-app-event": {
+      "PACKAGE_NAME": "com.winixeg.masters"
+    }
+  }
+}

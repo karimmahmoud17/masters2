@@ -101,7 +101,7 @@ var AddonCompetencyCourseCompetenciesPage = /** @class */ (function () {
     }
     AddonCompetencyCourseCompetenciesPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-addon-competency-coursecompetencies',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/addon/competency/pages/coursecompetencies/coursecompetencies.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.competency.coursecompetencies\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<addon-competency-course class="core-avoid-header" [courseId]="courseId" [userId]="userId"></addon-competency-course>'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/addon/competency/pages/coursecompetencies/coursecompetencies.html"*/,
+            selector: 'page-addon-competency-coursecompetencies',template:/*ion-inline-start:"/eduixmobile/masters/source/src/addon/competency/pages/coursecompetencies/coursecompetencies.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.competency.coursecompetencies\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<addon-competency-course class="core-avoid-header" [courseId]="courseId" [userId]="userId"></addon-competency-course>'/*ion-inline-end:"/eduixmobile/masters/source/src/addon/competency/pages/coursecompetencies/coursecompetencies.html"*/,
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]])
     ], AddonCompetencyCourseCompetenciesPage);

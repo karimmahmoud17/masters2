@@ -1,1 +1,396 @@
-webpackJsonp([32],{1909:function(l,n,u){"use strict";function e(l){return P._42(0,[(l()(),P._16(0,0,null,null,1,"ion-icon",[["class","core-icon-foreground"],["name","create"],["role","img"]],[[2,"hide",null]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.changeProfilePicture()&&e}return e},null,null)),P._15(1,147456,[[3,4]],0,z.a,[Q.a,P.p,P.K],{name:[0,"name"]},null)],function(l,n){l(n,1,0,"create")},function(l,n){l(n,0,0,P._29(n,1)._hidden)})}function t(l){return P._42(0,[(l()(),P._16(0,0,null,null,1,"core-format-text",[],null,null,null,null,null)),P._15(1,540672,null,0,X.a,[P.p,L.a,U.a,Z.a,ll.a,nl.a,ul.a,el.a,tl.a,al.a,il.a,rl.a,[2,ol.a],[2,sl.a],[2,D.a],cl.a,T.a],{text:[0,"text"]},null)],function(l,n){l(n,1,0,n.component.user.address)},null)}function a(l){return P._42(0,[(l()(),P._16(0,0,null,null,9,"p",[],null,null,null,null,null)),(l()(),P._40(-1,null,["\n                    "])),(l()(),P._16(2,0,null,null,2,"strong",[],null,null,null,null,null)),(l()(),P._40(3,null,["",""])),P._32(131072,_l.a,[ll.a,P.i]),(l()(),P._40(5,null,["","\n                    "])),P._32(131072,_l.a,[ll.a,P.i]),(l()(),P._16(7,0,null,null,1,"core-format-text",[],null,null,null,null,null)),P._15(8,540672,null,0,X.a,[P.p,L.a,U.a,Z.a,ll.a,nl.a,ul.a,el.a,tl.a,al.a,il.a,rl.a,[2,ol.a],[2,sl.a],[2,D.a],cl.a,T.a],{text:[0,"text"]},null),(l()(),P._40(-1,null,["\n                "]))],function(l,n){l(n,8,0,n.component.user.roles)},function(l,n){l(n,3,0,P._41(n,3,0,P._29(n,4).transform("core.user.roles")));l(n,5,0,P._41(n,5,0,P._29(n,6).transform("core.labelsep")))})}function i(l){return P._42(0,[(l()(),P._16(0,0,null,null,15,"ion-col",[["align-self-center",""],["class","col"],["text-center",""]],null,null,null,null,null)),P._15(1,16384,null,0,dl.a,[],null,null),(l()(),P._40(-1,null,["\n                        "])),(l()(),P._16(3,0,null,null,11,"a",[["tappable",""]],[[8,"title",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.handlerClicked(u,l.context.$implicit)&&e}return e},null,null)),P._15(4,278528,null,0,fl.i,[P.v,P.w,P.p,P.L],{ngClass:[0,"ngClass"]},null),P._31(5,2),P._32(131072,_l.a,[ll.a,P.i]),(l()(),P._40(-1,null,["\n                            "])),(l()(),P._16(8,0,null,null,1,"core-icon",[],null,null,null,pl.b,pl.a)),P._15(9,114688,null,0,ml.a,[P.p],{name:[0,"name"]},null),(l()(),P._40(-1,null,["\n                            "])),(l()(),P._16(11,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),P._40(12,null,["",""])),P._32(131072,_l.a,[ll.a,P.i]),(l()(),P._40(-1,null,["\n                        "])),(l()(),P._40(-1,null,["\n                    "]))],function(l,n){l(n,4,0,l(n,5,0,"core-user-profile-handler",n.context.$implicit.class));l(n,9,0,n.context.$implicit.icon)},function(l,n){l(n,3,0,P._19(1,"",P._41(n,3,0,P._29(n,6).transform(n.context.$implicit.title)),""));l(n,12,0,P._41(n,12,0,P._29(n,13).transform(n.context.$implicit.title)))})}function r(l){return P._42(0,[(l()(),P._16(0,0,null,null,5,"ion-row",[["class","row"],["justify-content-between",""],["no-padding",""]],null,null,null,null,null)),P._15(1,16384,null,0,hl.a,[],null,null),(l()(),P._40(-1,null,["\n                    "])),(l()(),P._11(16777216,null,null,1,null,i)),P._15(4,802816,null,0,fl.j,[P.W,P.T,P.v],{ngForOf:[0,"ngForOf"]},null),(l()(),P._40(-1,null,["\n                "]))],function(l,n){l(n,4,0,n.component.communicationHandlers)},null)}function o(l){return P._42(0,[(l()(),P._16(0,0,null,null,5,"ion-col",[["class","core-loading-handlers col"],["text-center",""]],null,null,null,null,null)),P._15(1,16384,null,0,dl.a,[],null,null),(l()(),P._40(-1,null,["\n                        "])),(l()(),P._16(3,0,null,null,1,"ion-spinner",[],[[2,"spinner-paused",null]],null,null,gl.b,gl.a)),P._15(4,114688,null,0,bl.a,[Q.a,P.p,P.K],null,null),(l()(),P._40(-1,null,["\n                    "]))],function(l,n){l(n,4,0)},function(l,n){l(n,3,0,P._29(n,4)._paused)})}function s(l){return P._42(0,[(l()(),P._16(0,0,null,null,12,"ion-grid",[["class","core-user-communication-handlers grid"]],null,null,null,null,null)),P._15(1,16384,null,0,vl.a,[],null,null),(l()(),P._40(-1,null,["\n                "])),(l()(),P._11(16777216,null,null,1,null,r)),P._15(4,16384,null,0,fl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,null,["\n                "])),(l()(),P._16(6,0,null,null,5,"ion-row",[["class","row"],["no-padding",""]],null,null,null,null,null)),P._15(7,16384,null,0,hl.a,[],null,null),(l()(),P._40(-1,null,["\n                    "])),(l()(),P._11(16777216,null,null,1,null,o)),P._15(10,16384,null,0,fl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,null,["\n                "])),(l()(),P._40(-1,null,["\n            "]))],function(l,n){var u=n.component;l(n,4,0,u.communicationHandlers&&u.communicationHandlers.length);l(n,10,0,u.isLoadingHandlers)},null)}function c(l){return P._42(0,[(l()(),P._16(0,0,null,null,9,"ion-item",[["class","core-loading-handlers item item-block"],["text-center",""]],null,null,null,Il.b,Il.a)),P._15(1,1097728,null,3,Pl.a,[xl.a,Q.a,P.p,P.K,[2,kl.a]],null,null),P._37(335544320,7,{contentLabel:0}),P._37(603979776,8,{_buttons:1}),P._37(603979776,9,{_icons:1}),P._15(5,16384,null,0,Hl.a,[],null,null),(l()(),P._40(-1,2,["\n                "])),(l()(),P._16(7,0,null,2,1,"ion-spinner",[],[[2,"spinner-paused",null]],null,null,gl.b,gl.a)),P._15(8,114688,null,0,bl.a,[Q.a,P.p,P.K],null,null),(l()(),P._40(-1,2,["\n            "]))],function(l,n){l(n,8,0)},function(l,n){l(n,7,0,P._29(n,8)._paused)})}function _(l){return P._42(0,[(l()(),P._16(0,0,null,null,1,"core-icon",[["item-start",""]],null,null,null,pl.b,pl.a)),P._15(1,114688,null,0,ml.a,[P.p],{name:[0,"name"]},null)],function(l,n){l(n,1,0,n.parent.context.$implicit.icon)},null)}function d(l){return P._42(0,[(l()(),P._16(0,0,null,null,16,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],[[8,"hidden",0],[8,"title",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.handlerClicked(u,l.context.$implicit)&&e}return e},Il.b,Il.a)),P._15(1,278528,null,0,fl.i,[P.v,P.w,P.p,P.L],{ngClass:[0,"ngClass"]},null),P._31(2,2),P._15(3,1097728,null,3,Pl.a,[xl.a,Q.a,P.p,P.K,[2,kl.a]],null,null),P._37(335544320,10,{contentLabel:0}),P._37(603979776,11,{_buttons:1}),P._37(603979776,12,{_icons:1}),P._15(7,16384,null,0,Hl.a,[],null,null),P._32(131072,_l.a,[ll.a,P.i]),(l()(),P._40(-1,2,["\n                "])),(l()(),P._11(16777216,null,0,1,null,_)),P._15(11,16384,null,0,fl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,2,["\n                "])),(l()(),P._16(13,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),P._40(14,null,["",""])),P._32(131072,_l.a,[ll.a,P.i]),(l()(),P._40(-1,2,["\n            "]))],function(l,n){l(n,1,0,l(n,2,0,"core-user-profile-handler",n.context.$implicit.class));l(n,11,0,n.context.$implicit.icon)},function(l,n){l(n,0,0,n.context.$implicit.hidden,P._19(1,"",P._41(n,0,1,P._29(n,8).transform(n.context.$implicit.title)),""));l(n,14,0,P._41(n,14,0,P._29(n,15).transform(n.context.$implicit.title)))})}function f(l){return P._42(0,[(l()(),P._16(0,0,null,null,1,"core-icon",[["start",""]],null,null,null,pl.b,pl.a)),P._15(1,114688,null,0,ml.a,[P.p],{name:[0,"name"]},null)],function(l,n){l(n,1,0,n.parent.context.$implicit.icon)},null)}function p(l){return P._42(0,[(l()(),P._16(0,0,null,null,1,"ion-spinner",[],[[2,"spinner-paused",null]],null,null,gl.b,gl.a)),P._15(1,114688,null,0,bl.a,[Q.a,P.p,P.K],null,null)],function(l,n){l(n,1,0)},function(l,n){l(n,0,0,P._29(n,1)._paused)})}function m(l){return P._42(0,[(l()(),P._16(0,0,null,null,15,"button",[["block",""],["icon-start",""],["ion-button",""],["outline",""]],[[8,"hidden",0],[8,"title",0],[8,"disabled",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.handlerClicked(u,l.context.$implicit)&&e}return e},Cl.b,Cl.a)),P._15(1,278528,null,0,fl.i,[P.v,P.w,P.p,P.L],{ngClass:[0,"ngClass"]},null),P._31(2,2),P._15(3,1097728,[[14,4]],0,Ul.a,[[8,""],Q.a,P.p,P.K],{outline:[0,"outline"],block:[1,"block"]},null),P._32(131072,_l.a,[ll.a,P.i]),(l()(),P._40(-1,0,["\n                    "])),(l()(),P._11(16777216,null,0,1,null,f)),P._15(7,16384,null,0,fl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,0,["\n                    "])),(l()(),P._16(9,0,null,0,2,"span",[],null,null,null,null,null)),(l()(),P._40(10,null,["",""])),P._32(131072,_l.a,[ll.a,P.i]),(l()(),P._40(-1,0,["\n                    "])),(l()(),P._11(16777216,null,0,1,null,p)),P._15(14,16384,null,0,fl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,0,["\n                "]))],function(l,n){l(n,1,0,l(n,2,0,"core-user-profile-handler",n.context.$implicit.class));l(n,3,0,"","");l(n,7,0,n.context.$implicit.icon);l(n,14,0,n.context.$implicit.spinner)},function(l,n){l(n,0,0,n.context.$implicit.hidden,P._19(1,"",P._41(n,0,1,P._29(n,4).transform(n.context.$implicit.title)),""),n.context.$implicit.spinner);l(n,10,0,P._41(n,10,0,P._29(n,11).transform(n.context.$implicit.title)))})}function h(l){return P._42(0,[(l()(),P._16(0,0,null,null,9,"ion-item",[["class","item item-block"]],null,null,null,Il.b,Il.a)),P._15(1,1097728,null,3,Pl.a,[xl.a,Q.a,P.p,P.K,[2,kl.a]],null,null),P._37(335544320,13,{contentLabel:0}),P._37(603979776,14,{_buttons:1}),P._37(603979776,15,{_icons:1}),P._15(5,16384,null,0,Hl.a,[],null,null),(l()(),P._40(-1,2,["\n                "])),(l()(),P._11(16777216,null,2,1,null,m)),P._15(8,802816,null,0,fl.j,[P.W,P.T,P.v],{ngForOf:[0,"ngForOf"]},null),(l()(),P._40(-1,2,["\n            "]))],function(l,n){l(n,8,0,n.component.actionHandlers)},null)}function g(l){return P._42(0,[(l()(),P._16(0,0,null,null,60,"ion-list",[],null,null,null,null,null)),P._15(1,16384,null,0,yl.a,[Q.a,P.p,P.K,nl.a,Tl.l,Ll.a],null,null),(l()(),P._40(-1,null,["\n            "])),(l()(),P._16(3,0,null,null,28,"ion-item",[["class","item item-block"],["text-center",""]],null,null,null,Il.b,Il.a)),P._15(4,1097728,null,3,Pl.a,[xl.a,Q.a,P.p,P.K,[2,kl.a]],null,null),P._37(335544320,1,{contentLabel:0}),P._37(603979776,2,{_buttons:1}),P._37(603979776,3,{_icons:1}),P._15(8,16384,null,0,Hl.a,[],null,null),(l()(),P._40(-1,2,["\n                "])),(l()(),P._16(10,0,null,2,9,"div",[["class","item-avatar-center"]],null,null,null,null,null)),(l()(),P._40(-1,null,["\n                    "])),(l()(),P._16(12,0,null,null,3,"img",[["class","avatar"],["core-external-content",""],["onError","this.src='assets/img/user-avatar.png'"],["role","presentation"]],[[8,"src",4],[8,"alt",0]],null,null,null,null)),P._15(13,4210688,null,0,wl.a,[P.p,tl.a,al.a,nl.a,L.a,U.a,el.a,il.a,ul.a],null,null),P._33(14,{$a:0}),P._32(131072,_l.a,[ll.a,P.i]),(l()(),P._40(-1,null,["\n                    "])),(l()(),P._11(16777216,null,null,1,null,e)),P._15(18,16384,null,0,fl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,null,["\n                "])),(l()(),P._40(-1,2,["\n                "])),(l()(),P._16(21,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),P._16(22,0,null,null,1,"core-format-text",[],null,null,null,null,null)),P._15(23,540672,null,0,X.a,[P.p,L.a,U.a,Z.a,ll.a,nl.a,ul.a,el.a,tl.a,al.a,il.a,rl.a,[2,ol.a],[2,sl.a],[2,D.a],cl.a,T.a],{text:[0,"text"]},null),(l()(),P._40(-1,2,["\n                "])),(l()(),P._16(25,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),P._11(16777216,null,null,1,null,t)),P._15(27,16384,null,0,fl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,2,["\n                "])),(l()(),P._11(16777216,null,2,1,null,a)),P._15(30,16384,null,0,fl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,2,["\n            "])),(l()(),P._40(-1,null,["\n\n            "])),(l()(),P._11(16777216,null,null,1,null,s)),P._15(34,16384,null,0,fl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,null,["\n\n            "])),(l()(),P._16(36,0,null,null,14,"a",[["class","core-user-profile-handler item item-block"],["ion-item",""],["text-wrap",""]],[[8,"title",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.openUserDetails()&&e}return e},Il.b,Il.a)),P._15(37,1097728,null,3,Pl.a,[xl.a,Q.a,P.p,P.K,[2,kl.a]],null,null),P._37(335544320,4,{contentLabel:0}),P._37(603979776,5,{_buttons:1}),P._37(603979776,6,{_icons:1}),P._15(41,16384,null,0,Hl.a,[],null,null),P._32(131072,_l.a,[ll.a,P.i]),(l()(),P._40(-1,2,["\n                "])),(l()(),P._16(44,0,null,0,1,"ion-icon",[["item-start",""],["name","person"],["role","img"]],[[2,"hide",null]],null,null,null,null)),P._15(45,147456,[[6,4]],0,z.a,[Q.a,P.p,P.K],{name:[0,"name"]},null),(l()(),P._40(-1,2,["\n                "])),(l()(),P._16(47,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),P._40(48,null,["",""])),P._32(131072,_l.a,[ll.a,P.i]),(l()(),P._40(-1,2,["\n            "])),(l()(),P._40(-1,null,["\n            "])),(l()(),P._11(16777216,null,null,1,null,c)),P._15(53,16384,null,0,fl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,null,["\n\n            "])),(l()(),P._11(16777216,null,null,1,null,d)),P._15(56,802816,null,0,fl.j,[P.W,P.T,P.v],{ngForOf:[0,"ngForOf"]},null),(l()(),P._40(-1,null,["\n\n            "])),(l()(),P._11(16777216,null,null,1,null,h)),P._15(59,16384,null,0,fl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,null,["\n        "]))],function(l,n){var u=n.component;l(n,18,0,u.canChangeProfilePicture);l(n,23,0,u.user.fullname);l(n,27,0,u.user.address);l(n,30,0,u.user.roles);l(n,34,0,u.communicationHandlers&&u.communicationHandlers.length||u.isLoadingHandlers);l(n,45,0,"person");l(n,53,0,u.isLoadingHandlers);l(n,56,0,u.newPageHandlers);l(n,59,0,u.actionHandlers&&u.actionHandlers.length)},function(l,n){var u=n.component;l(n,12,0,u.user.profileimageurl,P._19(1,"",P._41(n,12,1,P._29(n,15).transform("core.pictureof",l(n,14,0,u.user.fullname))),""));l(n,36,0,P._19(1,"",P._41(n,36,0,P._29(n,42).transform("core.user.details")),""));l(n,44,0,P._29(n,45)._hidden);l(n,48,0,P._41(n,48,0,P._29(n,49).transform("core.user.details")))})}function b(l){return P._42(0,[(l()(),P._16(0,0,null,null,2,"core-empty-box",[["icon","person"]],null,null,null,$l.b,$l.a)),P._15(1,49152,null,0,El.a,[],{message:[0,"message"],icon:[1,"icon"]},null),P._32(131072,_l.a,[ll.a,P.i])],function(l,n){l(n,1,0,P._41(n,1,0,P._29(n,2).transform("core.user.detailsnotavailable")),"person")},null)}function v(l){return P._42(0,[(l()(),P._16(0,0,null,null,2,"core-empty-box",[["icon","person"]],null,null,null,$l.b,$l.a)),P._15(1,49152,null,0,El.a,[],{message:[0,"message"],icon:[1,"icon"]},null),P._32(131072,_l.a,[ll.a,P.i])],function(l,n){l(n,1,0,P._41(n,1,0,P._29(n,2).transform("core.userdeleted")),"person")},null)}function I(l){return P._42(0,[(l()(),P._16(0,0,null,null,12,"ion-header",[],null,null,null,null,null)),P._15(1,16384,null,0,Dl.a,[Q.a,P.p,P.K,[2,Ol.a]],null,null),(l()(),P._40(-1,null,["\n    "])),(l()(),P._16(3,0,null,null,8,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Wl.b,Wl.a)),P._15(4,49152,null,0,Rl.a,[Kl.a,[2,Ol.a],[2,ol.a],Q.a,P.p,P.K],null,null),P._15(5,212992,null,0,Fl.a,[Rl.a,nl.a,ll.a,T.a],null,null),(l()(),P._40(-1,3,["\n        "])),(l()(),P._16(7,0,null,3,3,"ion-title",[],null,null,null,Al.b,Al.a)),P._15(8,49152,null,0,Ml.a,[Q.a,P.p,P.K,[2,jl.a],[2,Rl.a]],null,null),(l()(),P._16(9,0,null,0,1,"core-format-text",[],null,null,null,null,null)),P._15(10,540672,null,0,X.a,[P.p,L.a,U.a,Z.a,ll.a,nl.a,ul.a,el.a,tl.a,al.a,il.a,rl.a,[2,ol.a],[2,sl.a],[2,D.a],cl.a,T.a],{text:[0,"text"]},null),(l()(),P._40(-1,3,["\n    "])),(l()(),P._40(-1,null,["\n"])),(l()(),P._40(-1,null,["\n"])),(l()(),P._16(14,0,null,null,23,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Nl.b,Nl.a)),P._15(15,4374528,null,0,sl.a,[Q.a,nl.a,Ll.a,P.p,P.K,Kl.a,Sl.a,P.D,[2,Ol.a],[2,ol.a]],null,null),(l()(),P._40(-1,1,["\n    "])),(l()(),P._16(17,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,u){var e=!0;if("ionRefresh"===n){e=!1!==l.component.refreshUser(u)&&e}return e},null,null)),P._15(18,212992,null,0,Yl.a,[nl.a,sl.a,P.D,Tl.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(l()(),P._40(-1,null,["\n        "])),(l()(),P._16(20,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,Gl.b,Gl.a)),P._15(21,114688,null,0,Vl.a,[Yl.a,Q.a],{pullingText:[0,"pullingText"]},null),P._32(131072,_l.a,[ll.a,P.i]),(l()(),P._40(-1,null,["\n    "])),(l()(),P._40(-1,1,["\n    "])),(l()(),P._16(25,0,null,1,11,"core-loading",[],null,null,null,Bl.b,Bl.a)),P._15(26,638976,null,0,Jl.a,[ll.a,P.p,T.a,ul.a],{hideUntil:[0,"hideUntil"]},null),(l()(),P._40(-1,0,["\n        "])),(l()(),P._11(16777216,null,0,1,null,g)),P._15(29,16384,null,0,fl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,0,["\n        "])),(l()(),P._11(16777216,null,0,1,null,b)),P._15(32,16384,null,0,fl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,0,["\n\n        "])),(l()(),P._11(16777216,null,0,1,null,v)),P._15(35,16384,null,0,fl.k,[P.W,P.T],{ngIf:[0,"ngIf"]},null),(l()(),P._40(-1,0,["\n    "])),(l()(),P._40(-1,1,["\n"]))],function(l,n){var u=n.component;l(n,5,0);l(n,10,0,u.title);l(n,18,0,u.userLoaded);l(n,21,0,P._19(1,"",P._41(n,21,0,P._29(n,22).transform("core.pulltorefresh")),""));l(n,26,0,u.userLoaded);l(n,29,0,u.user&&!u.isDeleted);l(n,32,0,!u.user&&!u.isDeleted);l(n,35,0,u.isDeleted)},function(l,n){l(n,3,0,P._29(n,4)._hidden,P._29(n,4)._sbPadding);l(n,14,0,P._29(n,15).statusbarPadding,P._29(n,15)._hasRefresher);l(n,17,0,"inactive"!==P._29(n,18).state,P._29(n,18)._top);l(n,20,0,P._29(n,21).r.state)})}Object.defineProperty(n,"__esModule",{value:!0});var P=u(1),x=u(0),k=(u(10),u(5)),H=u(45),C=u(651),U=u(4),y=u(73),T=u(13),L=u(2),w=u(66),$=u(124),E=u(95),D=u(35),O=function(){function l(l,n,u,e,t,a,i,r,o,s,c,_,d){var f=this;this.userProvider=n,this.userHelper=u,this.domUtils=e,this.translate=t,this.eventsProvider=a,this.coursesProvider=i,this.sitesProvider=r,this.mimetypeUtils=o,this.fileUploaderHelper=s,this.userDelegate=c,this.navCtrl=_,this.svComponent=d,this.userLoaded=!1,this.isLoadingHandlers=!1,this.isDeleted=!1,this.canChangeProfilePicture=!1,this.actionHandlers=[],this.newPageHandlers=[],this.communicationHandlers=[],this.userId=l.get("userId"),this.courseId=l.get("courseId"),this.site=this.sitesProvider.getCurrentSite(),this.canChangeProfilePicture=(!this.courseId||this.courseId==this.site.getSiteHomeId())&&this.userId==this.site.getUserId()&&this.site.canUploadFiles()&&this.site.wsAvailable("core_user_update_picture")&&!this.userProvider.isUpdatePictureDisabledInSite(this.site),this.obsProfileRefreshed=a.on(H.a.PROFILE_REFRESHED,function(l){f.user&&void 0!==l.user&&(f.user.email=l.user.email,f.user.address=f.userHelper.formatAddress("",l.user.city,l.user.country))},r.getCurrentSiteId())}return l.prototype.ionViewDidLoad=function(){var l=this;this.fetchUser().then(function(){return l.userProvider.logView(l.userId,l.courseId).catch(function(n){l.isDeleted="userdeleted"===n.errorcode})}).finally(function(){l.userLoaded=!0})},l.prototype.fetchUser=function(){var l=this;return this.userProvider.getProfile(this.userId,this.courseId).then(function(n){n.address=l.userHelper.formatAddress("",n.city,n.country),n.roles=l.userHelper.formatRoleList(n.roles),l.user=n,l.title=n.fullname,l.subscription=l.userDelegate.getProfileHandlersFor(n,l.courseId).subscribe(function(u){l.actionHandlers=[],l.newPageHandlers=[],l.communicationHandlers=[],u.forEach(function(n){switch(n.type){case E.a.TYPE_COMMUNICATION:l.communicationHandlers.push(n.data);break;case E.a.TYPE_ACTION:l.actionHandlers.push(n.data);break;case E.a.TYPE_NEW_PAGE:default:l.newPageHandlers.push(n.data)}}),l.isLoadingHandlers=!l.userDelegate.areHandlersLoaded(n.id)})}).catch(function(n){n&&l.domUtils.showErrorModal(n)})},l.prototype.changeProfilePicture=function(){var l=this,n=this.translate.instant("core.user.newpicture"),u=this.mimetypeUtils.getGroupMimeInfo("image","mimetypes");return this.fileUploaderHelper.selectAndUploadFile(-1,n,u).then(function(n){var u=l.domUtils.showModalLoading("core.sending",!0);return l.userProvider.changeProfilePicture(n.itemid,l.userId).then(function(n){l.eventsProvider.trigger(H.a.PROFILE_PICTURE_UPDATED,{userId:l.userId,picture:n}),l.sitesProvider.updateSiteInfo(l.site.getId()),l.refreshUser()}).finally(function(){u.dismiss()})}).catch(function(n){n&&l.domUtils.showErrorModal(n)})},l.prototype.refreshUser=function(l){var n=this,u=[];u.push(this.userProvider.invalidateUserCache(this.userId)),u.push(this.coursesProvider.invalidateUserNavigationOptions()),u.push(this.coursesProvider.invalidateUserAdministrationOptions()),Promise.all(u).finally(function(){n.fetchUser().finally(function(){n.eventsProvider.trigger(H.a.PROFILE_REFRESHED,{courseId:n.courseId,userId:n.userId,user:n.user},n.site.getId()),l&&l.complete()})})},l.prototype.openUserDetails=function(){(this.svComponent?this.svComponent.getMasterNav():this.navCtrl).push("CoreUserAboutPage",{courseId:this.courseId,userId:this.userId})},l.prototype.handlerClicked=function(l,n){var u=this.svComponent?this.svComponent.getMasterNav():this.navCtrl;n.action(l,u,this.user,this.courseId)},l.prototype.ngOnDestroy=function(){this.subscription&&this.subscription.unsubscribe(),this.obsProfileRefreshed&&this.obsProfileRefreshed.off()},l=Object(x.__decorate)([Object(x.__param)(12,Object(P.E)())],l)}(),W=u(29),R=u(33),K=function(){return function(){}}(),F=u(1284),A=u(1285),M=u(1286),j=u(1287),N=u(1288),S=u(1289),Y=u(1290),G=u(1291),V=u(1292),B=u(1295),J=u(1296),q=u(1297),z=u(42),Q=u(7),X=u(40),Z=u(12),ll=u(18),nl=u(15),ul=u(3),el=u(25),tl=u(6),al=u(17),il=u(11),rl=u(23),ol=u(22),sl=u(24),cl=u(38),_l=u(30),dl=u(115),fl=u(9),pl=u(196),ml=u(166),hl=u(116),gl=u(181),bl=u(135),vl=u(150),Il=u(34),Pl=u(21),xl=u(20),kl=u(28),Hl=u(31),Cl=u(46),Ul=u(41),yl=u(75),Tl=u(37),Ll=u(26),wl=u(163),$l=u(165),El=u(134),Dl=u(422),Ol=u(36),Wl=u(1293),Rl=u(193),Kl=u(27),Fl=u(637),Al=u(1294),Ml=u(329),jl=u(238),Nl=u(179),Sl=u(100),Yl=u(133),Gl=u(194),Vl=u(145),Bl=u(57),Jl=u(51),ql=u(60),zl=P._14({encapsulation:2,styles:[],data:{}}),Ql=P._12("page-core-user-profile",O,function(l){return P._42(0,[(l()(),P._16(0,0,null,null,1,"page-core-user-profile",[],null,null,null,I,zl)),P._15(1,180224,null,0,O,[ql.a,H.a,C.a,U.a,ll.a,T.a,y.a,L.a,w.a,$.a,E.a,ol.a,[2,D.a]],null,null)],null,null)},{},{},[]),Xl=u(19),Zl=u(325),ln=u(326),nn=u(328),un=u(327),en=u(421),tn=u(636),an=u(110),rn=u(239);u.d(n,"CoreUserProfilePageModuleNgFactory",function(){return on});var on=P._13(K,[],function(l){return P._25([P._26(512,P.n,P._6,[[8,[F.a,A.a,M.a,j.a,N.a,S.a,Y.a,G.a,V.a,B.a,J.a,q.a,Ql]],[3,P.n],P.B]),P._26(4608,fl.m,fl.l,[P.x,[2,fl.v]]),P._26(4608,Xl.x,Xl.x,[]),P._26(4608,Xl.d,Xl.d,[]),P._26(4608,Zl.b,Zl.a,[]),P._26(4608,ln.a,ln.b,[]),P._26(4608,nn.b,nn.a,[]),P._26(4608,un.b,un.a,[]),P._26(4608,ll.a,ll.a,[en.a,Zl.b,ln.a,nn.b,un.b,ll.b,ll.c]),P._26(512,W.a,W.a,[]),P._26(512,fl.b,fl.b,[]),P._26(512,Xl.v,Xl.v,[]),P._26(512,Xl.i,Xl.i,[]),P._26(512,Xl.s,Xl.s,[]),P._26(512,tn.a,tn.a,[]),P._26(512,k.a,k.a,[]),P._26(512,an.a,an.a,[]),P._26(512,R.a,R.a,[]),P._26(512,tn.b,tn.b,[]),P._26(512,K,K,[]),P._26(256,ll.c,void 0,[]),P._26(256,ll.b,void 0,[]),P._26(256,rn.a,O,[])])})}});
+webpackJsonp([32],{
+
+/***/ 1889:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreLoginCredentialsPageModule", function() { return CoreLoginCredentialsPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__email_signup__ = __webpack_require__(2014);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__core_user_components_components_module__ = __webpack_require__(390);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var CoreLoginCredentialsPageModule = /** @class */ (function () {
+    function CoreLoginCredentialsPageModule() {
+    }
+    CoreLoginCredentialsPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__email_signup__["a" /* CoreLoginEmailSignupPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__core_user_components_components_module__["a" /* CoreUserComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__email_signup__["a" /* CoreLoginEmailSignupPage */]),
+                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ]
+        })
+    ], CoreLoginCredentialsPageModule);
+    return CoreLoginCredentialsPageModule;
+}());
+
+//# sourceMappingURL=email-signup.module.js.map
+
+/***/ }),
+
+/***/ 2014:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreLoginEmailSignupPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_utils__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_ws__ = __webpack_require__(120);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_helper__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__angular_forms__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_user_providers_user_profile_field_delegate__ = __webpack_require__(121);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page to signup using email.
+ */
+var CoreLoginEmailSignupPage = /** @class */ (function () {
+    function CoreLoginEmailSignupPage(navCtrl, navParams, fb, wsProvider, sitesProvider, loginHelper, domUtils, translate, utils, textUtils, userProfileFieldDelegate) {
+        this.navCtrl = navCtrl;
+        this.fb = fb;
+        this.wsProvider = wsProvider;
+        this.sitesProvider = sitesProvider;
+        this.loginHelper = loginHelper;
+        this.domUtils = domUtils;
+        this.translate = translate;
+        this.utils = utils;
+        this.textUtils = textUtils;
+        this.userProfileFieldDelegate = userProfileFieldDelegate;
+        this.settingsLoaded = false;
+        this.captcha = {
+            recaptcharesponse: ''
+        };
+        this.isMinor = false; // Whether the user is minor age.
+        this.siteUrl = navParams.get('siteUrl');
+        // Create the ageVerificationForm.
+        this.ageVerificationForm = this.fb.group({
+            age: ['', __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].required]
+        });
+        this.countryControl = this.fb.control('', __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].required);
+        this.ageVerificationForm.addControl('country', this.countryControl);
+        // Create the signupForm with the basic controls. More controls will be added later.
+        this.signupForm = this.fb.group({
+            username: ['', __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].required],
+            password: ['', __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].required],
+            email: ['', __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].email])],
+            email2: ['', __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].compose([__WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].required, __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].email])]
+        });
+        // Setup validation errors.
+        this.usernameErrors = this.loginHelper.getErrorMessages('core.login.usernamerequired');
+        this.passwordErrors = this.loginHelper.getErrorMessages('core.login.passwordrequired');
+        this.emailErrors = this.loginHelper.getErrorMessages('core.login.missingemail');
+        this.email2Errors = this.loginHelper.getErrorMessages('core.login.missingemail', undefined, 'core.login.emailnotmatch');
+        this.policyErrors = this.loginHelper.getErrorMessages('core.login.policyagree');
+    }
+    /**
+     * View loaded.
+     */
+    CoreLoginEmailSignupPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        // Fetch the data.
+        this.fetchData().finally(function () {
+            _this.settingsLoaded = true;
+        });
+    };
+    /**
+     * Complete the FormGroup using the settings received from server.
+     */
+    CoreLoginEmailSignupPage.prototype.completeFormGroup = function () {
+        this.signupForm.addControl('city', this.fb.control(this.settings.defaultcity || ''));
+        this.signupForm.addControl('country', this.fb.control(this.settings.country || ''));
+        // Add the name fields.
+        for (var i in this.settings.namefields) {
+            this.signupForm.addControl(this.settings.namefields[i], this.fb.control('', __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].required));
+        }
+        if (this.settings.sitepolicy) {
+            this.signupForm.addControl('policyagreed', this.fb.control(false, __WEBPACK_IMPORTED_MODULE_9__angular_forms__["h" /* Validators */].requiredTrue));
+        }
+    };
+    /**
+     * Fetch the required data from the server-
+     */
+    CoreLoginEmailSignupPage.prototype.fetchData = function () {
+        var _this = this;
+        // Get site config.
+        return this.sitesProvider.getSitePublicConfig(this.siteUrl).then(function (config) {
+            _this.siteConfig = config;
+            if (_this.treatSiteConfig(config)) {
+                // Check content verification.
+                if (typeof _this.ageDigitalConsentVerification == 'undefined') {
+                    return _this.wsProvider.callAjax('core_auth_is_age_digital_consent_verification_enabled', {}, { siteUrl: _this.siteUrl }).then(function (result) {
+                        _this.ageDigitalConsentVerification = result.status;
+                    }).catch(function (e) {
+                        // Capture exceptions, fail silently.
+                    }).then(function () {
+                        return _this.getSignupSettings();
+                    });
+                }
+                else {
+                    return _this.getSignupSettings();
+                }
+            }
+        }).then(function () {
+            _this.completeFormGroup();
+        }).catch(function (err) {
+            _this.domUtils.showErrorModal(err);
+        });
+    };
+    /**
+     * Get signup settings from server.
+     */
+    CoreLoginEmailSignupPage.prototype.getSignupSettings = function () {
+        var _this = this;
+        return this.wsProvider.callAjax('auth_email_get_signup_settings', {}, { siteUrl: this.siteUrl }).then(function (settings) {
+            _this.settings = settings;
+            _this.categories = _this.loginHelper.formatProfileFieldsForSignup(settings.profilefields);
+            if (_this.settings.recaptchapublickey) {
+                _this.captcha.recaptcharesponse = ''; // Reset captcha.
+            }
+            if (!_this.countryControl.value) {
+                _this.countryControl.setValue(settings.country || '');
+            }
+            _this.namefieldsErrors = {};
+            if (settings.namefields) {
+                settings.namefields.forEach(function (field) {
+                    _this.namefieldsErrors[field] = _this.loginHelper.getErrorMessages('core.login.missing' + field);
+                });
+            }
+            return _this.utils.getCountryList().then(function (countries) {
+                _this.countries = countries;
+                _this.countriesKeys = Object.keys(countries);
+            });
+        });
+    };
+    /**
+     * Treat the site config, checking if it's valid and extracting the data we're interested in.
+     *
+     * @param {any} siteConfig Site config to treat.
+     * @return {boolean} True if success.
+     */
+    CoreLoginEmailSignupPage.prototype.treatSiteConfig = function (siteConfig) {
+        if (siteConfig && siteConfig.registerauth == 'email' && !this.loginHelper.isEmailSignupDisabled(siteConfig)) {
+            this.siteName = siteConfig.sitename;
+            this.authInstructions = siteConfig.authinstructions;
+            this.ageDigitalConsentVerification = siteConfig.agedigitalconsentverification;
+            this.supportName = siteConfig.supportname;
+            this.supportEmail = siteConfig.supportemail;
+            this.countryControl.setValue(siteConfig.country || '');
+            return true;
+        }
+        else {
+            this.domUtils.showErrorModal(this.translate.instant('core.login.signupplugindisabled', { $a: this.translate.instant('core.login.auth_email') }));
+            this.navCtrl.pop();
+            return false;
+        }
+    };
+    /**
+     * Pull to refresh.
+     *
+     * @param {any} refresher Refresher.
+     */
+    CoreLoginEmailSignupPage.prototype.refreshSettings = function (refresher) {
+        this.fetchData().finally(function () {
+            refresher.complete();
+        });
+    };
+    /**
+     * Create account.
+     */
+    CoreLoginEmailSignupPage.prototype.create = function () {
+        var _this = this;
+        if (!this.signupForm.valid || (this.settings.recaptchapublickey && !this.captcha.recaptcharesponse)) {
+            // Form not valid. Scroll to the first element with errors.
+            if (!this.domUtils.scrollToInputError(this.content)) {
+                // Input not found, show an error modal.
+                this.domUtils.showErrorModal('core.errorinvalidform', true);
+            }
+        }
+        else {
+            var params_1 = {
+                username: this.signupForm.value.username.trim().toLowerCase(),
+                password: this.signupForm.value.password,
+                firstname: this.textUtils.cleanTags(this.signupForm.value.firstname),
+                lastname: this.textUtils.cleanTags(this.signupForm.value.lastname),
+                email: this.signupForm.value.email.trim(),
+                city: this.textUtils.cleanTags(this.signupForm.value.city),
+                country: this.signupForm.value.country
+            }, modal_1 = this.domUtils.showModalLoading('core.sending', true);
+            if (this.siteConfig.launchurl) {
+                var service = this.sitesProvider.determineService(this.siteUrl);
+                params_1.redirect = this.loginHelper.prepareForSSOLogin(this.siteUrl, service, this.siteConfig.launchurl);
+            }
+            // Get the recaptcha response (if needed).
+            if (this.settings.recaptchapublickey && this.captcha.recaptcharesponse) {
+                params_1.recaptcharesponse = this.captcha.recaptcharesponse;
+            }
+            // Get the data for the custom profile fields.
+            this.userProfileFieldDelegate.getDataForFields(this.settings.profilefields, true, 'email', this.signupForm.value).then(function (fieldsData) {
+                params_1.customprofilefields = fieldsData;
+                _this.wsProvider.callAjax('auth_email_signup_user', params_1, { siteUrl: _this.siteUrl }).then(function (result) {
+                    if (result.success) {
+                        // Show alert and ho back.
+                        var message = _this.translate.instant('core.login.emailconfirmsent', { $a: params_1.email });
+                        _this.domUtils.showAlert(_this.translate.instant('core.success'), message);
+                        _this.navCtrl.pop();
+                    }
+                    else {
+                        if (result.warnings && result.warnings.length) {
+                            var error = result.warnings[0].message;
+                            if (error == 'incorrect-captcha-sol') {
+                                error = _this.translate.instant('core.login.recaptchaincorrect');
+                            }
+                            _this.domUtils.showErrorModal(error);
+                        }
+                        else {
+                            _this.domUtils.showErrorModal('core.login.usernotaddederror', true);
+                        }
+                    }
+                });
+            }).catch(function (error) {
+                _this.domUtils.showErrorModalDefault(error && error.error, 'core.login.usernotaddederror', true);
+            }).finally(function () {
+                modal_1.dismiss();
+            });
+        }
+    };
+    /**
+     * Escape mail to avoid special characters to be treated as a RegExp.
+     *
+     * @param  {string} text Initial mail.
+     * @return {string}      Escaped mail.
+     */
+    CoreLoginEmailSignupPage.prototype.escapeMail = function (text) {
+        return this.textUtils.escapeForRegex(text);
+    };
+    /**
+     * Show authentication instructions.
+     */
+    CoreLoginEmailSignupPage.prototype.showAuthInstructions = function () {
+        this.textUtils.expandText(this.translate.instant('core.login.instructions'), this.authInstructions);
+    };
+    /**
+     * Show contact information on site (we have to display again the age verification form).
+     */
+    CoreLoginEmailSignupPage.prototype.showContactOnSite = function () {
+        this.utils.openInBrowser(this.siteUrl + '/login/verify_age_location.php');
+    };
+    /**
+     * Verify Age.
+     */
+    CoreLoginEmailSignupPage.prototype.verifyAge = function () {
+        var _this = this;
+        if (!this.ageVerificationForm.valid) {
+            this.domUtils.showErrorModal('core.errorinvalidform', true);
+            return;
+        }
+        var modal = this.domUtils.showModalLoading('core.sending', true), params = this.ageVerificationForm.value;
+        params.age = parseInt(params.age, 10); // Use just the integer part.
+        this.wsProvider.callAjax('core_auth_is_minor', params, { siteUrl: this.siteUrl }).then(function (result) {
+            if (!result.status) {
+                // Not a minor, go ahead!
+                _this.ageDigitalConsentVerification = false;
+            }
+            else {
+                // Is a minor!!
+                _this.isMinor = true;
+            }
+        }).catch(function () {
+            // Something wrong, redirect to the site.
+            _this.domUtils.showErrorModal('There was an error verifying your age, please try again using the browser.');
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], CoreLoginEmailSignupPage.prototype, "content", void 0);
+    CoreLoginEmailSignupPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-login-email-signup',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/core/login/pages/email-signup/email-signup.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'core.login.newaccount\' | translate }}</ion-title>\n\n        <ion-buttons end>\n            <button ion-button icon-only *ngIf="authInstructions" (click)="showAuthInstructions()" [attr.aria-label]="\'core.login.instructions\' | translate">\n                <ion-icon name="help-circle"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="settingsLoaded && !isMinor" (ionRefresh)="refreshSettings($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <core-loading [hideUntil]="settingsLoaded" *ngIf="!isMinor">\n\n        <!-- Age verification. -->\n        <form ion-list *ngIf="settingsLoaded && settings && ageDigitalConsentVerification" [formGroup]="ageVerificationForm" (ngSubmit)="verifyAge()">\n            <ion-item-divider color="light" text-wrap>\n                <p class="item-heading">{{ \'core.agelocationverification\' | translate }}</p>\n            </ion-item-divider>\n\n            <ion-item text-wrap>\n                <ion-label stacked core-mark-required="true">{{ \'core.whatisyourage\' | translate }}</ion-label>\n                <ion-input type="number" name="age" placeholder="0" formControlName="age" autocapitalize="none" autocorrect="off"></ion-input>\n            </ion-item>\n\n            <ion-item text-wrap>\n                <ion-label stacked core-mark-required="true">{{ \'core.wheredoyoulive\' | translate }}</ion-label>\n                <ion-select name="country" formControlName="country">\n                    <ion-option value="">{{ \'core.login.selectacountry\' | translate }}</ion-option>\n                    <ion-option *ngFor="let key of countriesKeys" [value]="key">{{countries[key]}}</ion-option>\n                </ion-select>\n            </ion-item>\n\n            <!-- Submit button. -->\n            <ion-item padding>\n                <button ion-button block type="submit" [disabled]="!ageVerificationForm.valid">{{ \'core.proceed\' | translate }}</button>\n            </ion-item>\n\n            <ion-item text-wrap>\n                <p class="item-heading">{{ \'core.whyisthisrequired\' | translate }}</p>\n                <p>{{ \'core.explanationdigitalminor\' | translate }}</p>\n            </ion-item>\n        </form>\n\n        <!-- Signup form. -->\n        <form ion-list *ngIf="settingsLoaded && settings && !ageDigitalConsentVerification" [formGroup]="signupForm" (ngSubmit)="create()">\n            <ion-item text-wrap text-center>\n                <!-- If no sitename show big siteurl. -->\n                <p *ngIf="!siteName" padding class="item-heading">{{siteUrl}}</p>\n                <!-- If sitename, show big sitename and small siteurl. -->\n                <p *ngIf="siteName" padding class="item-heading"><core-format-text [text]="siteName"></core-format-text></p>\n                <p *ngIf="siteName">{{siteUrl}}</p>\n            </ion-item>\n\n            <!-- Username and password. -->\n            <ion-item-divider text-wrap color="light">\n                {{ \'core.login.createuserandpass\' | translate }}\n            </ion-item-divider>\n            <ion-item text-wrap>\n                <ion-label stacked core-mark-required="true">{{ \'core.login.username\' | translate }}</ion-label>\n                <ion-input type="text" name="username" placeholder="{{ \'core.login.username\' | translate }}" formControlName="username" autocapitalize="none" autocorrect="off"></ion-input>\n                <core-input-errors item-content [control]="signupForm.controls.username" [errorMessages]="usernameErrors"></core-input-errors>\n            </ion-item>\n            <ion-item text-wrap>\n                <ion-label stacked core-mark-required="true">{{ \'core.login.password\' | translate }}</ion-label>\n                <core-show-password item-content [name]="\'password\'">\n                    <ion-input type="password" name="password" placeholder="{{ \'core.login.password\' | translate }}" formControlName="password" [clearOnEdit]="false"></ion-input>\n                </core-show-password>\n                <p *ngIf="settings.passwordpolicy" item-content class="core-input-footnote">\n                    {{settings.passwordpolicy}}\n                </p>\n                <core-input-errors item-content [control]="signupForm.controls.password" [errorMessages]="passwordErrors"></core-input-errors>\n            </ion-item>\n\n            <!-- More details. -->\n            <ion-item-divider text-wrap color="light">\n                {{ \'core.login.supplyinfo\' | translate }}\n            </ion-item-divider>\n            <ion-item text-wrap>\n                <ion-label stacked core-mark-required="true">{{ \'core.user.email\' | translate }}</ion-label>\n                <ion-input type="email" name="email" placeholder="{{ \'core.user.email\' | translate }}" formControlName="email" autocapitalize="none" autocorrect="off"></ion-input>\n                <core-input-errors item-content [control]="signupForm.controls.email" [errorMessages]="emailErrors"></core-input-errors>\n            </ion-item>\n            <ion-item text-wrap>\n                <ion-label stacked core-mark-required="true">{{ \'core.user.emailagain\' | translate }}</ion-label>\n                <ion-input type="email" name="email2" placeholder="{{ \'core.user.emailagain\' | translate }}" formControlName="email2" autocapitalize="none" autocorrect="off" [pattern]="escapeMail(signupForm.controls.email.value)"></ion-input>\n                <core-input-errors item-content [control]="signupForm.controls.email2" [errorMessages]="email2Errors"></core-input-errors>\n            </ion-item>\n            <ion-item *ngFor="let nameField of settings.namefields" text-wrap>\n                <ion-label stacked core-mark-required="true">{{ \'core.user.\' + nameField | translate }}</ion-label>\n                <ion-input type="text" name="nameField" placeholder="{{ \'core.user.\' + nameField | translate }}" formControlName="{{nameField}}" autocorrect="off"></ion-input>\n                <core-input-errors item-content [control]="signupForm.controls[nameField]" [errorMessages]="namefieldsErrors[nameField]"></core-input-errors>\n            </ion-item>\n            <ion-item text-wrap>\n                <ion-label stacked>{{ \'core.user.city\' | translate }}</ion-label>\n                <ion-input type="text" name="city" placeholder="{{ \'core.user.city\' | translate }}" formControlName="city" autocorrect="off"></ion-input>\n            </ion-item>\n            <ion-item text-wrap>\n                <ion-label stacked id="core-login-signup-country">{{ \'core.user.country\' | translate }}</ion-label>\n                <ion-select name="country" formControlName="country" aria-labelledby="core-login-signup-country">\n                    <ion-option value="">{{ \'core.login.selectacountry\' | translate }}</ion-option>\n                    <ion-option *ngFor="let key of countriesKeys" [value]="key">{{countries[key]}}</ion-option>\n                </ion-select>\n            </ion-item>\n\n            <!-- Other categories. -->\n            <ng-container *ngFor="let category of categories">\n                <ion-item-divider text-wrap color="light">{{ category.name }}</ion-item-divider>\n                <core-user-profile-field *ngFor="let field of category.fields" [field]="field" edit="true" signup="true" registerAuth="email" [form]="signupForm"></core-user-profile-field>\n            </ng-container>\n\n            <!-- ReCAPTCHA -->\n            <ng-container *ngIf="settings.recaptchapublickey">\n                <ion-item-divider text-wrap color="light">{{ \'core.login.security_question\' | translate }}</ion-item-divider>\n                <ion-item text-wrap>\n                    <core-recaptcha [publicKey]="settings.recaptchapublickey" [model]="captcha" [siteUrl]="siteUrl"></core-recaptcha>\n                </ion-item>\n            </ng-container>\n\n            <!-- Site policy (if any). -->\n            <ng-container *ngIf="settings.sitepolicy">\n                <ion-item-divider text-wrap color="light">{{ \'core.login.policyagreement\' | translate }}</ion-item-divider>\n                <ion-item text-wrap>\n                    <p><a [href]="settings.sitepolicy" core-link capture="false">{{ \'core.login.policyagreementclick\' | translate }}</a></p>\n                </ion-item>\n                <ion-item text-wrap>\n                    <ion-label>\n                        <span [core-mark-required]="true">{{ \'core.login.policyaccept\' | translate }}</span>\n                        <core-input-errors [control]="signupForm.controls.policyagreed" [errorMessages]="policyErrors"></core-input-errors>\n                    </ion-label>\n                    <ion-checkbox item-end name="policyagreed" formControlName="policyagreed"></ion-checkbox>\n                </ion-item>\n            </ng-container>\n\n            <!-- Submit button. -->\n            <ion-item padding>\n                <button ion-button block color="primary" type="submit">{{ \'core.login.createaccount\' | translate }}</button>\n            </ion-item>\n        </form>\n    </core-loading>\n\n    <ion-list *ngIf="isMinor">\n        <ion-item-divider color="light" text-wrap>\n            <p *ngIf="siteName" class="item-heading padding"><core-format-text [text]="siteName"></core-format-text></p>\n        </ion-item-divider>\n        <ion-item text-wrap>\n            <p class="item-heading">{{ \'core.considereddigitalminor\' | translate }}</p>\n            <p>{{ \'core.digitalminor_desc\' | translate }}</p>\n            <p *ngIf="supportName">{{ supportName }}</p>\n            <p *ngIf="supportEmail">{{ supportEmail }}</p>\n            <div padding *ngIf="!supportName && !supportEmail">\n                <button ion-button block (click)="showContactOnSite()">\n                    {{ \'core.openinbrowser\' | translate }}\n                </button>\n            </div>\n        </ion-item>\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/core/login/pages/email-signup/email-signup.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_9__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_7__providers_ws__["a" /* CoreWSProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_helper__["a" /* CoreLoginHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_6__providers_utils_utils__["a" /* CoreUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_10__core_user_providers_user_profile_field_delegate__["a" /* CoreUserProfileFieldDelegate */]])
+    ], CoreLoginEmailSignupPage);
+    return CoreLoginEmailSignupPage;
+}());
+
+//# sourceMappingURL=email-signup.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=32.js.map

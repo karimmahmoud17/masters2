@@ -1,1 +1,131 @@
-webpackJsonp([73],{1853:function(n,l,a){"use strict";function u(n){return e._42(0,[e._37(402653184,1,{scormComponent:0}),(n()(),e._16(1,0,null,null,18,"ion-header",[],null,null,null,null,null)),e._15(2,16384,null,0,C.a,[K.a,e.p,e.K,[2,P.a]],null,null),(n()(),e._40(-1,null,["\n    "])),(n()(),e._16(4,0,null,null,14,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,V.b,V.a)),e._15(5,49152,null,0,M.a,[k.a,[2,P.a],[2,E.a],K.a,e.p,e.K],null,null),e._15(6,212992,null,0,L.a,[M.a,T.a,j.a,A.a],null,null),(n()(),e._40(-1,3,["\n        "])),(n()(),e._16(8,0,null,3,3,"ion-title",[],null,null,null,B.b,B.a)),e._15(9,49152,null,0,F.a,[K.a,e.p,e.K,[2,J.a],[2,M.a]],null,null),(n()(),e._16(10,0,null,0,1,"core-format-text",[],null,null,null,null,null)),e._15(11,540672,null,0,N.a,[e.p,O.a,S.a,q.a,j.a,T.a,z.a,G.a,H.a,Q.a,U.a,W.a,[2,E.a],[2,X.a],[2,Y.a],Z.a,A.a],{text:[0,"text"]},null),(n()(),e._40(-1,3,["\n\n        "])),(n()(),e._16(13,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),e._15(14,16384,null,1,$.a,[K.a,e.p,e.K,[2,J.a],[2,M.a]],null,null),e._37(603979776,2,{_buttons:1}),(n()(),e._40(-1,null,["\n            "])),(n()(),e._40(-1,null,["\n        "])),(n()(),e._40(-1,3,["\n    "])),(n()(),e._40(-1,null,["\n"])),(n()(),e._40(-1,null,["\n"])),(n()(),e._16(21,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,nn.b,nn.a)),e._15(22,4374528,null,0,X.a,[K.a,T.a,ln.a,e.p,e.K,k.a,an.a,e.D,[2,P.a],[2,E.a]],null,null),(n()(),e._40(-1,1,["\n    "])),(n()(),e._16(24,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(n,l,a){var u=!0;if("ionRefresh"===l){u=!1!==n.component.scormComponent.doRefresh(a)&&u}return u},null,null)),e._15(25,212992,null,0,un.a,[T.a,X.a,e.D,en.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(n()(),e._40(-1,null,["\n        "])),(n()(),e._16(27,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,tn.b,tn.a)),e._15(28,114688,null,0,on.a,[un.a,K.a],{pullingText:[0,"pullingText"]},null),e._32(131072,_n.a,[j.a,e.i]),(n()(),e._40(-1,null,["\n    "])),(n()(),e._40(-1,1,["\n\n    "])),(n()(),e._16(32,0,null,1,1,"addon-mod-scorm-index",[],null,[[null,"dataRetrieved"]],function(n,l,a){var u=!0;if("dataRetrieved"===l){u=!1!==n.component.updateData(a)&&u}return u},I.c,I.b)),e._15(33,245760,[[1,4]],0,r.a,[e.u,rn.a,[2,X.a],dn.a,sn.a,cn.a,pn.a,E.a,bn.a,z.a],{module:[0,"module"],courseId:[1,"courseId"]},{dataRetrieved:"dataRetrieved"}),(n()(),e._40(-1,1,["\n"])),(n()(),e._40(-1,null,["\n"]))],function(n,l){var a=l.component;n(l,6,0);n(l,11,0,a.title);n(l,25,0,a.scormComponent.loaded);n(l,28,0,e._19(1,"",e._41(l,28,0,e._29(l,29).transform("core.pulltorefresh")),""));n(l,33,0,a.module,a.courseId)},function(n,l){n(l,4,0,e._29(l,5)._hidden,e._29(l,5)._sbPadding);n(l,21,0,e._29(l,22).statusbarPadding,e._29(l,22)._hasRefresher);n(l,24,0,"inactive"!==e._29(l,25).state,e._29(l,25)._top);n(l,27,0,e._29(l,28).r.state)})}Object.defineProperty(l,"__esModule",{value:!0});var e=a(1),t=(a(0),a(10),a(5)),o=a(29),_=a(676),r=a(459),i=function(){function n(n){this.module=n.get("module")||{},this.courseId=n.get("courseId"),this.title=this.module.name}return n.prototype.updateData=function(n){this.title=n.name||this.title},n.prototype.ionViewDidEnter=function(){this.scormComponent.ionViewDidEnter()},n.prototype.ionViewDidLeave=function(){this.scormComponent.ionViewDidLeave()},n}(),d=function(){return function(){}}(),s=a(1284),c=a(1285),p=a(1286),b=a(1287),f=a(1288),m=a(1289),h=a(1290),v=a(1291),g=a(1292),x=a(1295),R=a(1296),D=a(1297),y=a(1298),I=a(1351),w=a(1372),C=a(422),K=a(7),P=a(36),V=a(1293),M=a(193),k=a(27),E=a(22),L=a(637),T=a(15),j=a(18),A=a(13),B=a(1294),F=a(329),J=a(238),N=a(40),O=a(2),S=a(4),q=a(12),z=a(3),G=a(25),H=a(6),Q=a(17),U=a(11),W=a(23),X=a(24),Y=a(35),Z=a(38),$=a(423),nn=a(179),ln=a(26),an=a(100),un=a(133),en=a(37),tn=a(194),on=a(145),_n=a(30),rn=a(184),dn=a(342),sn=a(229),cn=a(278),pn=a(289),bn=a(52),fn=a(60),mn=e._14({encapsulation:2,styles:[],data:{}}),hn=e._12("page-addon-mod-scorm-index",i,function(n){return e._42(0,[(n()(),e._16(0,0,null,null,1,"page-addon-mod-scorm-index",[],null,null,null,u,mn)),e._15(1,49152,null,0,i,[fn.a],null,null)],null,null)},{},{},[]),vn=a(9),gn=a(19),xn=a(325),Rn=a(326),Dn=a(328),yn=a(327),In=a(421),wn=a(636),Cn=a(110),Kn=a(33),Pn=a(76),Vn=a(239);a.d(l,"AddonModScormIndexPageModuleNgFactory",function(){return Mn});var Mn=e._13(d,[],function(n){return e._25([e._26(512,e.n,e._6,[[8,[s.a,c.a,p.a,b.a,f.a,m.a,h.a,v.a,g.a,x.a,R.a,D.a,y.a,I.a,w.a,hn]],[3,e.n],e.B]),e._26(4608,vn.m,vn.l,[e.x,[2,vn.v]]),e._26(4608,gn.x,gn.x,[]),e._26(4608,gn.d,gn.d,[]),e._26(4608,xn.b,xn.a,[]),e._26(4608,Rn.a,Rn.b,[]),e._26(4608,Dn.b,Dn.a,[]),e._26(4608,yn.b,yn.a,[]),e._26(4608,j.a,j.a,[In.a,xn.b,Rn.a,Dn.b,yn.b,j.b,j.c]),e._26(512,o.a,o.a,[]),e._26(512,vn.b,vn.b,[]),e._26(512,gn.v,gn.v,[]),e._26(512,gn.i,gn.i,[]),e._26(512,gn.s,gn.s,[]),e._26(512,wn.a,wn.a,[]),e._26(512,t.a,t.a,[]),e._26(512,Cn.a,Cn.a,[]),e._26(512,Kn.a,Kn.a,[]),e._26(512,Pn.a,Pn.a,[]),e._26(512,_.a,_.a,[]),e._26(512,wn.b,wn.b,[]),e._26(512,d,d,[]),e._26(256,j.c,void 0,[]),e._26(256,j.b,void 0,[]),e._26(256,Vn.a,i,[])])})}});
+webpackJsonp([73],{
+
+/***/ 1843:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModLessonMenuModalPageModule", function() { return AddonModLessonMenuModalPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__menu_modal__ = __webpack_require__(1964);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__ngx_translate_core__ = __webpack_require__(1);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonModLessonMenuModalPageModule = /** @class */ (function () {
+    function AddonModLessonMenuModalPageModule() {
+    }
+    AddonModLessonMenuModalPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_4__menu_modal__["a" /* AddonModLessonMenuModalPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_2__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_4__menu_modal__["a" /* AddonModLessonMenuModalPage */]),
+                __WEBPACK_IMPORTED_MODULE_5__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ]
+        })
+    ], AddonModLessonMenuModalPageModule);
+    return AddonModLessonMenuModalPageModule;
+}());
+
+//# sourceMappingURL=menu-modal.module.js.map
+
+/***/ }),
+
+/***/ 1964:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModLessonMenuModalPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+/**
+ * Modal that renders the lesson menu and media file.
+ */
+var AddonModLessonMenuModalPage = /** @class */ (function () {
+    function AddonModLessonMenuModalPage(params, viewCtrl) {
+        this.viewCtrl = viewCtrl;
+        this.pageInstance = params.get('page');
+    }
+    /**
+     * Close modal.
+     */
+    AddonModLessonMenuModalPage.prototype.closeModal = function () {
+        this.viewCtrl.dismiss();
+    };
+    /**
+     * Load a certain page.
+     *
+     * @param {number} pageId The page ID to load.
+     */
+    AddonModLessonMenuModalPage.prototype.loadPage = function (pageId) {
+        this.pageInstance.changePage && this.pageInstance.changePage(pageId);
+        this.closeModal();
+    };
+    AddonModLessonMenuModalPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-lesson-menu-modal',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/addon/mod/lesson/pages/menu-modal/menu-modal.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ pageInstance.lesson.name }}</ion-title>\n        <ion-buttons end>\n            <button ion-button icon-only (click)="closeModal()" [attr.aria-label]="\'core.close\' | translate">\n                <ion-icon name="close"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content class="addon-mod_lesson-menu-modal">\n    <nav>\n        <ion-list>\n            <!-- Media file. -->\n            <ng-container *ngIf="pageInstance.mediaFile">\n                <ion-item-divider color="light"><h2>{{ \'addon.mod_lesson.linkedmedia\' | translate }}</h2></ion-item-divider>\n                <core-file [file]="pageInstance.mediaFile" [component]="pageInstance.component" [componentId]="pageInstance.lesson.coursemodule"></core-file>\n            </ng-container>\n\n            <!-- Lesson menu. -->\n            <ng-container *ngIf="pageInstance.displayMenu">\n                <ion-item-divider color="light"><h2>{{ \'addon.mod_lesson.lessonmenu\' | translate }}</h2></ion-item-divider>\n                <ion-item text-center *ngIf="pageInstance.loadingMenu">\n                    <ion-spinner></ion-spinner>\n                </ion-item>\n                <div *ngIf="!pageInstance.loadingMenu">\n                    <ng-container *ngFor="let page of pageInstance.lessonPages">\n                        <a ion-item text-wrap *ngIf="page.display && page.displayinmenublock" (click)="loadPage(page.id)" [ngClass]=\'{"addon-mod_lesson-selected core-white-push-arrow": !pageInstance.eolData && pageInstance.currentPage == page.id}\'>\n                            <p><core-format-text [text]="page.title"></core-format-text></p>\n                        </a>\n                    </ng-container>\n                </div>\n            </ng-container>\n        </ion-list>\n    </nav>\n</ion-content>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/addon/mod/lesson/pages/menu-modal/menu-modal.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */]])
+    ], AddonModLessonMenuModalPage);
+    return AddonModLessonMenuModalPage;
+}());
+
+//# sourceMappingURL=menu-modal.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=73.js.map

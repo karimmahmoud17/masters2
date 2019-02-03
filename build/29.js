@@ -1,1 +1,235 @@
-webpackJsonp([29],{1911:function(n,l,u){"use strict";function a(n){return o._42(0,[(n()(),o._16(0,0,null,null,1,"core-file",[],null,null,null,y.b,y.a)),o._15(1,245760,null,0,M.a,[P.a,C.a,F.a,O.a,T.a,j.a,W.a,B.a],{file:[0,"file"],component:[1,"component"],componentId:[2,"componentId"]},null)],function(n,l){var u=l.component;n(l,1,0,l.context.$implicit,u.component,u.componentId)},null)}function t(n){return o._42(0,[(n()(),o._16(0,0,null,null,5,"ion-card",[],null,null,null,null,null)),o._15(1,16384,null,0,D.a,[J.a,o.p,o.K],null,null),(n()(),o._40(-1,null,["\n        "])),(n()(),o._11(16777216,null,null,1,null,a)),o._15(4,802816,null,0,N.j,[o.W,o.T,o.v],{ngForOf:[0,"ngForOf"]},null),(n()(),o._40(-1,null,["\n    "]))],function(n,l){n(l,4,0,l.component.files)},null)}function e(n){return o._42(0,[(n()(),o._16(0,0,null,null,24,"ion-header",[],null,null,null,null,null)),o._15(1,16384,null,0,R.a,[J.a,o.p,o.K,[2,V.a]],null,null),(n()(),o._40(-1,null,["\n    "])),(n()(),o._16(3,0,null,null,20,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,$.b,$.a)),o._15(4,49152,null,0,q.a,[z.a,[2,V.a],[2,A.a],J.a,o.p,o.K],null,null),o._15(5,212992,null,0,E.a,[q.a,G.a,H.a,B.a],null,null),(n()(),o._40(-1,3,["\n        "])),(n()(),o._16(7,0,null,3,2,"ion-title",[],null,null,null,L.b,L.a)),o._15(8,49152,null,0,Q.a,[J.a,o.p,o.K,[2,S.a],[2,q.a]],null,null),(n()(),o._40(9,0,["",""])),(n()(),o._40(-1,3,["\n\n        "])),(n()(),o._16(11,0,null,2,11,"ion-buttons",[["end",""]],null,null,null,null,null)),o._15(12,16384,null,1,U.a,[J.a,o.p,o.K,[2,S.a],[2,q.a]],null,null),o._37(603979776,1,{_buttons:1}),(n()(),o._40(-1,null,["\n            "])),(n()(),o._16(15,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(n,l,u){var a=!0;if("click"===l){a=!1!==n.component.closeModal()&&a}return a},X.b,X.a)),o._15(16,1097728,[[1,4]],0,Y.a,[[8,""],J.a,o.p,o.K],null,null),o._32(131072,Z.a,[H.a,o.i]),(n()(),o._40(-1,0,["\n                "])),(n()(),o._16(19,0,null,0,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o._15(20,147456,null,0,nn.a,[J.a,o.p,o.K],{name:[0,"name"]},null),(n()(),o._40(-1,0,["\n            "])),(n()(),o._40(-1,null,["\n        "])),(n()(),o._40(-1,3,["\n    "])),(n()(),o._40(-1,null,["\n"])),(n()(),o._40(-1,null,["\n"])),(n()(),o._16(26,0,null,null,8,"ion-content",[["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ln.b,ln.a)),o._15(27,4374528,null,0,un.a,[J.a,G.a,an.a,o.p,o.K,z.a,tn.a,o.D,[2,V.a],[2,A.a]],null,null),(n()(),o._40(-1,1,["\n    "])),(n()(),o._16(29,0,null,1,1,"core-format-text",[],null,null,null,null,null)),o._15(30,540672,null,0,en.a,[o.p,P.a,F.a,i.a,H.a,G.a,C.a,on.a,_n.a,O.a,T.a,cn.a,[2,A.a],[2,un.a],[2,rn.a],sn.a,B.a],{text:[0,"text"],component:[1,"component"],componentId:[2,"componentId"]},null),(n()(),o._40(-1,1,["\n\n    "])),(n()(),o._11(16777216,null,1,1,null,t)),o._15(33,16384,null,0,N.k,[o.W,o.T],{ngIf:[0,"ngIf"]},null),(n()(),o._40(-1,1,["\n"])),(n()(),o._40(-1,null,["\n"]))],function(n,l){var u=l.component;n(l,5,0);n(l,20,0,"close");n(l,30,0,u.content,u.component,u.componentId);n(l,33,0,u.files&&u.files.length)},function(n,l){var u=l.component;n(l,3,0,o._29(l,4)._hidden,o._29(l,4)._sbPadding);n(l,9,0,u.title);n(l,15,0,o._41(l,15,0,o._29(l,17).transform("core.close")));n(l,19,0,o._29(l,20)._hidden);n(l,26,0,o._29(l,27).statusbarPadding,o._29(l,27)._hasRefresher)})}Object.defineProperty(l,"__esModule",{value:!0});var o=u(1),_=(u(0),u(10),u(5)),i=u(12),c=function(){function n(n,l,u){this.viewCtrl=n,this.title=l.get("title"),this.content=l.get("content"),this.component=l.get("component"),this.componentId=l.get("componentId"),this.files=l.get("files")}return n.prototype.closeModal=function(){this.viewCtrl.dismiss()},n}(),r=u(33),s=u(29),p=function(){return function(){}}(),d=u(1284),f=u(1285),b=u(1286),m=u(1287),g=u(1288),v=u(1289),h=u(1290),x=u(1291),I=u(1292),K=u(1295),w=u(1296),k=u(1297),y=u(197),M=u(167),P=u(2),C=u(3),F=u(4),O=u(17),T=u(11),j=u(123),W=u(66),B=u(13),D=u(91),J=u(7),N=u(9),R=u(422),V=u(36),$=u(1293),q=u(193),z=u(27),A=u(22),E=u(637),G=u(15),H=u(18),L=u(1294),Q=u(329),S=u(238),U=u(423),X=u(46),Y=u(41),Z=u(30),nn=u(42),ln=u(179),un=u(24),an=u(26),tn=u(100),en=u(40),on=u(25),_n=u(6),cn=u(23),rn=u(35),sn=u(38),pn=u(60),dn=o._14({encapsulation:2,styles:[],data:{}}),fn=o._12("page-core-viewer-text",c,function(n){return o._42(0,[(n()(),o._16(0,0,null,null,1,"page-core-viewer-text",[],null,null,null,e,dn)),o._15(1,49152,null,0,c,[V.a,pn.a,i.a],null,null)],null,null)},{},{},[]),bn=u(19),mn=u(325),gn=u(326),vn=u(328),hn=u(327),xn=u(421),In=u(636),Kn=u(110),wn=u(239);u.d(l,"CoreViewerTextPageModuleNgFactory",function(){return kn});var kn=o._13(p,[],function(n){return o._25([o._26(512,o.n,o._6,[[8,[d.a,f.a,b.a,m.a,g.a,v.a,h.a,x.a,I.a,K.a,w.a,k.a,fn]],[3,o.n],o.B]),o._26(4608,N.m,N.l,[o.x,[2,N.v]]),o._26(4608,bn.x,bn.x,[]),o._26(4608,bn.d,bn.d,[]),o._26(4608,mn.b,mn.a,[]),o._26(4608,gn.a,gn.b,[]),o._26(4608,vn.b,vn.a,[]),o._26(4608,hn.b,hn.a,[]),o._26(4608,H.a,H.a,[xn.a,mn.b,gn.a,vn.b,hn.b,H.b,H.c]),o._26(512,N.b,N.b,[]),o._26(512,bn.v,bn.v,[]),o._26(512,bn.i,bn.i,[]),o._26(512,bn.s,bn.s,[]),o._26(512,In.a,In.a,[]),o._26(512,_.a,_.a,[]),o._26(512,s.a,s.a,[]),o._26(512,Kn.a,Kn.a,[]),o._26(512,r.a,r.a,[]),o._26(512,In.b,In.b,[]),o._26(512,p,p,[]),o._26(256,H.c,void 0,[]),o._26(256,H.b,void 0,[]),o._26(256,wn.a,c,[])])})}});
+webpackJsonp([29],{
+
+/***/ 1891:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreLoginReconnectPageModule", function() { return CoreLoginReconnectPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__reconnect__ = __webpack_require__(2016);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var CoreLoginReconnectPageModule = /** @class */ (function () {
+    function CoreLoginReconnectPageModule() {
+    }
+    CoreLoginReconnectPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__reconnect__["a" /* CoreLoginReconnectPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__reconnect__["a" /* CoreLoginReconnectPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ]
+        })
+    ], CoreLoginReconnectPageModule);
+    return CoreLoginReconnectPageModule;
+}());
+
+//# sourceMappingURL=reconnect.module.js.map
+
+/***/ }),
+
+/***/ 2016:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreLoginReconnectPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_helper__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__angular_forms__ = __webpack_require__(20);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+/**
+ * Page to enter the user password to reconnect to a site.
+ */
+var CoreLoginReconnectPage = /** @class */ (function () {
+    function CoreLoginReconnectPage(navCtrl, navParams, fb, appProvider, sitesProvider, loginHelper, domUtils) {
+        this.navCtrl = navCtrl;
+        this.appProvider = appProvider;
+        this.sitesProvider = sitesProvider;
+        this.loginHelper = loginHelper;
+        this.domUtils = domUtils;
+        var currentSite = this.sitesProvider.getCurrentSite();
+        this.infoSiteUrl = navParams.get('infoSiteUrl');
+        this.pageName = navParams.get('pageName');
+        this.pageParams = navParams.get('pageParams');
+        this.siteConfig = navParams.get('siteConfig');
+        this.siteUrl = navParams.get('siteUrl');
+        this.siteId = navParams.get('siteId');
+        this.isLoggedOut = currentSite && currentSite.isLoggedOut();
+        this.credForm = fb.group({
+            password: ['', __WEBPACK_IMPORTED_MODULE_6__angular_forms__["h" /* Validators */].required]
+        });
+    }
+    /**
+     * View loaded.
+     */
+    CoreLoginReconnectPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        if (this.siteConfig) {
+            this.identityProviders = this.loginHelper.getValidIdentityProviders(this.siteConfig);
+        }
+        this.sitesProvider.getSite(this.siteId).then(function (site) {
+            _this.site = {
+                id: site.id,
+                fullname: site.infos.fullname,
+                avatar: site.infos.userpictureurl
+            };
+            _this.username = site.infos.username;
+            _this.siteUrl = site.infos.siteurl;
+            _this.siteName = site.infos.sitename;
+            // Check logoURL if user avatar is not set.
+            if (_this.site.avatar.startsWith(site.infos.siteurl + '/theme/image.php')) {
+                _this.site.avatar = false;
+                return site.getPublicConfig().then(function (config) {
+                    _this.logoUrl = config.logourl || config.compactlogourl;
+                }).catch(function () {
+                    // Ignore errors.
+                });
+            }
+        }).catch(function () {
+            // Shouldn't happen. Just leave the view.
+            _this.cancel();
+        });
+    };
+    /**
+     * Cancel reconnect.
+     */
+    CoreLoginReconnectPage.prototype.cancel = function () {
+        var _this = this;
+        this.sitesProvider.logout().finally(function () {
+            _this.navCtrl.setRoot('CoreLoginSitesPage');
+        });
+    };
+    /**
+     * Tries to authenticate the user.
+     */
+    CoreLoginReconnectPage.prototype.login = function () {
+        var _this = this;
+        this.appProvider.closeKeyboard();
+        // Get input data.
+        var siteUrl = this.siteUrl, username = this.username, password = this.credForm.value.password;
+        if (!password) {
+            this.domUtils.showErrorModal('core.login.passwordrequired', true);
+            return;
+        }
+        if (!this.appProvider.isOnline()) {
+            this.domUtils.showErrorModal('core.networkerrormsg', true);
+            return;
+        }
+        var modal = this.domUtils.showModalLoading();
+        // Start the authentication process.
+        this.sitesProvider.getUserToken(siteUrl, username, password).then(function (data) {
+            return _this.sitesProvider.updateSiteToken(_this.infoSiteUrl, username, data.token, data.privateToken).then(function () {
+                // Update site info too because functions might have changed (e.g. unisntall local_mobile).
+                return _this.sitesProvider.updateSiteInfoByUrl(_this.infoSiteUrl, username).then(function () {
+                    // Reset fields so the data is not in the view anymore.
+                    _this.credForm.controls['password'].reset();
+                    if (_this.pageName) {
+                        // Page defined, go to that page instead of site initial page.
+                        return _this.navCtrl.setRoot(_this.pageName, _this.pageParams);
+                    }
+                    else {
+                        return _this.loginHelper.goToSiteInitialPage();
+                    }
+                }).catch(function (error) {
+                    // Error, go back to login page.
+                    _this.domUtils.showErrorModalDefault(error, 'core.login.errorupdatesite', true);
+                    _this.cancel();
+                });
+            });
+        }).catch(function (error) {
+            _this.loginHelper.treatUserTokenError(siteUrl, error);
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    /**
+     * An OAuth button was clicked.
+     *
+     * @param {any} provider The provider that was clicked.
+     */
+    CoreLoginReconnectPage.prototype.oauthClicked = function (provider) {
+        if (!this.loginHelper.openBrowserForOAuthLogin(this.siteUrl, provider, this.siteConfig.launchurl)) {
+            this.domUtils.showErrorModal('Invalid data.');
+        }
+    };
+    CoreLoginReconnectPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-login-reconnect',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/core/login/pages/reconnect/reconnect.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'core.login.reconnect\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content padding class="core-center-view">\n    <div class="box">\n        <div *ngIf="site" text-wrap text-center margin-bottom [ngClass]="{\'item-avatar-center\': site.avatar}">\n            <ion-avatar *ngIf="site.avatar">\n                <!-- Show user avatar. -->\n                <img [src]="site.avatar" class="avatar" core-external-content [siteId]="site.id" alt="{{ \'core.pictureof\' | translate:{$a: site.fullname} }}" role="presentation" onError="this.src=\'assets/img/user-avatar.png\'">\n            </ion-avatar>\n\n            <!-- Show site logo or a default image. -->\n            <img *ngIf="!site.avatar && logoUrl" [src]="logoUrl" core-external-content [siteId]="site.id" role="presentation">\n            <img *ngIf="!site.avatar && !logoUrl" src="assets/img/login_logo.png" class="login-logo" role="presentation">\n\n            <!-- If no sitename show big siteurl. -->\n            <p *ngIf="!siteName" class="item-heading core-siteurl">{{siteUrl}}</p>\n            <!-- If sitename, show big sitename and small siteurl. -->\n            <p *ngIf="siteName" class="item-heading core-sitename"><core-format-text [text]="siteName"></core-format-text></p>\n            <p *ngIf="siteName" class="core-siteurl">{{siteUrl}}</p>\n\n            <p *ngIf="!isLoggedOut">\n                <ion-icon padding name="alert"></ion-icon> {{ \'core.login.reconnectdescription\' | translate }}\n            </p>\n        </div>\n        <ion-list>\n            <ion-item padding text-wrap class="core-username">\n                <p class="item-heading">{{ \'core.login.username\' | translate }}</p>\n                <p>{{username}}</p>\n            </ion-item>\n            <form [formGroup]="credForm" (ngSubmit)="login()">\n                <ion-item margin-bottom>\n                    <core-show-password item-content [name]="\'password\'">\n                        <ion-input class="core-ioninput-password" name="password" type="password" placeholder="{{ \'core.login.password\' | translate }}" formControlName="password" [clearOnEdit]="false"></ion-input>\n                    </core-show-password>\n                </ion-item>\n                <ion-grid>\n                    <ion-row>\n                        <ion-col>\n                            <a ion-button block color="light" (click)="cancel()">{{ \'core.login.cancel\' | translate }}</a>\n                        </ion-col>\n                        <ion-col>\n                            <button ion-button block [disabled]="!credForm.valid">{{ \'core.login.loginbutton\' | translate }}</button>\n                        </ion-col>\n                    </ion-row>\n                </ion-grid>\n            </form>\n        </ion-list>\n\n        <!-- Identity providers. -->\n        <ion-list *ngIf="identityProviders && identityProviders.length" padding-top>\n            <ion-list-header text-wrap>{{ \'core.login.potentialidps\' | translate }}</ion-list-header>\n            <button ion-item *ngFor="let provider of identityProviders" text-wrap class="core-oauth-icon" (click)="oauthClicked(provider)" title="{{provider.name}}">\n                <img [src]="provider.iconurl" alt="{{provider.name}}" item-start>\n                {{provider.name}}\n            </button>\n        </ion-list>\n    </div>\n</ion-content>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/core/login/pages/reconnect/reconnect.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_6__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_2__providers_app__["a" /* CoreAppProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_helper__["a" /* CoreLoginHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */]])
+    ], CoreLoginReconnectPage);
+    return CoreLoginReconnectPage;
+}());
+
+//# sourceMappingURL=reconnect.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=29.js.map

@@ -1,1 +1,217 @@
-webpackJsonp([103],{1817:function(l,n,a){"use strict";function u(l){return e._42(0,[e._37(402653184,1,{bookComponent:0}),(l()(),e._16(1,0,null,null,18,"ion-header",[],null,null,null,null,null)),e._15(2,16384,null,0,D.a,[P.a,e.p,e.K,[2,C.a]],null,null),(l()(),e._40(-1,null,["\n    "])),(l()(),e._16(4,0,null,null,14,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,M.b,M.a)),e._15(5,49152,null,0,B.a,[T.a,[2,C.a],[2,j.a],P.a,e.p,e.K],null,null),e._15(6,212992,null,0,w.a,[B.a,A.a,F.a,J.a],null,null),(l()(),e._40(-1,3,["\n        "])),(l()(),e._16(8,0,null,3,3,"ion-title",[],null,null,null,N.b,N.a)),e._15(9,49152,null,0,O.a,[P.a,e.p,e.K,[2,q.a],[2,B.a]],null,null),(l()(),e._16(10,0,null,0,1,"core-format-text",[],null,null,null,null,null)),e._15(11,540672,null,0,z.a,[e.p,E.a,G.a,H.a,F.a,A.a,L.a,Q.a,S.a,U.a,V.a,W.a,[2,j.a],[2,X.a],[2,Y.a],Z.a,J.a],{text:[0,"text"]},null),(l()(),e._40(-1,3,["\n\n        "])),(l()(),e._16(13,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),e._15(14,16384,null,1,$.a,[P.a,e.p,e.K,[2,q.a],[2,B.a]],null,null),e._37(603979776,2,{_buttons:1}),(l()(),e._40(-1,null,["\n            "])),(l()(),e._40(-1,null,["\n        "])),(l()(),e._40(-1,3,["\n    "])),(l()(),e._40(-1,null,["\n"])),(l()(),e._40(-1,null,["\n"])),(l()(),e._16(21,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ll.b,ll.a)),e._15(22,4374528,null,0,X.a,[P.a,A.a,nl.a,e.p,e.K,T.a,al.a,e.D,[2,C.a],[2,j.a]],null,null),(l()(),e._40(-1,1,["\n    "])),(l()(),e._16(24,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,a){var u=!0;if("ionRefresh"===n){u=!1!==l.component.bookComponent.doRefresh(a)&&u}return u},null,null)),e._15(25,212992,null,0,ul.a,[A.a,X.a,e.D,el.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(l()(),e._40(-1,null,["\n        "])),(l()(),e._16(27,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,tl.b,tl.a)),e._15(28,114688,null,0,ol.a,[ul.a,P.a],{pullingText:[0,"pullingText"]},null),e._32(131072,_l.a,[F.a,e.i]),(l()(),e._40(-1,null,["\n    "])),(l()(),e._40(-1,1,["\n\n    "])),(l()(),e._16(32,0,null,1,1,"addon-mod-book-index",[],null,[[null,"dataRetrieved"]],function(l,n,a){var u=!0;if("dataRetrieved"===n){u=!1!==l.component.updateData(a)&&u}return u},K.c,K.b)),e._15(33,245760,[[1,4]],0,r.a,[e.u,rl.a,dl.a,V.a,il.a,sl.a,[2,X.a]],{module:[0,"module"],courseId:[1,"courseId"]},{dataRetrieved:"dataRetrieved"}),(l()(),e._40(-1,1,["\n"])),(l()(),e._40(-1,null,["\n"]))],function(l,n){var a=n.component;l(n,6,0);l(n,11,0,a.title);l(n,25,0,a.bookComponent.loaded);l(n,28,0,e._19(1,"",e._41(n,28,0,e._29(n,29).transform("core.pulltorefresh")),""));l(n,33,0,a.module,a.courseId)},function(l,n){l(n,4,0,e._29(n,5)._hidden,e._29(n,5)._sbPadding);l(n,21,0,e._29(n,22).statusbarPadding,e._29(n,22)._hasRefresher);l(n,24,0,"inactive"!==e._29(n,25).state,e._29(n,25)._top);l(n,27,0,e._29(n,28).r.state)})}Object.defineProperty(n,"__esModule",{value:!0});var e=a(1),t=(a(0),a(10),a(5)),o=a(29),_=a(664),r=a(442),d=function(){function l(l){this.module=l.get("module")||{},this.courseId=l.get("courseId"),this.title=this.module.name}return l.prototype.updateData=function(l){this.title=l.name||this.title},l}(),i=function(){return function(){}}(),s=a(1284),c=a(1285),b=a(1286),f=a(1287),p=a(1288),h=a(1289),m=a(1290),v=a(1291),g=a(1292),x=a(1295),R=a(1296),k=a(1297),I=a(1298),K=a(1337),y=a(1368),D=a(422),P=a(7),C=a(36),M=a(1293),B=a(193),T=a(27),j=a(22),w=a(637),A=a(15),F=a(18),J=a(13),N=a(1294),O=a(329),q=a(238),z=a(40),E=a(2),G=a(4),H=a(12),L=a(3),Q=a(25),S=a(6),U=a(17),V=a(11),W=a(23),X=a(24),Y=a(35),Z=a(38),$=a(423),ll=a(179),nl=a(26),al=a(100),ul=a(133),el=a(37),tl=a(194),ol=a(145),_l=a(30),rl=a(250),dl=a(16),il=a(352),sl=a(69),cl=a(60),bl=e._14({encapsulation:2,styles:[],data:{}}),fl=e._12("page-addon-mod-book-index",d,function(l){return e._42(0,[(l()(),e._16(0,0,null,null,1,"page-addon-mod-book-index",[],null,null,null,u,bl)),e._15(1,49152,null,0,d,[cl.a],null,null)],null,null)},{},{},[]),pl=a(9),hl=a(19),ml=a(325),vl=a(326),gl=a(328),xl=a(327),Rl=a(421),kl=a(636),Il=a(110),Kl=a(33),yl=a(76),Dl=a(239);a.d(n,"AddonModBookIndexPageModuleNgFactory",function(){return Pl});var Pl=e._13(i,[],function(l){return e._25([e._26(512,e.n,e._6,[[8,[s.a,c.a,b.a,f.a,p.a,h.a,m.a,v.a,g.a,x.a,R.a,k.a,I.a,K.a,y.a,fl]],[3,e.n],e.B]),e._26(4608,pl.m,pl.l,[e.x,[2,pl.v]]),e._26(4608,hl.x,hl.x,[]),e._26(4608,hl.d,hl.d,[]),e._26(4608,ml.b,ml.a,[]),e._26(4608,vl.a,vl.b,[]),e._26(4608,gl.b,gl.a,[]),e._26(4608,xl.b,xl.a,[]),e._26(4608,F.a,F.a,[Rl.a,ml.b,vl.a,gl.b,xl.b,F.b,F.c]),e._26(512,o.a,o.a,[]),e._26(512,pl.b,pl.b,[]),e._26(512,hl.v,hl.v,[]),e._26(512,hl.i,hl.i,[]),e._26(512,hl.s,hl.s,[]),e._26(512,kl.a,kl.a,[]),e._26(512,t.a,t.a,[]),e._26(512,Il.a,Il.a,[]),e._26(512,Kl.a,Kl.a,[]),e._26(512,yl.a,yl.a,[]),e._26(512,_.a,_.a,[]),e._26(512,kl.b,kl.b,[]),e._26(512,i,i,[]),e._26(256,F.c,void 0,[]),e._26(256,F.b,void 0,[]),e._26(256,Dl.a,d,[])])})}});
+webpackJsonp([103],{
+
+/***/ 1810:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonMessageOutputAirnotifierDevicesPageModule", function() { return AddonMessageOutputAirnotifierDevicesPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__devices__ = __webpack_require__(1931);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonMessageOutputAirnotifierDevicesPageModule = /** @class */ (function () {
+    function AddonMessageOutputAirnotifierDevicesPageModule() {
+    }
+    AddonMessageOutputAirnotifierDevicesPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__devices__["a" /* AddonMessageOutputAirnotifierDevicesPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__devices__["a" /* AddonMessageOutputAirnotifierDevicesPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonMessageOutputAirnotifierDevicesPageModule);
+    return AddonMessageOutputAirnotifierDevicesPageModule;
+}());
+
+//# sourceMappingURL=devices.module.js.map
+
+/***/ }),
+
+/***/ 1931:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonMessageOutputAirnotifierDevicesPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__addon_pushnotifications_providers_pushnotifications__ = __webpack_require__(251);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_airnotifier__ = __webpack_require__(395);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Page that displays the list of devices.
+ */
+var AddonMessageOutputAirnotifierDevicesPage = /** @class */ (function () {
+    function AddonMessageOutputAirnotifierDevicesPage(domUtils, airnotifierProivder, pushNotificationsProvider) {
+        this.domUtils = domUtils;
+        this.airnotifierProivder = airnotifierProivder;
+        this.pushNotificationsProvider = pushNotificationsProvider;
+        this.devices = [];
+        this.devicesLoaded = false;
+    }
+    /**
+     * View loaded.
+     */
+    AddonMessageOutputAirnotifierDevicesPage.prototype.ionViewDidLoad = function () {
+        this.fetchDevices();
+    };
+    /**
+     * Fetches the list of devices.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonMessageOutputAirnotifierDevicesPage.prototype.fetchDevices = function () {
+        var _this = this;
+        return this.airnotifierProivder.getUserDevices().then(function (devices) {
+            var pushId = _this.pushNotificationsProvider.getPushId();
+            // Convert enabled to boolean and search current device.
+            devices.forEach(function (device) {
+                device.enable = !!device.enable;
+                device.current = pushId && pushId == device.pushid;
+            });
+            _this.devices = devices;
+        }).catch(function (message) {
+            _this.domUtils.showErrorModal(message);
+        }).finally(function () {
+            _this.devicesLoaded = true;
+        });
+    };
+    /**
+     * Update list of devices after a certain time. The purpose is to store the updated data, it won't be reflected in the view.
+     */
+    AddonMessageOutputAirnotifierDevicesPage.prototype.updateDevicesAfterDelay = function () {
+        var _this = this;
+        // Cancel pending updates.
+        if (this.updateTimeout) {
+            clearTimeout(this.updateTimeout);
+        }
+        this.updateTimeout = setTimeout(function () {
+            _this.updateTimeout = null;
+            _this.updateDevices();
+        }, 5000);
+    };
+    /**
+     * Fetch devices. The purpose is to store the updated data, it won't be reflected in the view.
+     */
+    AddonMessageOutputAirnotifierDevicesPage.prototype.updateDevices = function () {
+        var _this = this;
+        this.airnotifierProivder.invalidateUserDevices().finally(function () {
+            _this.airnotifierProivder.getUserDevices();
+        });
+    };
+    /**
+     * Refresh the list of devices.
+     *
+     * @param {any} refresher Refresher.
+     */
+    AddonMessageOutputAirnotifierDevicesPage.prototype.refreshDevices = function (refresher) {
+        var _this = this;
+        this.airnotifierProivder.invalidateUserDevices().finally(function () {
+            _this.fetchDevices().finally(function () {
+                refresher.complete();
+            });
+        });
+    };
+    /**
+     * Enable or disable a certain device.
+     *
+     * @param {any} device The device object.
+     * @param {boolean} enable True to enable the device, false to disable it.
+     */
+    AddonMessageOutputAirnotifierDevicesPage.prototype.enableDevice = function (device, enable) {
+        var _this = this;
+        device.updating = true;
+        this.airnotifierProivder.enableDevice(device.id, enable).then(function () {
+            // Update the list of devices since it was modified.
+            _this.updateDevicesAfterDelay();
+        }).catch(function (message) {
+            // Show error and revert change.
+            _this.domUtils.showErrorModal(message);
+            device.enable = !device.enable;
+        }).finally(function () {
+            device.updating = false;
+        });
+    };
+    /**
+     * Page destroyed.
+     */
+    AddonMessageOutputAirnotifierDevicesPage.prototype.ngOnDestroy = function () {
+        // If there is a pending action to update devices, execute it right now.
+        if (this.updateTimeout) {
+            clearTimeout(this.updateTimeout);
+            this.updateDevices();
+        }
+    };
+    AddonMessageOutputAirnotifierDevicesPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-message-output-airnotifier-devices',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/addon/messageoutput/airnotifier/pages/devices/devices.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.messageoutput_airnotifier.processorsettingsdesc\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="devicesLoaded" (ionRefresh)="refreshDevices($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="devicesLoaded">\n        <ion-list>\n            <ion-item text-wrap *ngFor="let device of devices">\n                <ion-label [class.core-bold]="device.current">\n                    {{ device.model }}\n                    <span *ngIf="device.current">({{ \'core.currentdevice\' | translate }})</span>\n                </ion-label>\n                <ion-spinner *ngIf="device.updating" item-end></ion-spinner>\n                <ion-toggle [disabled]="device.updating" [(ngModel)]="device.enable" (ngModelChange)="enableDevice(device, device.enable)"></ion-toggle>\n            </ion-item>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/addon/messageoutput/airnotifier/pages/devices/devices.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_airnotifier__["a" /* AddonMessageOutputAirnotifierProvider */],
+            __WEBPACK_IMPORTED_MODULE_2__addon_pushnotifications_providers_pushnotifications__["a" /* AddonPushNotificationsProvider */]])
+    ], AddonMessageOutputAirnotifierDevicesPage);
+    return AddonMessageOutputAirnotifierDevicesPage;
+}());
+
+//# sourceMappingURL=devices.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=103.js.map

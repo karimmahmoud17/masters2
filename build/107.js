@@ -1,1 +1,229 @@
-webpackJsonp([107],{1805:function(n,l,a){"use strict";function u(n){return _._42(0,[(n()(),_._16(0,0,null,null,3,"core-empty-box",[["icon","map"]],null,null,null,C.b,C.a)),_._15(1,49152,null,0,R.a,[],{message:[0,"message"],icon:[1,"icon"]},null),_._32(131072,D.a,[O.a,_.i]),(n()(),_._40(-1,0,["\n            "]))],function(n,l){n(l,1,0,_._41(l,1,0,_._29(l,2).transform("addon.competency.noplanswerecreated")),"map")},null)}function t(n){return _._42(0,[(n()(),_._16(0,0,null,null,3,"p",[],null,null,null,null,null)),(n()(),_._40(1,null,["",": ",""])),_._32(131072,D.a,[O.a,_.i]),_._34(3,1)],null,function(n,l){n(l,1,0,_._41(l,1,0,_._29(l,2).transform("addon.competency.duedate")),_._41(l,1,1,n(l,3,0,_._29(l.parent.parent.parent,0),l.parent.context.$implicit.duedate)))})}function e(n){return _._42(0,[(n()(),_._16(0,0,null,null,12,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],[[8,"title",0],[2,"core-split-item-selected",null]],[[null,"click"]],function(n,l,a){var u=!0;if("click"===l){u=!1!==n.component.openPlan(n.context.$implicit.id)&&u}return u},U.b,U.a)),_._15(1,1097728,null,3,W.a,[F.a,M.a,_.p,_.K,[2,j.a]],null,null),_._37(335544320,2,{contentLabel:0}),_._37(603979776,3,{_buttons:1}),_._37(603979776,4,{_icons:1}),_._15(5,16384,null,0,A.a,[],null,null),(n()(),_._40(-1,2,["\n                    "])),(n()(),_._16(7,0,null,2,1,"h2",[],null,null,null,null,null)),(n()(),_._40(8,null,["",""])),(n()(),_._40(-1,2,["\n                    "])),(n()(),_._11(16777216,null,2,1,null,t)),_._15(11,16384,null,0,E.k,[_.W,_.T],{ngIf:[0,"ngIf"]},null),(n()(),_._40(-1,2,["\n                "]))],function(n,l){n(l,11,0,l.context.$implicit.duedate>0)},function(n,l){n(l,0,0,l.context.$implicit.name,l.context.$implicit.id==l.component.planId);n(l,8,0,l.context.$implicit.name)})}function i(n){return _._42(0,[(n()(),_._16(0,0,null,null,5,"ion-list",[["no-margin",""]],null,null,null,null,null)),_._15(1,16384,null,0,B.a,[M.a,_.p,_.K,J.a,N.l,V.a],null,null),(n()(),_._40(-1,null,["\n                "])),(n()(),_._11(16777216,null,null,1,null,e)),_._15(4,802816,null,0,E.j,[_.W,_.T,_.v],{ngForOf:[0,"ngForOf"]},null),(n()(),_._40(-1,null,["\n            "]))],function(n,l){n(l,4,0,l.component.plans)},null)}function o(n){return _._42(0,[_._32(0,q.a,[z.a]),_._37(402653184,1,{splitviewCtrl:0}),(n()(),_._16(2,0,null,null,12,"ion-header",[],null,null,null,null,null)),_._15(3,16384,null,0,G.a,[M.a,_.p,_.K,[2,H.a]],null,null),(n()(),_._40(-1,null,["\n    "])),(n()(),_._16(5,0,null,null,8,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,Q.b,Q.a)),_._15(6,49152,null,0,S.a,[X.a,[2,H.a],[2,Y.a],M.a,_.p,_.K],null,null),_._15(7,212992,null,0,Z.a,[S.a,J.a,O.a,nn.a],null,null),(n()(),_._40(-1,3,["\n        "])),(n()(),_._16(9,0,null,3,3,"ion-title",[],null,null,null,ln.b,ln.a)),_._15(10,49152,null,0,an.a,[M.a,_.p,_.K,[2,un.a],[2,S.a]],null,null),(n()(),_._40(11,0,["",""])),_._32(131072,D.a,[O.a,_.i]),(n()(),_._40(-1,3,["\n    "])),(n()(),_._40(-1,null,["\n"])),(n()(),_._40(-1,null,["\n"])),(n()(),_._16(16,0,null,null,24,"core-split-view",[],null,null,null,tn.b,tn.a)),_._15(17,245760,[[1,4]],0,f.a,[[2,Y.a],_.p,en.a,J.a,O.a],null,null),(n()(),_._40(-1,0,["\n    "])),(n()(),_._16(19,0,null,0,20,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,on.b,on.a)),_._15(20,4374528,null,0,_n.a,[M.a,J.a,V.a,_.p,_.K,X.a,rn.a,_.D,[2,H.a],[2,Y.a]],null,null),(n()(),_._40(-1,1,["\n        "])),(n()(),_._16(22,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(n,l,a){var u=!0;if("ionRefresh"===l){u=!1!==n.component.refreshLearningPlans(a)&&u}return u},null,null)),_._15(23,212992,null,0,sn.a,[J.a,_n.a,_.D,N.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(n()(),_._40(-1,null,["\n            "])),(n()(),_._16(25,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,cn.b,cn.a)),_._15(26,114688,null,0,pn.a,[sn.a,M.a],{pullingText:[0,"pullingText"]},null),_._32(131072,D.a,[O.a,_.i]),(n()(),_._40(-1,null,["\n        "])),(n()(),_._40(-1,1,["\n        "])),(n()(),_._16(30,0,null,1,8,"core-loading",[],null,null,null,dn.b,dn.a)),_._15(31,638976,null,0,fn.a,[O.a,_.p,nn.a,hn.a],{hideUntil:[0,"hideUntil"]},null),(n()(),_._40(-1,0,["\n            "])),(n()(),_._11(16777216,null,0,1,null,u)),_._15(34,16384,null,0,E.k,[_.W,_.T],{ngIf:[0,"ngIf"]},null),(n()(),_._40(-1,0,["\n            "])),(n()(),_._11(16777216,null,0,1,null,i)),_._15(37,16384,null,0,E.k,[_.W,_.T],{ngIf:[0,"ngIf"]},null),(n()(),_._40(-1,0,["\n        "])),(n()(),_._40(-1,1,["\n    "])),(n()(),_._40(-1,0,["\n"])),(n()(),_._40(-1,null,["\n"]))],function(n,l){var a=l.component;n(l,7,0),n(l,17,0);n(l,23,0,a.plansLoaded);n(l,26,0,_._19(1,"",_._41(l,26,0,_._29(l,27).transform("core.pulltorefresh")),""));n(l,31,0,a.plansLoaded);n(l,34,0,0==a.plans.length);n(l,37,0,a.plans.length>0)},function(n,l){n(l,5,0,_._29(l,6)._hidden,_._29(l,6)._sbPadding);n(l,11,0,_._41(l,11,0,_._29(l,12).transform("addon.competency.userplans")));n(l,19,0,_._29(l,20).statusbarPadding,_._29(l,20)._hasRefresher);n(l,22,0,"inactive"!==_._29(l,23).state,_._29(l,23)._top);n(l,25,0,_._29(l,26).r.state)})}Object.defineProperty(l,"__esModule",{value:!0});var _=a(1),r=(a(0),a(10),a(5)),s=a(33),c=a(29),p=a(110),d=a(4),f=a(35),h=a(216),m=function(){function n(n,l,a){this.domUtils=l,this.competencyProvider=a,this.plansLoaded=!1,this.plans=[],this.userId=n.get("userId")}return n.prototype.ionViewDidLoad=function(){var n=this;this.planId&&this.openPlan(this.planId),this.fetchLearningPlans().then(function(){!n.planId&&n.splitviewCtrl.isOn()&&n.plans.length>0&&n.openPlan(n.plans[0].id)}).finally(function(){n.plansLoaded=!0})},n.prototype.fetchLearningPlans=function(){var n=this;return this.competencyProvider.getLearningPlans(this.userId).then(function(l){n.plans=l}).catch(function(l){n.domUtils.showErrorModalDefault(l,"Error getting learning plans data.")})},n.prototype.refreshLearningPlans=function(n){var l=this;this.competencyProvider.invalidateLearningPlans(this.userId).finally(function(){l.fetchLearningPlans().finally(function(){n.complete()})})},n.prototype.openPlan=function(n){this.planId=n,this.splitviewCtrl.push("AddonCompetencyPlanPage",{planId:n})},n}(),g=function(){return function(){}}(),b=a(1284),v=a(1285),y=a(1286),P=a(1287),I=a(1288),L=a(1289),x=a(1290),w=a(1291),k=a(1292),K=a(1295),T=a(1296),$=a(1297),C=a(165),R=a(134),D=a(30),O=a(18),U=a(34),W=a(21),F=a(20),M=a(7),j=a(28),A=a(31),E=a(9),B=a(75),J=a(15),N=a(37),V=a(26),q=a(642),z=a(6),G=a(422),H=a(36),Q=a(1293),S=a(193),X=a(27),Y=a(22),Z=a(637),nn=a(13),ln=a(1294),an=a(329),un=a(238),tn=a(426),en=a(63),on=a(179),_n=a(24),rn=a(100),sn=a(133),cn=a(194),pn=a(145),dn=a(57),fn=a(51),hn=a(3),mn=a(60),gn=_._14({encapsulation:2,styles:[],data:{}}),bn=_._12("page-addon-competency-planlist",m,function(n){return _._42(0,[(n()(),_._16(0,0,null,null,1,"page-addon-competency-planlist",[],null,null,null,o,gn)),_._15(1,49152,null,0,m,[mn.a,d.a,h.a],null,null)],null,null)},{},{},[]),vn=a(19),yn=a(325),Pn=a(326),In=a(328),Ln=a(327),xn=a(421),wn=a(636),kn=a(239);a.d(l,"AddonCompetencyPlanListPageModuleNgFactory",function(){return Kn});var Kn=_._13(g,[],function(n){return _._25([_._26(512,_.n,_._6,[[8,[b.a,v.a,y.a,P.a,I.a,L.a,x.a,w.a,k.a,K.a,T.a,$.a,bn]],[3,_.n],_.B]),_._26(4608,E.m,E.l,[_.x,[2,E.v]]),_._26(4608,vn.x,vn.x,[]),_._26(4608,vn.d,vn.d,[]),_._26(4608,yn.b,yn.a,[]),_._26(4608,Pn.a,Pn.b,[]),_._26(4608,In.b,In.a,[]),_._26(4608,Ln.b,Ln.a,[]),_._26(4608,O.a,O.a,[xn.a,yn.b,Pn.a,In.b,Ln.b,O.b,O.c]),_._26(512,E.b,E.b,[]),_._26(512,vn.v,vn.v,[]),_._26(512,vn.i,vn.i,[]),_._26(512,vn.s,vn.s,[]),_._26(512,wn.a,wn.a,[]),_._26(512,r.a,r.a,[]),_._26(512,c.a,c.a,[]),_._26(512,p.a,p.a,[]),_._26(512,s.a,s.a,[]),_._26(512,wn.b,wn.b,[]),_._26(512,g,g,[]),_._26(256,O.c,void 0,[]),_._26(256,O.b,void 0,[]),_._26(256,kn.a,m,[])])})}});
+webpackJsonp([107],{
+
+/***/ 1806:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonCompetencyPlanPageModule", function() { return AddonCompetencyPlanPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__plan__ = __webpack_require__(1927);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonCompetencyPlanPageModule = /** @class */ (function () {
+    function AddonCompetencyPlanPageModule() {
+    }
+    AddonCompetencyPlanPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__plan__["a" /* AddonCompetencyPlanPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__plan__["a" /* AddonCompetencyPlanPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonCompetencyPlanPageModule);
+    return AddonCompetencyPlanPageModule;
+}());
+
+//# sourceMappingURL=plan.module.js.map
+
+/***/ }),
+
+/***/ 1927:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonCompetencyPlanPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_split_view_split_view__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_competency__ = __webpack_require__(160);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_helper__ = __webpack_require__(393);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+
+
+/**
+ * Page that displays a learning plan.
+ */
+var AddonCompetencyPlanPage = /** @class */ (function () {
+    function AddonCompetencyPlanPage(navCtrl, navParams, translate, appProvider, domUtils, svComponent, competencyProvider, competencyHelperProvider) {
+        this.navCtrl = navCtrl;
+        this.translate = translate;
+        this.appProvider = appProvider;
+        this.domUtils = domUtils;
+        this.svComponent = svComponent;
+        this.competencyProvider = competencyProvider;
+        this.competencyHelperProvider = competencyHelperProvider;
+        this.planLoaded = false;
+        this.planId = navParams.get('planId');
+    }
+    /**
+     * View loaded.
+     */
+    AddonCompetencyPlanPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.fetchLearningPlan().finally(function () {
+            _this.planLoaded = true;
+        });
+    };
+    /**
+     * Fetches the learning plan and updates the view.
+     *
+     * @return {Promise<void>} Promise resolved when done.
+     */
+    AddonCompetencyPlanPage.prototype.fetchLearningPlan = function () {
+        var _this = this;
+        return this.competencyProvider.getLearningPlan(this.planId).then(function (plan) {
+            plan.plan.statusname = _this.getStatusName(plan.plan.status);
+            // Get the user profile image.
+            _this.competencyHelperProvider.getProfile(plan.plan.userid).then(function (user) {
+                _this.user = user;
+            });
+            _this.plan = plan;
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'Error getting learning plan data.');
+        });
+    };
+    /**
+     * Navigates to a particular competency.
+     *
+     * @param {number} competencyId
+     */
+    AddonCompetencyPlanPage.prototype.openCompetency = function (competencyId) {
+        var navCtrl = this.svComponent ? this.svComponent.getMasterNav() : this.navCtrl;
+        if (this.appProvider.isWide()) {
+            navCtrl.push('AddonCompetencyCompetenciesPage', { competencyId: competencyId, planId: this.planId });
+        }
+        else {
+            navCtrl.push('AddonCompetencyCompetencyPage', { competencyId: competencyId, planId: this.planId });
+        }
+    };
+    /**
+     * Convenience function to get the status name translated.
+     *
+     * @param {number} status
+     * @return {string}
+     */
+    AddonCompetencyPlanPage.prototype.getStatusName = function (status) {
+        var statusTranslateName;
+        switch (status) {
+            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].STATUS_DRAFT:
+                statusTranslateName = 'draft';
+                break;
+            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].REVIEW_STATUS_IN_REVIEW:
+                statusTranslateName = 'inreview';
+                break;
+            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].REVIEW_STATUS_WAITING_FOR_REVIEW:
+                statusTranslateName = 'waitingforreview';
+                break;
+            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].STATUS_ACTIVE:
+                statusTranslateName = 'active';
+                break;
+            case __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */].STATUS_COMPLETE:
+                statusTranslateName = 'complete';
+                break;
+            default:
+                // We can use the current status name.
+                return String(status);
+        }
+        return this.translate.instant('addon.competency.planstatus' + statusTranslateName);
+    };
+    /**
+     * Refreshes the learning plan.
+     *
+     * @param {any} refresher Refresher.
+     */
+    AddonCompetencyPlanPage.prototype.refreshLearningPlan = function (refresher) {
+        var _this = this;
+        this.competencyProvider.invalidateLearningPlan(this.planId).finally(function () {
+            _this.fetchLearningPlan().finally(function () {
+                refresher.complete();
+            });
+        });
+    };
+    AddonCompetencyPlanPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-competency-plan',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/addon/competency/pages/plan/plan.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title *ngIf="plan">{{plan.plan.name}}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="planLoaded" (ionRefresh)="refreshLearningPlan($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="planLoaded">\n        <ion-card *ngIf="user">\n            <ion-item text-wrap>\n                <ion-avatar *ngIf="user.profileimageurl && user.profileimageurl !== true" item-start>\n                    <img  [src]="user.profileimageurl" [alt]="\'core.pictureof\' | translate:{$a: user.fullname}" core-external-content>\n                </ion-avatar>\n                <span *ngIf="user.profileimageurl === true" item-start>\n                    <ion-icon name="person"></ion-icon>\n                </span>\n                <h2><core-format-text [text]="user.fullname"></core-format-text></h2>\n            </ion-item>\n       </ion-card>\n        <ion-card *ngIf="plan">\n            <ion-list>\n                <ion-item text-wrap>\n                    <strong>{{ \'addon.competency.status\' | translate }}</strong>:\n                    {{ plan.plan.statusname }}\n                </ion-item>\n                <ion-item text-wrap *ngIf="plan.plan.duedate > 0">\n                    <strong>{{ \'addon.competency.duedate\' | translate }}</strong>:\n                    {{ plan.plan.duedate | coreToLocaleString }}\n                </ion-item>\n                <ion-item text-wrap *ngIf="plan.plan.template">\n                    <strong>{{ \'addon.competency.template\' | translate }}</strong>:\n                    {{ plan.plan.template.shortname }}\n                </ion-item>\n                <ion-item text-wrap>\n                    <strong>{{ \'addon.competency.progress\' | translate }}</strong>:\n                    {{ \'addon.competency.xcompetenciesproficientoutofy\' | translate: {$a: {x: plan.proficientcompetencycount, y: plan.competencycount} } }}\n                    <core-progress-bar [progress]="plan.proficientcompetencypercentage" [text]="plan.proficientcompetencypercentageformatted"></core-progress-bar>\n                </ion-item>\n            </ion-list>\n        </ion-card>\n        <ion-card *ngIf="plan">\n            <ion-card-header text-wrap>{{ \'addon.competency.learningplancompetencies\' | translate }}</ion-card-header>\n            <ion-list>\n                <ion-item text-wrap *ngIf="plan.competencycount == 0">\n                    {{ \'addon.competency.nocompetencies\' | translate }}\n                </ion-item>\n                <a ion-item text-wrap *ngFor="let competency of plan.competencies" (click)="openCompetency(competency.competency.id)" [title]="competency.competency.shortname">\n                    {{competency.competency.shortname}} <small>{{competency.competency.idnumber}}</small>\n                    <ion-badge item-end [color]="competency.usercompetency.proficiency ? \'success\' : \'danger\'">{{ competency.usercompetency.gradename }}</ion-badge>\n                </a>\n            </ion-list>\n        </ion-card>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/addon/competency/pages/plan/plan.html"*/,
+        }),
+        __param(5, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Optional */])()),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__components_split_view_split_view__["a" /* CoreSplitViewComponent */], __WEBPACK_IMPORTED_MODULE_6__providers_competency__["a" /* AddonCompetencyProvider */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_helper__["a" /* AddonCompetencyHelperProvider */]])
+    ], AddonCompetencyPlanPage);
+    return AddonCompetencyPlanPage;
+}());
+
+//# sourceMappingURL=plan.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=107.js.map

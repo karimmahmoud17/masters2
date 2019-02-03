@@ -1,1 +1,193 @@
-webpackJsonp([77],{1848:function(l,n,u){"use strict";function a(l){return m._42(0,[(l()(),m._16(0,0,null,null,7,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.loadPage(-1)&&a}return a},T.b,T.a)),m._15(1,1097728,null,3,W.a,[y.a,$.a,m.p,m.K,[2,R.a]],null,null),m._37(335544320,2,{contentLabel:0}),m._37(603979776,3,{_buttons:1}),m._37(603979776,4,{_icons:1}),m._15(5,16384,null,0,L.a,[],null,null),(l()(),m._40(6,2,["\n                ","\n            "])),m._32(131072,A.a,[C.a,m.i])],null,function(l,n){l(n,6,0,m._41(n,6,0,m._29(n,7).transform("addon.mod_quiz.finishattemptdots")))})}function t(l){return m._42(0,[(l()(),m._16(0,0,null,null,2,"span",[],null,null,null,null,null)),(l()(),m._40(1,null,["",""])),m._32(131072,A.a,[C.a,m.i])],null,function(l,n){l(n,1,0,m._41(n,1,0,m._29(n,2).transform("addon.mod_quiz.showall")))})}function _(l){return m._42(0,[(l()(),m._16(0,0,null,null,2,"span",[],null,null,null,null,null)),(l()(),m._40(1,null,["",""])),m._32(131072,A.a,[C.a,m.i])],null,function(l,n){l(n,1,0,m._41(n,1,0,m._29(n,2).transform("addon.mod_quiz.showeachpage")))})}function o(l){return m._42(0,[(l()(),m._16(0,0,null,null,12,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.switchMode()&&a}return a},T.b,T.a)),m._15(1,1097728,null,3,W.a,[y.a,$.a,m.p,m.K,[2,R.a]],null,null),m._37(335544320,5,{contentLabel:0}),m._37(603979776,6,{_buttons:1}),m._37(603979776,7,{_icons:1}),m._15(5,16384,null,0,L.a,[],null,null),(l()(),m._40(-1,2,["\n                "])),(l()(),m._11(16777216,null,2,1,null,t)),m._15(8,16384,null,0,F.k,[m.W,m.T],{ngIf:[0,"ngIf"]},null),(l()(),m._40(-1,2,["\n                "])),(l()(),m._11(16777216,null,2,1,null,_)),m._15(11,16384,null,0,F.k,[m.W,m.T],{ngIf:[0,"ngIf"]},null),(l()(),m._40(-1,2,["\n            "]))],function(l,n){var u=n.component;l(n,8,0,!u.pageInstance.showAll);l(n,11,0,u.pageInstance.showAll)},null)}function i(l){return m._42(0,[(l()(),m._16(0,0,null,null,3,"span",[],null,null,null,null,null)),(l()(),m._40(1,null,["",""])),m._33(2,{$a:0}),m._32(131072,A.a,[C.a,m.i])],null,function(l,n){l(n,1,0,m._41(n,1,0,m._29(n,3).transform("core.question.questionno",l(n,2,0,n.parent.context.$implicit.number))))})}function e(l){return m._42(0,[(l()(),m._16(0,0,null,null,2,"span",[],null,null,null,null,null)),(l()(),m._40(1,null,["",""])),m._32(131072,A.a,[C.a,m.i])],null,function(l,n){l(n,1,0,m._41(n,1,0,m._29(n,2).transform("core.question.information")))})}function c(l){return m._42(0,[(l()(),m._16(0,0,null,null,14,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.loadPage(l.context.$implicit.page,l.context.$implicit.slot)&&a}return a},T.b,T.a)),m._15(1,278528,null,0,F.i,[m.v,m.w,m.p,m.L],{klass:[0,"klass"],ngClass:[1,"ngClass"]},null),m._33(2,{"addon-mod_quiz-selected":0}),m._15(3,1097728,null,3,W.a,[y.a,$.a,m.p,m.K,[2,R.a]],null,null),m._37(335544320,8,{contentLabel:0}),m._37(603979776,9,{_buttons:1}),m._37(603979776,10,{_icons:1}),m._15(7,16384,null,0,L.a,[],null,null),(l()(),m._40(-1,2,["\n                "])),(l()(),m._11(16777216,null,2,1,null,i)),m._15(10,16384,null,0,F.k,[m.W,m.T],{ngIf:[0,"ngIf"]},null),(l()(),m._40(-1,2,["\n                "])),(l()(),m._11(16777216,null,2,1,null,e)),m._15(13,16384,null,0,F.k,[m.W,m.T],{ngIf:[0,"ngIf"]},null),(l()(),m._40(-1,2,["\n            "]))],function(l,n){var u=n.component;l(n,1,0,m._19(1,"",n.context.$implicit.stateClass,""),l(n,2,0,!u.pageInstance.showSummary&&u.pageInstance.attempt.currentpage==n.context.$implicit.page));l(n,10,0,n.context.$implicit.number);l(n,13,0,!n.context.$implicit.number)},null)}function s(l){return m._42(0,[(l()(),m._16(0,0,null,null,7,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.loadPage(-1)&&a}return a},T.b,T.a)),m._15(1,1097728,null,3,W.a,[y.a,$.a,m.p,m.K,[2,R.a]],null,null),m._37(335544320,11,{contentLabel:0}),m._37(603979776,12,{_buttons:1}),m._37(603979776,13,{_icons:1}),m._15(5,16384,null,0,L.a,[],null,null),(l()(),m._40(6,2,["\n                ","\n            "])),m._32(131072,A.a,[C.a,m.i])],null,function(l,n){l(n,6,0,m._41(n,6,0,m._29(n,7).transform("addon.mod_quiz.finishattemptdots")))})}function r(l){return m._42(0,[(l()(),m._16(0,0,null,null,2,"span",[],null,null,null,null,null)),(l()(),m._40(1,null,["",""])),m._32(131072,A.a,[C.a,m.i])],null,function(l,n){l(n,1,0,m._41(n,1,0,m._29(n,2).transform("addon.mod_quiz.showall")))})}function f(l){return m._42(0,[(l()(),m._16(0,0,null,null,2,"span",[],null,null,null,null,null)),(l()(),m._40(1,null,["",""])),m._32(131072,A.a,[C.a,m.i])],null,function(l,n){l(n,1,0,m._41(n,1,0,m._29(n,2).transform("addon.mod_quiz.showeachpage")))})}function d(l){return m._42(0,[(l()(),m._16(0,0,null,null,12,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.switchMode()&&a}return a},T.b,T.a)),m._15(1,1097728,null,3,W.a,[y.a,$.a,m.p,m.K,[2,R.a]],null,null),m._37(335544320,14,{contentLabel:0}),m._37(603979776,15,{_buttons:1}),m._37(603979776,16,{_icons:1}),m._15(5,16384,null,0,L.a,[],null,null),(l()(),m._40(-1,2,["\n                "])),(l()(),m._11(16777216,null,2,1,null,r)),m._15(8,16384,null,0,F.k,[m.W,m.T],{ngIf:[0,"ngIf"]},null),(l()(),m._40(-1,2,["\n                "])),(l()(),m._11(16777216,null,2,1,null,f)),m._15(11,16384,null,0,F.k,[m.W,m.T],{ngIf:[0,"ngIf"]},null),(l()(),m._40(-1,2,["\n            "]))],function(l,n){var u=n.component;l(n,8,0,!u.pageInstance.showAll);l(n,11,0,u.pageInstance.showAll)},null)}function p(l){return m._42(0,[(l()(),m._16(0,0,null,null,25,"ion-header",[],null,null,null,null,null)),m._15(1,16384,null,0,O.a,[$.a,m.p,m.K,[2,j.a]],null,null),(l()(),m._40(-1,null,["\n    "])),(l()(),m._16(3,0,null,null,21,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,N.b,N.a)),m._15(4,49152,null,0,B.a,[D.a,[2,j.a],[2,J.a],$.a,m.p,m.K],null,null),m._15(5,212992,null,0,Q.a,[B.a,S.a,C.a,E.a],null,null),(l()(),m._40(-1,3,["\n        "])),(l()(),m._16(7,0,null,3,3,"ion-title",[],null,null,null,G.b,G.a)),m._15(8,49152,null,0,H.a,[$.a,m.p,m.K,[2,U.a],[2,B.a]],null,null),(l()(),m._40(9,0,["",""])),m._32(131072,A.a,[C.a,m.i]),(l()(),m._40(-1,3,["\n        "])),(l()(),m._16(12,0,null,2,11,"ion-buttons",[["end",""]],null,null,null,null,null)),m._15(13,16384,null,1,V.a,[$.a,m.p,m.K,[2,U.a],[2,B.a]],null,null),m._37(603979776,1,{_buttons:1}),(l()(),m._40(-1,null,["\n            "])),(l()(),m._16(16,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.closeModal()&&a}return a},X.b,X.a)),m._15(17,1097728,[[1,4]],0,Y.a,[[8,""],$.a,m.p,m.K],null,null),m._32(131072,A.a,[C.a,m.i]),(l()(),m._40(-1,0,["\n                "])),(l()(),m._16(20,0,null,0,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),m._15(21,147456,null,0,Z.a,[$.a,m.p,m.K],{name:[0,"name"]},null),(l()(),m._40(-1,0,["\n            "])),(l()(),m._40(-1,null,["\n        "])),(l()(),m._40(-1,3,["\n    "])),(l()(),m._40(-1,null,["\n"])),(l()(),m._40(-1,null,["\n"])),(l()(),m._16(27,0,null,null,28,"ion-content",[["class","addon-mod_quiz-navigation-modal"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ll.b,ll.a)),m._15(28,4374528,null,0,nl.a,[$.a,S.a,ul.a,m.p,m.K,D.a,al.a,m.D,[2,j.a],[2,J.a]],null,null),(l()(),m._40(-1,1,["\n    "])),(l()(),m._16(30,0,null,1,24,"nav",[],null,null,null,null,null)),(l()(),m._40(-1,null,["\n        "])),(l()(),m._16(32,0,null,null,21,"ion-list",[],null,null,null,null,null)),m._15(33,16384,null,0,tl.a,[$.a,m.p,m.K,S.a,_l.l,ul.a],null,null),(l()(),m._40(-1,null,["\n            "])),(l()(),m._40(-1,null,["\n            "])),(l()(),m._11(16777216,null,null,1,null,a)),m._15(37,16384,null,0,F.k,[m.W,m.T],{ngIf:[0,"ngIf"]},null),(l()(),m._40(-1,null,["\n\n            "])),(l()(),m._40(-1,null,["\n            "])),(l()(),m._11(16777216,null,null,1,null,o)),m._15(41,16384,null,0,F.k,[m.W,m.T],{ngIf:[0,"ngIf"]},null),(l()(),m._40(-1,null,["\n            "])),(l()(),m._11(16777216,null,null,1,null,c)),m._15(44,802816,null,0,F.j,[m.W,m.T,m.v],{ngForOf:[0,"ngForOf"]},null),(l()(),m._40(-1,null,["\n\n            "])),(l()(),m._40(-1,null,["\n            "])),(l()(),m._11(16777216,null,null,1,null,s)),m._15(48,16384,null,0,F.k,[m.W,m.T],{ngIf:[0,"ngIf"]},null),(l()(),m._40(-1,null,["\n\n            "])),(l()(),m._40(-1,null,["\n            "])),(l()(),m._11(16777216,null,null,1,null,d)),m._15(52,16384,null,0,F.k,[m.W,m.T],{ngIf:[0,"ngIf"]},null),(l()(),m._40(-1,null,["\n        "])),(l()(),m._40(-1,null,["\n    "])),(l()(),m._40(-1,1,["\n"])),(l()(),m._40(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,5,0);l(n,21,0,"close");l(n,37,0,!u.isReview);l(n,41,0,u.isReview&&u.pageInstance.numPages>1);l(n,44,0,u.pageInstance.navigation);l(n,48,0,!u.isReview);l(n,52,0,u.isReview&&u.pageInstance.numPages>1)},function(l,n){l(n,3,0,m._29(n,4)._hidden,m._29(n,4)._sbPadding);l(n,9,0,m._41(n,9,0,m._29(n,10).transform("addon.mod_quiz.quiznavigation")));l(n,16,0,m._41(n,16,0,m._29(n,18).transform("core.close")));l(n,20,0,m._29(n,21)._hidden);l(n,27,0,m._29(n,28).statusbarPadding,m._29(n,28)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var m=u(1),g=(u(0),u(10),function(){function l(l,n){this.viewCtrl=n,this.isReview=!!l.get("isReview"),this.pageInstance=l.get("page")}return l.prototype.closeModal=function(){this.viewCtrl.dismiss()},l.prototype.loadPage=function(l,n){this.pageInstance.changePage&&this.pageInstance.changePage(l,!0,n),this.closeModal()},l.prototype.switchMode=function(){this.pageInstance.switchMode&&this.pageInstance.switchMode(),this.closeModal()},l}()),b=u(5),h=u(29),v=function(){return function(){}}(),I=u(1284),k=u(1285),w=u(1286),q=u(1287),x=u(1288),z=u(1289),K=u(1290),M=u(1291),P=u(1292),T=u(34),W=u(21),y=u(20),$=u(7),R=u(28),L=u(31),A=u(30),C=u(18),F=u(9),O=u(422),j=u(36),N=u(1293),B=u(193),D=u(27),J=u(22),Q=u(637),S=u(15),E=u(13),G=u(1294),H=u(329),U=u(238),V=u(423),X=u(46),Y=u(41),Z=u(42),ll=u(179),nl=u(24),ul=u(26),al=u(100),tl=u(75),_l=u(37),ol=u(60),il=m._14({encapsulation:2,styles:[],data:{}}),el=m._12("page-addon-mod-quiz-navigation-modal",g,function(l){return m._42(0,[(l()(),m._16(0,0,null,null,1,"page-addon-mod-quiz-navigation-modal",[],null,null,null,p,il)),m._15(1,49152,null,0,g,[ol.a,j.a],null,null)],null,null)},{},{},[]),cl=u(19),sl=u(325),rl=u(326),fl=u(328),dl=u(327),pl=u(421),ml=u(636),gl=u(239);u.d(n,"AddonModQuizNavigationModalPageModuleNgFactory",function(){return bl});var bl=m._13(v,[],function(l){return m._25([m._26(512,m.n,m._6,[[8,[I.a,k.a,w.a,q.a,x.a,z.a,K.a,M.a,P.a,el]],[3,m.n],m.B]),m._26(4608,F.m,F.l,[m.x,[2,F.v]]),m._26(4608,cl.x,cl.x,[]),m._26(4608,cl.d,cl.d,[]),m._26(4608,sl.b,sl.a,[]),m._26(4608,rl.a,rl.b,[]),m._26(4608,fl.b,fl.a,[]),m._26(4608,dl.b,dl.a,[]),m._26(4608,C.a,C.a,[pl.a,sl.b,rl.a,fl.b,dl.b,C.b,C.c]),m._26(512,h.a,h.a,[]),m._26(512,F.b,F.b,[]),m._26(512,cl.v,cl.v,[]),m._26(512,cl.i,cl.i,[]),m._26(512,cl.s,cl.s,[]),m._26(512,ml.a,ml.a,[]),m._26(512,ml.b,ml.b,[]),m._26(512,b.a,b.a,[]),m._26(512,v,v,[]),m._26(256,gl.a,g,[]),m._26(256,C.c,void 0,[]),m._26(256,C.b,void 0,[])])})}});
+webpackJsonp([77],{
+
+/***/ 1838:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModForumDiscussionPageModule", function() { return AddonModForumDiscussionPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__entry__ = __webpack_require__(1959);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonModForumDiscussionPageModule = /** @class */ (function () {
+    function AddonModForumDiscussionPageModule() {
+    }
+    AddonModForumDiscussionPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__entry__["a" /* AddonModGlossaryEntryPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__entry__["a" /* AddonModGlossaryEntryPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModForumDiscussionPageModule);
+    return AddonModForumDiscussionPageModule;
+}());
+
+//# sourceMappingURL=entry.module.js.map
+
+/***/ }),
+
+/***/ 1959:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModGlossaryEntryPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_glossary__ = __webpack_require__(138);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+/**
+ * Page that displays a glossary entry.
+ */
+var AddonModGlossaryEntryPage = /** @class */ (function () {
+    function AddonModGlossaryEntryPage(navParams, domUtils, glossaryProvider) {
+        this.domUtils = domUtils;
+        this.glossaryProvider = glossaryProvider;
+        this.component = __WEBPACK_IMPORTED_MODULE_3__providers_glossary__["a" /* AddonModGlossaryProvider */].COMPONENT;
+        this.loaded = false;
+        this.showAuthor = false;
+        this.showDate = false;
+        this.courseId = navParams.get('courseId');
+        this.entryId = navParams.get('entryId');
+    }
+    /**
+     * View loaded.
+     */
+    AddonModGlossaryEntryPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.fetchEntry().then(function () {
+            _this.glossaryProvider.logEntryView(_this.entry.id);
+        }).finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Refresh the data.
+     *
+     * @param {any} [refresher] Refresher.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModGlossaryEntryPage.prototype.doRefresh = function (refresher) {
+        var _this = this;
+        return this.glossaryProvider.invalidateEntry(this.entry.id).catch(function () {
+            // Ignore errors.
+        }).then(function () {
+            return _this.fetchEntry(true);
+        }).finally(function () {
+            refresher && refresher.complete();
+        });
+    };
+    /**
+     * Convenience function to get the glossary entry.
+     *
+     * @param {boolean} [refresh] Whether we're refreshing data.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModGlossaryEntryPage.prototype.fetchEntry = function (refresh) {
+        var _this = this;
+        return this.glossaryProvider.getEntry(this.entryId).then(function (result) {
+            _this.entry = result;
+            if (!refresh) {
+                // Load the glossary.
+                return _this.glossaryProvider.getGlossaryById(_this.courseId, _this.entry.glossaryid).then(function (glossary) {
+                    _this.componentId = glossary.coursemodule;
+                    switch (glossary.displayformat) {
+                        case 'fullwithauthor':
+                        case 'encyclopedia':
+                            _this.showAuthor = true;
+                            _this.showDate = true;
+                            break;
+                        case 'fullwithoutauthor':
+                            _this.showAuthor = false;
+                            _this.showDate = true;
+                            break;
+                        default:// Default, and faq, simple, entrylist, continuous.
+                            _this.showAuthor = false;
+                            _this.showDate = false;
+                    }
+                });
+            }
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.mod_glossary.errorloadingentry', true);
+            return Promise.reject(null);
+        });
+    };
+    AddonModGlossaryEntryPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-glossary-entry',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/addon/mod/glossary/pages/entry/entry.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title *ngIf="entry"><core-format-text [text]="entry.concept"></core-format-text></ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <core-loading [hideUntil]="loaded">\n        <ng-container *ngIf="entry">\n            <ion-item text-wrap *ngIf="showAuthor">\n                <ion-avatar item-start (click)="openUserProfile(post.userid)">\n                    <img [src]="entry.userpictureurl" onError="this.src=\'assets/img/user-avatar.png\'" core-external-content [alt]="\'core.pictureof\' | translate:{$a: entry.userfullname}" role="presentation">\n                </ion-avatar>\n                <h2><core-format-text [text]="entry.concept"></core-format-text></h2>\n                <ion-note item-end *ngIf="showDate">{{ entry.timemodified | coreDateDayOrTime }}</ion-note>\n                <p><core-format-text [text]="entry.userfullname"></core-format-text></p>\n            </ion-item>\n            <ion-item text-wrap *ngIf="!showAuthor">\n                <h2><core-format-text [text]="entry.concept"></core-format-text></h2>\n                <ion-note item-end *ngIf="showDate">{{ entry.timemodified | coreDateDayOrTime }}</ion-note>\n            </ion-item>\n            <ion-item text-wrap>\n                <core-format-text [component]="component" [componentId]="componentId" [text]="entry.definition"></core-format-text>\n            </ion-item>\n            <ng-container *ngIf="entry.attachment">\n                <core-file *ngFor="let file of entry.attachments" [file]="file" [component]="component" [componentId]="componentId"></core-file>\n            </ng-container>\n            <ion-item text-wrap *ngIf="entry.approved != 1">\n                <p><em>{{ \'addon.mod_glossary.entrypendingapproval\' | translate }}</em></p>\n            </ion-item>\n        </ng-container>\n\n        <ion-card *ngIf="!entry">\n            <ion-item class="core-error-card">\n                {{ \'addon.mod_glossary.errorloadingentry\' | translate }}\n            </ion-item>\n        </ion-card>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/addon/mod/glossary/pages/entry/entry.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_glossary__["a" /* AddonModGlossaryProvider */]])
+    ], AddonModGlossaryEntryPage);
+    return AddonModGlossaryEntryPage;
+}());
+
+//# sourceMappingURL=entry.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=77.js.map

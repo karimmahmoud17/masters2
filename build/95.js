@@ -1,1 +1,406 @@
-webpackJsonp([95],{1826:function(l,n,u){"use strict";function t(l){return s._42(0,[(l()(),s._16(0,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),s._40(1,null,["",""])),s._34(2,2)],null,function(l,n){var u=n.component;l(n,1,0,s._41(n,1,0,l(n,2,0,s._29(n.parent.parent,0),1e3*u.attempt.timemodified,"LLL")))})}function a(l){return s._42(0,[(l()(),s._16(0,0,null,null,23,"a",[["class","item item-block"],["core-user-link",""],["ion-item",""],["text-wrap",""]],[[1,"aria-label",0],[8,"title",0]],null,null,N.b,N.a)),s._15(1,81920,null,0,R.a,[s.p,[2,A.a]],{userId:[0,"userId"],courseId:[1,"courseId"]},null),s._15(2,1097728,null,3,B.a,[H.a,J.a,s.p,s.K,[2,z.a]],null,null),s._37(335544320,1,{contentLabel:0}),s._37(603979776,2,{_buttons:1}),s._37(603979776,3,{_icons:1}),s._15(6,16384,null,0,G.a,[],null,null),s._32(131072,Q.a,[S.a,s.i]),(l()(),s._40(-1,2,["\n                "])),(l()(),s._16(9,0,null,0,7,"ion-avatar",[["item-start",""]],null,null,null,null,null)),s._15(10,16384,null,0,X.a,[],null,null),(l()(),s._40(-1,null,["\n                    "])),(l()(),s._16(12,0,null,null,3,"img",[["core-external-content",""],["onError","this.src='assets/img/user-avatar.png'"]],[[8,"src",4],[8,"alt",0]],null,null,null,null)),s._15(13,4210688,null,0,Y.a,[s.p,Z.a,ll.a,nl.a,ul.a,L.a,tl.a,al.a,el.a],null,null),s._33(14,{$a:0}),s._32(131072,Q.a,[S.a,s.i]),(l()(),s._40(-1,null,["\n                "])),(l()(),s._40(-1,2,["\n                "])),(l()(),s._16(18,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),s._40(19,null,["",""])),(l()(),s._40(-1,2,["\n                "])),(l()(),s._11(16777216,null,2,1,null,t)),s._15(22,16384,null,0,ol.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,2,["\n            "]))],function(l,n){var u=n.component;l(n,1,0,u.attempt.userid,u.attempt.courseid);l(n,22,0,u.attempt.timemodified)},function(l,n){var u=n.component;l(n,0,0,s._41(n,0,0,s._29(n,7).transform("core.user.viewprofile")),u.attempt.fullname);l(n,12,0,u.attempt.profileimageurl,s._41(n,12,1,s._29(n,15).transform("core.pictureof",l(n,14,0,u.attempt.fullname))));l(n,19,0,u.attempt.fullname)})}function e(l){return s._42(0,[(l()(),s._16(0,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),s._40(1,null,["",""])),s._34(2,2)],null,function(l,n){var u=n.component;l(n,1,0,s._41(n,1,0,l(n,2,0,s._29(n.parent.parent,0),1e3*u.attempt.timemodified,"LLL")))})}function o(l){return s._42(0,[(l()(),s._16(0,0,null,null,14,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,N.b,N.a)),s._15(1,1097728,null,3,B.a,[H.a,J.a,s.p,s.K,[2,z.a]],null,null),s._37(335544320,4,{contentLabel:0}),s._37(603979776,5,{_buttons:1}),s._37(603979776,6,{_icons:1}),s._15(5,16384,null,0,G.a,[],null,null),(l()(),s._40(-1,2,["\n                "])),(l()(),s._16(7,0,null,2,3,"h2",[],null,null,null,null,null)),(l()(),s._40(8,null,["",": "," (",")"])),s._32(131072,Q.a,[S.a,s.i]),s._32(131072,Q.a,[S.a,s.i]),(l()(),s._40(-1,2,["\n                "])),(l()(),s._11(16777216,null,2,1,null,e)),s._15(13,16384,null,0,ol.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,2,["\n            "]))],function(l,n){l(n,13,0,n.component.attempt.timemodified)},function(l,n){var u=n.component;l(n,8,0,s._41(n,8,0,s._29(n,9).transform("addon.mod_feedback.response_nr")),u.attempt.number,s._41(n,8,2,s._29(n,10).transform("addon.mod_feedback.anonymous")))})}function i(l){return s._42(0,[(l()(),s._16(0,0,null,null,5,"ion-item-divider",[["class","item item-divider"],["color","light"]],null,null,null,N.b,N.a)),s._15(1,1097728,null,3,B.a,[H.a,J.a,s.p,s.K,[2,z.a]],{color:[0,"color"]},null),s._37(335544320,7,{contentLabel:0}),s._37(603979776,8,{_buttons:1}),s._37(603979776,9,{_icons:1}),s._15(5,16384,null,0,il.a,[J.a,s.p,s.K],{color:[0,"color"]},null)],function(l,n){l(n,1,0,"light");l(n,5,0,"light")},null)}function _(l){return s._42(0,[(l()(),s._16(0,0,null,null,1,"span",[],null,null,null,null,null)),(l()(),s._40(1,null,["",". "]))],null,function(l,n){l(n,1,0,n.parent.parent.parent.context.$implicit.itemnumber)})}function r(l){return s._42(0,[(l()(),s._16(0,0,null,null,7,"h2",[],null,null,null,_l.b,_l.a)),s._15(1,4308992,null,0,rl.a,[s.p,S.a,T.a,el.a],{coreMarkRequired:[0,"coreMarkRequired"]},null),(l()(),s._40(-1,0,["\n                            "])),(l()(),s._11(16777216,null,0,1,null,_)),s._15(4,16384,null,0,ol.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._16(5,0,null,0,1,"core-format-text",[],null,null,null,null,null)),s._15(6,540672,null,0,cl.a,[s.p,ul.a,L.a,T.a,S.a,nl.a,el.a,tl.a,Z.a,ll.a,al.a,pl.a,[2,A.a],[2,ml.a],[2,dl.a],fl.a,sl.a],{text:[0,"text"],component:[1,"component"],componentId:[2,"componentId"]},null),(l()(),s._40(-1,0,["\n                        "]))],function(l,n){var u=n.component;l(n,1,0,n.parent.parent.context.$implicit.required);l(n,4,0,u.feedback.autonumbering&&n.parent.parent.context.$implicit.itemnumber);l(n,6,0,n.parent.parent.context.$implicit.name,u.component,u.componentId)},null)}function c(l){return s._42(0,[(l()(),s._16(0,0,null,null,2,"p",[],null,null,null,null,null)),(l()(),s._16(1,0,null,null,1,"core-format-text",[],null,null,null,null,null)),s._15(2,540672,null,0,cl.a,[s.p,ul.a,L.a,T.a,S.a,nl.a,el.a,tl.a,Z.a,ll.a,al.a,pl.a,[2,A.a],[2,ml.a],[2,dl.a],fl.a,sl.a],{text:[0,"text"],component:[1,"component"],componentId:[2,"componentId"]},null)],function(l,n){var u=n.component;l(n,2,0,n.parent.parent.context.$implicit.submittedValue,u.component,u.componentId)},null)}function p(l){return s._42(0,[(l()(),s._16(0,0,null,null,12,"ion-item",[["class","item item-block"],["text-wrap",""]],null,null,null,N.b,N.a)),s._15(1,1097728,null,3,B.a,[H.a,J.a,s.p,s.K,[2,z.a]],{color:[0,"color"]},null),s._37(335544320,10,{contentLabel:0}),s._37(603979776,11,{_buttons:1}),s._37(603979776,12,{_icons:1}),s._15(5,16384,null,0,G.a,[],null,null),(l()(),s._40(-1,2,["\n                        "])),(l()(),s._11(16777216,null,2,1,null,r)),s._15(8,16384,null,0,ol.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,2,["\n                        "])),(l()(),s._11(16777216,null,2,1,null,c)),s._15(11,16384,null,0,ol.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,2,["\n                    "]))],function(l,n){l(n,1,0,n.parent.context.$implicit.dependitem>0?"light":"");l(n,8,0,n.parent.context.$implicit.name);l(n,11,0,n.parent.context.$implicit.submittedValue)},null)}function m(l){return s._42(0,[(l()(),s._16(0,0,null,null,7,null,null,null,null,null,null,null)),(l()(),s._40(-1,null,["\n                    "])),(l()(),s._11(16777216,null,null,1,null,i)),s._15(3,16384,null,0,ol.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,null,["\n                    "])),(l()(),s._11(16777216,null,null,1,null,p)),s._15(6,16384,null,0,ol.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,null,["\n                "]))],function(l,n){l(n,3,0,"pagebreak"==n.context.$implicit.typ);l(n,6,0,"pagebreak"!=n.context.$implicit.typ)},null)}function d(l){return s._42(0,[(l()(),s._16(0,0,null,null,4,null,null,null,null,null,null,null)),(l()(),s._40(-1,null,["\n                "])),(l()(),s._11(16777216,null,null,1,null,m)),s._15(3,802816,null,0,ol.j,[s.W,s.T,s.v],{ngForOf:[0,"ngForOf"]},null),(l()(),s._40(-1,null,["\n            "]))],function(l,n){l(n,3,0,n.component.items)},null)}function f(l){return s._42(0,[s._32(0,bl.a,[Z.a,S.a]),(l()(),s._16(1,0,null,null,12,"ion-header",[],null,null,null,null,null)),s._15(2,16384,null,0,gl.a,[J.a,s.p,s.K,[2,Il.a]],null,null),(l()(),s._40(-1,null,["\n    "])),(l()(),s._16(4,0,null,null,8,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,kl.b,kl.a)),s._15(5,49152,null,0,hl.a,[vl.a,[2,Il.a],[2,A.a],J.a,s.p,s.K],null,null),s._15(6,212992,null,0,xl.a,[hl.a,nl.a,S.a,sl.a],null,null),(l()(),s._40(-1,3,["\n        "])),(l()(),s._16(8,0,null,3,3,"ion-title",[],null,null,null,Ll.b,Ll.a)),s._15(9,49152,null,0,Tl.a,[J.a,s.p,s.K,[2,yl.a],[2,hl.a]],null,null),(l()(),s._16(10,0,null,0,1,"core-format-text",[],null,null,null,null,null)),s._15(11,540672,null,0,cl.a,[s.p,ul.a,L.a,T.a,S.a,nl.a,el.a,tl.a,Z.a,ll.a,al.a,pl.a,[2,A.a],[2,ml.a],[2,dl.a],fl.a,sl.a],{text:[0,"text"]},null),(l()(),s._40(-1,3,["\n    "])),(l()(),s._40(-1,null,["\n"])),(l()(),s._40(-1,null,["\n"])),(l()(),s._16(15,0,null,null,19,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Wl.b,Wl.a)),s._15(16,4374528,null,0,ml.a,[J.a,nl.a,$l.a,s.p,s.K,vl.a,Kl.a,s.D,[2,Il.a],[2,A.a]],null,null),(l()(),s._40(-1,1,["\n    "])),(l()(),s._16(18,0,null,1,15,"core-loading",[],null,null,null,Pl.b,Pl.a)),s._15(19,638976,null,0,wl.a,[S.a,s.p,sl.a,el.a],{hideUntil:[0,"hideUntil"]},null),(l()(),s._40(-1,0,["\n        "])),(l()(),s._16(21,0,null,0,11,"ion-list",[["no-margin",""]],null,null,null,null,null)),s._15(22,16384,null,0,Ml.a,[J.a,s.p,s.K,nl.a,Ul.l,$l.a],null,null),(l()(),s._40(-1,null,["\n            "])),(l()(),s._11(16777216,null,null,1,null,a)),s._15(25,16384,null,0,ol.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,null,["\n\n            "])),(l()(),s._11(16777216,null,null,1,null,o)),s._15(28,16384,null,0,ol.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,null,["\n            "])),(l()(),s._11(16777216,null,null,1,null,d)),s._15(31,16384,null,0,ol.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,null,["\n        "])),(l()(),s._40(-1,0,["\n    "])),(l()(),s._40(-1,1,["\n"])),(l()(),s._40(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,6,0);l(n,11,0,u.attempt.fullname);l(n,19,0,u.feedbackLoaded);l(n,25,0,u.attempt.fullname);l(n,28,0,!u.attempt.fullname);l(n,31,0,u.items&&u.items.length)},function(l,n){l(n,4,0,s._29(n,5)._hidden,s._29(n,5)._sbPadding);l(n,15,0,s._29(n,16).statusbarPadding,s._29(n,16)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var s=u(1),b=(u(0),u(10),u(5)),g=u(29),I=u(33),k=u(110),h=u(640),v=u(132),x=u(268),L=u(4),T=u(12),y=function(){function l(l,n,u,t,a,e){this.feedbackProvider=n,this.navCtrl=u,this.domUtils=t,this.feedbackHelper=a,this.textUtils=e,this.component=v.a.COMPONENT,this.feedbackLoaded=!1,this.feedbackId=l.get("feedbackId")||0,this.courseId=l.get("courseId"),this.attempt=l.get("attempt")||!1,this.componentId=l.get("moduleId")}return l.prototype.ionViewDidLoad=function(){this.fetchData()},l.prototype.fetchData=function(){var l=this;return this.feedbackProvider.getFeedbackById(this.courseId,this.feedbackId).then(function(n){return l.feedback=n,l.feedbackProvider.getItems(l.feedbackId)}).then(function(n){l.items=n.items.map(function(n){if("label"==n.typ)n.submittedValue=l.textUtils.replacePluginfileUrls(n.presentation,n.itemfiles);else for(var u in l.attempt.responses)if(l.attempt.responses[u].id==n.id){n.submittedValue=l.attempt.responses[u].printval;break}return l.feedbackHelper.getItemForm(n,!0)})}).catch(function(n){return l.domUtils.showErrorModalDefault(n,"core.course.errorgetmodule",!0),l.navCtrl.pop(),Promise.reject(null)}).finally(function(){l.feedbackLoaded=!0})},l}(),W=function(){return function(){}}(),$=u(1284),K=u(1285),P=u(1286),w=u(1287),M=u(1288),U=u(1289),F=u(1290),D=u(1291),O=u(1292),V=u(1295),j=u(1296),q=u(1297),C=u(1298),E=u(1307),N=u(34),R=u(240),A=u(22),B=u(21),H=u(20),J=u(7),z=u(28),G=u(31),Q=u(30),S=u(18),X=u(180),Y=u(163),Z=u(6),ll=u(17),nl=u(15),ul=u(2),tl=u(25),al=u(11),el=u(3),ol=u(9),il=u(164),_l=u(83),rl=u(74),cl=u(40),pl=u(23),ml=u(24),dl=u(35),fl=u(38),sl=u(13),bl=u(330),gl=u(422),Il=u(36),kl=u(1293),hl=u(193),vl=u(27),xl=u(637),Ll=u(1294),Tl=u(329),yl=u(238),Wl=u(179),$l=u(26),Kl=u(100),Pl=u(57),wl=u(51),Ml=u(75),Ul=u(37),Fl=u(60),Dl=s._14({encapsulation:2,styles:[],data:{}}),Ol=s._12("page-addon-mod-feedback-attempt",y,function(l){return s._42(0,[(l()(),s._16(0,0,null,null,1,"page-addon-mod-feedback-attempt",[],null,null,null,f,Dl)),s._15(1,49152,null,0,y,[Fl.a,v.a,A.a,L.a,x.a,T.a],null,null)],null,null)},{},{},[]),Vl=u(19),jl=u(325),ql=u(326),Cl=u(328),El=u(327),Nl=u(421),Rl=u(636),Al=u(76),Bl=u(239);u.d(n,"AddonModFeedbackAttemptPageModuleNgFactory",function(){return Hl});var Hl=s._13(W,[],function(l){return s._25([s._26(512,s.n,s._6,[[8,[$.a,K.a,P.a,w.a,M.a,U.a,F.a,D.a,O.a,V.a,j.a,q.a,C.a,E.a,Ol]],[3,s.n],s.B]),s._26(4608,ol.m,ol.l,[s.x,[2,ol.v]]),s._26(4608,Vl.x,Vl.x,[]),s._26(4608,Vl.d,Vl.d,[]),s._26(4608,jl.b,jl.a,[]),s._26(4608,ql.a,ql.b,[]),s._26(4608,Cl.b,Cl.a,[]),s._26(4608,El.b,El.a,[]),s._26(4608,S.a,S.a,[Nl.a,jl.b,ql.a,Cl.b,El.b,S.b,S.c]),s._26(512,g.a,g.a,[]),s._26(512,ol.b,ol.b,[]),s._26(512,Vl.v,Vl.v,[]),s._26(512,Vl.i,Vl.i,[]),s._26(512,Vl.s,Vl.s,[]),s._26(512,Rl.a,Rl.a,[]),s._26(512,b.a,b.a,[]),s._26(512,k.a,k.a,[]),s._26(512,I.a,I.a,[]),s._26(512,Al.a,Al.a,[]),s._26(512,h.a,h.a,[]),s._26(512,Rl.b,Rl.b,[]),s._26(512,W,W,[]),s._26(256,S.c,void 0,[]),s._26(256,S.b,void 0,[]),s._26(256,Bl.a,y,[])])})}});
+webpackJsonp([95],{
+
+/***/ 1820:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModChatChatPageModule", function() { return AddonModChatChatPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__chat__ = __webpack_require__(1941);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonModChatChatPageModule = /** @class */ (function () {
+    function AddonModChatChatPageModule() {
+    }
+    AddonModChatChatPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__chat__["a" /* AddonModChatChatPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__chat__["a" /* AddonModChatChatPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModChatChatPageModule);
+    return AddonModChatChatPageModule;
+}());
+
+//# sourceMappingURL=chat.module.js.map
+
+/***/ }),
+
+/***/ 1941:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModChatChatPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_logger__ = __webpack_require__(7);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_text__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_chat__ = __webpack_require__(392);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_network__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_moment__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_moment___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_moment__);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays a chat session.
+ */
+var AddonModChatChatPage = /** @class */ (function () {
+    function AddonModChatChatPage(navParams, logger, network, zone, navCtrl, chatProvider, appProvider, sitesProvider, modalCtrl, domUtils, textUtils, eventsProvider) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.chatProvider = chatProvider;
+        this.appProvider = appProvider;
+        this.modalCtrl = modalCtrl;
+        this.domUtils = domUtils;
+        this.textUtils = textUtils;
+        this.eventsProvider = eventsProvider;
+        this.loaded = false;
+        this.messages = [];
+        this.lastTime = 0;
+        this.oldContentHeight = 0;
+        this.viewDestroyed = false;
+        this.pollingRunning = false;
+        this.chatId = navParams.get('chatId');
+        this.courseId = navParams.get('courseId');
+        this.title = navParams.get('title');
+        this.logger = logger.getInstance('AddonModChoiceChoicePage');
+        this.currentUserBeep = 'beep ' + sitesProvider.getCurrentSiteUserId();
+        this.isOnline = this.appProvider.isOnline();
+        this.onlineObserver = network.onchange().subscribe(function (online) {
+            // Execute the callback in the Angular zone, so change detection doesn't stop working.
+            zone.run(function () {
+                _this.isOnline = _this.appProvider.isOnline();
+            });
+        });
+    }
+    /**
+     * View loaded.
+     */
+    AddonModChatChatPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.loginUser().then(function () {
+            return _this.fetchMessages().then(function () {
+                _this.startPolling();
+            }).catch(function (error) {
+                _this.domUtils.showErrorModalDefault(error, 'addon.mod_chat.errorwhileretrievingmessages', true);
+                _this.navCtrl.pop();
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'addon.mod_chat.errorwhileconnecting', true);
+            _this.navCtrl.pop();
+        }).finally(function () {
+            _this.loaded = true;
+        });
+        // Recalculate footer position when keyboard is shown or hidden.
+        this.keyboardObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */].KEYBOARD_CHANGE, function (kbHeight) {
+            _this.content.resize();
+        });
+    };
+    /**
+     * Runs when the page has fully entered and is now the active page.
+     * This event will fire, whether it was the first load or a cached page.
+     */
+    AddonModChatChatPage.prototype.ionViewDidEnter = function () {
+        this.startPolling();
+    };
+    /**
+     * Runs when the page is about to leave and no longer be the active page.
+     */
+    AddonModChatChatPage.prototype.ionViewWillLeave = function () {
+        this.stopPolling();
+    };
+    /**
+     * Display the chat users modal.
+     */
+    AddonModChatChatPage.prototype.showChatUsers = function () {
+        var _this = this;
+        var modal = this.modalCtrl.create('AddonModChatUsersPage', { sessionId: this.sessionId });
+        modal.onDidDismiss(function (data) {
+            if (data && data.talkTo) {
+                _this.newMessage = "To " + data.talkTo + ": ";
+            }
+            if (data && data.beepTo) {
+                _this.sendMessage('', data.beepTo);
+            }
+        });
+        modal.present();
+    };
+    /**
+     * Convenience function to login the user.
+     *
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonModChatChatPage.prototype.loginUser = function () {
+        var _this = this;
+        return this.chatProvider.loginUser(this.chatId).then(function (sessionId) {
+            _this.sessionId = sessionId;
+        });
+    };
+    /**
+     * Convenience function to fetch chat messages.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModChatChatPage.prototype.fetchMessages = function () {
+        var _this = this;
+        return this.chatProvider.getLatestMessages(this.sessionId, this.lastTime).then(function (messagesInfo) {
+            _this.lastTime = messagesInfo.chatnewlasttime || 0;
+            return _this.chatProvider.getMessagesUserData(messagesInfo.messages, _this.courseId).then(function (messages) {
+                _this.messages = _this.messages.concat(messages);
+                if (messages.length) {
+                    // New messages or beeps, scroll to bottom.
+                    setTimeout(function () { return _this.scrollToBottom(); });
+                }
+            });
+        });
+    };
+    /**
+     * Start the polling to get chat messages periodically.
+     */
+    AddonModChatChatPage.prototype.startPolling = function () {
+        var _this = this;
+        // We already have the polling in place.
+        if (this.polling) {
+            return;
+        }
+        // Start polling.
+        this.polling = setInterval(function () {
+            _this.fetchMessagesInterval().catch(function () {
+                // Ignore errors.
+            });
+        }, __WEBPACK_IMPORTED_MODULE_8__providers_chat__["a" /* AddonModChatProvider */].POLL_INTERVAL);
+    };
+    /**
+     * Stop polling for messages.
+     */
+    AddonModChatChatPage.prototype.stopPolling = function () {
+        if (this.polling) {
+            this.logger.debug('Cancelling polling for messages');
+            clearInterval(this.polling);
+        }
+    };
+    /**
+     * Convenience function to be called every certain time to fetch chat messages.
+     *
+     * @return {Promise<any>} Promised resolved when done.
+     */
+    AddonModChatChatPage.prototype.fetchMessagesInterval = function () {
+        var _this = this;
+        this.logger.debug('Polling for messages');
+        if (!this.isOnline || this.pollingRunning) {
+            // Obviously we cannot check for new messages when the app is offline.
+            return Promise.reject(null);
+        }
+        this.pollingRunning = true;
+        return this.fetchMessages().catch(function () {
+            // Try to login, it might have failed because the session expired.
+            return _this.loginUser().then(function () {
+                return _this.fetchMessages();
+            }).catch(function (error) {
+                // Fail again. Stop polling if needed.
+                if (_this.polling) {
+                    clearInterval(_this.polling);
+                    _this.polling = undefined;
+                }
+                _this.domUtils.showErrorModalDefault(error, 'addon.mod_chat.errorwhileretrievingmessages', true);
+                return Promise.reject(null);
+            });
+        }).finally(function () {
+            _this.pollingRunning = false;
+        });
+    };
+    /**
+     * Check if the date should be displayed between messages (when the day changes at midnight for example).
+     *
+     * @param  {any} message     New message object.
+     * @param  {any} prevMessage Previous message object.
+     * @return {boolean} True if messages are from diferent days, false othetwise.
+     */
+    AddonModChatChatPage.prototype.showDate = function (message, prevMessage) {
+        if (!prevMessage) {
+            return true;
+        }
+        // Check if day has changed.
+        return !__WEBPACK_IMPORTED_MODULE_10_moment__(message.timestamp * 1000).isSame(prevMessage.timestamp * 1000, 'day');
+    };
+    /**
+     * Send a message to the chat.
+     *
+     * @param {string} text     Text of the nessage.
+     * @param {number} [beep=0] ID of the user to beep.
+     */
+    AddonModChatChatPage.prototype.sendMessage = function (text, beep) {
+        var _this = this;
+        if (beep === void 0) { beep = 0; }
+        if (!this.isOnline) {
+            // Silent error, the view should prevent this.
+            return;
+        }
+        else if (beep === 0 && !text.trim()) {
+            // Silent error.
+            return;
+        }
+        text = this.textUtils.replaceNewLines(text, '<br>');
+        var modal = this.domUtils.showModalLoading('core.sending', true);
+        this.chatProvider.sendMessage(this.sessionId, text, beep).then(function () {
+            // Update messages to show the sent message.
+            _this.fetchMessagesInterval().catch(function () {
+                // Ignore errors.
+            });
+        }).catch(function (error) {
+            /* Only close the keyboard if an error happens, we want the user to be able to send multiple
+              messages without the keyboard being closed. */
+            _this.appProvider.closeKeyboard();
+            _this.domUtils.showErrorModalDefault(error, 'addon.mod_chat.errorwhilesendingmessage', true);
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    AddonModChatChatPage.prototype.reconnect = function () {
+        var _this = this;
+        var modal = this.domUtils.showModalLoading();
+        // Call startPolling would take a while for the first execution, so we'll execute it manually to check if it works now.
+        return this.fetchMessagesInterval().then(function () {
+            // It works, start the polling again.
+            _this.startPolling();
+        }).catch(function () {
+            // Ignore errors.
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    /**
+     * Scroll bottom when render has finished.
+     */
+    AddonModChatChatPage.prototype.scrollToBottom = function () {
+        var _this = this;
+        // Need a timeout to leave time to the view to be rendered.
+        setTimeout(function () {
+            if (!_this.viewDestroyed) {
+                _this.domUtils.scrollToBottom(_this.content, 0);
+            }
+        });
+    };
+    /**
+     * Content or scroll has been resized. For content, only call it if it's been added on top.
+     */
+    AddonModChatChatPage.prototype.resizeContent = function () {
+        var _this = this;
+        var top = this.content.getContentDimensions().scrollTop;
+        this.content.resize();
+        // Wait for new content height to be calculated.
+        setTimeout(function () {
+            // Visible content size changed, maintain the bottom position.
+            if (!_this.viewDestroyed && _this.content && _this.domUtils.getContentHeight(_this.content) != _this.oldContentHeight) {
+                if (!top) {
+                    top = _this.content.getContentDimensions().scrollTop;
+                }
+                top += _this.oldContentHeight - _this.domUtils.getContentHeight(_this.content);
+                _this.oldContentHeight = _this.domUtils.getContentHeight(_this.content);
+                _this.content.scrollTo(0, top, 0);
+            }
+        });
+    };
+    /**
+     * Page destroyed.
+     */
+    AddonModChatChatPage.prototype.ngOnDestroy = function () {
+        this.onlineObserver && this.onlineObserver.unsubscribe();
+        this.keyboardObserver && this.keyboardObserver.off();
+        this.stopPolling();
+        this.viewDestroyed = true;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], AddonModChatChatPage.prototype, "content", void 0);
+    AddonModChatChatPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-chat-chat',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/addon/mod/chat/pages/chat/chat.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n        <ion-buttons end>\n            <button *ngIf="loaded" ion-button icon-only (click)="showChatUsers()">\n                <ion-icon name="people"></ion-icon>\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content  class="has-footer">\n    <core-loading [hideUntil]="loaded">\n        <div aria-live="polite">\n            <div *ngFor="let message of messages; index as index; last as last">\n\n                <div text-center *ngIf="showDate(messages[index], messages[index - 1])" class="addon-mod-chat-notice">\n                    <ion-badge text-wrap color="light">\n                        <span>{{ message.timestamp * 1000 | coreFormatDate:"dfdayweekmonth" }}</span>\n                    </ion-badge>\n                </div>\n\n                <div text-center *ngIf="message.system && message.message == \'enter\'" class="addon-mod-chat-notice">\n                    <ion-badge text-wrap color="light">\n                        <span>{{ message.timestamp * 1000 | coreFormatDate:"dftimedate" }} {{ \'addon.mod_chat.messageenter\' | translate:{$a: message.userfullname} }}</span>\n                    </ion-badge>\n                </div>\n\n                <div text-center *ngIf="message.system && message.message == \'exit\'" class="addon-mod-chat-notice">\n                    <ion-badge text-wrap color="light">\n                        <span>{{ message.timestamp * 1000 | coreFormatDate:"dftimedate" }} {{ \'addon.mod_chat.messageexit\' | translate:{$a: message.userfullname} }}</span>\n                    </ion-badge>\n                </div>\n\n                <div text-center *ngIf="message.message == currentUserBeep" class="addon-mod-chat-notice">\n                    <ion-badge text-wrap color="light">\n                        <span>{{ \'addon.mod_chat.messagebeepsyou\' | translate:{$a: message.userfullname} }}</span>\n                    </ion-badge>\n                </div>\n\n                <ion-item text-wrap *ngIf="!message.system && message.message.substr(0, 4) != \'beep\'" class="addon-mod-chat-message">\n                    <ion-avatar item-start>\n                        <img [src]="message.userprofileimageurl" onError="this.src=\'assets/img/user-avatar.png\'" core-external-content [alt]="\'core.pictureof\' | translate:{$a: message.userfullname}" role="presentation">\n                    </ion-avatar>\n                    <h2>\n                        <p float-end>{{ message.timestamp * 1000 | coreFormatDate:"dftimedate" }}</p>\n                        <core-format-text [text]="message.userfullname"></core-format-text>\n                    </h2>\n                    <core-format-text [text]="message.message" (afterRender)="last && scrollToBottom()"></core-format-text>\n                </ion-item>\n            </div>\n\n            <div text-center margin *ngIf="!messages || messages.length <= 0">\n                <p>{{ \'addon.mod_chat.nomessages\' | translate}}</p>\n            </div>\n        </div>\n    </core-loading>\n</ion-content>\n<ion-footer color="light" class="footer-adjustable">\n    <ion-toolbar color="light" position="bottom">\n        <p text-center *ngIf="!isOnline">{{ \'addon.mod_chat.mustbeonlinetosendmessages\' | translate }}</p>\n        <core-send-message-form *ngIf="isOnline && polling && loaded" [message]="newMessage" (onSubmit)="sendMessage($event)" [showKeyboard]="showKeyboard" [placeholder]="\'addon.messages.newmessage\' | translate" (onResize)="resizeContent()"></core-send-message-form>\n        <button *ngIf="isOnline && !polling && loaded" (click)="reconnect()" ion-button block color="light">{{ \'core.login.reconnect\' | translate }}</button>\n    </ion-toolbar>\n</ion-footer>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/addon/mod/chat/pages/chat/chat.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_4__providers_logger__["a" /* CoreLoggerProvider */], __WEBPACK_IMPORTED_MODULE_9__ionic_native_network__["a" /* Network */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* NgZone */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_8__providers_chat__["a" /* AddonModChatProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* ModalController */], __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_utils_text__["a" /* CoreTextUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_events__["a" /* CoreEventsProvider */]])
+    ], AddonModChatChatPage);
+    return AddonModChatChatPage;
+}());
+
+//# sourceMappingURL=chat.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=95.js.map

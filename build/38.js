@@ -1,1 +1,440 @@
-webpackJsonp([38],{1900:function(l,n,e){"use strict";function t(l){return u._42(0,[(l()(),u._16(0,0,null,null,25,"ion-item",[["class","item item-block"]],[[2,"core-primary-item",null]],null,null,L.b,L.a)),u._15(1,1097728,null,3,R.a,[T.a,N.a,u.p,u.K,[2,$.a]],null,null),u._37(335544320,1,{contentLabel:0}),u._37(603979776,2,{_buttons:1}),u._37(603979776,3,{_icons:1}),u._15(5,16384,null,0,I.a,[],null,null),(l()(),u._40(-1,2,["\n            "])),(l()(),u._16(7,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),u._16(8,0,null,null,1,"core-format-text",[],null,null,null,null,null)),u._15(9,540672,null,0,O.a,[u.p,s.a,_.a,c.a,w.a,E.a,C.a,M.a,j.a,r.a,o.a,z.a,[2,A.a],[2,B.a],[2,J.a],V.a,W.a],{text:[0,"text"]},null),(l()(),u._40(-1,2,["\n            "])),(l()(),u._16(11,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),u._40(12,null,["",""])),(l()(),u._40(-1,2,["\n            "])),(l()(),u._16(14,0,null,4,2,"p",[["item-end",""]],null,null,null,null,null)),(l()(),u._40(15,null,["",""])),u._34(16,1),(l()(),u._40(-1,2,["\n            "])),(l()(),u._16(18,0,null,4,6,"button",[["clear",""],["color","danger"],["icon-only",""],["ion-button",""],["item-end",""]],[[8,"hidden",0],[1,"aria-label",0]],[[null,"click"]],function(l,n,e){var t=!0;if("click"===n){t=!1!==l.component.deleteSiteFiles(l.context.$implicit)&&t}return t},q.b,q.a)),u._15(19,1097728,[[2,4]],0,G.a,[[8,""],N.a,u.p,u.K],{color:[0,"color"],clear:[1,"clear"]},null),u._32(131072,H.a,[w.a,u.i]),(l()(),u._40(-1,0,["\n                "])),(l()(),u._16(22,0,null,0,1,"ion-icon",[["name","trash"],["role","img"]],[[2,"hide",null]],null,null,null,null)),u._15(23,147456,null,0,Q.a,[N.a,u.p,u.K],{name:[0,"name"]},null),(l()(),u._40(-1,0,["\n            "])),(l()(),u._40(-1,2,["\n        "]))],function(l,n){l(n,9,0,n.context.$implicit.siteName);l(n,19,0,"danger","");l(n,23,0,"trash")},function(l,n){l(n,0,0,n.context.$implicit.id==n.component.currentSiteId);l(n,12,0,n.context.$implicit.fullName);l(n,15,0,u._41(n,15,0,l(n,16,0,u._29(n.parent,0),n.context.$implicit.spaceUsage)));l(n,18,0,!n.context.$implicit.spaceUsage>"0",u._41(n,18,1,u._29(n,20).transform("core.settings.deletesitefilestitle")));l(n,22,0,u._29(n,23)._hidden)})}function a(l){return u._42(0,[u._32(0,X.a,[j.a,c.a]),(l()(),u._16(1,0,null,null,12,"ion-header",[],null,null,null,null,null)),u._15(2,16384,null,0,Y.a,[N.a,u.p,u.K,[2,Z.a]],null,null),(l()(),u._40(-1,null,["\n    "])),(l()(),u._16(4,0,null,null,8,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,ll.b,ll.a)),u._15(5,49152,null,0,nl.a,[el.a,[2,Z.a],[2,A.a],N.a,u.p,u.K],null,null),u._15(6,212992,null,0,tl.a,[nl.a,E.a,w.a,W.a],null,null),(l()(),u._40(-1,3,["\n        "])),(l()(),u._16(8,0,null,3,3,"ion-title",[],null,null,null,al.b,al.a)),u._15(9,49152,null,0,ul.a,[N.a,u.p,u.K,[2,il.a],[2,nl.a]],null,null),(l()(),u._40(10,0,["",""])),u._32(131072,H.a,[w.a,u.i]),(l()(),u._40(-1,3,["\n    "])),(l()(),u._40(-1,null,["\n"])),(l()(),u._40(-1,null,["\n"])),(l()(),u._16(15,0,null,null,33,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,ol.b,ol.a)),u._15(16,4374528,null,0,B.a,[N.a,E.a,rl.a,u.p,u.K,el.a,sl.a,u.D,[2,Z.a],[2,A.a]],null,null),(l()(),u._40(-1,1,["\n    "])),(l()(),u._16(18,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,e){var t=!0;if("ionRefresh"===n){t=!1!==l.component.refreshData(e)&&t}return t},null,null)),u._15(19,212992,null,0,cl.a,[E.a,B.a,u.D,_l.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(l()(),u._40(-1,null,["\n        "])),(l()(),u._16(21,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,dl.b,dl.a)),u._15(22,114688,null,0,fl.a,[cl.a,N.a],{pullingText:[0,"pullingText"]},null),u._32(131072,H.a,[w.a,u.i]),(l()(),u._40(-1,null,["\n    "])),(l()(),u._40(-1,1,["\n    "])),(l()(),u._16(26,0,null,1,21,"core-loading",[],null,null,null,pl.b,pl.a)),u._15(27,638976,null,0,hl.a,[w.a,u.p,W.a,C.a],{hideUntil:[0,"hideUntil"]},null),(l()(),u._40(-1,0,["\n        "])),(l()(),u._11(16777216,null,0,1,null,t)),u._15(30,802816,null,0,gl.j,[u.W,u.T,u.v],{ngForOf:[0,"ngForOf"]},null),(l()(),u._40(-1,0,["\n        "])),(l()(),u._16(32,0,null,0,14,"ion-item-divider",[["class","item item-divider"],["color","light"]],null,null,null,L.b,L.a)),u._15(33,1097728,null,3,R.a,[T.a,N.a,u.p,u.K,[2,$.a]],{color:[0,"color"]},null),u._37(335544320,4,{contentLabel:0}),u._37(603979776,5,{_buttons:1}),u._37(603979776,6,{_icons:1}),u._15(37,16384,null,0,ml.a,[N.a,u.p,u.K],{color:[0,"color"]},null),(l()(),u._40(-1,2,["\n            "])),(l()(),u._16(39,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),u._40(40,null,["",""])),u._32(131072,H.a,[w.a,u.i]),(l()(),u._40(-1,2,["\n            "])),(l()(),u._16(43,0,null,4,2,"p",[["item-end",""]],null,null,null,null,null)),(l()(),u._40(44,null,["",""])),u._34(45,1),(l()(),u._40(-1,2,["\n        "])),(l()(),u._40(-1,0,["\n    "])),(l()(),u._40(-1,1,["\n"])),(l()(),u._40(-1,null,["\n"]))],function(l,n){var e=n.component;l(n,6,0);l(n,19,0,e.usageLoaded);l(n,22,0,u._19(1,"",u._41(n,22,0,u._29(n,23).transform("core.pulltorefresh")),""));l(n,27,0,e.usageLoaded);l(n,30,0,e.sites);l(n,33,0,"light");l(n,37,0,"light")},function(l,n){var e=n.component;l(n,4,0,u._29(n,5)._hidden,u._29(n,5)._sbPadding);l(n,10,0,u._41(n,10,0,u._29(n,11).transform("core.settings.spaceusage")));l(n,15,0,u._29(n,16).statusbarPadding,u._29(n,16)._hasRefresher);l(n,18,0,"inactive"!==u._29(n,19).state,u._29(n,19)._top);l(n,21,0,u._29(n,22).r.state);l(n,40,0,u._41(n,40,0,u._29(n,41).transform("core.settings.total")));l(n,44,0,u._41(n,44,0,l(n,45,0,u._29(n,0),e.totalUsage)))})}Object.defineProperty(n,"__esModule",{value:!0});var u=e(1),i=(e(0),e(10),e(5)),o=e(11),r=e(17),s=e(2),c=e(12),_=e(4),d=function(){function l(l,n,e,t,a,u){this.filePoolProvider=l,this.sitesProvider=n,this.textUtils=e,this.translate=t,this.domUtils=a,this.usageLoaded=!1,this.sites=[],this.currentSiteId="",this.totalUsage=0,this.currentSiteId=this.sitesProvider.getCurrentSiteId()}return l.prototype.ionViewDidLoad=function(){var l=this;this.fetchData().finally(function(){l.usageLoaded=!0})},l.prototype.calculateSizeUsage=function(){var l=this;return this.sitesProvider.getSortedSites().then(function(n){l.sites=n;var e=l.sites.map(function(n){return l.sitesProvider.getSite(n.id).then(function(l){return l.getSpaceUsage().then(function(l){n.spaceUsage=l})})});return Promise.all(e)})},l.prototype.calculateTotalUsage=function(){var l=0;this.sites.forEach(function(n){n.spaceUsage&&(l+=parseInt(n.spaceUsage,10))}),this.totalUsage=l},l.prototype.fetchData=function(){var l=this,n=[this.calculateSizeUsage().then(function(){return l.calculateTotalUsage()})];return Promise.all(n)},l.prototype.refreshData=function(l){this.fetchData().finally(function(){l.complete()})},l.prototype.updateSiteUsage=function(l,n){var e=l.spaceUsage;l.spaceUsage=n,this.totalUsage-=e-n},l.prototype.deleteSiteFiles=function(l){var n=this;this.textUtils.formatText(l.siteName).then(function(e){var t=n.translate.instant("core.settings.deletesitefilestitle"),a=n.translate.instant("core.settings.deletesitefiles",{sitename:e});n.domUtils.showConfirm(a,t).then(function(){return n.sitesProvider.getSite(l.id)}).then(function(e){e.deleteFolder().then(function(){n.filePoolProvider.clearAllPackagesStatus(e.id),n.filePoolProvider.clearFilepool(e.id),n.updateSiteUsage(l,0)}).catch(function(t){t&&t.code===FileError.NOT_FOUND_ERR?(n.filePoolProvider.clearAllPackagesStatus(e.id),n.updateSiteUsage(l,0)):(n.domUtils.showErrorModal("core.settings.errordeletesitefiles",!0),e.getSpaceUsage().then(function(e){n.updateSiteUsage(l,e)}))})}).catch(function(){})})},l}(),f=e(33),p=e(29),h=e(110),g=function(){return function(){}}(),m=e(1284),b=e(1285),v=e(1286),U=e(1287),S=e(1288),P=e(1289),x=e(1290),y=e(1291),D=e(1292),F=e(1295),K=e(1296),k=e(1297),L=e(34),R=e(21),T=e(20),N=e(7),$=e(28),I=e(31),O=e(40),w=e(18),E=e(15),C=e(3),M=e(25),j=e(6),z=e(23),A=e(22),B=e(24),J=e(35),V=e(38),W=e(13),q=e(46),G=e(41),H=e(30),Q=e(42),X=e(1365),Y=e(422),Z=e(36),ll=e(1293),nl=e(193),el=e(27),tl=e(637),al=e(1294),ul=e(329),il=e(238),ol=e(179),rl=e(26),sl=e(100),cl=e(133),_l=e(37),dl=e(194),fl=e(145),pl=e(57),hl=e(51),gl=e(9),ml=e(164),bl=u._14({encapsulation:2,styles:[],data:{}}),vl=u._12("page-core-settings-space-usage",d,function(l){return u._42(0,[(l()(),u._16(0,0,null,null,1,"page-core-settings-space-usage",[],null,null,null,a,bl)),u._15(1,49152,null,0,d,[r.a,s.a,c.a,w.a,_.a,o.a],null,null)],null,null)},{},{},[]),Ul=e(19),Sl=e(325),Pl=e(326),xl=e(328),yl=e(327),Dl=e(421),Fl=e(636),Kl=e(239);e.d(n,"CoreSettingsSpaceUsagePageModuleNgFactory",function(){return kl});var kl=u._13(g,[],function(l){return u._25([u._26(512,u.n,u._6,[[8,[m.a,b.a,v.a,U.a,S.a,P.a,x.a,y.a,D.a,F.a,K.a,k.a,vl]],[3,u.n],u.B]),u._26(4608,gl.m,gl.l,[u.x,[2,gl.v]]),u._26(4608,Ul.x,Ul.x,[]),u._26(4608,Ul.d,Ul.d,[]),u._26(4608,Sl.b,Sl.a,[]),u._26(4608,Pl.a,Pl.b,[]),u._26(4608,xl.b,xl.a,[]),u._26(4608,yl.b,yl.a,[]),u._26(4608,w.a,w.a,[Dl.a,Sl.b,Pl.a,xl.b,yl.b,w.b,w.c]),u._26(512,gl.b,gl.b,[]),u._26(512,Ul.v,Ul.v,[]),u._26(512,Ul.i,Ul.i,[]),u._26(512,Ul.s,Ul.s,[]),u._26(512,Fl.a,Fl.a,[]),u._26(512,i.a,i.a,[]),u._26(512,p.a,p.a,[]),u._26(512,h.a,h.a,[]),u._26(512,f.a,f.a,[]),u._26(512,Fl.b,Fl.b,[]),u._26(512,g,g,[]),u._26(256,w.c,void 0,[]),u._26(256,w.b,void 0,[]),u._26(256,Kl.a,d,[])])})}});
+webpackJsonp([38],{
+
+/***/ 1882:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreEmulatorCaptureMediaPageModule", function() { return CoreEmulatorCaptureMediaPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__capture_media__ = __webpack_require__(2007);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var CoreEmulatorCaptureMediaPageModule = /** @class */ (function () {
+    function CoreEmulatorCaptureMediaPageModule() {
+    }
+    CoreEmulatorCaptureMediaPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_2__capture_media__["a" /* CoreEmulatorCaptureMediaPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__capture_media__["a" /* CoreEmulatorCaptureMediaPage */]),
+                __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ]
+        })
+    ], CoreEmulatorCaptureMediaPageModule);
+    return CoreEmulatorCaptureMediaPageModule;
+}());
+
+//# sourceMappingURL=capture-media.module.js.map
+
+/***/ }),
+
+/***/ 2007:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreEmulatorCaptureMediaPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_file__ = __webpack_require__(27);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_text__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_time__ = __webpack_require__(22);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Page to capture media in browser or desktop.
+ */
+var CoreEmulatorCaptureMediaPage = /** @class */ (function () {
+    function CoreEmulatorCaptureMediaPage(viewCtrl, params, domUtils, timeUtils, fileProvider, textUtils, cdr) {
+        this.viewCtrl = viewCtrl;
+        this.domUtils = domUtils;
+        this.timeUtils = timeUtils;
+        this.fileProvider = fileProvider;
+        this.textUtils = textUtils;
+        this.cdr = cdr;
+        this.window = window;
+        this.type = params.get('type');
+        this.maxTime = params.get('maxTime');
+        this.facingMode = params.get('facingMode') || 'environment';
+        this.mimetype = params.get('mimetype');
+        this.extension = params.get('extension');
+        this.quality = params.get('quality') || 0.92;
+        this.returnDataUrl = !!params.get('returnDataUrl');
+    }
+    /**
+     * Component being initialized.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.ngOnInit = function () {
+        var _this = this;
+        this.initVariables();
+        var constraints = {
+            video: this.isAudio ? false : { facingMode: this.facingMode },
+            audio: !this.isImage
+        };
+        navigator.mediaDevices.getUserMedia(constraints).then(function (stream) {
+            var chunks = [];
+            _this.localMediaStream = stream;
+            if (!_this.isImage) {
+                if (_this.isVideo) {
+                    _this.previewMedia = _this.previewVideo.nativeElement;
+                }
+                else {
+                    _this.previewMedia = _this.previewAudio.nativeElement;
+                    _this.initAudioDrawer(_this.localMediaStream);
+                    _this.audioDrawer.start();
+                }
+                _this.mediaRecorder = new _this.window.MediaRecorder(_this.localMediaStream, { mimeType: _this.mimetype });
+                // When video or audio is recorded, add it to the list of chunks.
+                _this.mediaRecorder.ondataavailable = function (e) {
+                    if (e.data.size > 0) {
+                        chunks.push(e.data);
+                    }
+                };
+                // When recording stops, create a Blob element with the recording and set it to the video or audio.
+                _this.mediaRecorder.onstop = function () {
+                    _this.mediaBlob = new Blob(chunks);
+                    chunks = [];
+                    _this.previewMedia.src = window.URL.createObjectURL(_this.mediaBlob);
+                };
+            }
+            if (_this.isImage || _this.isVideo) {
+                var hasLoaded_1 = false, waitTimeout_1;
+                // Listen for stream ready to display the stream.
+                _this.streamVideo.nativeElement.onloadedmetadata = function () {
+                    if (hasLoaded_1) {
+                        // Already loaded or timeout triggered, stop.
+                        return;
+                    }
+                    hasLoaded_1 = true;
+                    clearTimeout(waitTimeout_1);
+                    _this.readyToCapture = true;
+                    _this.streamVideo.nativeElement.onloadedmetadata = null;
+                    // Force change detection. Angular doesn't detect these async operations.
+                    _this.cdr.detectChanges();
+                };
+                // Set the stream as the source of the video.
+                _this.streamVideo.nativeElement.src = window.URL.createObjectURL(_this.localMediaStream);
+                // If stream isn't ready in a while, show error.
+                waitTimeout_1 = setTimeout(function () {
+                    if (!hasLoaded_1) {
+                        // Show error.
+                        hasLoaded_1 = true;
+                        _this.dismissWithError(-1, 'Cannot connect to webcam.');
+                    }
+                }, 10000);
+            }
+            else {
+                // It's ready to capture.
+                _this.readyToCapture = true;
+            }
+        }).catch(function (error) {
+            _this.dismissWithError(-1, error.message || error);
+        });
+    };
+    /**
+     * Initialize the audio drawer. This code has been extracted from MDN's example on MediaStream Recording:
+     * https://github.com/mdn/web-dictaphone
+     *
+     * @param {MediaStream} stream Stream returned by getUserMedia.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.initAudioDrawer = function (stream) {
+        var skip = true, running = false;
+        var audioCtx = new (this.window.AudioContext || this.window.webkitAudioContext)(), canvasCtx = this.streamAudio.nativeElement.getContext('2d'), source = audioCtx.createMediaStreamSource(stream), analyser = audioCtx.createAnalyser(), bufferLength = analyser.frequencyBinCount, dataArray = new Uint8Array(bufferLength), width = this.streamAudio.nativeElement.width, height = this.streamAudio.nativeElement.height, drawAudio = function () {
+            if (!running) {
+                return;
+            }
+            // Update the draw every animation frame.
+            requestAnimationFrame(drawAudio);
+            // Skip half of the frames to improve performance, shouldn't affect the smoothness.
+            skip = !skip;
+            if (skip) {
+                return;
+            }
+            var sliceWidth = width / bufferLength;
+            var x = 0;
+            analyser.getByteTimeDomainData(dataArray);
+            canvasCtx.fillStyle = 'rgb(200, 200, 200)';
+            canvasCtx.fillRect(0, 0, width, height);
+            canvasCtx.lineWidth = 1;
+            canvasCtx.strokeStyle = 'rgb(0, 0, 0)';
+            canvasCtx.beginPath();
+            for (var i = 0; i < bufferLength; i++) {
+                var v = dataArray[i] / 128.0, y = v * height / 2;
+                if (i === 0) {
+                    canvasCtx.moveTo(x, y);
+                }
+                else {
+                    canvasCtx.lineTo(x, y);
+                }
+                x += sliceWidth;
+            }
+            canvasCtx.lineTo(width, height / 2);
+            canvasCtx.stroke();
+        };
+        analyser.fftSize = 2048;
+        source.connect(analyser);
+        this.audioDrawer = {
+            start: function () {
+                if (running) {
+                    return;
+                }
+                running = true;
+                drawAudio();
+            },
+            stop: function () {
+                running = false;
+            }
+        };
+    };
+    /**
+     * Initialize some variables based on the params.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.initVariables = function () {
+        if (this.type == 'captureimage') {
+            this.isCaptureImage = true;
+            this.type = 'image';
+        }
+        // Initialize some data based on the type of media to capture.
+        if (this.type == 'video') {
+            this.isVideo = true;
+            this.title = 'core.capturevideo';
+        }
+        else if (this.type == 'audio') {
+            this.isAudio = true;
+            this.title = 'core.captureaudio';
+        }
+        else if (this.type == 'image') {
+            this.isImage = true;
+            this.title = 'core.captureimage';
+        }
+    };
+    /**
+     * Main action clicked: record or stop recording.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.actionClicked = function () {
+        var _this = this;
+        if (this.isCapturing) {
+            // It's capturing, stop.
+            this.stopCapturing();
+            this.cdr.detectChanges();
+        }
+        else {
+            if (!this.isImage) {
+                // Start the capture.
+                this.isCapturing = true;
+                this.resetChrono = false;
+                this.mediaRecorder.start();
+                this.cdr.detectChanges();
+            }
+            else {
+                // Get the image from the video and set it to the canvas, using video width/height.
+                var width = this.streamVideo.nativeElement.videoWidth, height = this.streamVideo.nativeElement.videoHeight, loadingModal_1 = this.domUtils.showModalLoading();
+                this.imgCanvas.nativeElement.width = width;
+                this.imgCanvas.nativeElement.height = height;
+                this.imgCanvas.nativeElement.getContext('2d').drawImage(this.streamVideo.nativeElement, 0, 0, width, height);
+                // Convert the image to blob and show it in an image element.
+                this.imgCanvas.nativeElement.toBlob(function (blob) {
+                    loadingModal_1.dismiss();
+                    _this.mediaBlob = blob;
+                    _this.previewImage.nativeElement.setAttribute('src', window.URL.createObjectURL(_this.mediaBlob));
+                    _this.hasCaptured = true;
+                }, this.mimetype, this.quality);
+            }
+        }
+    };
+    /**
+     * User cancelled.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.cancel = function () {
+        // Send a "cancelled" error like the Cordova plugin does.
+        this.dismissWithError(3, 'Canceled.', 'Camera cancelled');
+    };
+    /**
+     * Discard the captured media.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.discard = function () {
+        this.previewMedia && this.previewMedia.pause();
+        this.streamVideo && this.streamVideo.nativeElement.play();
+        this.audioDrawer && this.audioDrawer.start();
+        this.hasCaptured = false;
+        this.isCapturing = false;
+        this.resetChrono = true;
+        delete this.mediaBlob;
+        this.cdr.detectChanges();
+    };
+    /**
+     * Close the modal, returning some data (success).
+     *
+     * @param {any} data Data to return.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.dismissWithData = function (data) {
+        this.viewCtrl.dismiss(data, 'success');
+    };
+    /**
+     * Close the modal, returning an error.
+     *
+     * @param {number} code Error code. Will not be used if it's a Camera capture.
+     * @param {string} message Error message.
+     * @param {string} [cameraMessage] A specific message to use if it's a Camera capture. If not set, message will be used.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.dismissWithError = function (code, message, cameraMessage) {
+        var isCamera = this.isImage && !this.isCaptureImage, error = isCamera ? (cameraMessage || message) : { code: code, message: message };
+        this.viewCtrl.dismiss(error, 'error');
+    };
+    /**
+     * Done capturing, write the file.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.done = function () {
+        var _this = this;
+        if (this.returnDataUrl) {
+            // Return the image as a base64 string.
+            this.dismissWithData(this.imgCanvas.nativeElement.toDataURL(this.mimetype, this.quality));
+            return;
+        }
+        if (!this.mediaBlob) {
+            // Shouldn't happen.
+            this.domUtils.showErrorModal('Please capture the media first.');
+            return;
+        }
+        // Create the file and return it.
+        var fileName = this.type + '_' + this.timeUtils.readableTimestamp() + '.' + this.extension, path = this.textUtils.concatenatePaths(__WEBPACK_IMPORTED_MODULE_2__providers_file__["a" /* CoreFileProvider */].TMPFOLDER, 'media/' + fileName), loadingModal = this.domUtils.showModalLoading();
+        this.fileProvider.writeFile(path, this.mediaBlob).then(function (fileEntry) {
+            if (_this.isImage && !_this.isCaptureImage) {
+                _this.dismissWithData(fileEntry.toURL());
+            }
+            else {
+                // The capture plugin returns a MediaFile, not a FileEntry.
+                // The only difference is that it supports a new function that won't be supported in desktop.
+                fileEntry.getFormatData = function (successFn, errorFn) {
+                    // Nothing to do.
+                };
+                _this.dismissWithData([fileEntry]);
+            }
+        }).catch(function (err) {
+            _this.domUtils.showErrorModal(err);
+        }).finally(function () {
+            loadingModal.dismiss();
+        });
+    };
+    /**
+     * Stop capturing. Only for video and audio.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.stopCapturing = function () {
+        this.streamVideo && this.streamVideo.nativeElement.pause();
+        this.audioDrawer && this.audioDrawer.stop();
+        this.mediaRecorder && this.mediaRecorder.stop();
+        this.isCapturing = false;
+        this.hasCaptured = true;
+    };
+    /**
+     * Page destroyed.
+     */
+    CoreEmulatorCaptureMediaPage.prototype.ngOnDestroy = function () {
+        var tracks = this.localMediaStream.getTracks();
+        tracks.forEach(function (track) {
+            track.stop();
+        });
+        this.streamVideo && this.streamVideo.nativeElement.pause();
+        this.previewMedia && this.previewMedia.pause();
+        this.audioDrawer && this.audioDrawer.stop();
+        delete this.mediaBlob;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('streamVideo'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "streamVideo", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('previewVideo'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "previewVideo", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('imgCanvas'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "imgCanvas", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('previewImage'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "previewImage", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('streamAudio'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "streamAudio", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])('previewAudio'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["t" /* ElementRef */])
+    ], CoreEmulatorCaptureMediaPage.prototype, "previewAudio", void 0);
+    CoreEmulatorCaptureMediaPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-emulator-capture-media',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/core/emulator/pages/capture-media/capture-media.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-buttons start>\n            <button ion-button (click)="cancel()">{{ \'core.cancel\' | translate }}</button>\n        </ion-buttons>\n\n        <ion-title>{{ title | translate }}</ion-title>\n\n        <ion-buttons end>\n            <button ion-button *ngIf="hasCaptured" (click)="done()">{{ \'core.done\' | translate }}</button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content  class="has-footer">\n    <core-loading [hideUntil]="readyToCapture">\n        <div class="core-av-wrapper">\n            <!-- Video stream for image and video. -->\n            <video *ngIf="!isAudio" [hidden]="hasCaptured" class="core-webcam-stream" autoplay #streamVideo></video>\n\n            <!-- For video recording, use 2 videos and show/hide them because a CSS rule caused problems with the controls. -->\n            <video *ngIf="isVideo" [hidden]="!hasCaptured" class="core-webcam-video-captured" controls #previewVideo></video>\n\n            <!-- Canvas to treat the image and an img to show the result. -->\n            <canvas *ngIf="isImage" class="core-webcam-image-canvas" #imgCanvas></canvas>\n            <img *ngIf="isImage" [hidden]="!hasCaptured" class="core-webcam-image" alt="{{ \'core.capturedimage\' | translate }}" #previewImage>\n\n            <!-- Canvas to show audio waves when recording audio and audio player to listen to the result. -->\n            <div *ngIf="isAudio" class="core-audio-record-container">\n                <canvas [hidden]="hasCaptured" class="core-audio-canvas" #streamAudio></canvas>\n                <audio [hidden]="!hasCaptured" class="core-audio-captured" controls #previewAudio></audio>\n            </div>\n        </div>\n    </core-loading>\n</ion-content>\n\n<ion-footer>\n    <ion-row *ngIf="readyToCapture">\n        <ion-col></ion-col>\n        <ion-col text-center>\n            <button ion-button icon-only clear *ngIf="!hasCaptured" (click)="actionClicked()" [attr.aria-label]="title">\n                <ion-icon *ngIf="!isCapturing && isAudio" name="microphone"></ion-icon>\n                <ion-icon *ngIf="!isCapturing && isVideo" name="videocam"></ion-icon>\n                <ion-icon *ngIf="isImage" name="camera"></ion-icon>\n                <ion-icon *ngIf="isCapturing" name="square"></ion-icon>\n            </button>\n            <button ion-button icon-only clear *ngIf="hasCaptured" (click)="discard()" [attr.aria-label]="\'core.discard\' | translate">\n                <ion-icon name="trash"></ion-icon>\n            </button>\n        </ion-col>\n        <ion-col padding text-end class="chrono-container">\n            <core-chrono *ngIf="!isImage" [hidden]="hasCaptured" [running]="isCapturing" [reset]="resetChrono" [endTime]="maxTime" (onEnd)="stopCapturing()"></core-chrono>\n        </ion-col>\n    </ion-row>\n</ion-footer>\n\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/core/emulator/pages/capture-media/capture-media.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["D" /* ViewController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_utils_time__["a" /* CoreTimeUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__providers_file__["a" /* CoreFileProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_0__angular_core__["j" /* ChangeDetectorRef */]])
+    ], CoreEmulatorCaptureMediaPage);
+    return CoreEmulatorCaptureMediaPage;
+}());
+
+//# sourceMappingURL=capture-media.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=38.js.map

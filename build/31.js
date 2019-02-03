@@ -1,1 +1,170 @@
-webpackJsonp([31],{1910:function(l,n,a){"use strict";function u(l){return e._42(0,[(l()(),e._16(0,0,null,null,1,"core-iframe",[],null,null,null,y.b,y.a)),e._15(1,638976,null,0,K.a,[P.a,U.a,x.a,I.c],{src:[0,"src"]},null)],function(l,n){l(n,1,0,n.component.url)},null)}function t(l){return e._42(0,[(l()(),e._16(0,0,null,null,11,"ion-header",[],null,null,null,null,null)),e._15(1,16384,null,0,C.a,[M.a,e.p,e.K,[2,j.a]],null,null),(l()(),e._40(-1,null,["\n    "])),(l()(),e._16(3,0,null,null,7,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,A.b,A.a)),e._15(4,49152,null,0,B.a,[D.a,[2,j.a],[2,F.a],M.a,e.p,e.K],null,null),e._15(5,212992,null,0,J.a,[B.a,N.a,O.a,R.a],null,null),(l()(),e._40(-1,3,["\n        "])),(l()(),e._16(7,0,null,3,2,"ion-title",[],null,null,null,S.b,S.a)),e._15(8,49152,null,0,T.a,[M.a,e.p,e.K,[2,V.a],[2,B.a]],null,null),(l()(),e._40(9,0,["",""])),(l()(),e._40(-1,3,["\n    "])),(l()(),e._40(-1,null,["\n"])),(l()(),e._40(-1,null,["\n"])),(l()(),e._16(13,0,null,null,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,W.b,W.a)),e._15(14,4374528,null,0,q.a,[M.a,N.a,z.a,e.p,e.K,D.a,E.a,e.D,[2,j.a],[2,F.a]],null,null),(l()(),e._40(-1,1,["\n    "])),(l()(),e._16(16,0,null,1,5,"core-loading",[],null,null,null,G.b,G.a)),e._15(17,638976,null,0,H.a,[O.a,e.p,R.a,Q.a],{hideUntil:[0,"hideUntil"]},null),(l()(),e._40(-1,0,["\n        "])),(l()(),e._11(16777216,null,0,1,null,u)),e._15(20,16384,null,0,X.k,[e.W,e.T],{ngIf:[0,"ngIf"]},null),(l()(),e._40(-1,0,["\n    "])),(l()(),e._40(-1,1,["\n"])),(l()(),e._40(-1,null,["\n"]))],function(l,n){var a=n.component;l(n,5,0);l(n,17,0,a.url);l(n,20,0,a.url)},function(l,n){var a=n.component;l(n,3,0,e._29(n,4)._hidden,e._29(n,4)._sbPadding);l(n,9,0,a.title);l(n,13,0,e._29(n,14).statusbarPadding,e._29(n,14)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var e=a(1),_=(a(0),a(10),a(2)),r=function(){return function(l,n){var a=this;this.title=l.get("title"),this.autoLogin=l.get("autoLogin")||"check";var u=l.get("url"),t=n.getCurrentSite();t&&("yes"==this.autoLogin||"check"==this.autoLogin&&t.containsUrl(u))?t.getAutoLoginUrl(u,!1).then(function(l){a.url=l}):this.url=u}}(),i=a(33),o=a(29),c=function(){return function(){}}(),s=a(1284),b=a(1285),d=a(1286),f=a(1287),g=a(1288),h=a(1289),p=a(1290),v=a(1291),m=a(1292),k=a(1295),L=a(1296),w=a(1297),y=a(436),K=a(275),P=a(6),U=a(38),x=a(4),I=a(82),C=a(422),M=a(7),j=a(36),A=a(1293),B=a(193),D=a(27),F=a(22),J=a(637),N=a(15),O=a(18),R=a(13),S=a(1294),T=a(329),V=a(238),W=a(179),q=a(24),z=a(26),E=a(100),G=a(57),H=a(51),Q=a(3),X=a(9),Y=a(60),Z=e._14({encapsulation:2,styles:[],data:{}}),$=e._12("page-core-viewer-iframe",r,function(l){return e._42(0,[(l()(),e._16(0,0,null,null,1,"page-core-viewer-iframe",[],null,null,null,t,Z)),e._15(1,49152,null,0,r,[Y.a,_.a],null,null)],null,null)},{},{},[]),ll=a(19),nl=a(325),al=a(326),ul=a(328),tl=a(327),el=a(421),_l=a(636),rl=a(5),il=a(110),ol=a(239);a.d(n,"CoreViewerIframePageModuleNgFactory",function(){return cl});var cl=e._13(c,[],function(l){return e._25([e._26(512,e.n,e._6,[[8,[s.a,b.a,d.a,f.a,g.a,h.a,p.a,v.a,m.a,k.a,L.a,w.a,$]],[3,e.n],e.B]),e._26(4608,X.m,X.l,[e.x,[2,X.v]]),e._26(4608,ll.x,ll.x,[]),e._26(4608,ll.d,ll.d,[]),e._26(4608,nl.b,nl.a,[]),e._26(4608,al.a,al.b,[]),e._26(4608,ul.b,ul.a,[]),e._26(4608,tl.b,tl.a,[]),e._26(4608,O.a,O.a,[el.a,nl.b,al.a,ul.b,tl.b,O.b,O.c]),e._26(512,X.b,X.b,[]),e._26(512,ll.v,ll.v,[]),e._26(512,ll.i,ll.i,[]),e._26(512,ll.s,ll.s,[]),e._26(512,_l.a,_l.a,[]),e._26(512,rl.a,rl.a,[]),e._26(512,o.a,o.a,[]),e._26(512,il.a,il.a,[]),e._26(512,i.a,i.a,[]),e._26(512,_l.b,_l.b,[]),e._26(512,c,c,[]),e._26(256,O.c,void 0,[]),e._26(256,O.b,void 0,[]),e._26(256,ol.a,r,[])])})}});
+webpackJsonp([31],{
+
+/***/ 1888:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreLoginForgottenPasswordPageModule", function() { return CoreLoginForgottenPasswordPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__forgotten_password__ = __webpack_require__(2013);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__ngx_translate_core__ = __webpack_require__(1);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+var CoreLoginForgottenPasswordPageModule = /** @class */ (function () {
+    function CoreLoginForgottenPasswordPageModule() {
+    }
+    CoreLoginForgottenPasswordPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__forgotten_password__["a" /* CoreLoginForgottenPasswordPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_2__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__forgotten_password__["a" /* CoreLoginForgottenPasswordPage */]),
+                __WEBPACK_IMPORTED_MODULE_4__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ]
+        })
+    ], CoreLoginForgottenPasswordPageModule);
+    return CoreLoginForgottenPasswordPageModule;
+}());
+
+//# sourceMappingURL=forgotten-password.module.js.map
+
+/***/ }),
+
+/***/ 2013:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreLoginForgottenPasswordPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_helper__ = __webpack_require__(79);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_forms__ = __webpack_require__(20);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Page to recover a forgotten password.
+ */
+var CoreLoginForgottenPasswordPage = /** @class */ (function () {
+    function CoreLoginForgottenPasswordPage(navCtrl, navParams, fb, translate, loginHelper, domUtils) {
+        this.navCtrl = navCtrl;
+        this.translate = translate;
+        this.loginHelper = loginHelper;
+        this.domUtils = domUtils;
+        this.siteUrl = navParams.get('siteUrl');
+        this.myForm = fb.group({
+            field: ['username', __WEBPACK_IMPORTED_MODULE_5__angular_forms__["h" /* Validators */].required],
+            value: [navParams.get('username') || '', __WEBPACK_IMPORTED_MODULE_5__angular_forms__["h" /* Validators */].required]
+        });
+    }
+    /**
+     * Request to reset the password.
+     */
+    CoreLoginForgottenPasswordPage.prototype.resetPassword = function () {
+        var _this = this;
+        var field = this.myForm.value.field, value = this.myForm.value.value;
+        if (!value) {
+            this.domUtils.showErrorModal('core.login.usernameoremail', true);
+            return;
+        }
+        var modal = this.domUtils.showModalLoading('core.sending', true), isMail = field == 'email';
+        this.loginHelper.requestPasswordReset(this.siteUrl, isMail ? '' : value, isMail ? value : '').then(function (response) {
+            if (response.status == 'dataerror') {
+                // Error in the data sent.
+                _this.showError(isMail, response.warnings);
+            }
+            else if (response.status == 'emailpasswordconfirmnotsent' || response.status == 'emailpasswordconfirmnoemail') {
+                // Error, not found.
+                _this.domUtils.showErrorModal(response.notice);
+            }
+            else {
+                // Success.
+                _this.domUtils.showAlert(_this.translate.instant('core.success'), response.notice);
+                _this.navCtrl.pop();
+            }
+        }).catch(function (error) {
+            _this.domUtils.showErrorModal(error.error);
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    // Show an error from the warnings.
+    CoreLoginForgottenPasswordPage.prototype.showError = function (isMail, warnings) {
+        for (var i = 0; i < warnings.length; i++) {
+            var warning = warnings[i];
+            if ((warning.item == 'email' && isMail) || (warning.item == 'username' && !isMail)) {
+                this.domUtils.showErrorModal(warning.message);
+                break;
+            }
+        }
+    };
+    CoreLoginForgottenPasswordPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-login-forgotten-password',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/core/login/pages/forgotten-password/forgotten-password.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'core.login.passwordforgotten\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-list>\n        <ion-item text-wrap>\n            {{ \'core.login.passwordforgotteninstructions2\' | translate }}\n        </ion-item>\n    </ion-list>\n    <ion-card>\n        <form ion-list [formGroup]="myForm" (ngSubmit)="resetPassword()">\n            <ion-item-divider text-wrap color="light">\n                {{ \'core.login.searchby\' | translate }}\n            </ion-item-divider>\n            <div radio-group formControlName="field">\n                <ion-item>\n                    <ion-label>{{ \'core.login.username\' | translate }}</ion-label>\n                    <ion-radio value="username"></ion-radio>\n                </ion-item>\n                <ion-item>\n                    <ion-label>{{ \'core.user.email\' | translate }}</ion-label>\n                    <ion-radio value="email"></ion-radio>\n                </ion-item>\n            </div>\n            <ion-item>\n                <ion-input type="text" name="value" placeholder="{{ \'core.login.usernameoremail\' | translate }}" formControlName="value" autocapitalize="none" autocorrect="off" [core-auto-focus]></ion-input>\n            </ion-item>\n            <ion-item>\n                <button text-wrap ion-button block [disabled]="!myForm.valid">{{ \'core.courses.search\' | translate }}</button>\n            </ion-item>\n        </form>\n    </ion-card>\n</ion-content>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/core/login/pages/forgotten-password/forgotten-password.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__angular_forms__["a" /* FormBuilder */], __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_helper__["a" /* CoreLoginHelperProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */]])
+    ], CoreLoginForgottenPasswordPage);
+    return CoreLoginForgottenPasswordPage;
+}());
+
+//# sourceMappingURL=forgotten-password.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=31.js.map

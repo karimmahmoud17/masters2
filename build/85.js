@@ -1,1 +1,133 @@
-webpackJsonp([85],{1838:function(n,l,a){"use strict";function e(n){return u._42(0,[u._37(402653184,1,{lessonComponent:0}),(n()(),u._16(1,0,null,null,18,"ion-header",[],null,null,null,null,null)),u._15(2,16384,null,0,w.a,[C.a,u.p,u.K,[2,K.a]],null,null),(n()(),u._40(-1,null,["\n    "])),(n()(),u._16(4,0,null,null,14,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,P.b,P.a)),u._15(5,49152,null,0,V.a,[L.a,[2,K.a],[2,M.a],C.a,u.p,u.K],null,null),u._15(6,212992,null,0,k.a,[V.a,E.a,T.a,j.a],null,null),(n()(),u._40(-1,3,["\n        "])),(n()(),u._16(8,0,null,3,3,"ion-title",[],null,null,null,A.b,A.a)),u._15(9,49152,null,0,B.a,[C.a,u.p,u.K,[2,F.a],[2,V.a]],null,null),(n()(),u._16(10,0,null,0,1,"core-format-text",[],null,null,null,null,null)),u._15(11,540672,null,0,J.a,[u.p,N.a,O.a,q.a,T.a,E.a,z.a,G.a,H.a,Q.a,S.a,U.a,[2,M.a],[2,W.a],[2,X.a],Y.a,j.a],{text:[0,"text"]},null),(n()(),u._40(-1,3,["\n\n        "])),(n()(),u._16(13,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),u._15(14,16384,null,1,Z.a,[C.a,u.p,u.K,[2,F.a],[2,V.a]],null,null),u._37(603979776,2,{_buttons:1}),(n()(),u._40(-1,null,["\n            "])),(n()(),u._40(-1,null,["\n        "])),(n()(),u._40(-1,3,["\n    "])),(n()(),u._40(-1,null,["\n"])),(n()(),u._40(-1,null,["\n"])),(n()(),u._16(21,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,$.b,$.a)),u._15(22,4374528,null,0,W.a,[C.a,E.a,nn.a,u.p,u.K,L.a,ln.a,u.D,[2,K.a],[2,M.a]],null,null),(n()(),u._40(-1,1,["\n    "])),(n()(),u._16(24,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(n,l,a){var e=!0;if("ionRefresh"===l){e=!1!==n.component.lessonComponent.doRefresh(a)&&e}return e},null,null)),u._15(25,212992,null,0,an.a,[E.a,W.a,u.D,en.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(n()(),u._40(-1,null,["\n        "])),(n()(),u._16(27,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,un.b,un.a)),u._15(28,114688,null,0,tn.a,[an.a,C.a],{pullingText:[0,"pullingText"]},null),u._32(131072,on.a,[T.a,u.i]),(n()(),u._40(-1,null,["\n    "])),(n()(),u._40(-1,1,["\n\n    "])),(n()(),u._16(32,0,null,1,1,"addon-mod-lesson-index",[],null,[[null,"dataRetrieved"]],function(n,l,a){var e=!0;if("dataRetrieved"===l){e=!1!==n.component.updateData(a)&&e}return e},I.c,I.b)),u._15(33,245760,[[1,4]],0,_.a,[u.u,_n.a,[2,W.a],rn.a,sn.a,dn.a,z.a,cn.a,M.a,pn.a,bn.a],{module:[0,"module"],courseId:[1,"courseId"],group:[2,"group"],action:[3,"action"]},{dataRetrieved:"dataRetrieved"}),(n()(),u._40(-1,1,["\n"])),(n()(),u._40(-1,null,["\n"]))],function(n,l){var a=l.component;n(l,6,0);n(l,11,0,a.title);n(l,25,0,a.lessonComponent.loaded);n(l,28,0,u._19(1,"",u._41(l,28,0,u._29(l,29).transform("core.pulltorefresh")),""));n(l,33,0,a.module,a.courseId,a.group,a.action)},function(n,l){n(l,4,0,u._29(l,5)._hidden,u._29(l,5)._sbPadding);n(l,21,0,u._29(l,22).statusbarPadding,u._29(l,22)._hasRefresher);n(l,24,0,"inactive"!==u._29(l,25).state,u._29(l,25)._top);n(l,27,0,u._29(l,28).r.state)})}Object.defineProperty(l,"__esModule",{value:!0});var u=a(1),t=(a(0),a(10),a(5)),o=a(29),i=a(671),_=a(454),r=function(){function n(n){this.module=n.get("module")||{},this.courseId=n.get("courseId"),this.group=n.get("group"),this.action=n.get("action"),this.title=this.module.name}return n.prototype.updateData=function(n){this.title=n.name||this.title},n.prototype.ionViewDidEnter=function(){this.lessonComponent.ionViewDidEnter()},n.prototype.ionViewDidLeave=function(){this.lessonComponent.ionViewDidLeave()},n}(),s=function(){return function(){}}(),d=a(1284),c=a(1285),p=a(1286),b=a(1287),f=a(1288),h=a(1289),m=a(1290),v=a(1291),g=a(1292),x=a(1295),R=a(1296),D=a(1297),y=a(1298),I=a(1345),w=a(422),C=a(7),K=a(36),P=a(1293),V=a(193),L=a(27),M=a(22),k=a(637),E=a(15),T=a(18),j=a(13),A=a(1294),B=a(329),F=a(238),J=a(40),N=a(2),O=a(4),q=a(12),z=a(3),G=a(25),H=a(6),Q=a(17),S=a(11),U=a(23),W=a(24),X=a(35),Y=a(38),Z=a(423),$=a(179),nn=a(26),ln=a(100),an=a(133),en=a(37),un=a(194),tn=a(145),on=a(30),_n=a(141),rn=a(64),sn=a(248),dn=a(277),cn=a(285),pn=a(43),bn=a(45),fn=a(60),hn=u._14({encapsulation:2,styles:[],data:{}}),mn=u._12("page-addon-mod-lesson-index",r,function(n){return u._42(0,[(n()(),u._16(0,0,null,null,1,"page-addon-mod-lesson-index",[],null,null,null,e,hn)),u._15(1,49152,null,0,r,[fn.a],null,null)],null,null)},{},{},[]),vn=a(9),gn=a(19),xn=a(325),Rn=a(326),Dn=a(328),yn=a(327),In=a(421),wn=a(636),Cn=a(110),Kn=a(33),Pn=a(76),Vn=a(239);a.d(l,"AddonModLessonIndexPageModuleNgFactory",function(){return Ln});var Ln=u._13(s,[],function(n){return u._25([u._26(512,u.n,u._6,[[8,[d.a,c.a,p.a,b.a,f.a,h.a,m.a,v.a,g.a,x.a,R.a,D.a,y.a,I.a,mn]],[3,u.n],u.B]),u._26(4608,vn.m,vn.l,[u.x,[2,vn.v]]),u._26(4608,gn.x,gn.x,[]),u._26(4608,gn.d,gn.d,[]),u._26(4608,xn.b,xn.a,[]),u._26(4608,Rn.a,Rn.b,[]),u._26(4608,Dn.b,Dn.a,[]),u._26(4608,yn.b,yn.a,[]),u._26(4608,T.a,T.a,[In.a,xn.b,Rn.a,Dn.b,yn.b,T.b,T.c]),u._26(512,o.a,o.a,[]),u._26(512,vn.b,vn.b,[]),u._26(512,gn.v,gn.v,[]),u._26(512,gn.i,gn.i,[]),u._26(512,gn.s,gn.s,[]),u._26(512,wn.a,wn.a,[]),u._26(512,t.a,t.a,[]),u._26(512,Cn.a,Cn.a,[]),u._26(512,Kn.a,Kn.a,[]),u._26(512,Pn.a,Pn.a,[]),u._26(512,i.a,i.a,[]),u._26(512,wn.b,wn.b,[]),u._26(512,s,s,[]),u._26(256,T.c,void 0,[]),u._26(256,T.b,void 0,[]),u._26(256,Vn.a,r,[])])})}});
+webpackJsonp([85],{
+
+/***/ 1829:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModFeedbackIndexPageModule", function() { return AddonModFeedbackIndexPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(927);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(1950);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonModFeedbackIndexPageModule = /** @class */ (function () {
+    function AddonModFeedbackIndexPageModule() {
+    }
+    AddonModFeedbackIndexPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModFeedbackIndexPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModFeedbackComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModFeedbackIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModFeedbackIndexPageModule);
+    return AddonModFeedbackIndexPageModule;
+}());
+
+//# sourceMappingURL=index.module.js.map
+
+/***/ }),
+
+/***/ 1950:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModFeedbackIndexPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(404);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Page that displays a feedback.
+ */
+var AddonModFeedbackIndexPage = /** @class */ (function () {
+    function AddonModFeedbackIndexPage(navParams) {
+        this.module = navParams.get('module') || {};
+        this.courseId = navParams.get('courseId');
+        this.selectedGroup = navParams.get('group') || 0;
+        this.selectedTab = navParams.get('tab') || 'overview';
+        this.title = this.module.name;
+    }
+    /**
+     * Update some data based on the feedback instance.
+     *
+     * @param {any} feedback Feedback instance.
+     */
+    AddonModFeedbackIndexPage.prototype.updateData = function (feedback) {
+        this.title = feedback.name || this.title;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModFeedbackIndexComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModFeedbackIndexComponent */])
+    ], AddonModFeedbackIndexPage.prototype, "feedbackComponent", void 0);
+    AddonModFeedbackIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-feedback-index',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/addon/mod/feedback/pages/index/index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="feedbackComponent.loaded" (ionRefresh)="feedbackComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <addon-mod-feedback-index [module]="module" [courseId]="courseId" [group]="selectedGroup" [tab]="selectedTab" (dataRetrieved)="updateData($event)"></addon-mod-feedback-index>\n</ion-content>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/addon/mod/feedback/pages/index/index.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]])
+    ], AddonModFeedbackIndexPage);
+    return AddonModFeedbackIndexPage;
+}());
+
+//# sourceMappingURL=index.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=85.js.map

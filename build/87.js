@@ -1,1 +1,183 @@
-webpackJsonp([87],{1837:function(l,n,a){"use strict";function u(l){return t._42(0,[t._37(402653184,1,{glossaryComponent:0}),(l()(),t._16(1,0,null,null,18,"ion-header",[],null,null,null,null,null)),t._15(2,16384,null,0,P.a,[k.a,t.p,t.K,[2,D.a]],null,null),(l()(),t._40(-1,null,["\n    "])),(l()(),t._16(4,0,null,null,14,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,j.b,j.a)),t._15(5,49152,null,0,w.a,[A.a,[2,D.a],[2,B.a],k.a,t.p,t.K],null,null),t._15(6,212992,null,0,C.a,[w.a,F.a,G.a,J.a],null,null),(l()(),t._40(-1,3,["\n        "])),(l()(),t._16(8,0,null,3,3,"ion-title",[],null,null,null,N.b,N.a)),t._15(9,49152,null,0,O.a,[k.a,t.p,t.K,[2,q.a],[2,w.a]],null,null),(l()(),t._16(10,0,null,0,1,"core-format-text",[],null,null,null,null,null)),t._15(11,540672,null,0,z.a,[t.p,E.a,H.a,L.a,G.a,F.a,Q.a,S.a,T.a,U.a,V.a,W.a,[2,B.a],[2,X.a],[2,Y.a],Z.a,J.a],{text:[0,"text"]},null),(l()(),t._40(-1,3,["\n\n        "])),(l()(),t._16(13,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),t._15(14,16384,null,1,$.a,[k.a,t.p,t.K,[2,q.a],[2,w.a]],null,null),t._37(603979776,2,{_buttons:1}),(l()(),t._40(-1,null,["\n            "])),(l()(),t._40(-1,null,["\n        "])),(l()(),t._40(-1,3,["\n    "])),(l()(),t._40(-1,null,["\n"])),(l()(),t._40(-1,null,["\n\n"])),(l()(),t._16(21,0,null,null,1,"addon-mod-glossary-index",[],null,[[null,"dataRetrieved"]],function(l,n,a){var u=!0;if("dataRetrieved"===n){u=!1!==l.component.updateData(a)&&u}return u},R.c,R.b)),t._15(22,245760,[[1,4]],0,d.a,[t.u,ll.a,nl.a,al.a,ul.a],{module:[0,"module"],courseId:[1,"courseId"]},{dataRetrieved:"dataRetrieved"}),(l()(),t._40(-1,null,["\n"]))],function(l,n){var a=n.component;l(n,6,0);l(n,11,0,a.title);l(n,22,0,a.module,a.courseId)},function(l,n){l(n,4,0,t._29(n,5)._hidden,t._29(n,5)._sbPadding)})}Object.defineProperty(n,"__esModule",{value:!0});var t=a(1),e=(a(0),a(10),a(5)),o=a(29),_=a(669),d=a(452),i=function(){function l(l){this.module=l.get("module")||{},this.courseId=l.get("courseId"),this.title=this.module.name}return l.prototype.updateData=function(l){this.title=l.name||this.title},l}(),r=function(){return function(){}}(),s=a(1284),c=a(1285),b=a(1286),p=a(1287),f=a(1288),m=a(1289),v=a(1290),g=a(1291),x=a(1292),h=a(1295),y=a(1296),I=a(1297),K=a(1298),R=a(1344),M=a(1369),P=a(422),k=a(7),D=a(36),j=a(1293),w=a(193),A=a(27),B=a(22),C=a(637),F=a(15),G=a(18),J=a(13),N=a(1294),O=a(329),q=a(238),z=a(40),E=a(2),H=a(4),L=a(12),Q=a(3),S=a(25),T=a(6),U=a(17),V=a(11),W=a(23),X=a(24),Y=a(35),Z=a(38),$=a(423),ll=a(69),nl=a(183),al=a(222),ul=a(284),tl=a(60),el=t._14({encapsulation:2,styles:[],data:{}}),ol=t._12("page-addon-mod-glossary-index",i,function(l){return t._42(0,[(l()(),t._16(0,0,null,null,1,"page-addon-mod-glossary-index",[],null,null,null,u,el)),t._15(1,49152,null,0,i,[tl.a],null,null)],null,null)},{},{},[]),_l=a(9),dl=a(19),il=a(325),rl=a(326),sl=a(328),cl=a(327),bl=a(421),pl=a(636),fl=a(110),ml=a(33),vl=a(76),gl=a(239);a.d(n,"AddonModGlossaryIndexPageModuleNgFactory",function(){return xl});var xl=t._13(r,[],function(l){return t._25([t._26(512,t.n,t._6,[[8,[s.a,c.a,b.a,p.a,f.a,m.a,v.a,g.a,x.a,h.a,y.a,I.a,K.a,R.a,M.a,ol]],[3,t.n],t.B]),t._26(4608,_l.m,_l.l,[t.x,[2,_l.v]]),t._26(4608,dl.x,dl.x,[]),t._26(4608,dl.d,dl.d,[]),t._26(4608,il.b,il.a,[]),t._26(4608,rl.a,rl.b,[]),t._26(4608,sl.b,sl.a,[]),t._26(4608,cl.b,cl.a,[]),t._26(4608,G.a,G.a,[bl.a,il.b,rl.a,sl.b,cl.b,G.b,G.c]),t._26(512,o.a,o.a,[]),t._26(512,_l.b,_l.b,[]),t._26(512,dl.v,dl.v,[]),t._26(512,dl.i,dl.i,[]),t._26(512,dl.s,dl.s,[]),t._26(512,pl.a,pl.a,[]),t._26(512,e.a,e.a,[]),t._26(512,fl.a,fl.a,[]),t._26(512,ml.a,ml.a,[]),t._26(512,vl.a,vl.a,[]),t._26(512,_.a,_.a,[]),t._26(512,pl.b,pl.b,[]),t._26(512,r,r,[]),t._26(256,G.c,void 0,[]),t._26(256,G.b,void 0,[]),t._26(256,gl.a,i,[])])})}});
+webpackJsonp([87],{
+
+/***/ 1828:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModFeedbackAttemptPageModule", function() { return AddonModFeedbackAttemptPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(927);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__attempt__ = __webpack_require__(1949);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+var AddonModFeedbackAttemptPageModule = /** @class */ (function () {
+    function AddonModFeedbackAttemptPageModule() {
+    }
+    AddonModFeedbackAttemptPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_7__attempt__["a" /* AddonModFeedbackAttemptPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* AddonModFeedbackComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_7__attempt__["a" /* AddonModFeedbackAttemptPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModFeedbackAttemptPageModule);
+    return AddonModFeedbackAttemptPageModule;
+}());
+
+//# sourceMappingURL=attempt.module.js.map
+
+/***/ }),
+
+/***/ 1949:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModFeedbackAttemptPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_feedback__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_helper__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__ = __webpack_require__(11);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Page that displays a feedback attempt review.
+ */
+var AddonModFeedbackAttemptPage = /** @class */ (function () {
+    function AddonModFeedbackAttemptPage(navParams, feedbackProvider, navCtrl, domUtils, feedbackHelper, textUtils) {
+        this.feedbackProvider = feedbackProvider;
+        this.navCtrl = navCtrl;
+        this.domUtils = domUtils;
+        this.feedbackHelper = feedbackHelper;
+        this.textUtils = textUtils;
+        this.component = __WEBPACK_IMPORTED_MODULE_2__providers_feedback__["a" /* AddonModFeedbackProvider */].COMPONENT;
+        this.feedbackLoaded = false;
+        this.feedbackId = navParams.get('feedbackId') || 0;
+        this.courseId = navParams.get('courseId');
+        this.attempt = navParams.get('attempt') || false;
+        this.componentId = navParams.get('moduleId');
+    }
+    /**
+     * View loaded.
+     */
+    AddonModFeedbackAttemptPage.prototype.ionViewDidLoad = function () {
+        this.fetchData();
+    };
+    /**
+     * Fetch all the data required for the view.
+     *
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModFeedbackAttemptPage.prototype.fetchData = function () {
+        var _this = this;
+        // Get the feedback to be able to now if questions should be autonumbered.
+        return this.feedbackProvider.getFeedbackById(this.courseId, this.feedbackId).then(function (feedback) {
+            _this.feedback = feedback;
+            return _this.feedbackProvider.getItems(_this.feedbackId);
+        }).then(function (items) {
+            // Add responses and format items.
+            _this.items = items.items.map(function (item) {
+                if (item.typ == 'label') {
+                    item.submittedValue = _this.textUtils.replacePluginfileUrls(item.presentation, item.itemfiles);
+                }
+                else {
+                    for (var x in _this.attempt.responses) {
+                        if (_this.attempt.responses[x].id == item.id) {
+                            item.submittedValue = _this.attempt.responses[x].printval;
+                            break;
+                        }
+                    }
+                }
+                return _this.feedbackHelper.getItemForm(item, true);
+            });
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+            // Some call failed on first fetch, go back.
+            _this.navCtrl.pop();
+            return Promise.reject(null);
+        }).finally(function () {
+            _this.feedbackLoaded = true;
+        });
+    };
+    AddonModFeedbackAttemptPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-feedback-attempt',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/addon/mod/feedback/pages/attempt/attempt.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text  [text]=" attempt.fullname "></core-format-text></ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <core-loading [hideUntil]="feedbackLoaded">\n        <ion-list no-margin>\n            <a *ngIf="attempt.fullname" ion-item text-wrap core-user-link [userId]="attempt.userid" [attr.aria-label]=" \'core.user.viewprofile\' | translate" core-user-link [courseId]="attempt.courseid" [title]="attempt.fullname">\n                <ion-avatar item-start>\n                    <img [src]="attempt.profileimageurl" [alt]="\'core.pictureof\' | translate:{$a: attempt.fullname}" core-external-content onError="this.src=\'assets/img/user-avatar.png\'">\n                </ion-avatar>\n                <h2>{{attempt.fullname}}</h2>\n                <p *ngIf="attempt.timemodified">{{attempt.timemodified * 1000 | coreFormatDate:"LLL"}}</p>\n            </a>\n\n            <ion-item text-wrap *ngIf="!attempt.fullname">\n                <h2>{{ \'addon.mod_feedback.response_nr\' |translate }}: {{attempt.number}} ({{ \'addon.mod_feedback.anonymous\' |translate }})</h2>\n                <p *ngIf="attempt.timemodified">{{attempt.timemodified * 1000 | coreFormatDate:"LLL"}}</p>\n            </ion-item >\n            <ng-container *ngIf="items && items.length">\n                <ng-container *ngFor="let item of items">\n                    <ion-item-divider *ngIf="item.typ == \'pagebreak\'" color="light"></ion-item-divider>\n                    <ion-item text-wrap *ngIf="item.typ != \'pagebreak\'" [color]="item.dependitem > 0 ? \'light\' : \'\'">\n                        <h2 *ngIf="item.name" [core-mark-required]="item.required">\n                            <span *ngIf="feedback.autonumbering && item.itemnumber">{{item.itemnumber}}. </span><core-format-text  [component]="component" [componentId]="componentId" [text]="item.name"></core-format-text>\n                        </h2>\n                        <p *ngIf="item.submittedValue"><core-format-text  [component]="component" [componentId]="componentId" [text]=" item.submittedValue"></core-format-text></p>\n                    </ion-item>\n                </ng-container>\n            </ng-container>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/addon/mod/feedback/pages/attempt/attempt.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_feedback__["a" /* AddonModFeedbackProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_helper__["a" /* AddonModFeedbackHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_utils_text__["a" /* CoreTextUtilsProvider */]])
+    ], AddonModFeedbackAttemptPage);
+    return AddonModFeedbackAttemptPage;
+}());
+
+//# sourceMappingURL=attempt.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=87.js.map

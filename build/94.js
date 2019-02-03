@@ -1,1 +1,131 @@
-webpackJsonp([94],{1828:function(l,n,a){"use strict";function e(l){return u._42(0,[u._37(402653184,1,{feedbackComponent:0}),(l()(),u._16(1,0,null,null,18,"ion-header",[],null,null,null,null,null)),u._15(2,16384,null,0,y.a,[D.a,u.p,u.K,[2,P.a]],null,null),(l()(),u._40(-1,null,["\n    "])),(l()(),u._16(4,0,null,null,14,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,T.b,T.a)),u._15(5,49152,null,0,C.a,[M.a,[2,P.a],[2,w.a],D.a,u.p,u.K],null,null),u._15(6,212992,null,0,F.a,[C.a,G.a,j.a,A.a],null,null),(l()(),u._40(-1,3,["\n        "])),(l()(),u._16(8,0,null,3,3,"ion-title",[],null,null,null,B.b,B.a)),u._15(9,49152,null,0,J.a,[D.a,u.p,u.K,[2,N.a],[2,C.a]],null,null),(l()(),u._16(10,0,null,0,1,"core-format-text",[],null,null,null,null,null)),u._15(11,540672,null,0,O.a,[u.p,q.a,z.a,E.a,j.a,G.a,H.a,L.a,Q.a,S.a,U.a,V.a,[2,w.a],[2,W.a],[2,X.a],Y.a,A.a],{text:[0,"text"]},null),(l()(),u._40(-1,3,["\n\n        "])),(l()(),u._16(13,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),u._15(14,16384,null,1,Z.a,[D.a,u.p,u.K,[2,N.a],[2,C.a]],null,null),u._37(603979776,2,{_buttons:1}),(l()(),u._40(-1,null,["\n            "])),(l()(),u._40(-1,null,["\n        "])),(l()(),u._40(-1,3,["\n    "])),(l()(),u._40(-1,null,["\n"])),(l()(),u._40(-1,null,["\n"])),(l()(),u._16(21,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,$.b,$.a)),u._15(22,4374528,null,0,W.a,[D.a,G.a,ll.a,u.p,u.K,M.a,nl.a,u.D,[2,P.a],[2,w.a]],null,null),(l()(),u._40(-1,1,["\n    "])),(l()(),u._16(24,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,a){var e=!0;if("ionRefresh"===n){e=!1!==l.component.feedbackComponent.doRefresh(a)&&e}return e},null,null)),u._15(25,212992,null,0,al.a,[G.a,W.a,u.D,el.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(l()(),u._40(-1,null,["\n        "])),(l()(),u._16(27,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,ul.b,ul.a)),u._15(28,114688,null,0,tl.a,[al.a,D.a],{pullingText:[0,"pullingText"]},null),u._32(131072,ol.a,[j.a,u.i]),(l()(),u._40(-1,null,["\n    "])),(l()(),u._40(-1,1,["\n\n    "])),(l()(),u._16(32,0,null,1,1,"addon-mod-feedback-index",[],null,[[null,"dataRetrieved"]],function(l,n,a){var e=!0;if("dataRetrieved"===n){e=!1!==l.component.updateData(a)&&e}return e},K.c,K.b)),u._15(33,245760,[[1,4]],0,d.a,[u.u,_l.a,[2,W.a],dl.a,rl.a,il.a,w.a,sl.a],{module:[0,"module"],courseId:[1,"courseId"],group:[2,"group"],tab:[3,"tab"]},{dataRetrieved:"dataRetrieved"}),(l()(),u._40(-1,1,["\n"])),(l()(),u._40(-1,null,["\n"]))],function(l,n){var a=n.component;l(n,6,0);l(n,11,0,a.title);l(n,25,0,a.feedbackComponent.loaded);l(n,28,0,u._19(1,"",u._41(n,28,0,u._29(n,29).transform("core.pulltorefresh")),""));l(n,33,0,a.module,a.courseId,a.selectedGroup,a.selectedTab)},function(l,n){l(n,4,0,u._29(n,5)._hidden,u._29(n,5)._sbPadding);l(n,21,0,u._29(n,22).statusbarPadding,u._29(n,22)._hasRefresher);l(n,24,0,"inactive"!==u._29(n,25).state,u._29(n,25)._top);l(n,27,0,u._29(n,28).r.state)})}Object.defineProperty(n,"__esModule",{value:!0});var u=a(1),t=(a(0),a(10),a(5)),o=a(29),_=a(640),d=a(448),r=function(){function l(l){this.module=l.get("module")||{},this.courseId=l.get("courseId"),this.selectedGroup=l.get("group")||0,this.selectedTab=l.get("tab")||"overview",this.title=this.module.name}return l.prototype.updateData=function(l){this.title=l.name||this.title},l}(),i=function(){return function(){}}(),s=a(1284),c=a(1285),b=a(1286),f=a(1287),p=a(1288),h=a(1289),m=a(1290),v=a(1291),g=a(1292),x=a(1295),R=a(1296),k=a(1297),I=a(1298),K=a(1307),y=a(422),D=a(7),P=a(36),T=a(1293),C=a(193),M=a(27),w=a(22),F=a(637),G=a(15),j=a(18),A=a(13),B=a(1294),J=a(329),N=a(238),O=a(40),q=a(2),z=a(4),E=a(12),H=a(3),L=a(25),Q=a(6),S=a(17),U=a(11),V=a(23),W=a(24),X=a(35),Y=a(38),Z=a(423),$=a(179),ll=a(26),nl=a(100),al=a(133),el=a(37),ul=a(194),tl=a(145),ol=a(30),_l=a(132),dl=a(254),rl=a(64),il=a(276),sl=a(268),cl=a(60),bl=u._14({encapsulation:2,styles:[],data:{}}),fl=u._12("page-addon-mod-feedback-index",r,function(l){return u._42(0,[(l()(),u._16(0,0,null,null,1,"page-addon-mod-feedback-index",[],null,null,null,e,bl)),u._15(1,49152,null,0,r,[cl.a],null,null)],null,null)},{},{},[]),pl=a(9),hl=a(19),ml=a(325),vl=a(326),gl=a(328),xl=a(327),Rl=a(421),kl=a(636),Il=a(110),Kl=a(33),yl=a(76),Dl=a(239);a.d(n,"AddonModFeedbackIndexPageModuleNgFactory",function(){return Pl});var Pl=u._13(i,[],function(l){return u._25([u._26(512,u.n,u._6,[[8,[s.a,c.a,b.a,f.a,p.a,h.a,m.a,v.a,g.a,x.a,R.a,k.a,I.a,K.a,fl]],[3,u.n],u.B]),u._26(4608,pl.m,pl.l,[u.x,[2,pl.v]]),u._26(4608,hl.x,hl.x,[]),u._26(4608,hl.d,hl.d,[]),u._26(4608,ml.b,ml.a,[]),u._26(4608,vl.a,vl.b,[]),u._26(4608,gl.b,gl.a,[]),u._26(4608,xl.b,xl.a,[]),u._26(4608,j.a,j.a,[Rl.a,ml.b,vl.a,gl.b,xl.b,j.b,j.c]),u._26(512,o.a,o.a,[]),u._26(512,pl.b,pl.b,[]),u._26(512,hl.v,hl.v,[]),u._26(512,hl.i,hl.i,[]),u._26(512,hl.s,hl.s,[]),u._26(512,kl.a,kl.a,[]),u._26(512,t.a,t.a,[]),u._26(512,Il.a,Il.a,[]),u._26(512,Kl.a,Kl.a,[]),u._26(512,yl.a,yl.a,[]),u._26(512,_.a,_.a,[]),u._26(512,kl.b,kl.b,[]),u._26(512,i,i,[]),u._26(256,j.c,void 0,[]),u._26(256,j.b,void 0,[]),u._26(256,Dl.a,r,[])])})}});
+webpackJsonp([94],{
+
+/***/ 1821:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModChatIndexPageModule", function() { return AddonModChatIndexPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(949);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(1942);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonModChatIndexPageModule = /** @class */ (function () {
+    function AddonModChatIndexPageModule() {
+    }
+    AddonModChatIndexPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModChatIndexPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModChatComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModChatIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModChatIndexPageModule);
+    return AddonModChatIndexPageModule;
+}());
+
+//# sourceMappingURL=index.module.js.map
+
+/***/ }),
+
+/***/ 1942:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModChatIndexPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(400);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Page that displays a chat.
+ */
+var AddonModChatIndexPage = /** @class */ (function () {
+    function AddonModChatIndexPage(navParams) {
+        this.module = navParams.get('module') || {};
+        this.courseId = navParams.get('courseId');
+        this.title = this.module.name;
+    }
+    /**
+     * Update some data based on the chat instance.
+     *
+     * @param {any} chat Chat instance.
+     */
+    AddonModChatIndexPage.prototype.updateData = function (chat) {
+        this.title = chat.name || this.title;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModChatIndexComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModChatIndexComponent */])
+    ], AddonModChatIndexPage.prototype, "chatComponent", void 0);
+    AddonModChatIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-chat-index',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/addon/mod/chat/pages/index/index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="chatComponent.loaded" (ionRefresh)="chatComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <addon-mod-chat-index [module]="module" [courseId]="courseId" (dataRetrieved)="updateData($event)"></addon-mod-chat-index>\n</ion-content>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/addon/mod/chat/pages/index/index.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]])
+    ], AddonModChatIndexPage);
+    return AddonModChatIndexPage;
+}());
+
+//# sourceMappingURL=index.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=94.js.map

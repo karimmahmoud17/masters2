@@ -1,1 +1,429 @@
-webpackJsonp([56],{1880:function(n,l,e){"use strict";function t(n){return b._42(0,[b._32(0,G.a,[Q.a,y.a]),(n()(),b._16(1,0,null,null,2,"span",[],null,null,null,null,null)),(n()(),b._40(2,null,["",""])),b._34(3,1)],null,function(n,l){var e=l.component;n(l,2,0,b._41(l,2,0,n(l,3,0,b._29(l,0),e.time/1e3)))})}function i(n){return b._42(0,[(n()(),b._16(0,0,null,null,3,"button",[["ion-button",""]],null,[[null,"click"]],function(n,l,e){var t=!0;if("click"===l){t=!1!==n.component.done()&&t}return t},O.b,O.a)),b._15(1,1097728,[[8,4]],0,F.a,[[8,""],j.a,b.p,b.K],null,null),(n()(),b._40(2,0,["",""])),b._32(131072,z.a,[H.a,b.i])],null,function(n,l){n(l,2,0,b._41(l,2,0,b._29(l,3).transform("core.done")))})}function a(n){return b._42(0,[(n()(),b._16(0,0,[[1,0],["streamVideo",1]],null,0,"video",[["autoplay",""],["class","core-webcam-stream"]],[[8,"hidden",0]],null,null,null,null))],null,function(n,l){n(l,0,0,l.component.hasCaptured)})}function u(n){return b._42(0,[(n()(),b._16(0,0,[[2,0],["previewVideo",1]],null,0,"video",[["class","core-webcam-video-captured"],["controls",""]],[[8,"hidden",0]],null,null,null,null))],null,function(n,l){n(l,0,0,!l.component.hasCaptured)})}function o(n){return b._42(0,[(n()(),b._16(0,0,[[3,0],["imgCanvas",1]],null,0,"canvas",[["class","core-webcam-image-canvas"]],null,null,null,null,null))],null,null)}function r(n){return b._42(0,[(n()(),b._16(0,0,[[4,0],["previewImage",1]],null,1,"img",[["class","core-webcam-image"]],[[8,"hidden",0],[8,"alt",0]],null,null,null,null)),b._32(131072,z.a,[H.a,b.i])],null,function(n,l){n(l,0,0,!l.component.hasCaptured,b._19(1,"",b._41(l,0,1,b._29(l,1).transform("core.capturedimage")),""))})}function s(n){return b._42(0,[(n()(),b._16(0,0,null,null,5,"div",[["class","core-audio-record-container"]],null,null,null,null,null)),(n()(),b._40(-1,null,["\n                "])),(n()(),b._16(2,0,[[5,0],["streamAudio",1]],null,0,"canvas",[["class","core-audio-canvas"]],[[8,"hidden",0]],null,null,null,null)),(n()(),b._40(-1,null,["\n                "])),(n()(),b._16(4,0,[[6,0],["previewAudio",1]],null,0,"audio",[["class","core-audio-captured"],["controls",""]],[[8,"hidden",0]],null,null,null,null)),(n()(),b._40(-1,null,["\n            "]))],null,function(n,l){var e=l.component;n(l,2,0,e.hasCaptured);n(l,4,0,!e.hasCaptured)})}function c(n){return b._42(0,[(n()(),b._16(0,0,null,null,1,"ion-icon",[["name","microphone"],["role","img"]],[[2,"hide",null]],null,null,null,null)),b._15(1,147456,null,0,J.a,[j.a,b.p,b.K],{name:[0,"name"]},null)],function(n,l){n(l,1,0,"microphone")},function(n,l){n(l,0,0,b._29(l,1)._hidden)})}function d(n){return b._42(0,[(n()(),b._16(0,0,null,null,1,"ion-icon",[["name","videocam"],["role","img"]],[[2,"hide",null]],null,null,null,null)),b._15(1,147456,null,0,J.a,[j.a,b.p,b.K],{name:[0,"name"]},null)],function(n,l){n(l,1,0,"videocam")},function(n,l){n(l,0,0,b._29(l,1)._hidden)})}function _(n){return b._42(0,[(n()(),b._16(0,0,null,null,1,"ion-icon",[["name","camera"],["role","img"]],[[2,"hide",null]],null,null,null,null)),b._15(1,147456,null,0,J.a,[j.a,b.p,b.K],{name:[0,"name"]},null)],function(n,l){n(l,1,0,"camera")},function(n,l){n(l,0,0,b._29(l,1)._hidden)})}function m(n){return b._42(0,[(n()(),b._16(0,0,null,null,1,"ion-icon",[["name","square"],["role","img"]],[[2,"hide",null]],null,null,null,null)),b._15(1,147456,null,0,J.a,[j.a,b.p,b.K],{name:[0,"name"]},null)],function(n,l){n(l,1,0,"square")},function(n,l){n(l,0,0,b._29(l,1)._hidden)})}function h(n){return b._42(0,[(n()(),b._16(0,0,null,null,14,"button",[["clear",""],["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(n,l,e){var t=!0;if("click"===l){t=!1!==n.component.actionClicked()&&t}return t},O.b,O.a)),b._15(1,1097728,null,0,F.a,[[8,""],j.a,b.p,b.K],{clear:[0,"clear"]},null),(n()(),b._40(-1,0,["\n                "])),(n()(),b._11(16777216,null,0,1,null,c)),b._15(4,16384,null,0,N.k,[b.W,b.T],{ngIf:[0,"ngIf"]},null),(n()(),b._40(-1,0,["\n                "])),(n()(),b._11(16777216,null,0,1,null,d)),b._15(7,16384,null,0,N.k,[b.W,b.T],{ngIf:[0,"ngIf"]},null),(n()(),b._40(-1,0,["\n                "])),(n()(),b._11(16777216,null,0,1,null,_)),b._15(10,16384,null,0,N.k,[b.W,b.T],{ngIf:[0,"ngIf"]},null),(n()(),b._40(-1,0,["\n                "])),(n()(),b._11(16777216,null,0,1,null,m)),b._15(13,16384,null,0,N.k,[b.W,b.T],{ngIf:[0,"ngIf"]},null),(n()(),b._40(-1,0,["\n            "]))],function(n,l){var e=l.component;n(l,1,0,"");n(l,4,0,!e.isCapturing&&e.isAudio);n(l,7,0,!e.isCapturing&&e.isVideo);n(l,10,0,e.isImage);n(l,13,0,e.isCapturing)},function(n,l){n(l,0,0,l.component.title)})}function p(n){return b._42(0,[(n()(),b._16(0,0,null,null,6,"button",[["clear",""],["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(n,l,e){var t=!0;if("click"===l){t=!1!==n.component.discard()&&t}return t},O.b,O.a)),b._15(1,1097728,null,0,F.a,[[8,""],j.a,b.p,b.K],{clear:[0,"clear"]},null),b._32(131072,z.a,[H.a,b.i]),(n()(),b._40(-1,0,["\n                "])),(n()(),b._16(4,0,null,0,1,"ion-icon",[["name","trash"],["role","img"]],[[2,"hide",null]],null,null,null,null)),b._15(5,147456,null,0,J.a,[j.a,b.p,b.K],{name:[0,"name"]},null),(n()(),b._40(-1,0,["\n            "]))],function(n,l){n(l,1,0,"");n(l,5,0,"trash")},function(n,l){n(l,0,0,b._41(l,0,0,b._29(l,2).transform("core.discard")));n(l,4,0,b._29(l,5)._hidden)})}function f(n){return b._42(0,[(n()(),b._16(0,0,null,null,1,"core-chrono",[],[[8,"hidden",0]],[[null,"onEnd"]],function(n,l,e){var t=!0;if("onEnd"===l){t=!1!==n.component.stopCapturing()&&t}return t},t,Y)),b._15(1,770048,null,0,X.a,[b.i],{running:[0,"running"],endTime:[1,"endTime"],reset:[2,"reset"]},{onEnd:"onEnd"})],function(n,l){var e=l.component;n(l,1,0,e.isCapturing,e.maxTime,e.resetChrono)},function(n,l){n(l,0,0,l.component.hasCaptured)})}function g(n){return b._42(0,[(n()(),b._16(0,0,null,null,22,"ion-row",[["class","row"]],null,null,null,null,null)),b._15(1,16384,null,0,Z.a,[],null,null),(n()(),b._40(-1,null,["\n        "])),(n()(),b._16(3,0,null,null,1,"ion-col",[["class","col"]],null,null,null,null,null)),b._15(4,16384,null,0,$.a,[],null,null),(n()(),b._40(-1,null,["\n        "])),(n()(),b._16(6,0,null,null,8,"ion-col",[["class","col"],["text-center",""]],null,null,null,null,null)),b._15(7,16384,null,0,$.a,[],null,null),(n()(),b._40(-1,null,["\n            "])),(n()(),b._11(16777216,null,null,1,null,h)),b._15(10,16384,null,0,N.k,[b.W,b.T],{ngIf:[0,"ngIf"]},null),(n()(),b._40(-1,null,["\n            "])),(n()(),b._11(16777216,null,null,1,null,p)),b._15(13,16384,null,0,N.k,[b.W,b.T],{ngIf:[0,"ngIf"]},null),(n()(),b._40(-1,null,["\n        "])),(n()(),b._40(-1,null,["\n        "])),(n()(),b._16(16,0,null,null,5,"ion-col",[["class","chrono-container col"],["padding",""],["text-end",""]],null,null,null,null,null)),b._15(17,16384,null,0,$.a,[],null,null),(n()(),b._40(-1,null,["\n            "])),(n()(),b._11(16777216,null,null,1,null,f)),b._15(20,16384,null,0,N.k,[b.W,b.T],{ngIf:[0,"ngIf"]},null),(n()(),b._40(-1,null,["\n        "])),(n()(),b._40(-1,null,["\n    "]))],function(n,l){var e=l.component;n(l,10,0,!e.hasCaptured);n(l,13,0,e.hasCaptured);n(l,20,0,!e.isImage)},null)}function v(n){return b._42(0,[b._37(671088640,1,{streamVideo:0}),b._37(671088640,2,{previewVideo:0}),b._37(671088640,3,{imgCanvas:0}),b._37(671088640,4,{previewImage:0}),b._37(671088640,5,{streamAudio:0}),b._37(671088640,6,{previewAudio:0}),(n()(),b._16(6,0,null,null,30,"ion-header",[],null,null,null,null,null)),b._15(7,16384,null,0,nn.a,[j.a,b.p,b.K,[2,ln.a]],null,null),(n()(),b._40(-1,null,["\n    "])),(n()(),b._16(9,0,null,null,26,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,en.b,en.a)),b._15(10,49152,null,0,tn.a,[an.a,[2,ln.a],[2,un.a],j.a,b.p,b.K],null,null),b._15(11,212992,null,0,on.a,[tn.a,rn.a,H.a,sn.a],null,null),(n()(),b._40(-1,3,["\n        "])),(n()(),b._16(13,0,null,1,8,"ion-buttons",[["start",""]],null,null,null,null,null)),b._15(14,16384,null,1,cn.a,[j.a,b.p,b.K,[2,dn.a],[2,tn.a]],null,null),b._37(603979776,7,{_buttons:1}),(n()(),b._40(-1,null,["\n            "])),(n()(),b._16(17,0,null,null,3,"button",[["ion-button",""]],null,[[null,"click"]],function(n,l,e){var t=!0;if("click"===l){t=!1!==n.component.cancel()&&t}return t},O.b,O.a)),b._15(18,1097728,[[7,4]],0,F.a,[[8,""],j.a,b.p,b.K],null,null),(n()(),b._40(19,0,["",""])),b._32(131072,z.a,[H.a,b.i]),(n()(),b._40(-1,null,["\n        "])),(n()(),b._40(-1,3,["\n\n        "])),(n()(),b._16(23,0,null,3,3,"ion-title",[],null,null,null,_n.b,_n.a)),b._15(24,49152,null,0,mn.a,[j.a,b.p,b.K,[2,dn.a],[2,tn.a]],null,null),(n()(),b._40(25,0,["",""])),b._32(131072,z.a,[H.a,b.i]),(n()(),b._40(-1,3,["\n\n        "])),(n()(),b._16(28,0,null,2,6,"ion-buttons",[["end",""]],null,null,null,null,null)),b._15(29,16384,null,1,cn.a,[j.a,b.p,b.K,[2,dn.a],[2,tn.a]],null,null),b._37(603979776,8,{_buttons:1}),(n()(),b._40(-1,null,["\n            "])),(n()(),b._11(16777216,null,null,1,null,i)),b._15(33,16384,null,0,N.k,[b.W,b.T],{ngIf:[0,"ngIf"]},null),(n()(),b._40(-1,null,["\n        "])),(n()(),b._40(-1,3,["\n    "])),(n()(),b._40(-1,null,["\n"])),(n()(),b._40(-1,null,["\n"])),(n()(),b._16(38,0,null,null,28,"ion-content",[["class","has-footer"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,hn.b,hn.a)),b._15(39,4374528,null,0,pn.a,[j.a,rn.a,fn.a,b.p,b.K,an.a,gn.a,b.D,[2,ln.a],[2,un.a]],null,null),(n()(),b._40(-1,1,["\n    "])),(n()(),b._16(41,0,null,1,24,"core-loading",[],null,null,null,vn.b,vn.a)),b._15(42,638976,null,0,bn.a,[H.a,b.p,sn.a,wn.a],{hideUntil:[0,"hideUntil"]},null),(n()(),b._40(-1,0,["\n        "])),(n()(),b._16(44,0,null,0,20,"div",[["class","core-av-wrapper"]],null,null,null,null,null)),(n()(),b._40(-1,null,["\n            "])),(n()(),b._40(-1,null,["\n            "])),(n()(),b._11(16777216,null,null,1,null,a)),b._15(48,16384,null,0,N.k,[b.W,b.T],{ngIf:[0,"ngIf"]},null),(n()(),b._40(-1,null,["\n\n            "])),(n()(),b._40(-1,null,["\n            "])),(n()(),b._11(16777216,null,null,1,null,u)),b._15(52,16384,null,0,N.k,[b.W,b.T],{ngIf:[0,"ngIf"]},null),(n()(),b._40(-1,null,["\n\n            "])),(n()(),b._40(-1,null,["\n            "])),(n()(),b._11(16777216,null,null,1,null,o)),b._15(56,16384,null,0,N.k,[b.W,b.T],{ngIf:[0,"ngIf"]},null),(n()(),b._40(-1,null,["\n            "])),(n()(),b._11(16777216,null,null,1,null,r)),b._15(59,16384,null,0,N.k,[b.W,b.T],{ngIf:[0,"ngIf"]},null),(n()(),b._40(-1,null,["\n\n            "])),(n()(),b._40(-1,null,["\n            "])),(n()(),b._11(16777216,null,null,1,null,s)),b._15(63,16384,null,0,N.k,[b.W,b.T],{ngIf:[0,"ngIf"]},null),(n()(),b._40(-1,null,["\n        "])),(n()(),b._40(-1,0,["\n    "])),(n()(),b._40(-1,1,["\n"])),(n()(),b._40(-1,null,["\n\n"])),(n()(),b._16(68,0,null,null,5,"ion-footer",[],null,null,null,null,null)),b._15(69,16384,null,0,Cn.a,[j.a,b.p,b.K,[2,ln.a]],null,null),(n()(),b._40(-1,null,["\n    "])),(n()(),b._11(16777216,null,null,1,null,g)),b._15(72,16384,null,0,N.k,[b.W,b.T],{ngIf:[0,"ngIf"]},null),(n()(),b._40(-1,null,["\n"])),(n()(),b._40(-1,null,["\n\n"]))],function(n,l){var e=l.component;n(l,11,0);n(l,33,0,e.hasCaptured);n(l,42,0,e.readyToCapture);n(l,48,0,!e.isAudio);n(l,52,0,e.isVideo);n(l,56,0,e.isImage);n(l,59,0,e.isImage);n(l,63,0,e.isAudio);n(l,72,0,e.readyToCapture)},function(n,l){var e=l.component;n(l,9,0,b._29(l,10)._hidden,b._29(l,10)._sbPadding);n(l,19,0,b._41(l,19,0,b._29(l,20).transform("core.cancel")));n(l,25,0,b._41(l,25,0,b._29(l,26).transform(e.title)));n(l,38,0,b._29(l,39).statusbarPadding,b._29(l,39)._hasRefresher)})}Object.defineProperty(l,"__esModule",{value:!0});var b=e(1),w=(e(0),e(10),e(47)),C=e(4),y=e(12),I=e(43),E=function(){function n(n,l,e,t,i,a,u){this.viewCtrl=n,this.domUtils=e,this.timeUtils=t,this.fileProvider=i,this.textUtils=a,this.cdr=u,this.window=window,this.type=l.get("type"),this.maxTime=l.get("maxTime"),this.facingMode=l.get("facingMode")||"environment",this.mimetype=l.get("mimetype"),this.extension=l.get("extension"),this.quality=l.get("quality")||.92,this.returnDataUrl=!!l.get("returnDataUrl")}return n.prototype.ngOnInit=function(){var n=this;this.initVariables();var l={video:!this.isAudio&&{facingMode:this.facingMode},audio:!this.isImage};navigator.mediaDevices.getUserMedia(l).then(function(l){var e=[];if(n.localMediaStream=l,n.isImage||(n.isVideo?n.previewMedia=n.previewVideo.nativeElement:(n.previewMedia=n.previewAudio.nativeElement,n.initAudioDrawer(n.localMediaStream),n.audioDrawer.start()),n.mediaRecorder=new n.window.MediaRecorder(n.localMediaStream,{mimeType:n.mimetype}),n.mediaRecorder.ondataavailable=function(n){n.data.size>0&&e.push(n.data)},n.mediaRecorder.onstop=function(){n.mediaBlob=new Blob(e),e=[],n.previewMedia.src=window.URL.createObjectURL(n.mediaBlob)}),n.isImage||n.isVideo){var t,i=!1;n.streamVideo.nativeElement.onloadedmetadata=function(){i||(i=!0,clearTimeout(t),n.readyToCapture=!0,n.streamVideo.nativeElement.onloadedmetadata=null,n.cdr.detectChanges())},n.streamVideo.nativeElement.src=window.URL.createObjectURL(n.localMediaStream),t=setTimeout(function(){i||(i=!0,n.dismissWithError(-1,"Cannot connect to webcam."))},1e4)}else n.readyToCapture=!0}).catch(function(l){n.dismissWithError(-1,l.message||l)})},n.prototype.initAudioDrawer=function(n){var l=!0,e=!1,t=new(this.window.AudioContext||this.window.webkitAudioContext),i=this.streamAudio.nativeElement.getContext("2d"),a=t.createMediaStreamSource(n),u=t.createAnalyser(),o=u.frequencyBinCount,r=new Uint8Array(o),s=this.streamAudio.nativeElement.width,c=this.streamAudio.nativeElement.height,d=function(){if(e&&(requestAnimationFrame(d),!(l=!l))){var n=s/o,t=0;u.getByteTimeDomainData(r),i.fillStyle="rgb(200, 200, 200)",i.fillRect(0,0,s,c),i.lineWidth=1,i.strokeStyle="rgb(0, 0, 0)",i.beginPath();for(var a=0;a<o;a++){var _=r[a]/128*c/2;0===a?i.moveTo(t,_):i.lineTo(t,_),t+=n}i.lineTo(s,c/2),i.stroke()}};u.fftSize=2048,a.connect(u),this.audioDrawer={start:function(){e||(e=!0,d())},stop:function(){e=!1}}},n.prototype.initVariables=function(){"captureimage"==this.type&&(this.isCaptureImage=!0,this.type="image"),"video"==this.type?(this.isVideo=!0,this.title="core.capturevideo"):"audio"==this.type?(this.isAudio=!0,this.title="core.captureaudio"):"image"==this.type&&(this.isImage=!0,this.title="core.captureimage")},n.prototype.actionClicked=function(){var n=this;if(this.isCapturing)this.stopCapturing(),this.cdr.detectChanges();else if(this.isImage){var l=this.streamVideo.nativeElement.videoWidth,e=this.streamVideo.nativeElement.videoHeight,t=this.domUtils.showModalLoading();this.imgCanvas.nativeElement.width=l,this.imgCanvas.nativeElement.height=e,this.imgCanvas.nativeElement.getContext("2d").drawImage(this.streamVideo.nativeElement,0,0,l,e),this.imgCanvas.nativeElement.toBlob(function(l){t.dismiss(),n.mediaBlob=l,n.previewImage.nativeElement.setAttribute("src",window.URL.createObjectURL(n.mediaBlob)),n.hasCaptured=!0},this.mimetype,this.quality)}else this.isCapturing=!0,this.resetChrono=!1,this.mediaRecorder.start(),this.cdr.detectChanges()},n.prototype.cancel=function(){this.dismissWithError(3,"Canceled.","Camera cancelled")},n.prototype.discard=function(){this.previewMedia&&this.previewMedia.pause(),this.streamVideo&&this.streamVideo.nativeElement.play(),this.audioDrawer&&this.audioDrawer.start(),this.hasCaptured=!1,this.isCapturing=!1,this.resetChrono=!0,delete this.mediaBlob,this.cdr.detectChanges()},n.prototype.dismissWithData=function(n){this.viewCtrl.dismiss(n,"success")},n.prototype.dismissWithError=function(n,l,e){this.viewCtrl.dismiss(this.isImage&&!this.isCaptureImage?e||l:{code:n,message:l},"error")},n.prototype.done=function(){var n=this;if(this.returnDataUrl)this.dismissWithData(this.imgCanvas.nativeElement.toDataURL(this.mimetype,this.quality));else if(this.mediaBlob){var l=this.type+"_"+this.timeUtils.readableTimestamp()+"."+this.extension,e=this.textUtils.concatenatePaths(w.a.TMPFOLDER,"media/"+l),t=this.domUtils.showModalLoading();this.fileProvider.writeFile(e,this.mediaBlob).then(function(l){n.isImage&&!n.isCaptureImage?n.dismissWithData(l.toURL()):(l.getFormatData=function(n,l){},n.dismissWithData([l]))}).catch(function(l){n.domUtils.showErrorModal(l)}).finally(function(){t.dismiss()})}else this.domUtils.showErrorModal("Please capture the media first.")},n.prototype.stopCapturing=function(){this.streamVideo&&this.streamVideo.nativeElement.pause(),this.audioDrawer&&this.audioDrawer.stop(),this.mediaRecorder&&this.mediaRecorder.stop(),this.isCapturing=!1,this.hasCaptured=!0},n.prototype.ngOnDestroy=function(){this.localMediaStream.getTracks().forEach(function(n){n.stop()}),this.streamVideo&&this.streamVideo.nativeElement.pause(),this.previewMedia&&this.previewMedia.pause(),this.audioDrawer&&this.audioDrawer.stop(),delete this.mediaBlob},n}(),T=e(5),k=e(33),M=e(29),D=function(){return function(){}}(),U=e(1284),V=e(1285),W=e(1286),A=e(1287),R=e(1288),x=e(1289),K=e(1290),B=e(1291),L=e(1292),P=e(1295),S=e(1296),q=e(1297),O=e(46),F=e(41),j=e(7),z=e(30),H=e(18),J=e(42),N=e(9),G=e(1326),Q=e(6),X=e(1332),Y=b._14({encapsulation:2,styles:[],data:{}}),Z=e(116),$=e(115),nn=e(422),ln=e(36),en=e(1293),tn=e(193),an=e(27),un=e(22),on=e(637),rn=e(15),sn=e(13),cn=e(423),dn=e(238),_n=e(1294),mn=e(329),hn=e(179),pn=e(24),fn=e(26),gn=e(100),vn=e(57),bn=e(51),wn=e(3),Cn=e(657),yn=e(60),In=b._14({encapsulation:2,styles:[],data:{}}),En=b._12("page-core-emulator-capture-media",E,function(n){return b._42(0,[(n()(),b._16(0,0,null,null,1,"page-core-emulator-capture-media",[],null,null,null,v,In)),b._15(1,245760,null,0,E,[ln.a,yn.a,C.a,I.a,w.a,y.a,b.i],null,null)],function(n,l){n(l,1,0)},null)},{},{},[]),Tn=e(19),kn=e(325),Mn=e(326),Dn=e(328),Un=e(327),Vn=e(421),Wn=e(636),An=e(110),Rn=e(239);e.d(l,"CoreEmulatorCaptureMediaPageModuleNgFactory",function(){return xn});var xn=b._13(D,[],function(n){return b._25([b._26(512,b.n,b._6,[[8,[U.a,V.a,W.a,A.a,R.a,x.a,K.a,B.a,L.a,P.a,S.a,q.a,En]],[3,b.n],b.B]),b._26(4608,N.m,N.l,[b.x,[2,N.v]]),b._26(4608,Tn.x,Tn.x,[]),b._26(4608,Tn.d,Tn.d,[]),b._26(4608,kn.b,kn.a,[]),b._26(4608,Mn.a,Mn.b,[]),b._26(4608,Dn.b,Dn.a,[]),b._26(4608,Un.b,Un.a,[]),b._26(4608,H.a,H.a,[Vn.a,kn.b,Mn.a,Dn.b,Un.b,H.b,H.c]),b._26(512,N.b,N.b,[]),b._26(512,Tn.v,Tn.v,[]),b._26(512,Tn.i,Tn.i,[]),b._26(512,Tn.s,Tn.s,[]),b._26(512,Wn.a,Wn.a,[]),b._26(512,T.a,T.a,[]),b._26(512,M.a,M.a,[]),b._26(512,An.a,An.a,[]),b._26(512,k.a,k.a,[]),b._26(512,Wn.b,Wn.b,[]),b._26(512,D,D,[]),b._26(256,H.c,void 0,[]),b._26(256,H.b,void 0,[]),b._26(256,Rn.a,E,[])])})}});
+webpackJsonp([56],{
+
+/***/ 1861:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModWorkshopAssessmentPageModule", function() { return AddonModWorkshopAssessmentPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(391);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__assessment__ = __webpack_require__(1984);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonModWorkshopAssessmentPageModule = /** @class */ (function () {
+    function AddonModWorkshopAssessmentPageModule() {
+    }
+    AddonModWorkshopAssessmentPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__assessment__["a" /* AddonModWorkshopAssessmentPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* AddonModWorkshopComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__assessment__["a" /* AddonModWorkshopAssessmentPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModWorkshopAssessmentPageModule);
+    return AddonModWorkshopAssessmentPageModule;
+}());
+
+//# sourceMappingURL=assessment.module.js.map
+
+/***/ }),
+
+/***/ 1984:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModWorkshopAssessmentPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_forms__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sync__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_utils_text__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_course_providers_course__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_user_providers_user__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__core_grades_providers_helper__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_workshop__ = __webpack_require__(109);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_helper__ = __webpack_require__(136);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_offline__ = __webpack_require__(119);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__providers_sync__ = __webpack_require__(252);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays a workshop assessment.
+ */
+var AddonModWorkshopAssessmentPage = /** @class */ (function () {
+    function AddonModWorkshopAssessmentPage(navParams, sitesProvider, courseProvider, workshopProvider, workshopOffline, workshopHelper, navCtrl, syncProvider, textUtils, fb, translate, eventsProvider, domUtils, gradesHelper, userProvider) {
+        var _this = this;
+        this.courseProvider = courseProvider;
+        this.workshopProvider = workshopProvider;
+        this.workshopOffline = workshopOffline;
+        this.workshopHelper = workshopHelper;
+        this.navCtrl = navCtrl;
+        this.syncProvider = syncProvider;
+        this.textUtils = textUtils;
+        this.fb = fb;
+        this.translate = translate;
+        this.eventsProvider = eventsProvider;
+        this.domUtils = domUtils;
+        this.gradesHelper = gradesHelper;
+        this.userProvider = userProvider;
+        this.evaluating = false;
+        this.loaded = false;
+        this.evaluate = {
+            text: '',
+            grade: -1,
+            weight: 1
+        };
+        this.weights = [];
+        this.originalEvaluation = {};
+        this.hasOffline = false;
+        this.isDestroyed = false;
+        this.forceLeave = false;
+        this.assessment = navParams.get('assessment');
+        this.submission = navParams.get('submission') || {};
+        this.profile = navParams.get('profile');
+        this.courseId = navParams.get('courseId');
+        this.assessmentId = this.assessment.assessmentid || this.assessment.id;
+        this.workshopId = this.submission.workshopid || null;
+        this.siteId = sitesProvider.getCurrentSiteId();
+        this.currentUserId = sitesProvider.getCurrentSiteUserId();
+        this.showGrade = this.workshopHelper.showGrade;
+        this.evaluateForm = new __WEBPACK_IMPORTED_MODULE_2__angular_forms__["c" /* FormGroup */]({});
+        this.evaluateForm.addControl('weight', this.fb.control('', __WEBPACK_IMPORTED_MODULE_2__angular_forms__["h" /* Validators */].required));
+        this.evaluateForm.addControl('grade', this.fb.control(''));
+        this.evaluateForm.addControl('text', this.fb.control(''));
+        // Refresh workshop on sync.
+        this.syncObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_15__providers_sync__["a" /* AddonModWorkshopSyncProvider */].AUTO_SYNCED, function (data) {
+            // Update just when all database is synced.
+            if (_this.workshopId === data.workshopId) {
+                _this.loaded = false;
+                _this.refreshAllData();
+            }
+        }, this.siteId);
+    }
+    /**
+     * Component being initialized.
+     */
+    AddonModWorkshopAssessmentPage.prototype.ngOnInit = function () {
+        this.fetchAssessmentData();
+    };
+    /**
+     * Check if we can leave the page or not.
+     *
+     * @return {boolean|Promise<void>} Resolved if we can leave it, rejected if not.
+     */
+    AddonModWorkshopAssessmentPage.prototype.ionViewCanLeave = function () {
+        if (this.forceLeave || !this.evaluating) {
+            return true;
+        }
+        if (!this.hasEvaluationChanged()) {
+            return Promise.resolve();
+        }
+        // Show confirmation if some data has been modified.
+        return this.domUtils.showConfirm(this.translate.instant('core.confirmcanceledit'));
+    };
+    /**
+     * Fetch the assessment data.
+     *
+     * @return {Promise<void>} Resolved when done.
+     */
+    AddonModWorkshopAssessmentPage.prototype.fetchAssessmentData = function () {
+        var _this = this;
+        return this.workshopProvider.getWorkshopById(this.courseId, this.workshopId).then(function (workshopData) {
+            _this.workshop = workshopData;
+            _this.title = _this.workshop.name;
+            _this.strategy = _this.workshop.strategy;
+            return _this.courseProvider.getModuleBasicGradeInfo(workshopData.coursemodule);
+        }).then(function (gradeInfo) {
+            _this.maxGrade = gradeInfo.grade;
+            return _this.workshopProvider.getWorkshopAccessInformation(_this.workshopId);
+        }).then(function (accessData) {
+            _this.access = accessData;
+            // Load Weights selector.
+            if (_this.assessmentId && (accessData.canallocate || accessData.canoverridegrades)) {
+                if (!_this.isDestroyed) {
+                    // Block the workshop.
+                    _this.syncProvider.blockOperation(__WEBPACK_IMPORTED_MODULE_12__providers_workshop__["a" /* AddonModWorkshopProvider */].COMPONENT, _this.workshopId);
+                }
+                _this.evaluating = true;
+            }
+            else {
+                _this.evaluating = false;
+            }
+            if (_this.evaluating || _this.workshop.phase == __WEBPACK_IMPORTED_MODULE_12__providers_workshop__["a" /* AddonModWorkshopProvider */].PHASE_CLOSED) {
+                // Get all info of the assessment.
+                return _this.workshopHelper.getReviewerAssessmentById(_this.workshopId, _this.assessmentId, _this.profile.id)
+                    .then(function (assessment) {
+                    var defaultGrade, promise;
+                    _this.assessment = _this.workshopHelper.realGradeValue(_this.workshop, assessment);
+                    _this.evaluate.text = _this.assessment.feedbackreviewer || '';
+                    _this.evaluate.weight = _this.assessment.weight;
+                    if (_this.evaluating) {
+                        if (accessData.canallocate) {
+                            _this.weights = [];
+                            for (var i = 16; i >= 0; i--) {
+                                _this.weights[i] = i;
+                            }
+                        }
+                        if (accessData.canoverridegrades) {
+                            defaultGrade = _this.translate.instant('addon.mod_workshop.notoverridden');
+                            promise = _this.gradesHelper.makeGradesMenu(_this.workshop.gradinggrade, _this.workshopId, defaultGrade, -1).then(function (grades) {
+                                _this.evaluationGrades = grades;
+                            });
+                        }
+                        else {
+                            promise = Promise.resolve();
+                        }
+                        return promise.then(function () {
+                            return _this.workshopOffline.getEvaluateAssessment(_this.workshopId, _this.assessmentId)
+                                .then(function (offlineAssess) {
+                                _this.hasOffline = true;
+                                _this.evaluate.weight = offlineAssess.weight;
+                                if (accessData.canoverridegrades) {
+                                    _this.evaluate.text = offlineAssess.feedbacktext || '';
+                                    _this.evaluate.grade = offlineAssess.gradinggradeover || -1;
+                                }
+                            }).catch(function () {
+                                _this.hasOffline = false;
+                                // No offline, load online.
+                                if (accessData.canoverridegrades) {
+                                    _this.evaluate.text = _this.assessment.feedbackreviewer || '';
+                                    _this.evaluate.grade = _this.assessment.gradinggradeover || -1;
+                                }
+                            });
+                        }).finally(function () {
+                            _this.originalEvaluation.weight = _this.evaluate.weight;
+                            if (accessData.canoverridegrades) {
+                                _this.originalEvaluation.text = _this.evaluate.text;
+                                _this.originalEvaluation.grade = _this.evaluate.grade;
+                            }
+                            _this.evaluateForm.controls['weight'].setValue(_this.evaluate.weight);
+                            if (accessData.canoverridegrades) {
+                                _this.evaluateForm.controls['grade'].setValue(_this.evaluate.grade);
+                                _this.evaluateForm.controls['text'].setValue(_this.evaluate.text);
+                            }
+                        });
+                    }
+                    else if (_this.workshop.phase == __WEBPACK_IMPORTED_MODULE_12__providers_workshop__["a" /* AddonModWorkshopProvider */].PHASE_CLOSED && _this.assessment.gradinggradeoverby) {
+                        return _this.userProvider.getProfile(_this.assessment.gradinggradeoverby, _this.courseId, true)
+                            .then(function (profile) {
+                            _this.evaluateByProfile = profile;
+                        });
+                    }
+                });
+            }
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'mm.course.errorgetmodule', true);
+        }).finally(function () {
+            _this.loaded = true;
+        });
+    };
+    /**
+     * Force leaving the page, without checking for changes.
+     */
+    AddonModWorkshopAssessmentPage.prototype.forceLeavePage = function () {
+        this.forceLeave = true;
+        this.navCtrl.pop();
+    };
+    /**
+     * Check if data has changed.
+     *
+     * @return {boolean} True if changed, false otherwise.
+     */
+    AddonModWorkshopAssessmentPage.prototype.hasEvaluationChanged = function () {
+        if (!this.loaded || !this.evaluating) {
+            return false;
+        }
+        var inputData = this.evaluateForm.value;
+        if (this.originalEvaluation.weight != inputData.weight) {
+            return true;
+        }
+        if (this.access && this.access.canoverridegrades) {
+            if (this.originalEvaluation.text != inputData.text) {
+                return true;
+            }
+            if (this.originalEvaluation.grade != inputData.grade) {
+                return true;
+            }
+        }
+        return false;
+    };
+    /**
+     * Convenience function to refresh all the data.
+     *
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonModWorkshopAssessmentPage.prototype.refreshAllData = function () {
+        var _this = this;
+        var promises = [];
+        promises.push(this.workshopProvider.invalidateWorkshopData(this.courseId));
+        promises.push(this.workshopProvider.invalidateWorkshopAccessInformationData(this.workshopId));
+        promises.push(this.workshopProvider.invalidateReviewerAssesmentsData(this.workshopId));
+        if (this.assessmentId) {
+            promises.push(this.workshopProvider.invalidateAssessmentFormData(this.workshopId, this.assessmentId));
+            promises.push(this.workshopProvider.invalidateAssessmentData(this.workshopId, this.assessmentId));
+        }
+        return Promise.all(promises).finally(function () {
+            _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_12__providers_workshop__["a" /* AddonModWorkshopProvider */].ASSESSMENT_INVALIDATED, _this.siteId);
+            return _this.fetchAssessmentData();
+        });
+    };
+    /**
+     * Pull to refresh.
+     *
+     * @param {any} refresher Refresher.
+     */
+    AddonModWorkshopAssessmentPage.prototype.refreshAssessment = function (refresher) {
+        if (this.loaded) {
+            this.refreshAllData().finally(function () {
+                refresher.complete();
+            });
+        }
+    };
+    /**
+     * Save the assessment evaluation.
+     */
+    AddonModWorkshopAssessmentPage.prototype.saveEvaluation = function () {
+        var _this = this;
+        // Check if data has changed.
+        if (this.hasEvaluationChanged()) {
+            this.sendEvaluation().then(function () {
+                _this.forceLeavePage();
+            });
+        }
+        else {
+            // Nothing to save, just go back.
+            this.forceLeavePage();
+        }
+    };
+    /**
+     * Sends the evaluation to be saved on the server.
+     *
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonModWorkshopAssessmentPage.prototype.sendEvaluation = function () {
+        var _this = this;
+        var modal = this.domUtils.showModalLoading('core.sending', true), inputData = this.evaluateForm.value;
+        inputData.grade = inputData.grade >= 0 ? inputData.grade : '';
+        // Add some HTML to the message if needed.
+        inputData.text = this.textUtils.formatHtmlLines(inputData.text);
+        // Try to send it to server.
+        return this.workshopProvider.evaluateAssessment(this.workshopId, this.assessmentId, this.courseId, inputData.text, inputData.weight, inputData.grade).then(function () {
+            var data = {
+                workshopId: _this.workshopId,
+                assessmentId: _this.assessmentId,
+                userId: _this.currentUserId
+            };
+            return _this.workshopProvider.invalidateAssessmentData(_this.workshopId, _this.assessmentId).finally(function () {
+                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_12__providers_workshop__["a" /* AddonModWorkshopProvider */].ASSESSMENT_SAVED, data, _this.siteId);
+            });
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'Cannot save assessment evaluation');
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    /**
+     * Component being destroyed.
+     */
+    AddonModWorkshopAssessmentPage.prototype.ngOnDestroy = function () {
+        this.isDestroyed = true;
+        this.syncObserver && this.syncObserver.off();
+        // Restore original back functions.
+        this.syncProvider.unblockOperation(__WEBPACK_IMPORTED_MODULE_12__providers_workshop__["a" /* AddonModWorkshopProvider */].COMPONENT, this.workshopId);
+    };
+    AddonModWorkshopAssessmentPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-workshop-assessment-page',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/addon/mod/workshop/pages/assessment/assessment.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n        <ion-buttons end [hidden]="!evaluating">\n            <button ion-button clear (click)="saveEvaluation()" [attr.aria-label]="\'core.save\' | translate">\n                {{ \'core.save\' | translate }}\n            </button>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="loaded" (ionRefresh)="refreshAssessment($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="loaded">\n\n        <ion-item text-wrap>\n            <ion-avatar item-start *ngIf="profile">\n                <img [src]="profile.profileimageurl" core-external-content core-user-link [courseId]="courseId" [userId]="profile.id" [alt]="\'core.pictureof\' | translate:{$a: profile.fullname}" role="presentation" onError="this.src=\'assets/img/user-avatar.png\'">\n            </ion-avatar>\n            <h2 *ngIf="profile && profile.fullname">{{profile.fullname}}</h2>\n\n            <p *ngIf="workshop && assessment && showGrade(assessment.grade)">\n                {{ \'addon.mod_workshop.submissiongradeof\' | translate:{$a: workshop.grade } }}: {{assessment.grade}}\n            </p>\n            <p *ngIf="access && access.canviewallsubmissions && assessment && showGrade(assessment.gradinggrade)" [class.core-has-overriden-grade]=" showGrade(assessment.gradinggrade)">\n                {{ \'addon.mod_workshop.gradinggradeof\' | translate:{$a: workshop.gradinggrade } }}: {{assessment.gradinggrade}}\n            </p>\n            <p *ngIf="access && access.canviewallsubmissions && assessment && showGrade(assessment.gradinggradeover)" class="core-overriden-grade">\n                {{ \'addon.mod_workshop.gradinggradeover\' | translate }}: {{assessment.gradinggradeover}}\n            </p>\n            <p *ngIf="assessment && assessment.weight && assessment.weight != 1">\n                {{ \'addon.mod_workshop.weightinfo\' | translate:{$a: assessment.weight } }}\n            </p>\n            <ion-badge *ngIf="!assessment || !showGrade(assessment.grade)" color="danger">\n                {{ \'addon.mod_workshop.notassessed\' | translate }}\n            </ion-badge>\n        </ion-item>\n\n        <addon-mod-workshop-assessment-strategy *ngIf="assessment && assessmentId && showGrade(assessment.grade) && workshop && access && profile" [workshop]="workshop" [access]="access" [assessmentId]="assessmentId" [userId]="profile.id" [strategy]="strategy"></addon-mod-workshop-assessment-strategy>\n\n        <form ion-list [formGroup]="evaluateForm" *ngIf="evaluating">\n            <ion-item text-wrap>\n                <h2>{{ \'addon.mod_workshop.assessmentsettings\' | translate }}</h2>\n            </ion-item>\n            <ion-item text-wrap *ngIf="access.canallocate">\n                <ion-label stacked core-mark-required="true">{{ \'addon.mod_workshop.assessmentweight\' | translate }}</ion-label>\n                <ion-select formControlName="weight" required="true" interface="popover">\n                    <ion-option *ngFor="let w of weights" [value]="w">{{ w }}</ion-option>\n                </ion-select>\n            </ion-item>\n            <ion-item text-wrap>\n                <h2>{{ \'addon.mod_workshop.gradinggradecalculated\' | translate }}</h2>\n                <p>{{ assessment.gradinggrade }}</p>\n            </ion-item>\n            <ion-item text-wrap *ngIf="access.canoverridegrades">\n                <ion-label stacked>{{ \'addon.mod_workshop.gradinggradeover\' | translate }}</ion-label>\n                <ion-select formControlName="grade" interface="popover">\n                    <ion-option *ngFor="let grade of evaluationGrades" [value]="grade.value">{{grade.label}}</ion-option>\n                </ion-select>\n            </ion-item>\n            <ion-item *ngIf="access.canoverridegrades">\n                <ion-label stacked>{{ \'addon.mod_workshop.feedbackreviewer\' | translate }}</ion-label>\n                <core-rich-text-editor item-content [control]="evaluateForm.controls[\'text\']" formControlName="text"></core-rich-text-editor>\n            </ion-item>\n        </form>\n        <ion-list *ngIf="!evaluating && evaluate && evaluate.text">\n            <ion-item text-wrap>\n                <ion-avatar item-start *ngIf="evaluateGradingByProfile">\n                    <img [src]="evaluateGradingByProfile.profileimageurl" core-external-content core-user-link [courseId]="courseId" [userId]="evaluateGradingByProfile.id" [alt]="\'core.pictureof\' | translate:{$a: evaluateGradingByProfile.fullname}" role="presentation" onError="this.src=\'assets/img/user-avatar.png\'">\n                </ion-avatar>\n                <h2 *ngIf="evaluateGradingByProfile && evaluateGradingByProfile.fullname">{{ \'addon.mod_workshop.feedbackby\' | translate : {$a: evaluateGradingByProfile.fullname} }}</h2>\n                <core-format-text [text]="evaluate.text"></core-format-text>\n            </ion-item>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/addon/mod/workshop/pages/assessment/assessment.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */], __WEBPACK_IMPORTED_MODULE_9__core_course_providers_course__["a" /* CoreCourseProvider */],
+            __WEBPACK_IMPORTED_MODULE_12__providers_workshop__["a" /* AddonModWorkshopProvider */], __WEBPACK_IMPORTED_MODULE_14__providers_offline__["a" /* AddonModWorkshopOfflineProvider */],
+            __WEBPACK_IMPORTED_MODULE_13__providers_helper__["a" /* AddonModWorkshopHelperProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_sync__["a" /* CoreSyncProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_2__angular_forms__["a" /* FormBuilder */],
+            __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_11__core_grades_providers_helper__["a" /* CoreGradesHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_10__core_user_providers_user__["a" /* CoreUserProvider */]])
+    ], AddonModWorkshopAssessmentPage);
+    return AddonModWorkshopAssessmentPage;
+}());
+
+//# sourceMappingURL=assessment.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=56.js.map

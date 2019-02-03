@@ -1,1 +1,131 @@
-webpackJsonp([59],{1871:function(n,l,u){"use strict";function a(n){return e._42(0,[(n()(),e._16(0,0,null,null,2,"core-context-menu-item",[],null,null,null,P.b,P.a)),e._15(1,770048,null,0,D.a,[M.a],{content:[0,"content"],iconAction:[1,"iconAction"],href:[2,"href"],priority:[3,"priority"]},null),e._32(131072,T.a,[U.a,e.i])],function(n,l){var u=l.component;n(l,1,0,e._41(l,1,0,e._29(l,2).transform("core.openinbrowser")),"open",u.module.url,900)},null)}function t(n){return e._42(0,[(n()(),e._16(0,0,null,null,2,"core-context-menu-item",[],null,[[null,"action"]],function(n,l,u){var a=!0;if("action"===l){a=!1!==n.component.expandDescription()&&a}return a},P.b,P.a)),e._15(1,770048,null,0,D.a,[M.a],{content:[0,"content"],iconAction:[1,"iconAction"],priority:[2,"priority"]},{action:"action"}),e._32(131072,T.a,[U.a,e.i])],function(n,l){n(l,1,0,e._41(l,1,0,e._29(l,2).transform("core.moduleintro")),"arrow-forward",800)},null)}function o(n){return e._42(0,[(n()(),e._16(0,0,null,null,27,"ion-header",[],null,null,null,null,null)),e._15(1,16384,null,0,C.a,[W.a,e.p,e.K,[2,j.a]],null,null),(n()(),e._40(-1,null,["\n    "])),(n()(),e._16(3,0,null,null,23,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,B.b,B.a)),e._15(4,49152,null,0,F.a,[J.a,[2,j.a],[2,N.a],W.a,e.p,e.K],null,null),e._15(5,212992,null,0,O.a,[F.a,R.a,U.a,q.a],null,null),(n()(),e._40(-1,3,["\n        "])),(n()(),e._16(7,0,null,3,3,"ion-title",[],null,null,null,z.b,z.a)),e._15(8,49152,null,0,E.a,[W.a,e.p,e.K,[2,G.a],[2,F.a]],null,null),(n()(),e._16(9,0,null,0,1,"core-format-text",[],null,null,null,null,null)),e._15(10,540672,null,0,H.a,[e.p,L.a,Q.a,r.a,U.a,R.a,S.a,V.a,X.a,Y.a,Z.a,$.a,[2,N.a],[2,nn.a],[2,ln.a],un.a,q.a],{text:[0,"text"]},null),(n()(),e._40(-1,3,["\n\n        "])),(n()(),e._16(12,0,null,2,13,"ion-buttons",[["end",""]],null,null,null,null,null)),e._15(13,16384,null,1,an.a,[W.a,e.p,e.K,[2,G.a],[2,F.a]],null,null),e._37(603979776,1,{_buttons:1}),(n()(),e._40(-1,null,["\n            "])),(n()(),e._16(16,0,null,null,8,"core-context-menu",[],null,null,null,tn.b,tn.a)),e._15(17,245760,null,0,M.a,[U.a,on.a,e.p,Q.a,[2,en.a]],null,null),(n()(),e._40(-1,0,["\n                "])),(n()(),e._11(16777216,null,0,1,null,a)),e._15(20,16384,null,0,_n.k,[e.W,e.T],{ngIf:[0,"ngIf"]},null),(n()(),e._40(-1,0,["\n                "])),(n()(),e._11(16777216,null,0,1,null,t)),e._15(23,16384,null,0,_n.k,[e.W,e.T],{ngIf:[0,"ngIf"]},null),(n()(),e._40(-1,0,["\n            "])),(n()(),e._40(-1,null,["\n        "])),(n()(),e._40(-1,3,["\n    "])),(n()(),e._40(-1,null,["\n"])),(n()(),e._40(-1,null,["\n"])),(n()(),e._16(29,0,null,null,5,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,rn.b,rn.a)),e._15(30,4374528,null,0,nn.a,[W.a,R.a,cn.a,e.p,e.K,J.a,sn.a,e.D,[2,j.a],[2,N.a]],null,null),(n()(),e._40(-1,1,["\n    "])),(n()(),e._16(32,0,null,1,1,"core-course-unsupported-module",[],null,null,null,I.c,I.b)),e._15(33,114688,null,0,dn.a,[pn.a,bn.a],{module:[0,"module"]},null),(n()(),e._40(-1,1,["\n"])),(n()(),e._40(-1,null,["\n"]))],function(n,l){var u=l.component;n(l,5,0);n(l,10,0,u.module.name),n(l,17,0);n(l,20,0,u.module.url);n(l,23,0,u.module.description);n(l,33,0,u.module)},function(n,l){n(l,3,0,e._29(l,4)._hidden,e._29(l,4)._sbPadding);n(l,29,0,e._29(l,30).statusbarPadding,e._29(l,30)._hasRefresher)})}Object.defineProperty(l,"__esModule",{value:!0});var e=u(1),_=(u(0),u(10),u(5)),r=u(12),i=function(){function n(n,l,u){this.translate=l,this.textUtils=u,this.module=n.get("module")||{}}return n.prototype.expandDescription=function(){this.textUtils.expandText(this.translate.instant("core.description"),this.module.description)},n}(),c=u(33),s=u(29),d=u(76),p=function(){return function(){}}(),b=u(1284),f=u(1285),m=u(1286),h=u(1287),x=u(1288),g=u(1289),v=u(1290),y=u(1291),K=u(1292),k=u(1295),w=u(1296),A=u(1297),I=u(1298),P=u(87),D=u(78),M=u(71),T=u(30),U=u(18),C=u(422),W=u(7),j=u(36),B=u(1293),F=u(193),J=u(27),N=u(22),O=u(637),R=u(15),q=u(13),z=u(1294),E=u(329),G=u(238),H=u(40),L=u(2),Q=u(4),S=u(3),V=u(25),X=u(6),Y=u(17),Z=u(11),$=u(23),nn=u(24),ln=u(35),un=u(38),an=u(423),tn=u(86),on=u(69),en=u(70),_n=u(9),rn=u(179),cn=u(26),sn=u(100),dn=u(351),pn=u(16),bn=u(54),fn=u(60),mn=e._14({encapsulation:2,styles:[],data:{}}),hn=e._12("page-core-course-unsupported-module",i,function(n){return e._42(0,[(n()(),e._16(0,0,null,null,1,"page-core-course-unsupported-module",[],null,null,null,o,mn)),e._15(1,49152,null,0,i,[fn.a,U.a,r.a],null,null)],null,null)},{},{},[]),xn=u(19),gn=u(325),vn=u(326),yn=u(328),Kn=u(327),kn=u(421),wn=u(636),An=u(110),In=u(239);u.d(l,"CoreCourseUnsupportedModulePageModuleNgFactory",function(){return Pn});var Pn=e._13(p,[],function(n){return e._25([e._26(512,e.n,e._6,[[8,[b.a,f.a,m.a,h.a,x.a,g.a,v.a,y.a,K.a,k.a,w.a,A.a,I.a,hn]],[3,e.n],e.B]),e._26(4608,_n.m,_n.l,[e.x,[2,_n.v]]),e._26(4608,xn.x,xn.x,[]),e._26(4608,xn.d,xn.d,[]),e._26(4608,gn.b,gn.a,[]),e._26(4608,vn.a,vn.b,[]),e._26(4608,yn.b,yn.a,[]),e._26(4608,Kn.b,Kn.a,[]),e._26(4608,U.a,U.a,[kn.a,gn.b,vn.a,yn.b,Kn.b,U.b,U.c]),e._26(512,_n.b,_n.b,[]),e._26(512,xn.v,xn.v,[]),e._26(512,xn.i,xn.i,[]),e._26(512,xn.s,xn.s,[]),e._26(512,wn.a,wn.a,[]),e._26(512,_.a,_.a,[]),e._26(512,s.a,s.a,[]),e._26(512,An.a,An.a,[]),e._26(512,c.a,c.a,[]),e._26(512,d.a,d.a,[]),e._26(512,wn.b,wn.b,[]),e._26(512,p,p,[]),e._26(256,U.c,void 0,[]),e._26(256,U.b,void 0,[]),e._26(256,In.a,i,[])])})}});
+webpackJsonp([59],{
+
+/***/ 1858:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModUrlIndexPageModule", function() { return AddonModUrlIndexPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(964);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__index__ = __webpack_require__(1981);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonModUrlIndexPageModule = /** @class */ (function () {
+    function AddonModUrlIndexPageModule() {
+    }
+    AddonModUrlIndexPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModUrlIndexPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* AddonModUrlComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_5__index__["a" /* AddonModUrlIndexPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModUrlIndexPageModule);
+    return AddonModUrlIndexPageModule;
+}());
+
+//# sourceMappingURL=index.module.js.map
+
+/***/ }),
+
+/***/ 1981:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModUrlIndexPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_index_index__ = __webpack_require__(418);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+/**
+ * Page that displays a url.
+ */
+var AddonModUrlIndexPage = /** @class */ (function () {
+    function AddonModUrlIndexPage(navParams) {
+        this.module = navParams.get('module') || {};
+        this.courseId = navParams.get('courseId');
+        this.title = this.module.name;
+    }
+    /**
+     * Update some data based on the url instance.
+     *
+     * @param {any} url Url instance.
+     */
+    AddonModUrlIndexPage.prototype.updateData = function (url) {
+        this.title = url.name || this.title;
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModUrlIndexComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_2__components_index_index__["a" /* AddonModUrlIndexComponent */])
+    ], AddonModUrlIndexPage.prototype, "urlComponent", void 0);
+    AddonModUrlIndexPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-url-index',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/addon/mod/url/pages/index/index.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="title"></core-format-text></ion-title>\n\n        <ion-buttons end>\n            <!-- The buttons defined by the component will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="urlComponent.loaded" (ionRefresh)="urlComponent.doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <addon-mod-url-index [module]="module" [courseId]="courseId" (dataRetrieved)="updateData($event)"></addon-mod-url-index>\n</ion-content>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/addon/mod/url/pages/index/index.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */]])
+    ], AddonModUrlIndexPage);
+    return AddonModUrlIndexPage;
+}());
+
+//# sourceMappingURL=index.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=59.js.map

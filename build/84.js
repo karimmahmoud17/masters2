@@ -1,1 +1,238 @@
-webpackJsonp([84],{1839:function(l,n,u){"use strict";function a(l){return s._42(0,[(l()(),s._16(0,0,null,null,14,null,null,null,null,null,null,null)),(l()(),s._40(-1,null,["\n                "])),(l()(),s._16(2,0,null,null,8,"ion-item-divider",[["class","item item-divider"],["color","light"]],null,null,null,L.b,L.a)),s._15(3,1097728,null,3,T.a,[W.a,F.a,s.p,s.K,[2,$.a]],{color:[0,"color"]},null),s._37(335544320,2,{contentLabel:0}),s._37(603979776,3,{_buttons:1}),s._37(603979776,4,{_icons:1}),s._15(7,16384,null,0,C.a,[F.a,s.p,s.K],{color:[0,"color"]},null),(l()(),s._16(8,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),s._40(9,null,["",""])),s._32(131072,O.a,[j.a,s.i]),(l()(),s._40(-1,null,["\n                "])),(l()(),s._16(12,0,null,null,1,"core-file",[],null,null,null,D.b,D.a)),s._15(13,245760,null,0,A.a,[B.a,J.a,N.a,R.a,q.a,z.a,E.a,G.a],{file:[0,"file"],component:[1,"component"],componentId:[2,"componentId"]},null),(l()(),s._40(-1,null,["\n            "]))],function(l,n){var u=n.component;l(n,3,0,"light");l(n,7,0,"light");l(n,13,0,u.pageInstance.mediaFile,u.pageInstance.component,u.pageInstance.lesson.coursemodule)},function(l,n){l(n,9,0,s._41(n,9,0,s._29(n,10).transform("addon.mod_lesson.linkedmedia")))})}function e(l){return s._42(0,[(l()(),s._16(0,0,null,null,9,"ion-item",[["class","item item-block"],["text-center",""]],null,null,null,L.b,L.a)),s._15(1,1097728,null,3,T.a,[W.a,F.a,s.p,s.K,[2,$.a]],null,null),s._37(335544320,8,{contentLabel:0}),s._37(603979776,9,{_buttons:1}),s._37(603979776,10,{_icons:1}),s._15(5,16384,null,0,H.a,[],null,null),(l()(),s._40(-1,2,["\n                    "])),(l()(),s._16(7,0,null,2,1,"ion-spinner",[],[[2,"spinner-paused",null]],null,null,Q.b,Q.a)),s._15(8,114688,null,0,S.a,[F.a,s.p,s.K],null,null),(l()(),s._40(-1,2,["\n                "]))],function(l,n){l(n,8,0)},function(l,n){l(n,7,0,s._29(n,8)._paused)})}function o(l){return s._42(0,[(l()(),s._16(0,0,null,null,12,"a",[["class","item item-block"],["ion-item",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.loadPage(l.parent.context.$implicit.id)&&a}return a},L.b,L.a)),s._15(1,278528,null,0,U.i,[s.v,s.w,s.p,s.L],{ngClass:[0,"ngClass"]},null),s._33(2,{"addon-mod_lesson-selected core-white-push-arrow":0}),s._15(3,1097728,null,3,T.a,[W.a,F.a,s.p,s.K,[2,$.a]],null,null),s._37(335544320,11,{contentLabel:0}),s._37(603979776,12,{_buttons:1}),s._37(603979776,13,{_icons:1}),s._15(7,16384,null,0,H.a,[],null,null),(l()(),s._40(-1,2,["\n                            "])),(l()(),s._16(9,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),s._16(10,0,null,null,1,"core-format-text",[],null,null,null,null,null)),s._15(11,540672,null,0,V.a,[s.p,B.a,N.a,X.a,j.a,Y.a,J.a,Z.a,ll.a,R.a,q.a,nl.a,[2,ul.a],[2,al.a],[2,el.a],ol.a,G.a],{text:[0,"text"]},null),(l()(),s._40(-1,2,["\n                        "]))],function(l,n){var u=n.component;l(n,1,0,l(n,2,0,!u.pageInstance.eolData&&u.pageInstance.currentPage==n.parent.context.$implicit.id));l(n,11,0,n.parent.context.$implicit.title)},null)}function t(l){return s._42(0,[(l()(),s._16(0,0,null,null,4,null,null,null,null,null,null,null)),(l()(),s._40(-1,null,["\n                        "])),(l()(),s._11(16777216,null,null,1,null,o)),s._15(3,16384,null,0,U.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,null,["\n                    "]))],function(l,n){l(n,3,0,n.context.$implicit.display&&n.context.$implicit.displayinmenublock)},null)}function _(l){return s._42(0,[(l()(),s._16(0,0,null,null,4,"div",[],null,null,null,null,null)),(l()(),s._40(-1,null,["\n                    "])),(l()(),s._11(16777216,null,null,1,null,t)),s._15(3,802816,null,0,U.j,[s.W,s.T,s.v],{ngForOf:[0,"ngForOf"]},null),(l()(),s._40(-1,null,["\n                "]))],function(l,n){l(n,3,0,n.component.pageInstance.lessonPages)},null)}function i(l){return s._42(0,[(l()(),s._16(0,0,null,null,17,null,null,null,null,null,null,null)),(l()(),s._40(-1,null,["\n                "])),(l()(),s._16(2,0,null,null,8,"ion-item-divider",[["class","item item-divider"],["color","light"]],null,null,null,L.b,L.a)),s._15(3,1097728,null,3,T.a,[W.a,F.a,s.p,s.K,[2,$.a]],{color:[0,"color"]},null),s._37(335544320,5,{contentLabel:0}),s._37(603979776,6,{_buttons:1}),s._37(603979776,7,{_icons:1}),s._15(7,16384,null,0,C.a,[F.a,s.p,s.K],{color:[0,"color"]},null),(l()(),s._16(8,0,null,2,2,"h2",[],null,null,null,null,null)),(l()(),s._40(9,null,["",""])),s._32(131072,O.a,[j.a,s.i]),(l()(),s._40(-1,null,["\n                "])),(l()(),s._11(16777216,null,null,1,null,e)),s._15(13,16384,null,0,U.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,null,["\n                "])),(l()(),s._11(16777216,null,null,1,null,_)),s._15(16,16384,null,0,U.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,null,["\n            "]))],function(l,n){var u=n.component;l(n,3,0,"light");l(n,7,0,"light");l(n,13,0,u.pageInstance.loadingMenu);l(n,16,0,!u.pageInstance.loadingMenu)},function(l,n){l(n,9,0,s._41(n,9,0,s._29(n,10).transform("addon.mod_lesson.lessonmenu")))})}function c(l){return s._42(0,[(l()(),s._16(0,0,null,null,24,"ion-header",[],null,null,null,null,null)),s._15(1,16384,null,0,tl.a,[F.a,s.p,s.K,[2,_l.a]],null,null),(l()(),s._40(-1,null,["\n    "])),(l()(),s._16(3,0,null,null,20,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,il.b,il.a)),s._15(4,49152,null,0,cl.a,[sl.a,[2,_l.a],[2,ul.a],F.a,s.p,s.K],null,null),s._15(5,212992,null,0,rl.a,[cl.a,Y.a,j.a,G.a],null,null),(l()(),s._40(-1,3,["\n        "])),(l()(),s._16(7,0,null,3,2,"ion-title",[],null,null,null,dl.b,dl.a)),s._15(8,49152,null,0,pl.a,[F.a,s.p,s.K,[2,ml.a],[2,cl.a]],null,null),(l()(),s._40(9,0,["",""])),(l()(),s._40(-1,3,["\n        "])),(l()(),s._16(11,0,null,2,11,"ion-buttons",[["end",""]],null,null,null,null,null)),s._15(12,16384,null,1,gl.a,[F.a,s.p,s.K,[2,ml.a],[2,cl.a]],null,null),s._37(603979776,1,{_buttons:1}),(l()(),s._40(-1,null,["\n            "])),(l()(),s._16(15,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.closeModal()&&a}return a},fl.b,fl.a)),s._15(16,1097728,[[1,4]],0,bl.a,[[8,""],F.a,s.p,s.K],null,null),s._32(131072,O.a,[j.a,s.i]),(l()(),s._40(-1,0,["\n                "])),(l()(),s._16(19,0,null,0,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),s._15(20,147456,null,0,hl.a,[F.a,s.p,s.K],{name:[0,"name"]},null),(l()(),s._40(-1,0,["\n            "])),(l()(),s._40(-1,null,["\n        "])),(l()(),s._40(-1,3,["\n    "])),(l()(),s._40(-1,null,["\n"])),(l()(),s._40(-1,null,["\n"])),(l()(),s._16(26,0,null,null,17,"ion-content",[["class","addon-mod_lesson-menu-modal"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,vl.b,vl.a)),s._15(27,4374528,null,0,al.a,[F.a,Y.a,Il.a,s.p,s.K,sl.a,kl.a,s.D,[2,_l.a],[2,ul.a]],null,null),(l()(),s._40(-1,1,["\n    "])),(l()(),s._16(29,0,null,1,13,"nav",[],null,null,null,null,null)),(l()(),s._40(-1,null,["\n        "])),(l()(),s._16(31,0,null,null,10,"ion-list",[],null,null,null,null,null)),s._15(32,16384,null,0,Kl.a,[F.a,s.p,s.K,Y.a,xl.l,Il.a],null,null),(l()(),s._40(-1,null,["\n            "])),(l()(),s._40(-1,null,["\n            "])),(l()(),s._11(16777216,null,null,1,null,a)),s._15(36,16384,null,0,U.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,null,["\n\n            "])),(l()(),s._40(-1,null,["\n            "])),(l()(),s._11(16777216,null,null,1,null,i)),s._15(40,16384,null,0,U.k,[s.W,s.T],{ngIf:[0,"ngIf"]},null),(l()(),s._40(-1,null,["\n        "])),(l()(),s._40(-1,null,["\n    "])),(l()(),s._40(-1,1,["\n"])),(l()(),s._40(-1,null,["\n"]))],function(l,n){var u=n.component;l(n,5,0);l(n,20,0,"close");l(n,36,0,u.pageInstance.mediaFile);l(n,40,0,u.pageInstance.displayMenu)},function(l,n){var u=n.component;l(n,3,0,s._29(n,4)._hidden,s._29(n,4)._sbPadding);l(n,9,0,u.pageInstance.lesson.name);l(n,15,0,s._41(n,15,0,s._29(n,17).transform("core.close")));l(n,19,0,s._29(n,20)._hidden);l(n,26,0,s._29(n,27).statusbarPadding,s._29(n,27)._hasRefresher)})}Object.defineProperty(n,"__esModule",{value:!0});var s=u(1),r=(u(0),u(10),u(33)),d=u(29),p=function(){function l(l,n){this.viewCtrl=n,this.pageInstance=l.get("page")}return l.prototype.closeModal=function(){this.viewCtrl.dismiss()},l.prototype.loadPage=function(l){this.pageInstance.changePage&&this.pageInstance.changePage(l),this.closeModal()},l}(),m=u(5),g=function(){return function(){}}(),f=u(1284),b=u(1285),h=u(1286),v=u(1287),I=u(1288),k=u(1289),K=u(1290),x=u(1291),M=u(1292),P=u(1295),y=u(1296),w=u(1297),L=u(34),T=u(21),W=u(20),F=u(7),$=u(28),C=u(164),O=u(30),j=u(18),D=u(197),A=u(167),B=u(2),J=u(3),N=u(4),R=u(17),q=u(11),z=u(123),E=u(66),G=u(13),H=u(31),Q=u(181),S=u(135),U=u(9),V=u(40),X=u(12),Y=u(15),Z=u(25),ll=u(6),nl=u(23),ul=u(22),al=u(24),el=u(35),ol=u(38),tl=u(422),_l=u(36),il=u(1293),cl=u(193),sl=u(27),rl=u(637),dl=u(1294),pl=u(329),ml=u(238),gl=u(423),fl=u(46),bl=u(41),hl=u(42),vl=u(179),Il=u(26),kl=u(100),Kl=u(75),xl=u(37),Ml=u(60),Pl=s._14({encapsulation:2,styles:[],data:{}}),yl=s._12("page-addon-mod-lesson-menu-modal",p,function(l){return s._42(0,[(l()(),s._16(0,0,null,null,1,"page-addon-mod-lesson-menu-modal",[],null,null,null,c,Pl)),s._15(1,49152,null,0,p,[Ml.a,_l.a],null,null)],null,null)},{},{},[]),wl=u(19),Ll=u(325),Tl=u(326),Wl=u(328),Fl=u(327),$l=u(421),Cl=u(636),Ol=u(110),jl=u(239);u.d(n,"AddonModLessonMenuModalPageModuleNgFactory",function(){return Dl});var Dl=s._13(g,[],function(l){return s._25([s._26(512,s.n,s._6,[[8,[f.a,b.a,h.a,v.a,I.a,k.a,K.a,x.a,M.a,P.a,y.a,w.a,yl]],[3,s.n],s.B]),s._26(4608,U.m,U.l,[s.x,[2,U.v]]),s._26(4608,wl.x,wl.x,[]),s._26(4608,wl.d,wl.d,[]),s._26(4608,Ll.b,Ll.a,[]),s._26(4608,Tl.a,Tl.b,[]),s._26(4608,Wl.b,Wl.a,[]),s._26(4608,Fl.b,Fl.a,[]),s._26(4608,j.a,j.a,[$l.a,Ll.b,Tl.a,Wl.b,Fl.b,j.b,j.c]),s._26(512,U.b,U.b,[]),s._26(512,wl.v,wl.v,[]),s._26(512,wl.i,wl.i,[]),s._26(512,wl.s,wl.s,[]),s._26(512,Cl.a,Cl.a,[]),s._26(512,m.a,m.a,[]),s._26(512,d.a,d.a,[]),s._26(512,Ol.a,Ol.a,[]),s._26(512,r.a,r.a,[]),s._26(512,Cl.b,Cl.b,[]),s._26(512,g,g,[]),s._26(256,j.c,void 0,[]),s._26(256,j.b,void 0,[]),s._26(256,jl.a,p,[])])})}});
+webpackJsonp([84],{
+
+/***/ 1831:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModFeedbackNonRespondentsPageModule", function() { return AddonModFeedbackNonRespondentsPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(927);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__nonrespondents__ = __webpack_require__(1952);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonModFeedbackNonRespondentsPageModule = /** @class */ (function () {
+    function AddonModFeedbackNonRespondentsPageModule() {
+    }
+    AddonModFeedbackNonRespondentsPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__nonrespondents__["a" /* AddonModFeedbackNonRespondentsPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* AddonModFeedbackComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__nonrespondents__["a" /* AddonModFeedbackNonRespondentsPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModFeedbackNonRespondentsPageModule);
+    return AddonModFeedbackNonRespondentsPageModule;
+}());
+
+//# sourceMappingURL=nonrespondents.module.js.map
+
+/***/ }),
+
+/***/ 1952:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModFeedbackNonRespondentsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_feedback__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_helper__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_groups__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(8);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Page that displays feedback non respondents.
+ */
+var AddonModFeedbackNonRespondentsPage = /** @class */ (function () {
+    function AddonModFeedbackNonRespondentsPage(navParams, feedbackProvider, groupsProvider, domUtils, feedbackHelper, navCtrl) {
+        this.feedbackProvider = feedbackProvider;
+        this.groupsProvider = groupsProvider;
+        this.domUtils = domUtils;
+        this.feedbackHelper = feedbackHelper;
+        this.navCtrl = navCtrl;
+        this.page = 0;
+        this.groupInfo = {
+            groups: [],
+            separateGroups: false,
+            visibleGroups: false
+        };
+        this.users = [];
+        this.total = 0;
+        this.canLoadMore = false;
+        this.feedbackLoaded = false;
+        this.loadingMore = false;
+        var module = navParams.get('module');
+        this.moduleId = module.id;
+        this.feedbackId = module.instance;
+        this.courseId = navParams.get('courseId');
+        this.selectedGroup = navParams.get('group') || 0;
+    }
+    /**
+     * View loaded.
+     */
+    AddonModFeedbackNonRespondentsPage.prototype.ionViewDidLoad = function () {
+        this.fetchData();
+    };
+    /**
+     * Fetch all the data required for the view.
+     *
+     * @param {boolean} [refresh] Empty events array first.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModFeedbackNonRespondentsPage.prototype.fetchData = function (refresh) {
+        var _this = this;
+        if (refresh === void 0) { refresh = false; }
+        this.page = 0;
+        this.total = 0;
+        this.users = [];
+        return this.groupsProvider.getActivityGroupInfo(this.moduleId).then(function (groupInfo) {
+            _this.groupInfo = groupInfo;
+            return _this.loadGroupUsers(_this.selectedGroup);
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+            if (!refresh) {
+                // Some call failed on first fetch, go back.
+                _this.navCtrl.pop();
+            }
+            return Promise.reject(null);
+        });
+    };
+    /**
+     * Load Group responses.
+     *
+     * @param  {number} [groupId]   If defined it will change group if not, it will load more users for the same group.
+     * @return {Promise<any>}       Resolved with the attempts loaded.
+     */
+    AddonModFeedbackNonRespondentsPage.prototype.loadGroupUsers = function (groupId) {
+        var _this = this;
+        if (typeof groupId == 'undefined') {
+            this.page++;
+            this.loadingMore = true;
+        }
+        else {
+            this.selectedGroup = groupId;
+            this.page = 0;
+            this.total = 0;
+            this.users = [];
+            this.feedbackLoaded = false;
+        }
+        return this.feedbackHelper.getNonRespondents(this.feedbackId, this.selectedGroup, this.page).then(function (response) {
+            _this.total = response.total;
+            if (_this.users.length < response.total) {
+                _this.users = _this.users.concat(response.users);
+            }
+            _this.canLoadMore = _this.users.length < response.total;
+            return response;
+        }).finally(function () {
+            _this.loadingMore = false;
+            _this.feedbackLoaded = true;
+        });
+    };
+    /**
+     * Change selected group or load more users.
+     *
+     * @param {number} [groupId] Group ID selected. If not defined, it will load more users.
+     */
+    AddonModFeedbackNonRespondentsPage.prototype.loadAttempts = function (groupId) {
+        var _this = this;
+        this.loadGroupUsers(groupId).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+        });
+    };
+    /**
+     * Refresh the attempts.
+     *
+     * @param {any} refresher Refresher.
+     */
+    AddonModFeedbackNonRespondentsPage.prototype.refreshFeedback = function (refresher) {
+        var _this = this;
+        if (this.feedbackLoaded) {
+            var promises = [];
+            promises.push(this.feedbackProvider.invalidateNonRespondentsData(this.feedbackId));
+            promises.push(this.groupsProvider.invalidateActivityGroupInfo(this.moduleId));
+            Promise.all(promises).finally(function () {
+                return _this.fetchData(true);
+            }).finally(function () {
+                refresher.complete();
+            });
+        }
+    };
+    AddonModFeedbackNonRespondentsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-feedback-nonrespondents',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/addon/mod/feedback/pages/nonrespondents/nonrespondents.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.mod_feedback.responses\' |translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="feedbackLoaded" (ionRefresh)="refreshFeedback($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="feedbackLoaded">\n        <ion-list no-margin>\n            <ion-item text-wrap *ngIf="groupInfo.separateGroups || groupInfo.visibleGroups">\n                <ion-label id="addon-feedback-groupslabel" *ngIf="groupInfo.separateGroups">{{ \'core.groupsseparate\' | translate }}</ion-label>\n                <ion-label id="addon-feedback-groupslabel" *ngIf="groupInfo.visibleGroups">{{ \'core.groupsvisible\' | translate }}</ion-label>\n                <ion-select [(ngModel)]="selectedGroup" (ionChange)="loadAttempts(selectedGroup)" aria-labelledby="addon-feedback-groupslabel" interface="popover">\n                    <ion-option *ngFor="let groupOpt of groupInfo.groups" [value]="groupOpt.id">{{groupOpt.name}}</ion-option>\n                </ion-select>\n            </ion-item>\n            <ion-item-divider color="light">\n                {{ \'addon.mod_feedback.non_respondents_students\' | translate : {$a: total } }}\n            </ion-item-divider>\n            <ng-container *ngIf="total > 0">\n                <ion-item *ngFor="let user of users" text-wrap>\n                    <ion-avatar item-start>\n                        <img [src]="user.profileimageurl" [alt]="\'core.pictureof\' | translate:{$a: user.fullname}" core-external-content onError="this.src=\'assets/img/user-avatar.png\'">\n                    </ion-avatar>\n                    <h2><core-format-text [text]="user.fullname"></core-format-text></h2>\n                    <p>\n                        <ion-badge color="success" *ngIf="user.started">\n                            {{ \'addon.mod_feedback.started\' | translate}}\n                        </ion-badge>\n                        <ion-badge color="danger" *ngIf="!user.started">\n                            {{ \'addon.mod_feedback.not_started\' | translate}}\n                        </ion-badge>\n                    </p>\n                </ion-item>\n            </ng-container>\n            <ion-item padding text-center *ngIf="canLoadMore">\n                <!-- Button and spinner to show more attempts. -->\n                <button ion-button block *ngIf="!loadingMore" (click)="loadAttempts()">{{ \'core.loadmore\' | translate }}</button>\n                <ion-spinner *ngIf="loadingMore"></ion-spinner>\n            </ion-item>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/addon/mod/feedback/pages/nonrespondents/nonrespondents.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_feedback__["a" /* AddonModFeedbackProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_groups__["a" /* CoreGroupsProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_helper__["a" /* AddonModFeedbackHelperProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */]])
+    ], AddonModFeedbackNonRespondentsPage);
+    return AddonModFeedbackNonRespondentsPage;
+}());
+
+//# sourceMappingURL=nonrespondents.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=84.js.map

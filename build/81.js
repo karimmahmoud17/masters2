@@ -1,1 +1,500 @@
-webpackJsonp([81],{1844:function(l,n,a){"use strict";function u(l){return e._42(0,[e._37(402653184,1,{ltiComponent:0}),(l()(),e._16(1,0,null,null,18,"ion-header",[],null,null,null,null,null)),e._15(2,16384,null,0,D.a,[P.a,e.p,e.K,[2,C.a]],null,null),(l()(),e._40(-1,null,["\n    "])),(l()(),e._16(4,0,null,null,14,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,M.b,M.a)),e._15(5,49152,null,0,k.a,[T.a,[2,C.a],[2,j.a],P.a,e.p,e.K],null,null),e._15(6,212992,null,0,w.a,[k.a,A.a,B.a,F.a],null,null),(l()(),e._40(-1,3,["\n        "])),(l()(),e._16(8,0,null,3,3,"ion-title",[],null,null,null,J.b,J.a)),e._15(9,49152,null,0,L.a,[P.a,e.p,e.K,[2,N.a],[2,k.a]],null,null),(l()(),e._16(10,0,null,0,1,"core-format-text",[],null,null,null,null,null)),e._15(11,540672,null,0,O.a,[e.p,q.a,z.a,E.a,B.a,A.a,G.a,H.a,Q.a,S.a,U.a,V.a,[2,j.a],[2,W.a],[2,X.a],Y.a,F.a],{text:[0,"text"]},null),(l()(),e._40(-1,3,["\n\n        "])),(l()(),e._16(13,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),e._15(14,16384,null,1,Z.a,[P.a,e.p,e.K,[2,N.a],[2,k.a]],null,null),e._37(603979776,2,{_buttons:1}),(l()(),e._40(-1,null,["\n            "])),(l()(),e._40(-1,null,["\n        "])),(l()(),e._40(-1,3,["\n    "])),(l()(),e._40(-1,null,["\n"])),(l()(),e._40(-1,null,["\n"])),(l()(),e._16(21,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,$.b,$.a)),e._15(22,4374528,null,0,W.a,[P.a,A.a,ll.a,e.p,e.K,T.a,nl.a,e.D,[2,C.a],[2,j.a]],null,null),(l()(),e._40(-1,1,["\n    "])),(l()(),e._16(24,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(l,n,a){var u=!0;if("ionRefresh"===n){u=!1!==l.component.ltiComponent.doRefresh(a)&&u}return u},null,null)),e._15(25,212992,null,0,al.a,[A.a,W.a,e.D,ul.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(l()(),e._40(-1,null,["\n        "])),(l()(),e._16(27,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,el.b,el.a)),e._15(28,114688,null,0,tl.a,[al.a,P.a],{pullingText:[0,"pullingText"]},null),e._32(131072,_l.a,[B.a,e.i]),(l()(),e._40(-1,null,["\n    "])),(l()(),e._40(-1,1,["\n\n    "])),(l()(),e._16(32,0,null,1,1,"addon-mod-lti-index",[],null,[[null,"dataRetrieved"]],function(l,n,a){var u=!0;if("dataRetrieved"===n){u=!1!==l.component.updateData(a)&&u}return u},y.c,y.b)),e._15(33,245760,[[1,4]],0,i.a,[e.u,[2,W.a],ol.a],{module:[0,"module"],courseId:[1,"courseId"]},{dataRetrieved:"dataRetrieved"}),(l()(),e._40(-1,1,["\n"])),(l()(),e._40(-1,null,["\n"]))],function(l,n){var a=n.component;l(n,6,0);l(n,11,0,a.title);l(n,25,0,a.ltiComponent.loaded);l(n,28,0,e._19(1,"",e._41(n,28,0,e._29(n,29).transform("core.pulltorefresh")),""));l(n,33,0,a.module,a.courseId)},function(l,n){l(n,4,0,e._29(n,5)._hidden,e._29(n,5)._sbPadding);l(n,21,0,e._29(n,22).statusbarPadding,e._29(n,22)._hasRefresher);l(n,24,0,"inactive"!==e._29(n,25).state,e._29(n,25)._top);l(n,27,0,e._29(n,28).r.state)})}Object.defineProperty(n,"__esModule",{value:!0});var e=a(1),t=(a(0),a(10),a(5)),_=a(29),o=a(672),i=a(455),r=function(){function l(l){this.module=l.get("module")||{},this.courseId=l.get("courseId"),this.title=this.module.name}return l.prototype.updateData=function(l){this.title=l.name||this.title},l}(),d=function(){return function(){}}(),s=a(1284),c=a(1285),b=a(1286),f=a(1287),p=a(1288),h=a(1289),m=a(1290),v=a(1291),g=a(1292),x=a(1295),R=a(1296),I=a(1297),K=a(1298),y=a(1347),D=a(422),P=a(7),C=a(36),M=a(1293),k=a(193),T=a(27),j=a(22),w=a(637),A=a(15),B=a(18),F=a(13),J=a(1294),L=a(329),N=a(238),O=a(40),q=a(2),z=a(4),E=a(12),G=a(3),H=a(25),Q=a(6),S=a(17),U=a(11),V=a(23),W=a(24),X=a(35),Y=a(38),Z=a(423),$=a(179),ll=a(26),nl=a(100),al=a(133),ul=a(37),el=a(194),tl=a(145),_l=a(30),ol=a(286),il=a(60),rl=e._14({encapsulation:2,styles:[],data:{}}),dl=e._12("page-addon-mod-lti-index",r,function(l){return e._42(0,[(l()(),e._16(0,0,null,null,1,"page-addon-mod-lti-index",[],null,null,null,u,rl)),e._15(1,49152,null,0,r,[il.a],null,null)],null,null)},{},{},[]),sl=a(9),cl=a(19),bl=a(325),fl=a(326),pl=a(328),hl=a(327),ml=a(421),vl=a(636),gl=a(110),xl=a(33),Rl=a(76),Il=a(239);a.d(n,"AddonModLtiIndexPageModuleNgFactory",function(){return Kl});var Kl=e._13(d,[],function(l){return e._25([e._26(512,e.n,e._6,[[8,[s.a,c.a,b.a,f.a,p.a,h.a,m.a,v.a,g.a,x.a,R.a,I.a,K.a,y.a,dl]],[3,e.n],e.B]),e._26(4608,sl.m,sl.l,[e.x,[2,sl.v]]),e._26(4608,cl.x,cl.x,[]),e._26(4608,cl.d,cl.d,[]),e._26(4608,bl.b,bl.a,[]),e._26(4608,fl.a,fl.b,[]),e._26(4608,pl.b,pl.a,[]),e._26(4608,hl.b,hl.a,[]),e._26(4608,B.a,B.a,[ml.a,bl.b,fl.a,pl.b,hl.b,B.b,B.c]),e._26(512,_.a,_.a,[]),e._26(512,sl.b,sl.b,[]),e._26(512,cl.v,cl.v,[]),e._26(512,cl.i,cl.i,[]),e._26(512,cl.s,cl.s,[]),e._26(512,vl.a,vl.a,[]),e._26(512,t.a,t.a,[]),e._26(512,gl.a,gl.a,[]),e._26(512,xl.a,xl.a,[]),e._26(512,Rl.a,Rl.a,[]),e._26(512,o.a,o.a,[]),e._26(512,vl.b,vl.b,[]),e._26(512,d,d,[]),e._26(256,B.c,void 0,[]),e._26(256,B.b,void 0,[]),e._26(256,Il.a,r,[])])})}});
+webpackJsonp([81],{
+
+/***/ 1834:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModForumDiscussionPageModule", function() { return AddonModForumDiscussionPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__components_components_module__ = __webpack_require__(937);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__discussion__ = __webpack_require__(1955);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var AddonModForumDiscussionPageModule = /** @class */ (function () {
+    function AddonModForumDiscussionPageModule() {
+    }
+    AddonModForumDiscussionPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_6__discussion__["a" /* AddonModForumDiscussionPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_4__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_5__components_components_module__["a" /* AddonModForumComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_6__discussion__["a" /* AddonModForumDiscussionPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModForumDiscussionPageModule);
+    return AddonModForumDiscussionPageModule;
+}());
+
+//# sourceMappingURL=discussion.module.js.map
+
+/***/ }),
+
+/***/ 1955:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModForumDiscussionPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_network__ = __webpack_require__(135);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_utils_utils__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_fileuploader_providers_fileuploader__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__components_split_view_split_view__ = __webpack_require__(105);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_forum__ = __webpack_require__(111);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_offline__ = __webpack_require__(149);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__providers_helper__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__providers_sync__ = __webpack_require__(198);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays a forum discussion.
+ */
+var AddonModForumDiscussionPage = /** @class */ (function () {
+    function AddonModForumDiscussionPage(navParams, network, zone, appProvider, eventsProvider, sitesProvider, domUtils, utils, translate, uploaderProvider, forumProvider, forumOffline, forumHelper, forumSync, svComponent) {
+        var _this = this;
+        this.appProvider = appProvider;
+        this.eventsProvider = eventsProvider;
+        this.sitesProvider = sitesProvider;
+        this.domUtils = domUtils;
+        this.utils = utils;
+        this.translate = translate;
+        this.uploaderProvider = uploaderProvider;
+        this.forumProvider = forumProvider;
+        this.forumOffline = forumOffline;
+        this.forumHelper = forumHelper;
+        this.forumSync = forumSync;
+        this.svComponent = svComponent;
+        this.discussionLoaded = false;
+        this.sort = 'flat-oldest';
+        this.replyData = {
+            replyingTo: 0,
+            isEditing: false,
+            subject: '',
+            message: null,
+            files: [],
+        };
+        this.originalData = {
+            subject: null,
+            message: null,
+            files: [],
+        };
+        this.refreshIcon = 'spinner';
+        this.syncIcon = 'spinner';
+        this.discussionStr = '';
+        this.component = __WEBPACK_IMPORTED_MODULE_11__providers_forum__["a" /* AddonModForumProvider */].COMPONENT;
+        this.courseId = navParams.get('courseId');
+        this.cmId = navParams.get('cmId');
+        this.forumId = navParams.get('forumId');
+        this.discussionId = navParams.get('discussionId');
+        this.trackPosts = navParams.get('trackPosts');
+        this.locked = navParams.get('locked');
+        this.isOnline = this.appProvider.isOnline();
+        this.onlineObserver = network.onchange().subscribe(function (online) {
+            // Execute the callback in the Angular zone, so change detection doesn't stop working.
+            zone.run(function () {
+                _this.isOnline = _this.appProvider.isOnline();
+            });
+        });
+        this.isSplitViewOn = this.svComponent && this.svComponent.isOn();
+        this.discussionStr = translate.instant('addon.mod_forum.discussion');
+    }
+    /**
+     * View loaded.
+     */
+    AddonModForumDiscussionPage.prototype.ionViewDidLoad = function () {
+        this.fetchPosts(true, false, true);
+    };
+    /**
+     * User entered the page that contains the component.
+     */
+    AddonModForumDiscussionPage.prototype.ionViewDidEnter = function () {
+        var _this = this;
+        // Refresh data if this discussion is synchronized automatically.
+        this.syncObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_14__providers_sync__["a" /* AddonModForumSyncProvider */].AUTO_SYNCED, function (data) {
+            if (data.forumId == _this.forumId && _this.discussionId == data.discussionId
+                && data.userId == _this.sitesProvider.getCurrentSiteUserId()) {
+                // Refresh the data.
+                _this.discussionLoaded = false;
+                _this.refreshPosts();
+            }
+        }, this.sitesProvider.getCurrentSiteId());
+        // Refresh data if this forum discussion is synchronized from discussions list.
+        this.syncManualObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_14__providers_sync__["a" /* AddonModForumSyncProvider */].MANUAL_SYNCED, function (data) {
+            if (data.source != 'discussion' && data.forumId == _this.forumId &&
+                data.userId == _this.sitesProvider.getCurrentSiteUserId()) {
+                // Refresh the data.
+                _this.discussionLoaded = false;
+                _this.refreshPosts();
+            }
+        }, this.sitesProvider.getCurrentSiteId());
+        // Trigger view event, to highlight the current opened discussion in the split view.
+        this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_11__providers_forum__["a" /* AddonModForumProvider */].VIEW_DISCUSSION_EVENT, {
+            forumId: this.forumId,
+            discussion: this.discussionId
+        }, this.sitesProvider.getCurrentSiteId());
+    };
+    /**
+     * Check if we can leave the page or not.
+     *
+     * @return {boolean|Promise<void>} Resolved if we can leave it, rejected if not.
+     */
+    AddonModForumDiscussionPage.prototype.ionViewCanLeave = function () {
+        var _this = this;
+        var promise;
+        if (this.forumHelper.hasPostDataChanged(this.replyData, this.originalData)) {
+            // Show confirmation if some data has been modified.
+            promise = this.domUtils.showConfirm(this.translate.instant('core.confirmcanceledit'));
+        }
+        else {
+            promise = Promise.resolve();
+        }
+        return promise.then(function () {
+            // Delete the local files from the tmp folder.
+            _this.uploaderProvider.clearTmpFiles(_this.replyData.files);
+        });
+    };
+    /**
+     * Convenience function to get the forum.
+     *
+     * @return {Promise<any>} Promise resolved with the forum.
+     */
+    AddonModForumDiscussionPage.prototype.fetchForum = function () {
+        if (this.courseId && this.cmId) {
+            return this.forumProvider.getForum(this.courseId, this.cmId);
+        }
+        else if (this.courseId && this.forumId) {
+            return this.forumProvider.getForumById(this.courseId, this.forumId);
+        }
+        else {
+            // Cannot get the forum.
+            return Promise.reject(null);
+        }
+    };
+    /**
+     * Convenience function to get forum discussions.
+     *
+     * @param  {boolean} [sync]            Whether to try to synchronize the discussion.
+     * @param  {boolean} [showErrors]      Whether to show errors in a modal.
+     * @param  {boolean} [forceMarkAsRead] Whether to mark all posts as read.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModForumDiscussionPage.prototype.fetchPosts = function (sync, showErrors, forceMarkAsRead) {
+        var _this = this;
+        var syncPromise;
+        if (sync) {
+            // Try to synchronize the forum.
+            syncPromise = this.syncDiscussion(showErrors).catch(function () {
+                // Ignore errors.
+            });
+        }
+        else {
+            syncPromise = Promise.resolve();
+        }
+        var onlinePosts = [];
+        var offlineReplies = [];
+        var hasUnreadPosts = false;
+        return syncPromise.then(function () {
+            return _this.forumProvider.getDiscussionPosts(_this.discussionId).then(function (posts) {
+                onlinePosts = posts;
+            }).then(function () {
+                // Check if there are responses stored in offline.
+                return _this.forumOffline.getDiscussionReplies(_this.discussionId).then(function (replies) {
+                    _this.postHasOffline = !!replies.length;
+                    var convertPromises = [];
+                    // Index posts to allow quick access. Also check unread field.
+                    var posts = {};
+                    onlinePosts.forEach(function (post) {
+                        posts[post.id] = post;
+                        hasUnreadPosts = hasUnreadPosts || !post.postread;
+                    });
+                    replies.forEach(function (offlineReply) {
+                        // If we don't have forumId and courseId, get it from the post.
+                        if (!_this.forumId) {
+                            _this.forumId = offlineReply.forumid;
+                        }
+                        if (!_this.courseId) {
+                            _this.courseId = offlineReply.courseid;
+                        }
+                        convertPromises.push(_this.forumHelper.convertOfflineReplyToOnline(offlineReply).then(function (reply) {
+                            offlineReplies.push(reply);
+                            // Disable reply of the parent. Reply in offline to the same post is not allowed, edit instead.
+                            posts[reply.parent].canreply = false;
+                        }));
+                    });
+                    return Promise.all(convertPromises).then(function () {
+                        // Convert back to array.
+                        onlinePosts = _this.utils.objectToArray(posts);
+                    });
+                });
+            });
+        }).then(function () {
+            var posts = offlineReplies.concat(onlinePosts);
+            _this.discussion = _this.forumProvider.extractStartingPost(posts);
+            // If sort type is nested, normal sorting is disabled and nested posts will be displayed.
+            if (_this.sort == 'nested') {
+                // Sort first by creation date to make format tree work.
+                _this.forumProvider.sortDiscussionPosts(posts, 'ASC');
+                _this.posts = _this.utils.formatTree(posts, 'parent', 'id', _this.discussion.id);
+            }
+            else {
+                // Set default reply subject.
+                var direction = _this.sort == 'flat-newest' ? 'DESC' : 'ASC';
+                _this.forumProvider.sortDiscussionPosts(posts, direction);
+                _this.posts = posts;
+            }
+            _this.defaultSubject = _this.translate.instant('addon.mod_forum.re') + ' ' + _this.discussion.subject;
+            _this.replyData.subject = _this.defaultSubject;
+            // Now try to get the forum.
+            return _this.fetchForum().then(function (forum) {
+                if (_this.discussion.userfullname && _this.discussion.parent == 0 && forum.type == 'single') {
+                    // Hide author for first post and type single.
+                    _this.discussion.userfullname = null;
+                }
+                // "forum.istracked" is more reliable than "trackPosts".
+                if (typeof forum.istracked != 'undefined') {
+                    _this.trackPosts = forum.istracked;
+                }
+                _this.forumId = forum.id;
+                _this.cmId = forum.cmid;
+                _this.forum = forum;
+            }).catch(function () {
+                // Ignore errors.
+                _this.forum = {};
+            });
+        }).catch(function (message) {
+            _this.domUtils.showErrorModal(message);
+        }).finally(function () {
+            _this.discussionLoaded = true;
+            _this.refreshIcon = 'refresh';
+            _this.syncIcon = 'sync';
+            if (forceMarkAsRead || (hasUnreadPosts && _this.trackPosts)) {
+                // // Add log in Moodle and mark unread posts as readed.
+                _this.forumProvider.logDiscussionView(_this.discussionId).catch(function () {
+                    // Ignore errors.
+                }).finally(function () {
+                    // Trigger mark read posts.
+                    _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_11__providers_forum__["a" /* AddonModForumProvider */].MARK_READ_EVENT, {
+                        courseId: _this.courseId,
+                        moduleId: _this.cmId
+                    }, _this.sitesProvider.getCurrentSiteId());
+                });
+            }
+        });
+    };
+    /**
+     * Tries to synchronize the posts discussion.
+     *
+     * @param  {boolean} showErrors Whether to show errors in a modal.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModForumDiscussionPage.prototype.syncDiscussion = function (showErrors) {
+        var _this = this;
+        return this.forumSync.syncDiscussionReplies(this.discussionId).then(function (result) {
+            if (result.warnings && result.warnings.length) {
+                _this.domUtils.showErrorModal(result.warnings[0]);
+            }
+            if (result && result.updated) {
+                // Sync successful, send event.
+                _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_14__providers_sync__["a" /* AddonModForumSyncProvider */].MANUAL_SYNCED, {
+                    forumId: _this.forumId,
+                    userId: _this.sitesProvider.getCurrentSiteUserId(),
+                    source: 'discussion'
+                }, _this.sitesProvider.getCurrentSiteId());
+            }
+            return result.updated;
+        }).catch(function (error) {
+            if (showErrors) {
+                _this.domUtils.showErrorModalDefault(error, 'core.errorsync', true);
+            }
+            return Promise.reject(null);
+        });
+    };
+    /**
+     * Refresh the data.
+     *
+     * @param {any}       [refresher] Refresher.
+     * @param {Function}  [done] Function to call when done.
+     * @param {boolean}   [showErrors=false] If show errors to the user of hide them.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModForumDiscussionPage.prototype.doRefresh = function (refresher, done, showErrors) {
+        if (showErrors === void 0) { showErrors = false; }
+        if (this.discussionLoaded) {
+            return this.refreshPosts(true, showErrors).finally(function () {
+                refresher && refresher.complete();
+                done && done();
+            });
+        }
+        return Promise.resolve();
+    };
+    /**
+     * Refresh posts.
+     *
+     * @param  {boolean} [sync]       Whether to try to synchronize the discussion.
+     * @param  {boolean} [showErrors] Whether to show errors in a modal.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModForumDiscussionPage.prototype.refreshPosts = function (sync, showErrors) {
+        var _this = this;
+        this.domUtils.scrollToTop(this.content);
+        this.refreshIcon = 'spinner';
+        this.syncIcon = 'spinner';
+        return this.forumProvider.invalidateDiscussionPosts(this.discussionId).catch(function () {
+            // Ignore errors.
+        }).then(function () {
+            return _this.fetchPosts(sync, showErrors);
+        });
+    };
+    /**
+     * Function to change posts sorting
+     *
+     * @param  {SortType} type Sort type.
+     * @return {Promise<any>} Promised resolved when done.
+     */
+    AddonModForumDiscussionPage.prototype.changeSort = function (type) {
+        this.discussionLoaded = false;
+        this.sort = type;
+        this.domUtils.scrollToTop(this.content);
+        return this.fetchPosts();
+    };
+    /**
+     * New post added.
+     */
+    AddonModForumDiscussionPage.prototype.postListChanged = function () {
+        var _this = this;
+        // Trigger an event to notify a new reply.
+        var data = {
+            forumId: this.forumId,
+            discussionId: this.discussionId,
+            cmId: this.cmId
+        };
+        this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_11__providers_forum__["a" /* AddonModForumProvider */].REPLY_DISCUSSION_EVENT, data, this.sitesProvider.getCurrentSiteId());
+        this.discussionLoaded = false;
+        this.refreshPosts().finally(function () {
+            _this.discussionLoaded = true;
+        });
+    };
+    /**
+     * Runs when the page is about to leave and no longer be the active page.
+     */
+    AddonModForumDiscussionPage.prototype.ionViewWillLeave = function () {
+        this.syncObserver && this.syncObserver.off();
+        this.syncManualObserver && this.syncManualObserver.off();
+    };
+    /**
+     * Page destroyed.
+     */
+    AddonModForumDiscussionPage.prototype.ngOnDestroy = function () {
+        this.onlineObserver && this.onlineObserver.unsubscribe();
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], AddonModForumDiscussionPage.prototype, "content", void 0);
+    AddonModForumDiscussionPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-forum-discussion',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/addon/mod/forum/pages/discussion/discussion.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title *ngIf="discussion"><core-format-text [text]="discussion.subject"></core-format-text></ion-title>\n        <ion-buttons end>\n            <!-- The context menu will be added in here. -->\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<core-navbar-buttons end>\n    <core-context-menu>\n        <core-context-menu-item [priority]="650" *ngIf="discussionLoaded && !postHasOffline && isOnline" [content]="\'addon.mod_forum.refreshposts\' | translate" (action)="doRefresh(null, $event)" [iconAction]="refreshIcon" [closeOnClick]="false"></core-context-menu-item>\n        <core-context-menu-item [priority]="550" *ngIf="discussionLoaded && !isSplitViewOn && postHasOffline && isOnline" [content]="\'core.settings.synchronizenow\' | translate" (action)="doRefresh(null, $event, true)" [iconAction]="syncIcon" [closeOnClick]="false"></core-context-menu-item>\n        <core-context-menu-item [hidden]="sort == \'flat-oldest\'" [priority]="500" [content]="\'addon.mod_forum.modeflatoldestfirst\' | translate" (action)="changeSort(\'flat-oldest\')" iconAction="arrow-round-down"></core-context-menu-item>\n        <core-context-menu-item [hidden]="sort == \'flat-newest\'" [priority]="450" [content]="\'addon.mod_forum.modeflatnewestfirst\' | translate" (action)="changeSort(\'flat-newest\')" iconAction="arrow-round-up"></core-context-menu-item>\n        <core-context-menu-item [hidden]="sort == \'nested\'" [priority]="400" [content]="\'addon.mod_forum.modenested\' | translate" (action)="changeSort(\'nested\')" iconAction="swap"></core-context-menu-item>\n    </core-context-menu>\n</core-navbar-buttons>\n<ion-content>\n    <ion-refresher [enabled]="discussionLoaded" (ionRefresh)="doRefresh($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n\n    <core-loading [hideUntil]="discussionLoaded">\n        <!-- Discussion replies found to be synchronized -->\n        <ion-card class="core-warning-card" *ngIf="postHasOffline">\n            <ion-icon name="warning"></ion-icon> {{ \'core.hasdatatosync\' | translate:{$a: discussionStr} }}\n        </ion-card>\n\n        <ion-card class="core-warning-card" *ngIf="locked">\n            <ion-icon name="warning"></ion-icon> {{ \'addon.mod_forum.discussionlocked\' | translate }}\n        </ion-card>\n\n        <ion-card *ngIf="discussion" margin-bottom class="highlight">\n            <addon-mod-forum-post [post]="discussion" [courseId]="courseId" [discussionId]="discussionId" [component]="component" [componentId]="cmId" [replyData]="replyData" [originalData]="originalData" [defaultSubject]="defaultSubject" [forum]="forum" [trackPosts]="trackPosts" (onPostChange)="postListChanged()"></addon-mod-forum-post>\n        </ion-card>\n\n        <ion-card *ngIf="sort != \'nested\'">\n            <ng-container *ngFor="let post of posts; first as first">\n                <ion-item-divider color="light" *ngIf="!first"></ion-item-divider>\n                <addon-mod-forum-post [post]="post" [courseId]="courseId" [discussionId]="discussionId" [component]="component" [componentId]="cmId" [replyData]="replyData" [originalData]="originalData" [defaultSubject]="defaultSubject" [forum]="forum" [trackPosts]="trackPosts" (onPostChange)="postListChanged()"></addon-mod-forum-post>\n            </ng-container>\n        </ion-card>\n\n        <ng-container *ngIf="sort == \'nested\'">\n            <ng-container *ngFor="let post of posts">\n                <ng-container *ngTemplateOutlet="nestedPosts; context: {post: post}"></ng-container>\n            </ng-container>\n        </ng-container>\n\n        <ng-template #nestedPosts let-post="post">\n            <ion-card>\n                <addon-mod-forum-post [post]="post" [courseId]="courseId" [discussionId]="discussionId" [component]="component" [componentId]="cmId" [replyData]="replyData" [originalData]="originalData" [defaultSubject]="defaultSubject" [forum]="forum" [trackPosts]="trackPosts" (onPostChange)="postListChanged()"></addon-mod-forum-post>\n            </ion-card>\n            <div padding-left *ngIf="post.children.length && post.children[0].subject">\n                <ng-container *ngFor="let child of post.children">\n                    <ng-container *ngTemplateOutlet="nestedPosts; context: {post: child}"></ng-container>\n                </ng-container>\n            </div>\n        </ng-template>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/addon/mod/forum/pages/discussion/discussion.html"*/,
+        }),
+        __param(14, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Optional */])()),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */],
+            __WEBPACK_IMPORTED_MODULE_2__ionic_native_network__["a" /* Network */],
+            __WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* NgZone */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_app__["a" /* CoreAppProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__providers_events__["a" /* CoreEventsProvider */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_8__providers_utils_utils__["a" /* CoreUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__ngx_translate_core__["c" /* TranslateService */],
+            __WEBPACK_IMPORTED_MODULE_9__core_fileuploader_providers_fileuploader__["a" /* CoreFileUploaderProvider */],
+            __WEBPACK_IMPORTED_MODULE_11__providers_forum__["a" /* AddonModForumProvider */],
+            __WEBPACK_IMPORTED_MODULE_12__providers_offline__["a" /* AddonModForumOfflineProvider */],
+            __WEBPACK_IMPORTED_MODULE_13__providers_helper__["a" /* AddonModForumHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_14__providers_sync__["a" /* AddonModForumSyncProvider */],
+            __WEBPACK_IMPORTED_MODULE_10__components_split_view_split_view__["a" /* CoreSplitViewComponent */]])
+    ], AddonModForumDiscussionPage);
+    return AddonModForumDiscussionPage;
+}());
+
+//# sourceMappingURL=discussion.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=81.js.map

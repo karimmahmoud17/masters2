@@ -1,1 +1,169 @@
-webpackJsonp([34],{1906:function(n,l,a){"use strict";function t(n){return u._42(0,[u._37(402653184,1,{content:0}),(n()(),u._16(1,0,null,null,18,"ion-header",[],null,null,null,null,null)),u._15(2,16384,null,0,F.a,[J.a,u.p,u.K,[2,L.a]],null,null),(n()(),u._40(-1,null,["\n    "])),(n()(),u._16(4,0,null,null,14,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,N.b,N.a)),u._15(5,49152,null,0,O.a,[S.a,[2,L.a],[2,q.a],J.a,u.p,u.K],null,null),u._15(6,212992,null,0,z.a,[O.a,A.a,E.a,G.a],null,null),(n()(),u._40(-1,3,["\n        "])),(n()(),u._16(8,0,null,3,3,"ion-title",[],null,null,null,H.b,H.a)),u._15(9,49152,null,0,I.a,[J.a,u.p,u.K,[2,Q.a],[2,O.a]],null,null),(n()(),u._40(10,0,["",""])),u._32(131072,U.a,[E.a,u.i]),(n()(),u._40(-1,3,["\n\n        "])),(n()(),u._16(13,0,null,2,4,"ion-buttons",[["end",""]],null,null,null,null,null)),u._15(14,16384,null,1,V.a,[J.a,u.p,u.K,[2,Q.a],[2,O.a]],null,null),u._37(603979776,2,{_buttons:1}),(n()(),u._40(-1,null,["\n            "])),(n()(),u._40(-1,null,["\n        "])),(n()(),u._40(-1,3,["\n    "])),(n()(),u._40(-1,null,["\n"])),(n()(),u._40(-1,null,["\n"])),(n()(),u._16(21,0,null,null,13,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,W.b,W.a)),u._15(22,4374528,null,0,X.a,[J.a,A.a,Y.a,u.p,u.K,S.a,Z.a,u.D,[2,L.a],[2,q.a]],null,null),(n()(),u._40(-1,1,["\n    "])),(n()(),u._16(24,0,null,2,6,"ion-refresher",[],[[2,"refresher-active",null],[4,"top",null]],[[null,"ionRefresh"]],function(n,l,a){var t=!0;if("ionRefresh"===l){t=!1!==n.component.refreshData(a)&&t}return t},null,null)),u._15(25,212992,null,0,$.a,[A.a,X.a,u.D,nn.l],{enabled:[0,"enabled"]},{ionRefresh:"ionRefresh"}),(n()(),u._40(-1,null,["\n        "])),(n()(),u._16(27,0,null,null,2,"ion-refresher-content",[],[[1,"state",0]],null,null,ln.b,ln.a)),u._15(28,114688,null,0,an.a,[$.a,J.a],{pullingText:[0,"pullingText"]},null),u._32(131072,U.a,[E.a,u.i]),(n()(),u._40(-1,null,["\n    "])),(n()(),u._40(-1,1,["\n    "])),(n()(),u._16(32,0,null,1,1,"core-site-plugins-plugin-content",[],null,null,null,tn.b,tn.a)),u._15(33,376832,[[1,4]],0,o.a,[un.a,en.a,[2,q.a],u.w],{component:[0,"component"],method:[1,"method"],args:[2,"args"],initResult:[3,"initResult"],data:[4,"data"]},null),(n()(),u._40(-1,1,["\n"])),(n()(),u._40(-1,null,["\n"]))],function(n,l){var a=l.component;n(l,6,0);n(l,25,0,a.content&&a.content.dataLoaded);n(l,28,0,u._19(1,"",u._41(l,28,0,u._29(l,29).transform("core.pulltorefresh")),""));n(l,33,0,a.component,a.method,a.args,a.initResult,a.jsData)},function(n,l){var a=l.component;n(l,4,0,u._29(l,5)._hidden,u._29(l,5)._sbPadding);n(l,10,0,u._41(l,10,0,u._29(l,11).transform(a.title)));n(l,21,0,u._29(l,22).statusbarPadding,u._29(l,22)._hasRefresher);n(l,24,0,"inactive"!==u._29(l,25).state,u._29(l,25)._top);n(l,27,0,u._29(l,28).r.state)})}Object.defineProperty(l,"__esModule",{value:!0});var u=a(1),e=(a(0),a(10),a(5)),_=a(29),o=a(142),i=function(){function n(n){this.title=n.get("title"),this.component=n.get("component"),this.method=n.get("method"),this.args=n.get("args"),this.initResult=n.get("initResult"),this.jsData=n.get("jsData")}return n.prototype.refreshData=function(n){this.content.refreshContent(!1).finally(function(){n.complete()})},n}(),r=a(655),s=function(){return function(){}}(),c=a(1284),d=a(1285),p=a(1286),b=a(1287),f=a(1288),h=a(1289),g=a(1290),m=a(1291),v=a(1292),R=a(1295),D=a(1296),P=a(1297),x=a(1330),y=a(1355),K=a(1356),j=a(1357),k=a(1358),w=a(1359),C=a(1360),M=a(1361),T=a(1362),B=a(1363),F=a(422),J=a(7),L=a(36),N=a(1293),O=a(193),S=a(27),q=a(22),z=a(637),A=a(15),E=a(18),G=a(13),H=a(1294),I=a(329),Q=a(238),U=a(30),V=a(423),W=a(179),X=a(24),Y=a(26),Z=a(100),$=a(133),nn=a(37),ln=a(194),an=a(145),tn=a(470),un=a(4),en=a(55),_n=a(60),on=u._14({encapsulation:2,styles:[],data:{}}),rn=u._12("page-core-site-plugins-plugin",i,function(n){return u._42(0,[(n()(),u._16(0,0,null,null,1,"page-core-site-plugins-plugin",[],null,null,null,t,on)),u._15(1,49152,null,0,i,[_n.a],null,null)],null,null)},{},{},[]),sn=a(9),cn=a(19),dn=a(325),pn=a(326),bn=a(328),fn=a(327),hn=a(421),gn=a(636),mn=a(110),vn=a(33),Rn=a(424),Dn=a(239);a.d(l,"CoreSitePluginsPluginPageModuleNgFactory",function(){return Pn});var Pn=u._13(s,[],function(n){return u._25([u._26(512,u.n,u._6,[[8,[c.a,d.a,p.a,b.a,f.a,h.a,g.a,m.a,v.a,R.a,D.a,P.a,x.a,y.a,K.a,j.a,k.a,w.a,C.a,M.a,T.a,B.a,rn]],[3,u.n],u.B]),u._26(4608,sn.m,sn.l,[u.x,[2,sn.v]]),u._26(4608,cn.x,cn.x,[]),u._26(4608,cn.d,cn.d,[]),u._26(4608,dn.b,dn.a,[]),u._26(4608,pn.a,pn.b,[]),u._26(4608,bn.b,bn.a,[]),u._26(4608,fn.b,fn.a,[]),u._26(4608,E.a,E.a,[hn.a,dn.b,pn.a,bn.b,fn.b,E.b,E.c]),u._26(512,_.a,_.a,[]),u._26(512,sn.b,sn.b,[]),u._26(512,cn.v,cn.v,[]),u._26(512,cn.i,cn.i,[]),u._26(512,cn.s,cn.s,[]),u._26(512,gn.a,gn.a,[]),u._26(512,e.a,e.a,[]),u._26(512,mn.a,mn.a,[]),u._26(512,vn.a,vn.a,[]),u._26(512,Rn.a,Rn.a,[]),u._26(512,r.a,r.a,[]),u._26(512,gn.b,gn.b,[]),u._26(512,s,s,[]),u._26(256,E.c,void 0,[]),u._26(256,E.b,void 0,[]),u._26(256,Dn.a,i,[])])})}});
+webpackJsonp([34],{
+
+/***/ 1886:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreGradesGradePageModule", function() { return CoreGradesGradePageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__grade__ = __webpack_require__(2011);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var CoreGradesGradePageModule = /** @class */ (function () {
+    function CoreGradesGradePageModule() {
+    }
+    CoreGradesGradePageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__grade__["a" /* CoreGradesGradePage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__grade__["a" /* CoreGradesGradePage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], CoreGradesGradePageModule);
+    return CoreGradesGradePageModule;
+}());
+
+//# sourceMappingURL=grade.module.js.map
+
+/***/ }),
+
+/***/ 2011:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreGradesGradePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_grades__ = __webpack_require__(96);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_helper__ = __webpack_require__(118);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+/**
+ * Page that displays activity grade.
+ */
+var CoreGradesGradePage = /** @class */ (function () {
+    function CoreGradesGradePage(gradesProvider, domUtils, gradesHelper, navParams, sitesProvider) {
+        this.gradesProvider = gradesProvider;
+        this.domUtils = domUtils;
+        this.gradesHelper = gradesHelper;
+        this.gradeLoaded = false;
+        this.courseId = navParams.get('courseId');
+        this.userId = navParams.get('userId') || sitesProvider.getCurrentSiteUserId();
+        this.gradeId = navParams.get('gradeId');
+    }
+    /**
+     * View loaded.
+     */
+    CoreGradesGradePage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.fetchData().finally(function () {
+            _this.gradeLoaded = true;
+        });
+    };
+    /**
+     * Fetch all the data required for the view.
+     *
+     * @return {Promise<any>} Resolved when done.
+     */
+    CoreGradesGradePage.prototype.fetchData = function () {
+        var _this = this;
+        return this.gradesHelper.getGradeItem(this.courseId, this.gradeId, this.userId).then(function (grade) {
+            _this.grade = grade;
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'Error loading grade item');
+        });
+    };
+    /**
+     * Refresh data.
+     *
+     * @param {any} refresher Refresher.
+     */
+    CoreGradesGradePage.prototype.refreshGrade = function (refresher) {
+        var _this = this;
+        this.gradesProvider.invalidateCourseGradesData(this.courseId, this.userId).finally(function () {
+            _this.fetchData().finally(function () {
+                refresher.complete();
+            });
+        });
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* Content */])
+    ], CoreGradesGradePage.prototype, "content", void 0);
+    CoreGradesGradePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-grades-grade',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/core/grades/pages/grade/grade.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'core.grades.grade\' | translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="gradeLoaded" (ionRefresh)="refreshGrade($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="gradeLoaded">\n        <core-empty-box *ngIf="!grade" icon="stats" [message]="\'core.grades.nogradesreturned\' | translate"></core-empty-box>\n\n        <ion-list *ngIf="grade">\n            <a ion-item *ngIf="grade.itemname && grade.link" text-wrap detail-push [href]="grade.link" core-link capture="true">\n                <ion-icon *ngIf="grade.icon" name="{{grade.icon}}" item-start></ion-icon>\n                <img *ngIf="grade.image" [src]="grade.image" item-start/>\n                <h2><core-format-text [text]="grade.itemname"></core-format-text></h2>\n            </a>\n\n            <ion-item *ngIf="grade.itemname && !grade.link" text-wrap >\n                <ion-icon *ngIf="grade.icon" name="{{grade.icon}}" item-start></ion-icon>\n                <img *ngIf="grade.image" [src]="grade.image" item-start/>\n                <h2><core-format-text [text]="grade.itemname"></core-format-text></h2>\n            </ion-item>\n\n            <ion-item text-wrap *ngIf="grade.weight">\n                <h2>{{ \'core.grades.weight\' | translate}}</h2>\n                <p><core-format-text [text]="grade.weight"></core-format-text></p>\n            </ion-item>\n\n            <ion-item text-wrap *ngIf="grade.grade">\n                <h2>{{ \'core.grades.grade\' | translate}}</h2>\n                <p><core-format-text [text]="grade.grade"></core-format-text></p>\n            </ion-item>\n\n            <ion-item text-wrap *ngIf="grade.range">\n                <h2>{{ \'core.grades.range\' | translate}}</h2>\n                <p><core-format-text [text]="grade.range"></core-format-text></p>\n            </ion-item>\n\n            <ion-item text-wrap *ngIf="grade.percentage">\n                <h2>{{ \'core.grades.percentage\' | translate}}</h2>\n                <p><core-format-text [text]="grade.percentage"></core-format-text></p>\n            </ion-item>\n\n            <ion-item text-wrap *ngIf="grade.lettergrade">\n                <h2>{{ \'core.grades.lettergrade\' | translate}}</h2>\n                <p><core-format-text [text]="grade.lettergrade"></core-format-text></p>\n            </ion-item>\n\n            <ion-item text-wrap *ngIf="grade.rank">\n                <h2>{{ \'core.grades.rank\' | translate}}</h2>\n                <p><core-format-text [text]="grade.rank"></core-format-text></p>\n            </ion-item>\n\n            <ion-item text-wrap *ngIf="grade.average">\n                <h2>{{ \'core.grades.average\' | translate}}</h2>\n                <p><core-format-text [text]="grade.average"></core-format-text></p>\n            </ion-item>\n\n            <ion-item text-wrap *ngIf="grade.feedback">\n                <h2>{{ \'core.grades.feedback\' | translate}}</h2>\n                <p><core-format-text [fullTitle]="\'core.grades.feedback\' | translate" maxHeight="60" fullOnClick="true" [text]="grade.feedback"></core-format-text></p>\n            </ion-item>\n\n            <ion-item text-wrap *ngIf="grade.contributiontocoursetotal">\n                <h2>{{ \'core.grades.contributiontocoursetotal\' | translate}}</h2>\n                <p><core-format-text [text]="grade.contributiontocoursetotal"></core-format-text></p>\n            </ion-item>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/core/grades/pages/grade/grade.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__providers_grades__["a" /* CoreGradesProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_helper__["a" /* CoreGradesHelperProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */]])
+    ], CoreGradesGradePage);
+    return CoreGradesGradePage;
+}());
+
+//# sourceMappingURL=grade.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=34.js.map

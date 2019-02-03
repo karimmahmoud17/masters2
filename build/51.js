@@ -1,1 +1,358 @@
-webpackJsonp([51],{1885:function(l,n,t){"use strict";function u(l){return h._42(0,[(l()(),h._16(0,0,null,null,0,"img",[["role","presentation"]],[[8,"src",4]],null,null,null,null))],null,function(l,n){l(n,0,0,n.component.logoUrl)})}function i(l){return h._42(0,[(l()(),h._16(0,0,null,null,0,"img",[["class","login-logo"],["role","presentation"],["src","assets/img/login_logo.png"]],null,null,null,null,null))],null,null)}function e(l){return h._42(0,[(l()(),h._16(0,0,null,null,1,"p",[["class","item-heading core-siteurl"],["padding",""]],null,null,null,null,null)),(l()(),h._40(1,null,["",""]))],null,function(l,n){l(n,1,0,n.component.siteUrl)})}function o(l){return h._42(0,[(l()(),h._16(0,0,null,null,2,"p",[["class","item-heading core-sitename"],["padding",""]],null,null,null,null,null)),(l()(),h._16(1,0,null,null,1,"core-format-text",[],null,null,null,null,null)),h._15(2,540672,null,0,A.a,[h.p,v.a,w.a,q.a,$.a,R.a,C.a,j.a,G.a,z.a,m.a,U.a,[2,J.a],[2,Q.a],[2,X.a],Y.a,b.a],{text:[0,"text"]},null)],function(l,n){l(n,2,0,n.component.siteName)},null)}function a(l){return h._42(0,[(l()(),h._16(0,0,null,null,1,"p",[["class","core-siteurl"]],null,null,null,null,null)),(l()(),h._40(1,null,["",""]))],null,function(l,n){l(n,1,0,n.component.siteUrl)})}function s(l){return h._42(0,[(l()(),h._16(0,0,null,null,13,"ion-item",[["class","item item-block"]],null,null,null,Z.b,Z.a)),h._15(1,1097728,null,3,ll.a,[nl.a,tl.a,h.p,h.K,[2,ul.a]],null,null),h._37(335544320,1,{contentLabel:0}),h._37(603979776,2,{_buttons:1}),h._37(603979776,3,{_icons:1}),h._15(5,16384,null,0,il.a,[],null,null),(l()(),h._40(-1,2,["\n                    "])),(l()(),h._16(7,0,null,3,5,"ion-input",[["autocapitalize","none"],["autocorrect","off"],["formControlName","username"],["name","username"],["type","text"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,el.b,el.a)),h._15(8,671744,null,0,I.f,[[3,I.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),h._35(2048,null,I.m,null,[I.f]),h._15(10,16384,null,0,I.n,[I.m],null,null),h._15(11,5423104,null,0,ol.a,[tl.a,R.a,nl.a,al.a,h.p,h.K,[2,Q.a],[2,ll.a],[2,I.m],sl.a],{type:[0,"type"],autocorrect:[1,"autocorrect"],placeholder:[2,"placeholder"]},null),h._32(131072,rl.a,[$.a,h.i]),(l()(),h._40(-1,2,["\n                "]))],function(l,n){l(n,8,0,"username");l(n,11,0,"text","off",h._19(1,"",h._41(n,11,2,h._29(n,12).transform("core.login.username")),""))},function(l,n){l(n,7,0,h._29(n,10).ngClassUntouched,h._29(n,10).ngClassTouched,h._29(n,10).ngClassPristine,h._29(n,10).ngClassDirty,h._29(n,10).ngClassValid,h._29(n,10).ngClassInvalid,h._29(n,10).ngClassPending)})}function r(l){return h._42(0,[(l()(),h._16(0,0,null,null,17,"ion-item",[["class","item item-block"],["margin-bottom",""]],null,null,null,Z.b,Z.a)),h._15(1,1097728,null,3,ll.a,[nl.a,tl.a,h.p,h.K,[2,ul.a]],null,null),h._37(335544320,4,{contentLabel:0}),h._37(603979776,5,{_buttons:1}),h._37(603979776,6,{_icons:1}),h._15(5,16384,null,0,il.a,[],null,null),(l()(),h._40(-1,2,["\n                    "])),(l()(),h._16(7,0,null,3,9,"core-show-password",[["item-content",""]],null,null,null,_l.b,_l.a)),h._15(8,4308992,null,0,cl.a,[h.p,C.a],{name:[0,"name"]},null),(l()(),h._40(-1,0,["\n                        "])),(l()(),h._16(10,0,null,0,5,"ion-input",[["class","core-ioninput-password"],["core-show-password",""],["formControlName","password"],["name","password"],["type","password"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],null,null,el.b,el.a)),h._15(11,671744,null,0,I.f,[[3,I.b],[8,null],[8,null],[8,null]],{name:[0,"name"]},null),h._35(2048,null,I.m,null,[I.f]),h._15(13,16384,null,0,I.n,[I.m],null,null),h._15(14,5423104,null,0,ol.a,[tl.a,R.a,nl.a,al.a,h.p,h.K,[2,Q.a],[2,ll.a],[2,I.m],sl.a],{type:[0,"type"],clearOnEdit:[1,"clearOnEdit"],placeholder:[2,"placeholder"]},null),h._32(131072,rl.a,[$.a,h.i]),(l()(),h._40(-1,0,["\n                    "])),(l()(),h._40(-1,2,["\n                "]))],function(l,n){l(n,8,0,"password");l(n,11,0,"password");l(n,14,0,"password",!1,h._19(1,"",h._41(n,14,2,h._29(n,15).transform("core.login.password")),""))},function(l,n){l(n,10,0,h._29(n,13).ngClassUntouched,h._29(n,13).ngClassTouched,h._29(n,13).ngClassPristine,h._29(n,13).ngClassDirty,h._29(n,13).ngClassValid,h._29(n,13).ngClassInvalid,h._29(n,13).ngClassPending)})}function _(l){return h._42(0,[(l()(),h._16(0,0,null,null,8,"button",[["class","core-oauth-icon item item-block"],["ion-item",""],["text-wrap",""]],[[8,"title",0]],[[null,"click"]],function(l,n,t){var u=!0;if("click"===n){u=!1!==l.component.oauthClicked(l.context.$implicit)&&u}return u},Z.b,Z.a)),h._15(1,1097728,null,3,ll.a,[nl.a,tl.a,h.p,h.K,[2,ul.a]],null,null),h._37(335544320,10,{contentLabel:0}),h._37(603979776,11,{_buttons:1}),h._37(603979776,12,{_icons:1}),h._15(5,16384,null,0,il.a,[],null,null),(l()(),h._40(-1,2,["\n                    "])),(l()(),h._16(7,0,null,0,0,"img",[["item-start",""]],[[8,"src",4],[8,"alt",0]],null,null,null,null)),(l()(),h._40(8,2,["\n                    ","\n                "]))],null,function(l,n){l(n,0,0,h._19(1,"",n.context.$implicit.name,""));l(n,7,0,n.context.$implicit.iconurl,h._19(1,"",n.context.$implicit.name,""));l(n,8,0,n.context.$implicit.name)})}function c(l){return h._42(0,[(l()(),h._16(0,0,null,null,14,"ion-list",[["padding-top",""]],null,null,null,null,null)),h._15(1,16384,null,0,gl.a,[tl.a,h.p,h.K,R.a,dl.l,sl.a],null,null),(l()(),h._40(-1,null,["\n                "])),(l()(),h._16(3,0,null,null,7,"ion-list-header",[["class","item"],["text-wrap",""]],null,null,null,Z.b,Z.a)),h._15(4,1097728,null,3,ll.a,[nl.a,tl.a,h.p,h.K,[2,ul.a]],null,null),h._37(335544320,7,{contentLabel:0}),h._37(603979776,8,{_buttons:1}),h._37(603979776,9,{_icons:1}),h._15(8,16384,null,0,pl.a,[tl.a,h.K,h.p,[8,null]],null,null),(l()(),h._40(9,2,["",""])),h._32(131072,rl.a,[$.a,h.i]),(l()(),h._40(-1,null,["\n                "])),(l()(),h._11(16777216,null,null,1,null,_)),h._15(13,802816,null,0,hl.j,[h.W,h.T,h.v],{ngForOf:[0,"ngForOf"]},null),(l()(),h._40(-1,null,["\n            "]))],function(l,n){l(n,13,0,n.component.identityProviders)},function(l,n){l(n,9,0,h._41(n,9,0,h._29(n,10).transform("core.login.potentialidps")))})}function g(l){return h._42(0,[(l()(),h._16(0,0,null,null,10,"ion-item",[["class","item item-block"],["no-lines",""],["text-wrap",""]],null,null,null,Z.b,Z.a)),h._15(1,1097728,null,3,ll.a,[nl.a,tl.a,h.p,h.K,[2,ul.a]],null,null),h._37(335544320,16,{contentLabel:0}),h._37(603979776,17,{_buttons:1}),h._37(603979776,18,{_icons:1}),h._15(5,16384,null,0,il.a,[],null,null),(l()(),h._40(-1,2,["\n                    "])),(l()(),h._16(7,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),h._16(8,0,null,null,1,"core-format-text",[],null,null,null,null,null)),h._15(9,540672,null,0,A.a,[h.p,v.a,w.a,q.a,$.a,R.a,C.a,j.a,G.a,z.a,m.a,U.a,[2,J.a],[2,Q.a],[2,X.a],Y.a,b.a],{text:[0,"text"]},null),(l()(),h._40(-1,2,["\n                "]))],function(l,n){l(n,9,0,n.component.authInstructions)},null)}function d(l){return h._42(0,[(l()(),h._16(0,0,null,null,19,"ion-list",[["padding-top",""]],null,null,null,null,null)),h._15(1,16384,null,0,gl.a,[tl.a,h.p,h.K,R.a,dl.l,sl.a],null,null),(l()(),h._40(-1,null,["\n                "])),(l()(),h._16(3,0,null,null,7,"ion-list-header",[["class","item"],["text-wrap",""]],null,null,null,Z.b,Z.a)),h._15(4,1097728,null,3,ll.a,[nl.a,tl.a,h.p,h.K,[2,ul.a]],null,null),h._37(335544320,13,{contentLabel:0}),h._37(603979776,14,{_buttons:1}),h._37(603979776,15,{_icons:1}),h._15(8,16384,null,0,pl.a,[tl.a,h.K,h.p,[8,null]],null,null),(l()(),h._40(9,2,["",""])),h._32(131072,rl.a,[$.a,h.i]),(l()(),h._40(-1,null,["\n                "])),(l()(),h._11(16777216,null,null,1,null,g)),h._15(13,16384,null,0,hl.k,[h.W,h.T],{ngIf:[0,"ngIf"]},null),(l()(),h._40(-1,null,["\n                "])),(l()(),h._16(15,0,null,null,3,"button",[["block",""],["ion-button",""]],null,[[null,"click"]],function(l,n,t){var u=!0;if("click"===n){u=!1!==l.component.signup()&&u}return u},fl.b,fl.a)),h._15(16,1097728,null,0,ml.a,[[8,""],tl.a,h.p,h.K],{block:[0,"block"]},null),(l()(),h._40(17,0,["",""])),h._32(131072,rl.a,[$.a,h.i]),(l()(),h._40(-1,null,["\n            "]))],function(l,n){l(n,13,0,n.component.authInstructions);l(n,16,0,"")},function(l,n){l(n,9,0,h._41(n,9,0,h._29(n,10).transform("core.login.firsttime")));l(n,17,0,h._41(n,17,0,h._29(n,18).transform("core.login.startsignup")))})}function p(l){return h._42(0,[(l()(),h._16(0,0,null,null,12,"ion-header",[],null,null,null,null,null)),h._15(1,16384,null,0,bl.a,[tl.a,h.p,h.K,[2,vl.a]],null,null),(l()(),h._40(-1,null,["\n    "])),(l()(),h._16(3,0,null,null,8,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,wl.b,wl.a)),h._15(4,49152,null,0,Cl.a,[al.a,[2,vl.a],[2,J.a],tl.a,h.p,h.K],null,null),h._15(5,212992,null,0,kl.a,[Cl.a,R.a,$.a,b.a],null,null),(l()(),h._40(-1,3,["\n        "])),(l()(),h._16(7,0,null,3,3,"ion-title",[],null,null,null,Sl.b,Sl.a)),h._15(8,49152,null,0,Ul.a,[tl.a,h.p,h.K,[2,Il.a],[2,Cl.a]],null,null),(l()(),h._40(9,0,["",""])),h._32(131072,rl.a,[$.a,h.i]),(l()(),h._40(-1,3,["\n    "])),(l()(),h._40(-1,null,["\n"])),(l()(),h._40(-1,null,["\n"])),(l()(),h._16(14,0,null,null,63,"ion-content",[["class","core-center-view"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,Pl.b,Pl.a)),h._15(15,4374528,null,0,Q.a,[tl.a,R.a,sl.a,h.p,h.K,al.a,yl.a,h.D,[2,vl.a],[2,J.a]],null,null),(l()(),h._40(-1,1,["\n    "])),(l()(),h._16(17,0,null,1,59,"core-loading",[],null,null,null,Ll.b,Ll.a)),h._15(18,638976,null,0,Tl.a,[$.a,h.p,b.a,C.a],{hideUntil:[0,"hideUntil"]},null),(l()(),h._40(-1,0,["\n        "])),(l()(),h._16(20,0,null,0,55,"div",[["class","box"]],null,null,null,null,null)),(l()(),h._40(-1,null,["\n            "])),(l()(),h._16(22,0,null,null,19,"div",[["margin-bottom",""],["text-center",""],["text-wrap",""]],null,null,null,null,null)),(l()(),h._40(-1,null,["\n                "])),(l()(),h._40(-1,null,["\n                "])),(l()(),h._11(16777216,null,null,1,null,u)),h._15(26,16384,null,0,hl.k,[h.W,h.T],{ngIf:[0,"ngIf"]},null),(l()(),h._40(-1,null,["\n                "])),(l()(),h._11(16777216,null,null,1,null,i)),h._15(29,16384,null,0,hl.k,[h.W,h.T],{ngIf:[0,"ngIf"]},null),(l()(),h._40(-1,null,["\n\n                "])),(l()(),h._40(-1,null,["\n                "])),(l()(),h._11(16777216,null,null,1,null,e)),h._15(33,16384,null,0,hl.k,[h.W,h.T],{ngIf:[0,"ngIf"]},null),(l()(),h._40(-1,null,["\n                "])),(l()(),h._40(-1,null,["\n                "])),(l()(),h._11(16777216,null,null,1,null,o)),h._15(37,16384,null,0,hl.k,[h.W,h.T],{ngIf:[0,"ngIf"]},null),(l()(),h._40(-1,null,["\n                "])),(l()(),h._11(16777216,null,null,1,null,a)),h._15(40,16384,null,0,hl.k,[h.W,h.T],{ngIf:[0,"ngIf"]},null),(l()(),h._40(-1,null,["\n            "])),(l()(),h._40(-1,null,["\n            "])),(l()(),h._16(43,0,null,null,16,"form",[["ion-list",""],["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngSubmit"],[null,"submit"],[null,"reset"]],function(l,n,t){var u=!0,i=l.component;if("submit"===n){u=!1!==h._29(l,45).onSubmit(t)&&u}if("reset"===n){u=!1!==h._29(l,45).onReset()&&u}if("ngSubmit"===n){u=!1!==i.login()&&u}return u},null,null)),h._15(44,16384,null,0,I.w,[],null,null),h._15(45,540672,null,0,I.h,[[8,null],[8,null]],{form:[0,"form"]},{ngSubmit:"ngSubmit"}),h._35(2048,null,I.b,null,[I.h]),h._15(47,16384,null,0,I.o,[I.b],null,null),(l()(),h._40(-1,null,["\n                "])),(l()(),h._11(16777216,null,null,1,null,s)),h._15(50,16384,null,0,hl.k,[h.W,h.T],{ngIf:[0,"ngIf"]},null),(l()(),h._40(-1,null,["\n                "])),(l()(),h._11(16777216,null,null,1,null,r)),h._15(53,16384,null,0,hl.k,[h.W,h.T],{ngIf:[0,"ngIf"]},null),(l()(),h._40(-1,null,["\n                "])),(l()(),h._16(55,0,null,null,3,"button",[["block",""],["ion-button",""]],[[8,"disabled",0]],null,null,fl.b,fl.a)),h._15(56,1097728,null,0,ml.a,[[8,""],tl.a,h.p,h.K],{block:[0,"block"]},null),(l()(),h._40(57,0,["",""])),h._32(131072,rl.a,[$.a,h.i]),(l()(),h._40(-1,null,["\n            "])),(l()(),h._40(-1,null,["\n\n            "])),(l()(),h._40(-1,null,["\n            "])),(l()(),h._16(62,0,null,null,6,"div",[["padding-top",""]],null,null,null,null,null)),(l()(),h._40(-1,null,["\n                "])),(l()(),h._16(64,0,null,null,3,"button",[["block",""],["color","light"],["ion-button",""],["text-wrap",""]],null,[[null,"click"]],function(l,n,t){var u=!0;if("click"===n){u=!1!==l.component.forgottenPassword()&&u}return u},fl.b,fl.a)),h._15(65,1097728,null,0,ml.a,[[8,""],tl.a,h.p,h.K],{color:[0,"color"],block:[1,"block"]},null),(l()(),h._40(66,0,["",""])),h._32(131072,rl.a,[$.a,h.i]),(l()(),h._40(-1,null,["\n            "])),(l()(),h._40(-1,null,["\n\n            "])),(l()(),h._11(16777216,null,null,1,null,c)),h._15(71,16384,null,0,hl.k,[h.W,h.T],{ngIf:[0,"ngIf"]},null),(l()(),h._40(-1,null,["\n\n            "])),(l()(),h._11(16777216,null,null,1,null,d)),h._15(74,16384,null,0,hl.k,[h.W,h.T],{ngIf:[0,"ngIf"]},null),(l()(),h._40(-1,null,["\n        "])),(l()(),h._40(-1,0,["\n    "])),(l()(),h._40(-1,1,["\n"])),(l()(),h._40(-1,null,["\n"]))],function(l,n){var t=n.component;l(n,5,0);l(n,18,0,t.pageLoaded);l(n,26,0,t.logoUrl);l(n,29,0,!t.logoUrl);l(n,33,0,!t.siteName);l(n,37,0,t.siteName);l(n,40,0,t.siteName);l(n,45,0,t.credForm);l(n,50,0,t.siteChecked&&!t.isBrowserSSO);l(n,53,0,t.siteChecked&&!t.isBrowserSSO);l(n,56,0,"");l(n,65,0,"light","");l(n,71,0,t.identityProviders&&t.identityProviders.length);l(n,74,0,t.canSignup)},function(l,n){var t=n.component;l(n,3,0,h._29(n,4)._hidden,h._29(n,4)._sbPadding);l(n,9,0,h._41(n,9,0,h._29(n,10).transform("core.login.login")));l(n,14,0,h._29(n,15).statusbarPadding,h._29(n,15)._hasRefresher);l(n,43,0,h._29(n,47).ngClassUntouched,h._29(n,47).ngClassTouched,h._29(n,47).ngClassPristine,h._29(n,47).ngClassDirty,h._29(n,47).ngClassValid,h._29(n,47).ngClassInvalid,h._29(n,47).ngClassPending);l(n,55,0,t.siteChecked&&!t.isBrowserSSO&&!t.credForm.valid);l(n,57,0,h._41(n,57,0,h._29(n,58).transform("core.login.loginbutton")));l(n,66,0,h._41(n,66,0,h._29(n,67).transform("core.login.forgotten")))})}Object.defineProperty(n,"__esModule",{value:!0});var h=t(1),f=(t(0),t(10),t(5)),m=t(11),b=t(13),v=t(2),w=t(4),C=t(3),k=t(125),S=t(62),U=t(23),I=t(19),P=function(){function l(l,n,t,u,i,e,o,a,s,r,_,c){this.navCtrl=l,this.appProvider=u,this.sitesProvider=i,this.loginHelper=e,this.domUtils=o,this.translate=a,this.utils=s,this.eventsProvider=r,this.contentLinksDelegate=_,this.contentLinksHelper=c,this.siteChecked=!1,this.pageLoaded=!1,this.isBrowserSSO=!1,this.eventThrown=!1,this.viewLeft=!1,this.siteUrl=n.get("siteUrl"),this.siteConfig=n.get("siteConfig"),this.urlToOpen=n.get("urlToOpen"),this.credForm=t.group({username:[n.get("username")||"",I.u.required],password:["",I.u.required]})}return l.prototype.ionViewDidLoad=function(){this.treatSiteConfig(),this.loginHelper.isFixedUrlSet()?this.checkSite(this.siteUrl):(this.siteChecked=!0,this.pageLoaded=!0)},l.prototype.ionViewDidLeave=function(){this.viewLeft=!0,this.eventsProvider.trigger(b.a.LOGIN_SITE_UNCHECKED,{config:this.siteConfig},this.siteId)},l.prototype.checkSite=function(l){var n=this;this.pageLoaded=!1;var t=0===l.indexOf("http://")?"http://":void 0;return this.sitesProvider.checkSite(l,t).then(function(l){n.siteChecked=!0,n.siteUrl=l.siteUrl,n.siteConfig=l.config,n.treatSiteConfig(),l&&l.warning&&n.domUtils.showErrorModal(l.warning,!0,4e3),n.loginHelper.isSSOLoginNeeded(l.code)?(n.isBrowserSSO=!0,n.appProvider.isSSOAuthenticationOngoing()||n.viewLeft||n.loginHelper.confirmAndOpenBrowserForSSOLogin(l.siteUrl,l.code,l.service,l.config&&l.config.launchurl)):n.isBrowserSSO=!1}).catch(function(l){n.domUtils.showErrorModal(l)}).finally(function(){n.pageLoaded=!0})},l.prototype.treatSiteConfig=function(){this.siteConfig?(this.siteName=this.siteConfig.sitename,this.logoUrl=this.siteConfig.logourl||this.siteConfig.compactlogourl,this.authInstructions=this.siteConfig.authinstructions||this.translate.instant("core.login.loginsteps"),this.canSignup="email"==this.siteConfig.registerauth&&!this.loginHelper.isEmailSignupDisabled(this.siteConfig),this.identityProviders=this.loginHelper.getValidIdentityProviders(this.siteConfig),this.eventThrown||this.viewLeft||(this.eventThrown=!0,this.eventsProvider.trigger(b.a.LOGIN_SITE_CHECKED,{config:this.siteConfig}))):(this.siteName=null,this.logoUrl=null,this.authInstructions=null,this.canSignup=!1,this.identityProviders=[])},l.prototype.login=function(){var l=this;this.appProvider.closeKeyboard();var n=this.siteUrl,t=this.credForm.value.username,u=this.credForm.value.password;if(this.siteChecked&&!this.isBrowserSSO)if(t)if(u)if(this.appProvider.isOnline()){var i=this.domUtils.showModalLoading();this.sitesProvider.getUserToken(n,t,u).then(function(n){return l.sitesProvider.newSite(n.siteUrl,n.token,n.privateToken).then(function(n){return l.credForm.controls.username.reset(),l.credForm.controls.password.reset(),l.siteId=n,l.urlToOpen?l.contentLinksDelegate.getActionsFor(l.urlToOpen,void 0,t).then(function(n){var t=l.contentLinksHelper.getFirstValidAction(n);if(!t||!t.sites.length)return l.loginHelper.goToSiteInitialPage();t.action(t.sites[0])}):l.loginHelper.goToSiteInitialPage()})}).catch(function(t){l.loginHelper.treatUserTokenError(n,t)}).finally(function(){i.dismiss()})}else this.domUtils.showErrorModal("core.networkerrormsg",!0);else this.domUtils.showErrorModal("core.login.passwordrequired",!0);else this.domUtils.showErrorModal("core.login.usernamerequired",!0);else this.checkSite(n).then(function(){if(!l.isBrowserSSO)return l.login()})},l.prototype.forgottenPassword=function(){var l=this;if(this.siteConfig&&this.siteConfig.forgottenpasswordurl)this.utils.openInApp(this.siteConfig.forgottenpasswordurl);else{var n=this.domUtils.showModalLoading();this.loginHelper.canRequestPasswordReset(this.siteUrl).then(function(n){n?l.navCtrl.push("CoreLoginForgottenPasswordPage",{siteUrl:l.siteUrl,username:l.credForm.value.username}):l.loginHelper.openForgottenPassword(l.siteUrl)}).finally(function(){n.dismiss()})}},l.prototype.oauthClicked=function(l){this.loginHelper.openBrowserForOAuthLogin(this.siteUrl,l,this.siteConfig.launchurl)||this.domUtils.showErrorModal("Invalid data.")},l.prototype.signup=function(){this.navCtrl.push("CoreLoginEmailSignupPage",{siteUrl:this.siteUrl})},l}(),y=t(33),L=t(29),T=function(){return function(){}}(),O=t(1284),x=t(1285),K=t(1286),F=t(1287),E=t(1288),H=t(1289),N=t(1290),B=t(1291),D=t(1292),W=t(1295),M=t(1296),V=t(1297),A=t(40),q=t(12),$=t(18),R=t(15),j=t(25),G=t(6),z=t(17),J=t(22),Q=t(24),X=t(35),Y=t(38),Z=t(34),ll=t(21),nl=t(20),tl=t(7),ul=t(28),il=t(31),el=t(92),ol=t(77),al=t(27),sl=t(26),rl=t(30),_l=t(646),cl=t(335),gl=t(75),dl=t(37),pl=t(272),hl=t(9),fl=t(46),ml=t(41),bl=t(422),vl=t(36),wl=t(1293),Cl=t(193),kl=t(637),Sl=t(1294),Ul=t(329),Il=t(238),Pl=t(179),yl=t(100),Ll=t(57),Tl=t(51),Ol=t(60),xl=h._14({encapsulation:2,styles:[],data:{}}),Kl=h._12("page-core-login-credentials",P,function(l){return h._42(0,[(l()(),h._16(0,0,null,null,1,"page-core-login-credentials",[],null,null,null,p,xl)),h._15(1,49152,null,0,P,[J.a,Ol.a,I.d,m.a,v.a,k.a,w.a,$.a,C.a,b.a,S.a,U.a],null,null)],null,null)},{},{},[]),Fl=t(325),El=t(326),Hl=t(328),Nl=t(327),Bl=t(421),Dl=t(636),Wl=t(110),Ml=t(239);t.d(n,"CoreLoginCredentialsPageModuleNgFactory",function(){return Vl});var Vl=h._13(T,[],function(l){return h._25([h._26(512,h.n,h._6,[[8,[O.a,x.a,K.a,F.a,E.a,H.a,N.a,B.a,D.a,W.a,M.a,V.a,Kl]],[3,h.n],h.B]),h._26(4608,hl.m,hl.l,[h.x,[2,hl.v]]),h._26(4608,I.x,I.x,[]),h._26(4608,I.d,I.d,[]),h._26(4608,Fl.b,Fl.a,[]),h._26(4608,El.a,El.b,[]),h._26(4608,Hl.b,Hl.a,[]),h._26(4608,Nl.b,Nl.a,[]),h._26(4608,$.a,$.a,[Bl.a,Fl.b,El.a,Hl.b,Nl.b,$.b,$.c]),h._26(512,hl.b,hl.b,[]),h._26(512,I.v,I.v,[]),h._26(512,I.i,I.i,[]),h._26(512,I.s,I.s,[]),h._26(512,Dl.a,Dl.a,[]),h._26(512,f.a,f.a,[]),h._26(512,L.a,L.a,[]),h._26(512,Wl.a,Wl.a,[]),h._26(512,y.a,y.a,[]),h._26(512,Dl.b,Dl.b,[]),h._26(512,T,T,[]),h._26(256,$.c,void 0,[]),h._26(256,$.b,void 0,[]),h._26(256,Ml.a,P,[])])})}});
+webpackJsonp([51],{
+
+/***/ 1868:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonNotificationsSettingsPageModule", function() { return AddonNotificationsSettingsPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__settings__ = __webpack_require__(1994);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+var AddonNotificationsSettingsPageModule = /** @class */ (function () {
+    function AddonNotificationsSettingsPageModule() {
+    }
+    AddonNotificationsSettingsPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__settings__["a" /* AddonNotificationsSettingsPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__settings__["a" /* AddonNotificationsSettingsPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonNotificationsSettingsPageModule);
+    return AddonNotificationsSettingsPageModule;
+}());
+
+//# sourceMappingURL=settings.module.js.map
+
+/***/ }),
+
+/***/ 1994:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonNotificationsSettingsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_notifications__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__core_user_providers_user__ = __webpack_require__(26);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__core_settings_providers_helper__ = __webpack_require__(939);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__addon_messageoutput_providers_delegate__ = __webpack_require__(257);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_local_notifications__ = __webpack_require__(80);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_config__ = __webpack_require__(107);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_constants__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__components_split_view_split_view__ = __webpack_require__(105);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+var __param = (this && this.__param) || function (paramIndex, decorator) {
+    return function (target, key) { decorator(target, key, paramIndex); }
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that displays notifications settings.
+ */
+var AddonNotificationsSettingsPage = /** @class */ (function () {
+    function AddonNotificationsSettingsPage(notificationsProvider, domUtils, settingsHelper, userProvider, navCtrl, messageOutputDelegate, appProvider, configProvider, eventsProvider, localNotificationsProvider, sitesProvider, svComponent) {
+        var _this = this;
+        this.notificationsProvider = notificationsProvider;
+        this.domUtils = domUtils;
+        this.settingsHelper = settingsHelper;
+        this.userProvider = userProvider;
+        this.navCtrl = navCtrl;
+        this.messageOutputDelegate = messageOutputDelegate;
+        this.configProvider = configProvider;
+        this.eventsProvider = eventsProvider;
+        this.localNotificationsProvider = localNotificationsProvider;
+        this.sitesProvider = sitesProvider;
+        this.svComponent = svComponent;
+        this.processorHandlers = [];
+        this.notifPrefsEnabled = notificationsProvider.isNotificationPreferencesEnabled();
+        this.canChangeSound = localNotificationsProvider.isAvailable() && !appProvider.isDesktop();
+        if (this.canChangeSound) {
+            configProvider.get(__WEBPACK_IMPORTED_MODULE_10__core_constants__["a" /* CoreConstants */].SETTINGS_NOTIFICATION_SOUND, true).then(function (enabled) {
+                _this.notificationSound = !!enabled;
+            });
+        }
+    }
+    /**
+     * View loaded.
+     */
+    AddonNotificationsSettingsPage.prototype.ionViewDidLoad = function () {
+        if (this.notifPrefsEnabled) {
+            this.fetchPreferences();
+        }
+        else {
+            this.preferencesLoaded = true;
+        }
+    };
+    /**
+     * Fetches preference data.
+     *
+     * @return {Promise<any>} Resolved when done.
+     */
+    AddonNotificationsSettingsPage.prototype.fetchPreferences = function () {
+        var _this = this;
+        return this.notificationsProvider.getNotificationPreferences().then(function (preferences) {
+            if (!_this.currentProcessor) {
+                // Initialize current processor. Load "Mobile" (airnotifier) if available.
+                _this.currentProcessor = _this.settingsHelper.getProcessor(preferences.processors, 'airnotifier');
+            }
+            if (!_this.currentProcessor) {
+                // Shouldn't happen.
+                return Promise.reject('No processor found');
+            }
+            preferences.disableall = !!preferences.disableall; // Convert to boolean.
+            _this.preferences = preferences;
+            _this.loadProcessor(_this.currentProcessor);
+            // Get display data of message output handlers (thery are displayed in the context menu),
+            _this.processorHandlers = [];
+            if (preferences.processors) {
+                preferences.processors.forEach(function (processor) {
+                    processor.supported = _this.messageOutputDelegate.hasHandler(processor.name, true);
+                    if (processor.hassettings && processor.supported) {
+                        _this.processorHandlers.push(_this.messageOutputDelegate.getDisplayData(processor));
+                    }
+                });
+            }
+        }).catch(function (message) {
+            _this.domUtils.showErrorModal(message);
+        }).finally(function () {
+            _this.preferencesLoaded = true;
+        });
+    };
+    /**
+     * Load a processor.
+     *
+     * @param {any} processor Processor object.
+     */
+    AddonNotificationsSettingsPage.prototype.loadProcessor = function (processor) {
+        if (!processor) {
+            return;
+        }
+        this.currentProcessor = processor;
+        this.components = this.settingsHelper.getProcessorComponents(processor.name, this.preferences.components);
+    };
+    /**
+     * Update preferences after a certain time. The purpose is to store the updated data, it won't be reflected in the view.
+     */
+    AddonNotificationsSettingsPage.prototype.updatePreferencesAfterDelay = function () {
+        var _this = this;
+        // Cancel pending updates.
+        clearTimeout(this.updateTimeout);
+        this.updateTimeout = setTimeout(function () {
+            _this.updateTimeout = null;
+            _this.updatePreferences();
+        }, 5000);
+    };
+    /**
+     * Update preferences. The purpose is to store the updated data, it won't be reflected in the view.
+     */
+    AddonNotificationsSettingsPage.prototype.updatePreferences = function () {
+        var _this = this;
+        this.notificationsProvider.invalidateNotificationPreferences().finally(function () {
+            _this.notificationsProvider.getNotificationPreferences();
+        });
+    };
+    /**
+     * The selected processor was changed.
+     *
+     * @param {string} name Name of the selected processor.
+     */
+    AddonNotificationsSettingsPage.prototype.changeProcessor = function (name) {
+        var _this = this;
+        this.preferences.processors.forEach(function (processor) {
+            if (processor.name == name) {
+                _this.loadProcessor(processor);
+            }
+        });
+    };
+    /**
+     * Refresh the list of preferences.
+     *
+     * @param {any} [refresher] Refresher.
+     */
+    AddonNotificationsSettingsPage.prototype.refreshPreferences = function (refresher) {
+        var _this = this;
+        this.notificationsProvider.invalidateNotificationPreferences().finally(function () {
+            _this.fetchPreferences().finally(function () {
+                refresher && refresher.complete();
+            });
+        });
+    };
+    /**
+     * Open extra preferences.
+     *
+     * @param {AddonMessageOutputHandlerData} handlerData
+     */
+    AddonNotificationsSettingsPage.prototype.openExtraPreferences = function (handlerData) {
+        // Decide which navCtrl to use. If this page is inside a split view, use the split view's master nav.
+        var navCtrl = this.svComponent ? this.svComponent.getMasterNav() : this.navCtrl;
+        navCtrl.push(handlerData.page, handlerData.pageParams);
+    };
+    /**
+     * Change the value of a certain preference.
+     *
+     * @param {any} notification Notification object.
+     * @param {string} state State name, ['loggedin', 'loggedoff'].
+     */
+    AddonNotificationsSettingsPage.prototype.changePreference = function (notification, state) {
+        var _this = this;
+        var processorState = notification.currentProcessor[state];
+        var preferenceName = notification.preferencekey + '_' + processorState.name;
+        var value;
+        notification.processors.forEach(function (processor) {
+            if (processor[state].checked) {
+                if (!value) {
+                    value = processor.name;
+                }
+                else {
+                    value += ',' + processor.name;
+                }
+            }
+        });
+        if (!value) {
+            value = 'none';
+        }
+        processorState.updating = true;
+        this.userProvider.updateUserPreference(preferenceName, value).then(function () {
+            // Update the preferences since they were modified.
+            _this.updatePreferencesAfterDelay();
+        }).catch(function (message) {
+            // Show error and revert change.
+            _this.domUtils.showErrorModal(message);
+            notification.currentProcessor[state].checked = !notification.currentProcessor[state].checked;
+        }).finally(function () {
+            processorState.updating = false;
+        });
+    };
+    /**
+     * Disable all notifications changed.
+     */
+    AddonNotificationsSettingsPage.prototype.disableAll = function (disable) {
+        var _this = this;
+        var modal = this.domUtils.showModalLoading('core.sending', true);
+        this.userProvider.updateUserPreferences([], disable).then(function () {
+            // Update the preferences since they were modified.
+            _this.updatePreferencesAfterDelay();
+        }).catch(function (message) {
+            // Show error and revert change.
+            _this.domUtils.showErrorModal(message);
+            _this.preferences.disableall = !_this.preferences.disableall;
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    /**
+     * Change the notification sound setting.
+     *
+     * @param {enabled} enabled True to enable the notification sound, false to disable it.
+     */
+    AddonNotificationsSettingsPage.prototype.changeNotificationSound = function (enabled) {
+        var _this = this;
+        this.configProvider.set(__WEBPACK_IMPORTED_MODULE_10__core_constants__["a" /* CoreConstants */].SETTINGS_NOTIFICATION_SOUND, enabled ? 1 : 0).finally(function () {
+            var siteId = _this.sitesProvider.getCurrentSiteId();
+            _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_11__providers_events__["a" /* CoreEventsProvider */].NOTIFICATION_SOUND_CHANGED, { enabled: enabled }, siteId);
+            _this.localNotificationsProvider.rescheduleAll();
+        });
+    };
+    /**
+     * Page destroyed.
+     */
+    AddonNotificationsSettingsPage.prototype.ngOnDestroy = function () {
+        // If there is a pending action to update preferences, execute it right now.
+        if (this.updateTimeout) {
+            clearTimeout(this.updateTimeout);
+            this.updatePreferences();
+        }
+    };
+    AddonNotificationsSettingsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-notifications-settings',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/addon/notifications/pages/settings/settings.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.notifications.notificationpreferences\' | translate }}</ion-title>\n        <ion-buttons end>\n        </ion-buttons>\n    </ion-navbar>\n</ion-header>\n<core-navbar-buttons>\n    <core-context-menu *ngIf="processorHandlers.length > 0">\n        <core-context-menu-item *ngFor="let handler of processorHandlers" [priority]="handler.priority" [content]="handler.label | translate" (action)="openExtraPreferences(handler)" [iconAction]="handler.icon"></core-context-menu-item>\n    </core-context-menu>\n</core-navbar-buttons>\n<ion-content>\n    <ion-refresher [enabled]="preferencesLoaded && notifPrefsEnabled" (ionRefresh)="refreshPreferences($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="preferencesLoaded">\n        <!-- If notification preferences aren\'t enabled, show only the notification sound setting. -->\n        <ion-item *ngIf="canChangeSound && !notifPrefsEnabled">\n            <ion-label>{{ \'addon.notifications.playsound\' | translate }}</ion-label>\n            <ion-toggle [(ngModel)]="notificationSound" (ionChange)="changeNotificationSound(notificationSound)"></ion-toggle>\n        </ion-item>\n\n        <ng-container *ngIf="notifPrefsEnabled">\n            <ion-card>\n                <ion-item text-wrap *ngIf="preferences">\n                    <ion-label>{{ \'core.settings.disableall\' | translate }}</ion-label>\n                    <ion-toggle [(ngModel)]="preferences.disableall" (ionChange)="disableAll(preferences.disableall)"></ion-toggle>\n                </ion-item>\n                <ion-item text-wrap *ngIf="canChangeSound">\n                    <ion-label>{{ \'addon.notifications.playsound\' | translate }}</ion-label>\n                    <ion-toggle [(ngModel)]="notificationSound" (ionChange)="changeNotificationSound(notificationSound)"></ion-toggle>\n                </ion-item>\n            </ion-card>\n\n            <!-- Show processor selector. -->\n            <ion-select *ngIf="preferences && preferences.processors && preferences.processors.length > 0" [ngModel]="currentProcessor.name" (ngModelChange)="changeProcessor($event)" interface="popover">\n                <ion-option *ngFor="let processor of preferences.processors" [value]="processor.name">{{ processor.displayname }}</ion-option>\n            </ion-select>\n\n            <ion-card list *ngFor="let component of components">\n                <ion-item-divider color="light" text-wrap>\n                    <ion-row no-padding>\n                        <ion-col no-padding>{{ component.displayname }}</ion-col>\n                        <ion-col col-2 text-center no-padding class="hidden-phone">{{ \'core.settings.loggedin\' | translate }}</ion-col>\n                        <ion-col col-2 text-center no-padding class="hidden-phone">{{ \'core.settings.loggedoff\' | translate }}</ion-col>\n                    </ion-row>\n                </ion-item-divider>\n                <ng-container *ngFor="let notification of component.notifications">\n                    <!-- Tablet view -->\n                    <ion-row text-wrap class="hidden-phone" align-items-center>\n                        <ion-col margin-horizontal>{{ notification.displayname }}</ion-col>\n                        <ion-col col-2 text-center *ngFor="let state of [\'loggedin\', \'loggedoff\']">\n                            <!-- If notifications not disabled, show toggle. -->\n                            <ion-spinner [hidden]="preferences.disableall || !(notification.currentProcessor[state] && notification.currentProcessor[state].updating)"></ion-spinner>\n                            <ion-toggle *ngIf="!preferences.disableall" [(ngModel)]="notification.currentProcessor[state].checked" (ionChange)="changePreference(notification, state)" [disabled]="notification.currentProcessor.locked || notification.currentProcessor[state].updating">\n                            </ion-toggle>\n                            <!-- If notifications are disabled, show "Disabled" instead of toggle. -->\n                            <span *ngIf="preferences.disableall">{{ \'core.settings.disabled\' | translate }}</span>\n                        </ion-col>\n                    </ion-row>\n                    <!-- Phone view -->\n                    <ion-list-header text-wrap no-margin class="hidden-tablet">{{ notification.displayname }}</ion-list-header>\n                    <!-- If notifications not disabled, show toggles. If notifications are disabled, show "Disabled" instead of toggle. -->\n                    <ion-item *ngFor="let state of [\'loggedin\', \'loggedoff\']" text-wrap class="hidden-tablet">\n                        <ion-label>{{ \'core.settings.\' + state | translate }}</ion-label>\n                        <ion-spinner item-end *ngIf="!preferences.disableall && (notification.currentProcessor[state] && notification.currentProcessor[state].updating)"></ion-spinner>\n                        <ion-toggle item-end *ngIf="!preferences.disableall" [(ngModel)]="notification.currentProcessor[state].checked" (ionChange)="changePreference(notification, state)" [disabled]="notification.currentProcessor.locked || notification.currentProcessor[state].updating">\n                        </ion-toggle>\n                        <ion-note item-end *ngIf="preferences.disableall">{{ \'core.settings.disabled\' | translate }}</ion-note>\n                    </ion-item>\n                </ng-container>\n            </ion-card>\n        </ng-container>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/addon/notifications/pages/settings/settings.html"*/,
+        }),
+        __param(11, Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["N" /* Optional */])()),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_2__providers_notifications__["a" /* AddonNotificationsProvider */], __WEBPACK_IMPORTED_MODULE_4__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_5__core_settings_providers_helper__["a" /* CoreSettingsHelper */], __WEBPACK_IMPORTED_MODULE_3__core_user_providers_user__["a" /* CoreUserProvider */],
+            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_6__addon_messageoutput_providers_delegate__["a" /* AddonMessageOutputDelegate */],
+            __WEBPACK_IMPORTED_MODULE_9__providers_app__["a" /* CoreAppProvider */], __WEBPACK_IMPORTED_MODULE_8__providers_config__["a" /* CoreConfigProvider */], __WEBPACK_IMPORTED_MODULE_11__providers_events__["a" /* CoreEventsProvider */],
+            __WEBPACK_IMPORTED_MODULE_7__providers_local_notifications__["a" /* CoreLocalNotificationsProvider */], __WEBPACK_IMPORTED_MODULE_12__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_13__components_split_view_split_view__["a" /* CoreSplitViewComponent */]])
+    ], AddonNotificationsSettingsPage);
+    return AddonNotificationsSettingsPage;
+}());
+
+//# sourceMappingURL=settings.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=51.js.map

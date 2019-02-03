@@ -1,1 +1,290 @@
-webpackJsonp([83],{1840:function(l,n,u){"use strict";function a(l){return o._42(0,[(l()(),o._16(0,0,null,null,25,"ion-header",[],null,null,null,null,null)),o._15(1,16384,null,0,y.a,[C.a,o.p,o.K,[2,k.a]],null,null),(l()(),o._40(-1,null,["\n    "])),(l()(),o._16(3,0,null,null,21,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,P.b,P.a)),o._15(4,49152,null,0,M.a,[S.a,[2,k.a],[2,x.a],C.a,o.p,o.K],null,null),o._15(5,212992,null,0,L.a,[M.a,O.a,D.a,E.a],null,null),(l()(),o._40(-1,3,["\n        "])),(l()(),o._16(7,0,null,3,3,"ion-title",[],null,null,null,R.b,R.a)),o._15(8,49152,null,0,j.a,[C.a,o.p,o.K,[2,A.a],[2,M.a]],null,null),(l()(),o._40(9,0,["",""])),o._32(131072,B.a,[D.a,o.i]),(l()(),o._40(-1,3,["\n        "])),(l()(),o._16(12,0,null,2,11,"ion-buttons",[["end",""]],null,null,null,null,null)),o._15(13,16384,null,1,F.a,[C.a,o.p,o.K,[2,A.a],[2,M.a]],null,null),o._37(603979776,1,{_buttons:1}),(l()(),o._40(-1,null,["\n            "])),(l()(),o._16(16,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,u){var a=!0;if("click"===n){a=!1!==l.component.closeModal()&&a}return a},I.b,I.a)),o._15(17,1097728,[[1,4]],0,J.a,[[8,""],C.a,o.p,o.K],null,null),o._32(131072,B.a,[D.a,o.i]),(l()(),o._40(-1,0,["\n                "])),(l()(),o._16(20,0,null,0,1,"ion-icon",[["name","close"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o._15(21,147456,null,0,N.a,[C.a,o.p,o.K],{name:[0,"name"]},null),(l()(),o._40(-1,0,["\n            "])),(l()(),o._40(-1,null,["\n        "])),(l()(),o._40(-1,3,["\n    "])),(l()(),o._40(-1,null,["\n"])),(l()(),o._40(-1,null,["\n"])),(l()(),o._16(27,0,null,null,47,"ion-content",[["class","addon-mod_lesson-password-modal"],["padding",""]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,T.b,T.a)),o._15(28,4374528,null,0,U.a,[C.a,O.a,V.a,o.p,o.K,S.a,q.a,o.D,[2,k.a],[2,x.a]],null,null),(l()(),o._40(-1,1,["\n    "])),(l()(),o._16(30,0,null,1,43,"form",[["ion-list",""],["novalidate",""]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null]],[[null,"ngSubmit"],[null,"submit"],[null,"reset"]],function(l,n,u){var a=!0,_=l.component;if("submit"===n){a=!1!==o._29(l,32).onSubmit(u)&&a}if("reset"===n){a=!1!==o._29(l,32).onReset()&&a}if("ngSubmit"===n){a=!1!==_.submitPassword(o._29(l,53))&&a}return a},null,null)),o._15(31,16384,null,0,z.w,[],null,null),o._15(32,4210688,null,0,z.p,[[8,null],[8,null]],null,{ngSubmit:"ngSubmit"}),o._35(2048,null,z.b,null,[z.p]),o._15(34,16384,null,0,z.o,[z.b],null,null),(l()(),o._40(-1,null,["\n        "])),(l()(),o._16(36,0,null,null,20,"ion-item",[["class","item item-block"]],null,null,null,G.b,G.a)),o._15(37,1097728,null,3,H.a,[Q.a,C.a,o.p,o.K,[2,W.a]],null,null),o._37(335544320,2,{contentLabel:0}),o._37(603979776,3,{_buttons:1}),o._37(603979776,4,{_icons:1}),o._15(41,16384,null,0,X.a,[],null,null),(l()(),o._40(-1,2,["\n            "])),(l()(),o._16(43,0,null,3,12,"core-show-password",[["item-content",""]],null,null,null,Y.b,Y.a)),o._15(44,4308992,null,0,Z.a,[o.p,$.a],{name:[0,"name"]},null),(l()(),o._40(-1,0,["\n                "])),(l()(),o._16(46,0,null,0,3,"ion-label",[],null,null,null,null,null)),o._15(47,16384,[[2,4]],0,ll.a,[C.a,o.p,o.K,[8,null],[8,null],[8,null],[8,null]],null,null),(l()(),o._40(48,null,["",""])),o._32(131072,B.a,[D.a,o.i]),(l()(),o._40(-1,0,["\n                "])),(l()(),o._16(51,0,null,0,3,"ion-input",[["name","password"],["type","password"]],null,null,null,nl.b,nl.a)),o._15(52,81920,null,0,ul.a,[o.p,al.a,$.a,[2,x.a]],null,null),o._15(53,5423104,[["passwordinput",4]],0,ol.a,[C.a,O.a,Q.a,S.a,o.p,o.K,[2,U.a],[2,H.a],[2,z.m],V.a],{type:[0,"type"],clearOnEdit:[1,"clearOnEdit"],placeholder:[2,"placeholder"]},null),o._32(131072,B.a,[D.a,o.i]),(l()(),o._40(-1,0,["\n            "])),(l()(),o._40(-1,2,["\n        "])),(l()(),o._40(-1,null,["\n        "])),(l()(),o._16(58,0,null,null,14,"ion-item",[["class","item item-block"]],null,null,null,G.b,G.a)),o._15(59,1097728,null,3,H.a,[Q.a,C.a,o.p,o.K,[2,W.a]],null,null),o._37(335544320,5,{contentLabel:0}),o._37(603979776,6,{_buttons:1}),o._37(603979776,7,{_icons:1}),o._15(63,16384,null,0,X.a,[],null,null),(l()(),o._40(-1,2,["\n            "])),(l()(),o._16(65,0,null,2,6,"button",[["block",""],["icon-end",""],["ion-button",""],["type","submit"]],null,null,null,I.b,I.a)),o._15(66,1097728,[[6,4]],0,J.a,[[8,""],C.a,o.p,o.K],{block:[0,"block"]},null),(l()(),o._40(67,0,["\n                ","\n                "])),o._32(131072,B.a,[D.a,o.i]),(l()(),o._16(69,0,null,0,1,"ion-icon",[["md","ios-arrow-forward"],["name","arrow-forward"],["role","img"]],[[2,"hide",null]],null,null,null,null)),o._15(70,147456,null,0,N.a,[C.a,o.p,o.K],{name:[0,"name"],md:[1,"md"]},null),(l()(),o._40(-1,0,["\n            "])),(l()(),o._40(-1,2,["\n        "])),(l()(),o._40(-1,null,["\n    "])),(l()(),o._40(-1,1,["\n"])),(l()(),o._40(-1,null,["\n"]))],function(l,n){l(n,5,0);l(n,21,0,"close");l(n,44,0,"password"),l(n,52,0);l(n,53,0,"password",!1,o._19(1,"",o._41(n,53,2,o._29(n,54).transform("core.login.password")),""));l(n,66,0,"");l(n,70,0,"arrow-forward","ios-arrow-forward")},function(l,n){l(n,3,0,o._29(n,4)._hidden,o._29(n,4)._sbPadding);l(n,9,0,o._41(n,9,0,o._29(n,10).transform("core.login.password")));l(n,16,0,o._41(n,16,0,o._29(n,18).transform("core.close")));l(n,20,0,o._29(n,21)._hidden);l(n,27,0,o._29(n,28).statusbarPadding,o._29(n,28)._hasRefresher);l(n,30,0,o._29(n,34).ngClassUntouched,o._29(n,34).ngClassTouched,o._29(n,34).ngClassPristine,o._29(n,34).ngClassDirty,o._29(n,34).ngClassValid,o._29(n,34).ngClassInvalid,o._29(n,34).ngClassPending);l(n,48,0,o._41(n,48,0,o._29(n,49).transform("addon.mod_lesson.enterpassword")));l(n,67,0,o._41(n,67,0,o._29(n,68).transform("addon.mod_lesson.continue")));l(n,69,0,o._29(n,70)._hidden)})}Object.defineProperty(n,"__esModule",{value:!0});var o=u(1),_=(u(0),u(10),function(){function l(l){this.viewCtrl=l}return l.prototype.submitPassword=function(l){this.viewCtrl.dismiss(l.value)},l.prototype.closeModal=function(){this.viewCtrl.dismiss()},l}()),s=u(5),t=u(33),i=u(29),e=function(){return function(){}}(),r=u(1284),d=u(1285),c=u(1286),b=u(1287),p=u(1288),m=u(1289),g=u(1290),f=u(1291),w=u(1292),h=u(1295),v=u(1296),K=u(1297),y=u(422),C=u(7),k=u(36),P=u(1293),M=u(193),S=u(27),x=u(22),L=u(637),O=u(15),D=u(18),E=u(13),R=u(1294),j=u(329),A=u(238),B=u(30),F=u(423),I=u(46),J=u(41),N=u(42),T=u(179),U=u(24),V=u(26),q=u(100),z=u(19),G=u(34),H=u(21),Q=u(20),W=u(28),X=u(31),Y=u(646),Z=u(335),$=u(3),ll=u(61),nl=u(92),ul=u(332),al=u(4),ol=u(77),_l=o._14({encapsulation:2,styles:[],data:{}}),sl=o._12("page-addon-mod-lesson-password-modal",_,function(l){return o._42(0,[(l()(),o._16(0,0,null,null,1,"page-addon-mod-lesson-password-modal",[],null,null,null,a,_l)),o._15(1,49152,null,0,_,[k.a],null,null)],null,null)},{},{},[]),tl=u(9),il=u(325),el=u(326),rl=u(328),dl=u(327),cl=u(421),bl=u(636),pl=u(110),ml=u(239);u.d(n,"AddonModLessonPasswordModalPageModuleNgFactory",function(){return gl});var gl=o._13(e,[],function(l){return o._25([o._26(512,o.n,o._6,[[8,[r.a,d.a,c.a,b.a,p.a,m.a,g.a,f.a,w.a,h.a,v.a,K.a,sl]],[3,o.n],o.B]),o._26(4608,tl.m,tl.l,[o.x,[2,tl.v]]),o._26(4608,z.x,z.x,[]),o._26(4608,z.d,z.d,[]),o._26(4608,il.b,il.a,[]),o._26(4608,el.a,el.b,[]),o._26(4608,rl.b,rl.a,[]),o._26(4608,dl.b,dl.a,[]),o._26(4608,D.a,D.a,[cl.a,il.b,el.a,rl.b,dl.b,D.b,D.c]),o._26(512,tl.b,tl.b,[]),o._26(512,z.v,z.v,[]),o._26(512,z.i,z.i,[]),o._26(512,z.s,z.s,[]),o._26(512,bl.a,bl.a,[]),o._26(512,s.a,s.a,[]),o._26(512,i.a,i.a,[]),o._26(512,pl.a,pl.a,[]),o._26(512,t.a,t.a,[]),o._26(512,bl.b,bl.b,[]),o._26(512,e,e,[]),o._26(256,D.c,void 0,[]),o._26(256,D.b,void 0,[]),o._26(256,ml.a,_,[])])})}});
+webpackJsonp([83],{
+
+/***/ 1832:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AddonModFeedbackRespondentsPageModule", function() { return AddonModFeedbackRespondentsPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_components_module__ = __webpack_require__(927);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__respondents__ = __webpack_require__(1953);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+var AddonModFeedbackRespondentsPageModule = /** @class */ (function () {
+    function AddonModFeedbackRespondentsPageModule() {
+    }
+    AddonModFeedbackRespondentsPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_7__respondents__["a" /* AddonModFeedbackRespondentsPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_3__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__components_components_module__["a" /* AddonModFeedbackComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_7__respondents__["a" /* AddonModFeedbackRespondentsPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], AddonModFeedbackRespondentsPageModule);
+    return AddonModFeedbackRespondentsPageModule;
+}());
+
+//# sourceMappingURL=respondents.module.js.map
+
+/***/ }),
+
+/***/ 1953:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AddonModFeedbackRespondentsPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__providers_feedback__ = __webpack_require__(85);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_helper__ = __webpack_require__(248);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_groups__ = __webpack_require__(46);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__components_split_view_split_view__ = __webpack_require__(105);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+/**
+ * Page that displays feedback respondents.
+ */
+var AddonModFeedbackRespondentsPage = /** @class */ (function () {
+    function AddonModFeedbackRespondentsPage(navParams, feedbackProvider, groupsProvider, domUtils, feedbackHelper, navCtrl) {
+        this.feedbackProvider = feedbackProvider;
+        this.groupsProvider = groupsProvider;
+        this.domUtils = domUtils;
+        this.feedbackHelper = feedbackHelper;
+        this.navCtrl = navCtrl;
+        this.page = 0;
+        this.groupInfo = {
+            groups: [],
+            separateGroups: false,
+            visibleGroups: false
+        };
+        this.responses = {
+            attempts: [],
+            total: 0,
+            canLoadMore: false
+        };
+        this.anonResponses = {
+            attempts: [],
+            total: 0,
+            canLoadMore: false
+        };
+        this.feedbackLoaded = false;
+        this.loadingMore = false;
+        var module = navParams.get('module');
+        this.moduleId = module.id;
+        this.feedbackId = module.instance;
+        this.courseId = navParams.get('courseId');
+        this.selectedGroup = navParams.get('group') || 0;
+    }
+    /**
+     * View loaded.
+     */
+    AddonModFeedbackRespondentsPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        this.fetchData().then(function () {
+            if (_this.splitviewCtrl.isOn()) {
+                if (_this.responses.attempts.length > 0) {
+                    // Take first and load it.
+                    _this.gotoAttempt(_this.responses.attempts[0]);
+                }
+                else if (_this.anonResponses.attempts.length > 0) {
+                    // Take first and load it.
+                    _this.gotoAttempt(_this.anonResponses.attempts[0]);
+                }
+            }
+        });
+    };
+    /**
+     * Fetch all the data required for the view.
+     *
+     * @param {boolean} [refresh] Empty events array first.
+     * @return {Promise<any>} Promise resolved when done.
+     */
+    AddonModFeedbackRespondentsPage.prototype.fetchData = function (refresh) {
+        var _this = this;
+        if (refresh === void 0) { refresh = false; }
+        this.page = 0;
+        this.responses.total = 0;
+        this.responses.attempts = [];
+        this.anonResponses.total = 0;
+        this.anonResponses.attempts = [];
+        return this.groupsProvider.getActivityGroupInfo(this.moduleId).then(function (groupInfo) {
+            _this.groupInfo = groupInfo;
+            return _this.loadGroupAttempts(_this.selectedGroup);
+        }).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+            if (!refresh) {
+                // Some call failed on first fetch, go back.
+                _this.navCtrl.pop();
+            }
+            return Promise.reject(null);
+        });
+    };
+    /**
+     * Load Group attempts.
+     *
+     * @param  {number} [groupId]   If defined it will change group if not, it will load more attempts for the same group.
+     * @return {Promise<any>}       Resolved with the attempts loaded.
+     */
+    AddonModFeedbackRespondentsPage.prototype.loadGroupAttempts = function (groupId) {
+        var _this = this;
+        if (typeof groupId == 'undefined') {
+            this.page++;
+            this.loadingMore = true;
+        }
+        else {
+            this.selectedGroup = groupId;
+            this.page = 0;
+            this.responses.total = 0;
+            this.responses.attempts = [];
+            this.anonResponses.total = 0;
+            this.anonResponses.attempts = [];
+            this.feedbackLoaded = false;
+        }
+        return this.feedbackHelper.getResponsesAnalysis(this.feedbackId, this.selectedGroup, this.page).then(function (responses) {
+            _this.responses.total = responses.totalattempts;
+            _this.anonResponses.total = responses.totalanonattempts;
+            if (_this.anonResponses.attempts.length < responses.totalanonattempts) {
+                _this.anonResponses.attempts = _this.anonResponses.attempts.concat(responses.anonattempts);
+            }
+            if (_this.responses.attempts.length < responses.totalattempts) {
+                _this.responses.attempts = _this.responses.attempts.concat(responses.attempts);
+            }
+            _this.anonResponses.canLoadMore = _this.anonResponses.attempts.length < responses.totalanonattempts;
+            _this.responses.canLoadMore = _this.responses.attempts.length < responses.totalattempts;
+            return responses;
+        }).finally(function () {
+            _this.loadingMore = false;
+            _this.feedbackLoaded = true;
+        });
+    };
+    /**
+     * Navigate to a particular attempt.
+     *
+     * @param {any} attempt Attempt object to load.
+     */
+    AddonModFeedbackRespondentsPage.prototype.gotoAttempt = function (attempt) {
+        this.attemptId = attempt.id;
+        this.splitviewCtrl.push('AddonModFeedbackAttemptPage', {
+            attemptId: attempt.id,
+            attempt: attempt,
+            feedbackId: this.feedbackId,
+            moduleId: this.moduleId,
+            courseId: this.courseId
+        });
+    };
+    /**
+     * Change selected group or load more attempts.
+     *
+     * @param {number} [groupId] Group ID selected. If not defined, it will load more attempts.
+     */
+    AddonModFeedbackRespondentsPage.prototype.loadAttempts = function (groupId) {
+        var _this = this;
+        this.loadGroupAttempts(groupId).catch(function (message) {
+            _this.domUtils.showErrorModalDefault(message, 'core.course.errorgetmodule', true);
+        });
+    };
+    /**
+     * Refresh the attempts.
+     *
+     * @param {any} refresher Refresher.
+     */
+    AddonModFeedbackRespondentsPage.prototype.refreshFeedback = function (refresher) {
+        var _this = this;
+        if (this.feedbackLoaded) {
+            var promises = [];
+            promises.push(this.feedbackProvider.invalidateResponsesAnalysisData(this.feedbackId));
+            promises.push(this.groupsProvider.invalidateActivityGroupInfo(this.moduleId));
+            Promise.all(promises).finally(function () {
+                return _this.fetchData(true);
+            }).finally(function () {
+                refresher.complete();
+            });
+        }
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_9" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_6__components_split_view_split_view__["a" /* CoreSplitViewComponent */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_6__components_split_view_split_view__["a" /* CoreSplitViewComponent */])
+    ], AddonModFeedbackRespondentsPage.prototype, "splitviewCtrl", void 0);
+    AddonModFeedbackRespondentsPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-addon-mod-feedback-respondents',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/addon/mod/feedback/pages/respondents/respondents.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title>{{ \'addon.mod_feedback.responses\' |translate }}</ion-title>\n    </ion-navbar>\n</ion-header>\n<core-split-view>\n    <ion-content>\n        <ion-refresher [enabled]="feedbackLoaded" (ionRefresh)="refreshFeedback($event)">\n            <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n        </ion-refresher>\n        <core-loading [hideUntil]="feedbackLoaded">\n            <ion-list no-margin>\n                <ion-item text-wrap *ngIf="groupInfo.separateGroups || groupInfo.visibleGroups">\n                    <ion-label id="addon-feedback-groupslabel" *ngIf="groupInfo.separateGroups">{{ \'core.groupsseparate\' | translate }}</ion-label>\n                    <ion-label id="addon-feedback-groupslabel" *ngIf="groupInfo.visibleGroups">{{ \'core.groupsvisible\' | translate }}</ion-label>\n                    <ion-select [(ngModel)]="selectedGroup" (ionChange)="loadAttempts(selectedGroup)" aria-labelledby="addon-feedback-groupslabel" interface="popover">\n                        <ion-option *ngFor="let groupOpt of groupInfo.groups" [value]="groupOpt.id">{{groupOpt.name}}</ion-option>\n                    </ion-select>\n                </ion-item>\n                <ng-container *ngIf="responses.total > 0">\n                    <ion-item-divider color="light">\n                        {{ \'addon.mod_feedback.non_anonymous_entries\' | translate : {$a: responses.total } }}\n                    </ion-item-divider>\n                    <a *ngFor="let attempt of responses.attempts" ion-item text-wrap (click)="gotoAttempt(attempt)" [class.core-split-item-selected]="attempt.id == attemptId">\n                        <ion-avatar item-start>\n                            <img [src]="attempt.profileimageurl" [alt]="\'core.pictureof\' | translate:{$a: attempt.fullname}" core-external-content onError="this.src=\'assets/img/user-avatar.png\'">\n                        </ion-avatar>\n                        <h2><core-format-text [text]="attempt.fullname"></core-format-text></h2>\n                        <p *ngIf="attempt.timemodified">{{attempt.timemodified * 1000 | coreFormatDate: "LLL"}}</p>\n                    </a>\n                    <ion-item padding text-center *ngIf="responses.canLoadMore">\n                        <!-- Button and spinner to show more attempts. -->\n                        <button ion-button block *ngIf="!loadingMore" (click)="loadAttempts()">{{ \'core.loadmore\' | translate }}</button>\n                        <ion-spinner *ngIf="loadingMore"></ion-spinner>\n                    </ion-item>\n                </ng-container>\n                <ng-container *ngIf="anonResponses.total > 0">\n                    <ion-item-divider color="light">\n                        {{ \'addon.mod_feedback.anonymous_entries\' |translate : {$a: anonResponses.total } }}\n                    </ion-item-divider>\n                    <a *ngFor="let attempt of anonResponses.attempts" ion-item text-wrap (click)="gotoAttempt(attempt)" [class.core-split-item-selected]="attempt.id == attemptId">\n                        <h2>{{ \'addon.mod_feedback.response_nr\' |translate }}: {{attempt.number}}</h2>\n                    </a>\n                    <ion-item padding text-center *ngIf="anonResponses.canLoadMore">\n                        <!-- Button and spinner to show more attempts. -->\n                        <button ion-button block *ngIf="!loadingMore" (click)="loadAttempts()">{{ \'core.loadmore\' | translate }}</button>\n                        <ion-spinner *ngIf="loadingMore"></ion-spinner>\n                    </ion-item>\n                </ng-container>\n            </ion-list>\n        </core-loading>\n    </ion-content>\n</core-split-view>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/addon/mod/feedback/pages/respondents/respondents.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_2__providers_feedback__["a" /* AddonModFeedbackProvider */],
+            __WEBPACK_IMPORTED_MODULE_4__providers_groups__["a" /* CoreGroupsProvider */], __WEBPACK_IMPORTED_MODULE_5__providers_utils_dom__["a" /* CoreDomUtilsProvider */],
+            __WEBPACK_IMPORTED_MODULE_3__providers_helper__["a" /* AddonModFeedbackHelperProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */]])
+    ], AddonModFeedbackRespondentsPage);
+    return AddonModFeedbackRespondentsPage;
+}());
+
+//# sourceMappingURL=respondents.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=83.js.map

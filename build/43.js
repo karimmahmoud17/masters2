@@ -1,1 +1,515 @@
-webpackJsonp([43],{1894:function(l,n,t){"use strict";function e(l){return r._42(0,[(l()(),r._16(0,0,null,null,6,"button",[["icon-only",""],["ion-button",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,t){var e=!0;if("click"===n){e=!1!==l.component.toggleDelete()&&e}return e},y.b,y.a)),r._15(1,1097728,[[1,4]],0,U.a,[[8,""],$.a,r.p,r.K],null,null),r._32(131072,T.a,[E.a,r.i]),(l()(),r._40(-1,0,["\n                "])),(l()(),r._16(4,0,null,0,1,"ion-icon",[["ios","md-create"],["name","create"],["role","img"]],[[2,"hide",null]],null,null,null,null)),r._15(5,147456,null,0,L.a,[$.a,r.p,r.K],{name:[0,"name"],ios:[1,"ios"]},null),(l()(),r._40(-1,0,["\n            "]))],function(l,n){l(n,5,0,"create","md-create")},function(l,n){l(n,0,0,r._41(n,0,0,r._29(n,2).transform("core.delete")));l(n,4,0,r._29(n,5)._hidden)})}function u(l){return r._42(0,[(l()(),r._16(0,0,null,null,2,"ion-badge",[["item-end",""]],null,null,null,null,null)),r._15(1,16384,null,0,M.a,[$.a,r.p,r.K],null,null),(l()(),r._40(2,null,["",""]))],null,function(l,n){l(n,2,0,n.parent.context.$implicit.badge)})}function a(l){return r._42(0,[(l()(),r._16(0,0,null,null,6,"button",[["clear",""],["color","danger"],["icon-only",""],["ion-button",""],["item-end",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,t){var e=!0;if("click"===n){e=!1!==l.component.deleteSite(t,l.parent.context.index)&&e}return e},y.b,y.a)),r._15(1,1097728,[[3,4]],0,U.a,[[8,""],$.a,r.p,r.K],{color:[0,"color"],clear:[1,"clear"]},null),r._32(131072,T.a,[E.a,r.i]),(l()(),r._40(-1,0,["\n                "])),(l()(),r._16(4,0,null,0,1,"ion-icon",[["name","trash"],["role","img"]],[[2,"hide",null]],null,null,null,null)),r._15(5,147456,null,0,L.a,[$.a,r.p,r.K],{name:[0,"name"]},null),(l()(),r._40(-1,0,["\n            "]))],function(l,n){l(n,1,0,"danger","");l(n,5,0,"trash")},function(l,n){l(n,0,0,r._41(n,0,0,r._29(n,2).transform("core.delete")));l(n,4,0,r._29(n,5)._hidden)})}function i(l){return r._42(0,[(l()(),r._16(0,0,null,null,31,"a",[["class","item item-block"],["detail-none",""],["ion-item",""]],null,[[null,"click"]],function(l,n,t){var e=!0;if("click"===n){e=!1!==l.component.login(l.context.$implicit.id)&&e}return e},N.b,N.a)),r._15(1,1097728,null,3,H.a,[C.a,$.a,r.p,r.K,[2,O.a]],null,null),r._37(335544320,2,{contentLabel:0}),r._37(603979776,3,{_buttons:1}),r._37(603979776,4,{_icons:1}),r._15(5,16384,null,0,W.a,[],null,null),(l()(),r._40(-1,2,["\n            "])),(l()(),r._16(7,0,null,0,7,"ion-avatar",[["item-start",""]],null,null,null,null,null)),r._15(8,16384,null,0,F.a,[],null,null),(l()(),r._40(-1,null,["\n                "])),(l()(),r._16(10,0,null,null,3,"img",[["core-external-content",""],["onError","this.src='assets/img/user-avatar.png'"],["role","presentation"]],[[8,"src",4],[8,"alt",0]],null,null,null,null)),r._15(11,4210688,null,0,j.a,[r.p,s.a,A.a,B.a,c.a,d.a,J.a,R.a,V.a],{siteId:[0,"siteId"]},null),r._33(12,{$a:0}),r._32(131072,T.a,[E.a,r.i]),(l()(),r._40(-1,null,["\n            "])),(l()(),r._40(-1,2,["\n            "])),(l()(),r._16(16,0,null,2,1,"h2",[],null,null,null,null,null)),(l()(),r._40(17,null,["",""])),(l()(),r._40(-1,2,["\n            "])),(l()(),r._16(19,0,null,2,2,"p",[],null,null,null,null,null)),(l()(),r._16(20,0,null,null,1,"core-format-text",[["clean","true"]],null,null,null,null,null)),r._15(21,540672,null,0,q.a,[r.p,c.a,d.a,f.a,E.a,B.a,V.a,J.a,s.a,A.a,R.a,z.a,[2,G.a],[2,Q.a],[2,X.a],Y.a,Z.a],{text:[0,"text"],siteId:[1,"siteId"],clean:[2,"clean"]},null),(l()(),r._40(-1,2,["\n            "])),(l()(),r._16(23,0,null,2,1,"p",[],null,null,null,null,null)),(l()(),r._40(24,null,["",""])),(l()(),r._40(-1,2,["\n            "])),(l()(),r._11(16777216,null,4,1,null,u)),r._15(27,16384,null,0,ll.k,[r.W,r.T],{ngIf:[0,"ngIf"]},null),(l()(),r._40(-1,2,["\n            "])),(l()(),r._11(16777216,null,4,1,null,a)),r._15(30,16384,null,0,ll.k,[r.W,r.T],{ngIf:[0,"ngIf"]},null),(l()(),r._40(-1,2,["\n        "]))],function(l,n){var t=n.component;l(n,11,0,n.context.$implicit.id);l(n,21,0,n.context.$implicit.siteName,n.context.$implicit.id,"true");l(n,27,0,!t.showDelete&&n.context.$implicit.badge);l(n,30,0,t.showDelete)},function(l,n){l(n,10,0,n.context.$implicit.avatar,r._19(1,"",r._41(n,10,1,r._29(n,13).transform("core.pictureof",l(n,12,0,n.context.$implicit.fullname))),""));l(n,17,0,n.context.$implicit.fullName);l(n,24,0,n.context.$implicit.siteUrl)})}function o(l){return r._42(0,[(l()(),r._16(0,0,null,null,20,"ion-header",[],null,null,null,null,null)),r._15(1,16384,null,0,nl.a,[$.a,r.p,r.K,[2,tl.a]],null,null),(l()(),r._40(-1,null,["\n    "])),(l()(),r._16(3,0,null,null,16,"ion-navbar",[["class","toolbar"],["core-back-button",""]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,el.b,el.a)),r._15(4,49152,null,0,ul.a,[al.a,[2,tl.a],[2,G.a],$.a,r.p,r.K],null,null),r._15(5,212992,null,0,il.a,[ul.a,B.a,E.a,Z.a],null,null),(l()(),r._40(-1,3,["\n        "])),(l()(),r._16(7,0,null,3,3,"ion-title",[],null,null,null,ol.b,ol.a)),r._15(8,49152,null,0,rl.a,[$.a,r.p,r.K,[2,_l.a],[2,ul.a]],null,null),(l()(),r._40(9,0,["",""])),r._32(131072,T.a,[E.a,r.i]),(l()(),r._40(-1,3,["\n\n        "])),(l()(),r._16(12,0,null,2,6,"ion-buttons",[["end",""]],null,null,null,null,null)),r._15(13,16384,null,1,sl.a,[$.a,r.p,r.K,[2,_l.a],[2,ul.a]],null,null),r._37(603979776,1,{_buttons:1}),(l()(),r._40(-1,null,["\n            "])),(l()(),r._11(16777216,null,null,1,null,e)),r._15(17,16384,null,0,ll.k,[r.W,r.T],{ngIf:[0,"ngIf"]},null),(l()(),r._40(-1,null,["\n        "])),(l()(),r._40(-1,3,["\n    "])),(l()(),r._40(-1,null,["\n"])),(l()(),r._40(-1,null,["\n"])),(l()(),r._16(22,0,null,null,23,"ion-content",[["class","has-fab"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,cl.b,cl.a)),r._15(23,4374528,null,0,Q.a,[$.a,B.a,dl.a,r.p,r.K,al.a,fl.a,r.D,[2,tl.a],[2,G.a]],null,null),(l()(),r._40(-1,1,["\n    "])),(l()(),r._16(25,0,null,1,5,"ion-list",[],null,null,null,null,null)),r._15(26,16384,null,0,pl.a,[$.a,r.p,r.K,B.a,gl.l,dl.a],null,null),(l()(),r._40(-1,null,["\n        "])),(l()(),r._11(16777216,null,null,1,null,i)),r._15(29,802816,null,0,ll.j,[r.W,r.T,r.v],{ngForOf:[0,"ngForOf"]},null),(l()(),r._40(-1,null,["\n    "])),(l()(),r._40(-1,1,["\n    "])),(l()(),r._16(32,0,null,0,12,"ion-fab",[["bottom",""],["end",""]],null,null,null,hl.b,hl.a)),r._15(33,1228800,null,2,ml.a,[B.a],null,null),r._37(335544320,5,{_mainButton:0}),r._37(603979776,6,{_fabLists:1}),(l()(),r._40(-1,0,["\n        "])),(l()(),r._16(37,0,null,0,6,"button",[["ion-fab",""]],[[1,"aria-label",0]],[[null,"click"]],function(l,n,t){var e=!0;if("click"===n){e=!1!==l.component.add()&&e}return e},bl.b,bl.a)),r._15(38,49152,[[5,4]],0,vl.a,[$.a,r.p,r.K],null,null),r._32(131072,T.a,[E.a,r.i]),(l()(),r._40(-1,0,["\n            "])),(l()(),r._16(41,0,null,0,1,"ion-icon",[["name","add"],["role","img"]],[[2,"hide",null]],null,null,null,null)),r._15(42,147456,null,0,L.a,[$.a,r.p,r.K],{name:[0,"name"]},null),(l()(),r._40(-1,0,["\n        "])),(l()(),r._40(-1,0,["\n    "])),(l()(),r._40(-1,1,["\n"])),(l()(),r._40(-1,null,["\n"]))],function(l,n){var t=n.component;l(n,5,0);l(n,17,0,t.sites&&t.sites.length>0);l(n,29,0,t.sites);l(n,42,0,"add")},function(l,n){l(n,3,0,r._29(n,4)._hidden,r._29(n,4)._sbPadding);l(n,9,0,r._41(n,9,0,r._29(n,10).transform("core.settings.sites")));l(n,22,0,r._29(n,23).statusbarPadding,r._29(n,23)._hasRefresher);l(n,37,0,r._41(n,37,0,r._29(n,39).transform("core.add")));l(n,41,0,r._29(n,42)._hidden)})}Object.defineProperty(n,"__esModule",{value:!0});var r=t(1),_=(t(0),t(10),t(5)),s=t(6),c=t(2),d=t(4),f=t(12),p=t(338),g=t(125),h=function(){function l(l,n,t,e,u,a,i){this.domUtils=l,this.textUtils=n,this.sitesProvider=t,this.loginHelper=e,this.translate=a,this.pushNotificationsProvider=i,this.logger=u.getInstance("CoreLoginSitesPage")}return l.prototype.ionViewDidLoad=function(){var l=this;this.sitesProvider.getSortedSites().then(function(n){l.sites=n.map(function(n){return n.siteUrl=n.siteUrl.replace(/^https?:\/\//,""),n.badge=0,l.pushNotificationsProvider.getSiteCounter(n.id).then(function(l){n.badge=l}),n}),l.showDelete=!1}).catch(function(){})},l.prototype.add=function(){this.loginHelper.goToAddSite(!1,!0)},l.prototype.deleteSite=function(l,n){var t=this;l.stopPropagation();var e=this.sites[n];this.textUtils.formatText(e.siteName).then(function(l){t.domUtils.showConfirm(t.translate.instant("core.login.confirmdeletesite",{sitename:l})).then(function(){t.sitesProvider.deleteSite(e.id).then(function(){t.sites.splice(n,1),t.showDelete=!1,t.sitesProvider.hasSites().then(function(l){l||t.loginHelper.goToAddSite(!0,!0)})}).catch(function(l){t.logger.error("Error deleting site "+e.id,l),t.domUtils.showErrorModalDefault(l,"Delete site failed."),t.domUtils.showErrorModal("core.login.errordeletesite",!0)})}).catch(function(){})})},l.prototype.login=function(l){var n=this,t=this.domUtils.showModalLoading();this.sitesProvider.loadSite(l).then(function(){if(!n.loginHelper.isSiteLoggedOut())return n.loginHelper.goToSiteInitialPage()}).catch(function(t){n.logger.error("Error loading site "+l,t),n.domUtils.showErrorModalDefault(t,"Error loading site.")}).finally(function(){t.dismiss()})},l.prototype.toggleDelete=function(){this.showDelete=!this.showDelete},l}(),m=t(29),b=function(){return function(){}}(),v=t(1284),x=t(1285),k=t(1286),K=t(1287),P=t(1288),S=t(1289),w=t(1290),D=t(1291),I=t(1292),y=t(46),U=t(41),$=t(7),T=t(30),E=t(18),L=t(42),M=t(214),N=t(34),H=t(21),C=t(20),O=t(28),W=t(31),F=t(180),j=t(163),A=t(17),B=t(15),J=t(25),R=t(11),V=t(3),q=t(40),z=t(23),G=t(22),Q=t(24),X=t(35),Y=t(38),Z=t(13),ll=t(9),nl=t(422),tl=t(36),el=t(1293),ul=t(193),al=t(27),il=t(637),ol=t(1294),rl=t(329),_l=t(238),sl=t(423),cl=t(179),dl=t(26),fl=t(100),pl=t(75),gl=t(37),hl=t(345),ml=t(224),bl=t(346),vl=t(187),xl=r._14({encapsulation:2,styles:[],data:{}}),kl=r._12("page-core-login-sites",h,function(l){return r._42(0,[(l()(),r._16(0,0,null,null,1,"page-core-login-sites",[],null,null,null,o,xl)),r._15(1,49152,null,0,h,[d.a,f.a,c.a,g.a,s.a,E.a,p.a],null,null)],null,null)},{},{},[]),Kl=t(19),Pl=t(325),Sl=t(326),wl=t(328),Dl=t(327),Il=t(421),yl=t(636),Ul=t(239);t.d(n,"CoreLoginSitesPageModuleNgFactory",function(){return $l});var $l=r._13(b,[],function(l){return r._25([r._26(512,r.n,r._6,[[8,[v.a,x.a,k.a,K.a,P.a,S.a,w.a,D.a,I.a,kl]],[3,r.n],r.B]),r._26(4608,ll.m,ll.l,[r.x,[2,ll.v]]),r._26(4608,Kl.x,Kl.x,[]),r._26(4608,Kl.d,Kl.d,[]),r._26(4608,Pl.b,Pl.a,[]),r._26(4608,Sl.a,Sl.b,[]),r._26(4608,wl.b,wl.a,[]),r._26(4608,Dl.b,Dl.a,[]),r._26(4608,E.a,E.a,[Il.a,Pl.b,Sl.a,wl.b,Dl.b,E.b,E.c]),r._26(512,m.a,m.a,[]),r._26(512,ll.b,ll.b,[]),r._26(512,Kl.v,Kl.v,[]),r._26(512,Kl.i,Kl.i,[]),r._26(512,Kl.s,Kl.s,[]),r._26(512,yl.a,yl.a,[]),r._26(512,yl.b,yl.b,[]),r._26(512,_.a,_.a,[]),r._26(512,b,b,[]),r._26(256,Ul.a,h,[]),r._26(256,E.c,void 0,[]),r._26(256,E.b,void 0,[])])})}});
+webpackJsonp([43],{
+
+/***/ 1877:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CoreCoursesCoursePreviewPageModule", function() { return CoreCoursesCoursePreviewPageModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__course_preview__ = __webpack_require__(2002);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__components_components_module__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__ = __webpack_require__(67);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+var CoreCoursesCoursePreviewPageModule = /** @class */ (function () {
+    function CoreCoursesCoursePreviewPageModule() {
+    }
+    CoreCoursesCoursePreviewPageModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__course_preview__["a" /* CoreCoursesCoursePreviewPage */],
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_4__components_components_module__["a" /* CoreComponentsModule */],
+                __WEBPACK_IMPORTED_MODULE_5__directives_directives_module__["a" /* CoreDirectivesModule */],
+                __WEBPACK_IMPORTED_MODULE_6__pipes_pipes_module__["a" /* CorePipesModule */],
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["l" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_3__course_preview__["a" /* CoreCoursesCoursePreviewPage */]),
+                __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["b" /* TranslateModule */].forChild()
+            ],
+        })
+    ], CoreCoursesCoursePreviewPageModule);
+    return CoreCoursesCoursePreviewPageModule;
+}());
+
+//# sourceMappingURL=course-preview.module.js.map
+
+/***/ }),
+
+/***/ 2002:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CoreCoursesCoursePreviewPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__providers_app__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__providers_events__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__providers_sites__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__ = __webpack_require__(8);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__providers_utils_text__ = __webpack_require__(11);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__providers_courses__ = __webpack_require__(40);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__core_course_providers_options_delegate__ = __webpack_require__(108);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__core_course_providers_course__ = __webpack_require__(10);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__core_course_providers_helper__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__core_course_providers_format_delegate__ = __webpack_require__(99);
+// (C) Copyright 2015 Martin Dougiamas
+//
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+//     http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Page that allows "previewing" a course and enrolling in it if enabled and not enrolled.
+ */
+var CoreCoursesCoursePreviewPage = /** @class */ (function () {
+    function CoreCoursesCoursePreviewPage(navCtrl, navParams, sitesProvider, domUtils, textUtils, appProvider, coursesProvider, platform, modalCtrl, translate, eventsProvider, courseOptionsDelegate, courseHelper, courseProvider, courseFormatDelegate, zone) {
+        var _this = this;
+        this.navCtrl = navCtrl;
+        this.sitesProvider = sitesProvider;
+        this.domUtils = domUtils;
+        this.textUtils = textUtils;
+        this.coursesProvider = coursesProvider;
+        this.platform = platform;
+        this.modalCtrl = modalCtrl;
+        this.translate = translate;
+        this.eventsProvider = eventsProvider;
+        this.courseOptionsDelegate = courseOptionsDelegate;
+        this.courseHelper = courseHelper;
+        this.courseProvider = courseProvider;
+        this.courseFormatDelegate = courseFormatDelegate;
+        this.zone = zone;
+        this.canAccessCourse = true;
+        this.component = 'CoreCoursesCoursePreview';
+        this.selfEnrolInstances = [];
+        this.avoidOpenCourse = false;
+        this.prefetchCourseData = {
+            prefetchCourseIcon: 'spinner',
+            title: 'core.course.downloadcourse'
+        };
+        this.isGuestEnabled = false;
+        this.waitStart = 0;
+        this.pageDestroyed = false;
+        this.course = navParams.get('course');
+        this.avoidOpenCourse = navParams.get('avoidOpenCourse');
+        this.isMobile = appProvider.isMobile();
+        this.isDesktop = appProvider.isDesktop();
+        this.downloadCourseEnabled = !this.coursesProvider.isDownloadCourseDisabledInSite();
+        if (this.downloadCourseEnabled) {
+            // Listen for status change in course.
+            this.courseStatusObserver = this.eventsProvider.on(__WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */].COURSE_STATUS_CHANGED, function (data) {
+                if (data.courseId == _this.course.id) {
+                    _this.updateCourseStatus(data.status);
+                }
+            }, this.sitesProvider.getCurrentSiteId());
+        }
+    }
+    /**
+     * View loaded.
+     */
+    CoreCoursesCoursePreviewPage.prototype.ionViewDidLoad = function () {
+        var _this = this;
+        var currentSite = this.sitesProvider.getCurrentSite(), currentSiteUrl = currentSite && currentSite.getURL();
+        this.paypalEnabled = this.course.enrollmentmethods && this.course.enrollmentmethods.indexOf('paypal') > -1;
+        this.guestWSAvailable = this.coursesProvider.isGuestWSAvailable();
+        this.enrolUrl = this.textUtils.concatenatePaths(currentSiteUrl, 'enrol/index.php?id=' + this.course.id);
+        this.courseUrl = this.textUtils.concatenatePaths(currentSiteUrl, 'course/view.php?id=' + this.course.id);
+        this.paypalReturnUrl = this.textUtils.concatenatePaths(currentSiteUrl, 'enrol/paypal/return.php');
+        if (this.course.overviewfiles && this.course.overviewfiles.length > 0) {
+            this.course.imageThumb = this.course.overviewfiles[0].fileurl;
+        }
+        // Initialize the self enrol modal.
+        this.selfEnrolModal = this.modalCtrl.create('CoreCoursesSelfEnrolPasswordPage');
+        this.selfEnrolModal.onDidDismiss(function (password) {
+            if (typeof password != 'undefined') {
+                _this.selfEnrolInCourse(password, _this.currentInstanceId);
+            }
+        });
+        this.getCourse().finally(function () {
+            if (!_this.downloadCourseEnabled) {
+                // Cannot download the whole course, stop.
+                return;
+            }
+            // Determine course prefetch icon.
+            _this.courseHelper.getCourseStatusIconAndTitle(_this.course.id).then(function (data) {
+                _this.prefetchCourseData.prefetchCourseIcon = data.icon;
+                _this.prefetchCourseData.title = data.title;
+                if (data.icon == 'spinner') {
+                    // Course is being downloaded. Get the download promise.
+                    var promise = _this.courseHelper.getCourseDownloadPromise(_this.course.id);
+                    if (promise) {
+                        // There is a download promise. If it fails, show an error.
+                        promise.catch(function (error) {
+                            if (!_this.pageDestroyed) {
+                                _this.domUtils.showErrorModalDefault(error, 'core.course.errordownloadingcourse', true);
+                            }
+                        });
+                    }
+                    else {
+                        // No download, this probably means that the app was closed while downloading. Set previous status.
+                        _this.courseProvider.setCoursePreviousStatus(_this.course.id);
+                    }
+                }
+            });
+        });
+    };
+    /**
+     * Page destroyed.
+     */
+    CoreCoursesCoursePreviewPage.prototype.ngOnDestroy = function () {
+        this.pageDestroyed = true;
+        if (this.courseStatusObserver) {
+            this.courseStatusObserver.off();
+        }
+    };
+    /**
+     * Check if the user can access as guest.
+     *
+     * @return {Promise<boolean>} Promise resolved if can access as guest, rejected otherwise. Resolve param indicates if
+     *                            password is required for guest access.
+     */
+    CoreCoursesCoursePreviewPage.prototype.canAccessAsGuest = function () {
+        if (!this.isGuestEnabled) {
+            return Promise.reject(null);
+        }
+        // Search instance ID of guest enrolment method.
+        this.guestInstanceId = undefined;
+        for (var i = 0; i < this.enrollmentMethods.length; i++) {
+            var method = this.enrollmentMethods[i];
+            if (method.type == 'guest') {
+                this.guestInstanceId = method.id;
+                break;
+            }
+        }
+        if (this.guestInstanceId) {
+            return this.coursesProvider.getCourseGuestEnrolmentInfo(this.guestInstanceId).then(function (info) {
+                if (!info.status) {
+                    // Not active, reject.
+                    return Promise.reject(null);
+                }
+                return info.passwordrequired;
+            });
+        }
+        return Promise.reject(null);
+    };
+    /**
+     * Convenience function to get course. We use this to determine if a user can see the course or not.
+     *
+     * @param {boolean} refresh Whether the user is refreshing the data.
+     */
+    CoreCoursesCoursePreviewPage.prototype.getCourse = function (refresh) {
+        var _this = this;
+        // Get course enrolment methods.
+        this.selfEnrolInstances = [];
+        return this.coursesProvider.getCourseEnrolmentMethods(this.course.id).then(function (methods) {
+            _this.enrollmentMethods = methods;
+            _this.enrollmentMethods.forEach(function (method) {
+                if (method.type === 'self') {
+                    _this.selfEnrolInstances.push(method);
+                }
+                else if (_this.guestWSAvailable && method.type === 'guest') {
+                    _this.isGuestEnabled = true;
+                }
+            });
+        }).catch(function (error) {
+            _this.domUtils.showErrorModalDefault(error, 'Error getting enrolment data');
+        }).then(function () {
+            // Check if user is enrolled in the course.
+            return _this.coursesProvider.getUserCourse(_this.course.id).then(function (course) {
+                _this.isEnrolled = true;
+                return course;
+            }).catch(function () {
+                // The user is not enrolled in the course. Use getCourses to see if it's an admin/manager and can see the course.
+                _this.isEnrolled = false;
+                return _this.coursesProvider.getCourse(_this.course.id);
+            }).then(function (course) {
+                // Success retrieving the course, we can assume the user has permissions to view it.
+                _this.course.fullname = course.fullname || _this.course.fullname;
+                _this.course.summary = course.summary || _this.course.summary;
+                _this.canAccessCourse = true;
+            }).catch(function () {
+                // The user is not an admin/manager. Check if we can provide guest access to the course.
+                return _this.canAccessAsGuest().then(function (passwordRequired) {
+                    _this.canAccessCourse = !passwordRequired;
+                }).catch(function () {
+                    _this.canAccessCourse = false;
+                });
+            });
+        }).finally(function () {
+            _this.dataLoaded = true;
+        });
+    };
+    /**
+     * Open the course.
+     */
+    CoreCoursesCoursePreviewPage.prototype.openCourse = function () {
+        if (!this.canAccessCourse || this.avoidOpenCourse) {
+            // Course cannot be opened or we are avoiding opening because we accessed from inside a course.
+            return;
+        }
+        this.courseFormatDelegate.openCourse(this.navCtrl, this.course);
+    };
+    /**
+     * Enrol using PayPal.
+     */
+    CoreCoursesCoursePreviewPage.prototype.paypalEnrol = function () {
+        var _this = this;
+        var window, hasReturnedFromPaypal = false, inAppLoadSubscription, inAppFinishSubscription, inAppExitSubscription, appResumeSubscription;
+        var urlLoaded = function (event) {
+            if (event.url.indexOf(_this.paypalReturnUrl) != -1) {
+                hasReturnedFromPaypal = true;
+            }
+            else if (event.url.indexOf(_this.courseUrl) != -1 && hasReturnedFromPaypal) {
+                // User reached the course index page after returning from PayPal, close the InAppBrowser.
+                inAppClosed();
+                window.close();
+            }
+        }, inAppClosed = function () {
+            // InAppBrowser closed, refresh data.
+            unsubscribeAll();
+            if (!_this.dataLoaded) {
+                return;
+            }
+            _this.dataLoaded = false;
+            _this.refreshData();
+        }, unsubscribeAll = function () {
+            inAppLoadSubscription && inAppLoadSubscription.unsubscribe();
+            inAppFinishSubscription && inAppFinishSubscription.unsubscribe();
+            inAppExitSubscription && inAppExitSubscription.unsubscribe();
+            appResumeSubscription && appResumeSubscription.unsubscribe();
+        };
+        // Open the enrolment page in InAppBrowser.
+        this.sitesProvider.getCurrentSite().openInAppWithAutoLogin(this.enrolUrl).then(function (w) {
+            window = w;
+            if (_this.isDesktop || _this.isMobile) {
+                // Observe loaded pages in the InAppBrowser to check if the enrol process has ended.
+                inAppLoadSubscription = window.on('loadstart').subscribe(function (event) {
+                    // Execute the callback in the Angular zone, so change detection doesn't stop working.
+                    _this.zone.run(function () { return urlLoaded(event); });
+                });
+                // Observe window closed.
+                inAppExitSubscription = window.on('exit').subscribe(function () {
+                    // Execute the callback in the Angular zone, so change detection doesn't stop working.
+                    _this.zone.run(inAppClosed);
+                });
+            }
+            if (_this.isDesktop) {
+                // In desktop, also observe stop loading since some pages don't throw the loadstart event.
+                inAppFinishSubscription = window.on('loadstop').subscribe(urlLoaded);
+                // Since the user can switch windows, reload the data if he comes back to the app.
+                appResumeSubscription = _this.platform.resume.subscribe(function () {
+                    if (!_this.dataLoaded) {
+                        return;
+                    }
+                    _this.dataLoaded = false;
+                    _this.refreshData();
+                });
+            }
+        });
+    };
+    /**
+     * User clicked in a self enrol button.
+     *
+     * @param {number} instanceId The instance ID of the enrolment method.
+     */
+    CoreCoursesCoursePreviewPage.prototype.selfEnrolClicked = function (instanceId) {
+        var _this = this;
+        this.domUtils.showConfirm(this.translate.instant('core.courses.confirmselfenrol')).then(function () {
+            _this.selfEnrolInCourse('', instanceId);
+        }).catch(function () {
+            // User cancelled.
+        });
+    };
+    /**
+     * Self enrol in a course.
+     *
+     * @param {string} password Password to use.
+     * @param {number} instanceId The instance ID.
+     * @return {Promise<any>} Promise resolved when self enrolled.
+     */
+    CoreCoursesCoursePreviewPage.prototype.selfEnrolInCourse = function (password, instanceId) {
+        var _this = this;
+        var modal = this.domUtils.showModalLoading('core.loading', true);
+        return this.coursesProvider.selfEnrol(this.course.id, password, instanceId).then(function () {
+            // Close modal and refresh data.
+            _this.isEnrolled = true;
+            _this.dataLoaded = false;
+            // Sometimes the list of enrolled courses takes a while to be updated. Wait for it.
+            _this.waitForEnrolled(true).then(function () {
+                _this.refreshData().finally(function () {
+                    // My courses have been updated, trigger event.
+                    _this.eventsProvider.trigger(__WEBPACK_IMPORTED_MODULE_8__providers_courses__["a" /* CoreCoursesProvider */].EVENT_MY_COURSES_UPDATED, {}, _this.sitesProvider.getCurrentSiteId());
+                });
+            });
+        }).catch(function (error) {
+            if (error && error.code === __WEBPACK_IMPORTED_MODULE_8__providers_courses__["a" /* CoreCoursesProvider */].ENROL_INVALID_KEY) {
+                // Invalid password, show the modal to enter the password.
+                _this.selfEnrolModal.present();
+                _this.currentInstanceId = instanceId;
+                if (!password) {
+                    // No password entered, don't show error.
+                    return;
+                }
+            }
+            _this.domUtils.showErrorModalDefault(error, 'core.courses.errorselfenrol', true);
+        }).finally(function () {
+            modal.dismiss();
+        });
+    };
+    /**
+     * Refresh the data.
+     *
+     * @param {any} [refresher] The refresher if this was triggered by a Pull To Refresh.
+     */
+    CoreCoursesCoursePreviewPage.prototype.refreshData = function (refresher) {
+        var _this = this;
+        var promises = [];
+        promises.push(this.coursesProvider.invalidateUserCourses());
+        promises.push(this.coursesProvider.invalidateCourse(this.course.id));
+        promises.push(this.coursesProvider.invalidateCourseEnrolmentMethods(this.course.id));
+        promises.push(this.courseOptionsDelegate.clearAndInvalidateCoursesOptions(this.course.id));
+        if (this.guestInstanceId) {
+            promises.push(this.coursesProvider.invalidateCourseGuestEnrolmentInfo(this.guestInstanceId));
+        }
+        return Promise.all(promises).finally(function () {
+            return _this.getCourse(true);
+        }).finally(function () {
+            if (refresher) {
+                refresher.complete();
+            }
+        });
+    };
+    /**
+     * Update the course status icon and title.
+     *
+     * @param {string} status Status to show.
+     */
+    CoreCoursesCoursePreviewPage.prototype.updateCourseStatus = function (status) {
+        var statusData = this.courseHelper.getCourseStatusIconAndTitleFromStatus(status);
+        this.prefetchCourseData.prefetchCourseIcon = statusData.icon;
+        this.prefetchCourseData.title = statusData.title;
+    };
+    /**
+     * Wait for the user to be enrolled in the course.
+     *
+     * @param {boolean} first If it's the first call (true) or it's a recursive call (false).
+     * @return {Promise<any>} Promise resolved when enrolled or timeout.
+     */
+    CoreCoursesCoursePreviewPage.prototype.waitForEnrolled = function (first) {
+        var _this = this;
+        if (first) {
+            this.waitStart = Date.now();
+        }
+        // Check if user is enrolled in the course.
+        return this.coursesProvider.invalidateUserCourses().catch(function () {
+            // Ignore errors.
+        }).then(function () {
+            return _this.coursesProvider.getUserCourse(_this.course.id);
+        }).catch(function () {
+            // Not enrolled, wait a bit and try again.
+            if (_this.pageDestroyed || (Date.now() - _this.waitStart > 60000)) {
+                // Max time reached or the user left the view, stop.
+                return;
+            }
+            return new Promise(function (resolve, reject) {
+                setTimeout(function () {
+                    if (!_this.pageDestroyed) {
+                        // Wait again.
+                        _this.waitForEnrolled().then(resolve);
+                    }
+                    else {
+                        resolve();
+                    }
+                }, 5000);
+            });
+        });
+    };
+    /**
+     * Prefetch the course.
+     */
+    CoreCoursesCoursePreviewPage.prototype.prefetchCourse = function () {
+        var _this = this;
+        this.courseHelper.confirmAndPrefetchCourse(this.prefetchCourseData, this.course).catch(function (error) {
+            if (!_this.pageDestroyed) {
+                _this.domUtils.showErrorModalDefault(error, 'core.course.errordownloadingcourse', true);
+            }
+        });
+    };
+    CoreCoursesCoursePreviewPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-core-courses-course-preview',template:/*ion-inline-start:"/eduixmobile/Masters/masters_source2android/src/core/courses/pages/course-preview/course-preview.html"*/'<ion-header>\n    <ion-navbar core-back-button>\n        <ion-title><core-format-text [text]="course.fullname"></core-format-text></ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-refresher [enabled]="dataLoaded" (ionRefresh)="refreshData($event)">\n        <ion-refresher-content pullingText="{{ \'core.pulltorefresh\' | translate }}"></ion-refresher-content>\n    </ion-refresher>\n    <core-loading [hideUntil]="dataLoaded">\n\n        <ion-list *ngIf="course">\n            <div *ngIf="course.imageThumb" (click)="openCourse()" class="core-course-thumb">\n                <img [src]="course.imageThumb" core-external-content alt=""/>\n            </div>\n            <a ion-item text-wrap (click)="openCourse()" [title]="course.fullname" [attr.detail-none]=" avoidOpenCourse || !canAccessCourse">\n                <core-icon name="fa-graduation-cap" fixed-width item-start></core-icon>\n                <h2><core-format-text [text]="course.fullname"></core-format-text></h2>\n                <p *ngIf="course.categoryname"><core-format-text [text]="course.categoryname"></core-format-text></p>\n                <p *ngIf="course.startdate">{{course.startdate * 1000 | coreFormatDate:"dfdaymonthyear"}} <span *ngIf="course.enddate"> - {{course.enddate * 1000 | coreFormatDate:"dfdaymonthyear"}}</span></p>\n            </a>\n\n            <ion-item text-wrap *ngIf="course.summary" detail-none>\n                <core-format-text [text]="course.summary" maxHeight="120"></core-format-text>\n            </ion-item>\n\n            <ng-container text-wrap *ngIf="course.contacts && course.contacts.length">\n                <ion-item-divider color="light">{{ \'core.teachers\' | translate }}</ion-item-divider>\n                <a ion-item text-wrap *ngFor="let contact of course.contacts" core-user-link userId="{{contact.id}}" courseId="{{isEnrolled ? course.id : null}}" [attr.aria-label]="\'core.viewprofile\' | translate">\n                    <ion-avatar item-start>\n                        <img [src]="contact.userpictureurl" onError="this.src=\'assets/img/user-avatar.png\'" core-external-content [alt]="\'core.pictureof\' | translate:{$a: contact.userfullname}" role="presentation">\n                    </ion-avatar>\n                    <h2>{{contact.fullname}}</h2>\n                </a>\n                <ion-item-divider color="light"></ion-item-divider>\n            </ng-container>\n            <core-file *ngFor="let file of course.overviewfiles" [file]="file" [component]="component" [componentId]="course.id"></core-file>\n            <div *ngIf="!isEnrolled" detail-none>\n                <ion-item text-wrap *ngFor="let instance of selfEnrolInstances">\n                    <h2>{{ instance.name }}</h2>\n                    <button ion-button block margin-top (click)="selfEnrolClicked(instance.id)">{{ \'core.courses.enrolme\' | translate }}</button>\n                </ion-item>\n            </div>\n            <ion-item text-wrap *ngIf="!isEnrolled && paypalEnabled" detail-none>\n                <h2>{{ \'core.courses.paypalaccepted\' | translate }}</h2>\n                <p>{{ \'core.paymentinstant\' | translate }}</p>\n                <button ion-button block margin-top (click)="paypalEnrol()">{{ \'core.courses.sendpaymentbutton\' | translate }}</button>\n            </ion-item>\n            <ion-item *ngIf="!isEnrolled && !selfEnrolInstances.length && !paypalEnabled">\n                <p>{{ \'core.courses.notenrollable\' | translate }}</p>\n            </ion-item>\n            <a ion-item *ngIf="canAccessCourse && downloadCourseEnabled" (click)="prefetchCourse()" detail-none [attr.aria-label]="prefetchCourseData.title | translate">\n                <core-icon *ngIf="prefetchCourseData.prefetchCourseIcon != \'spinner\'" [name]="prefetchCourseData.prefetchCourseIcon" item-start></core-icon>\n                <ion-spinner *ngIf="prefetchCourseData.prefetchCourseIcon == \'spinner\'" item-start></ion-spinner>\n                <h2>{{ \'core.course.downloadcourse\' | translate }}</h2>\n            </a>\n            <a ion-item (click)="openCourse()" [title]="course.fullname" *ngIf="!avoidOpenCourse && canAccessCourse">\n                <ion-icon name="briefcase" item-start></ion-icon>\n                <h2>{{ \'core.course.contents\' | translate }}</h2>\n            </a>\n        </ion-list>\n    </core-loading>\n</ion-content>\n'/*ion-inline-end:"/eduixmobile/Masters/masters_source2android/src/core/courses/pages/course-preview/course-preview.html"*/,
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["r" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["s" /* NavParams */], __WEBPACK_IMPORTED_MODULE_5__providers_sites__["a" /* CoreSitesProvider */],
+            __WEBPACK_IMPORTED_MODULE_6__providers_utils_dom__["a" /* CoreDomUtilsProvider */], __WEBPACK_IMPORTED_MODULE_7__providers_utils_text__["a" /* CoreTextUtilsProvider */], __WEBPACK_IMPORTED_MODULE_3__providers_app__["a" /* CoreAppProvider */],
+            __WEBPACK_IMPORTED_MODULE_8__providers_courses__["a" /* CoreCoursesProvider */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["u" /* Platform */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["p" /* ModalController */],
+            __WEBPACK_IMPORTED_MODULE_2__ngx_translate_core__["c" /* TranslateService */], __WEBPACK_IMPORTED_MODULE_4__providers_events__["a" /* CoreEventsProvider */],
+            __WEBPACK_IMPORTED_MODULE_9__core_course_providers_options_delegate__["a" /* CoreCourseOptionsDelegate */], __WEBPACK_IMPORTED_MODULE_11__core_course_providers_helper__["a" /* CoreCourseHelperProvider */],
+            __WEBPACK_IMPORTED_MODULE_10__core_course_providers_course__["a" /* CoreCourseProvider */], __WEBPACK_IMPORTED_MODULE_12__core_course_providers_format_delegate__["a" /* CoreCourseFormatDelegate */],
+            __WEBPACK_IMPORTED_MODULE_0__angular_core__["M" /* NgZone */]])
+    ], CoreCoursesCoursePreviewPage);
+    return CoreCoursesCoursePreviewPage;
+}());
+
+//# sourceMappingURL=course-preview.js.map
+
+/***/ })
+
+});
+//# sourceMappingURL=43.js.map
